@@ -1,4 +1,10 @@
 ---
+interface Props {
+  variant?: 'dark' | 'light';
+}
+
+const { variant = 'dark' } = Astro.props;
+
 const navLinks = [
   { href: '/about', label: 'Start Here' },
   { href: '/articles', label: 'Blog' },
@@ -7,14 +13,19 @@ const navLinks = [
 ];
 
 const currentPath = Astro.url.pathname;
+
+const isLight = variant === 'light';
 ---
 
-<header id="main-header" class="sticky top-0 z-50 backdrop-blur-sm bg-brand-dark/95 border-b border-white/10">
+<header id="main-header" class:list={[
+  "sticky top-0 z-50 backdrop-blur-sm border-b",
+  isLight ? "bg-[#FFECE2]/95 border-brand-dark/10" : "bg-brand-dark/95 border-white/10"
+]}>
   <div class="max-w-[1200px] mx-auto px-6 py-4">
     <nav class="flex items-center justify-between">
       <!-- Logo -->
       <a href="/" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
-        <span class="font-heading font-bold text-xl text-white">Approachable Design</span>
+        <span class:list={["font-heading font-bold text-xl", isLight ? "text-brand-dark" : "text-white"]}>Approachable Design</span>
       </a>
 
       <!-- Desktop Navigation -->
@@ -23,15 +34,19 @@ const currentPath = Astro.url.pathname;
           <a
             href={link.href}
             class:list={[
-              "font-heading text-[15px] font-medium px-4 py-2 rounded-full hover:bg-white/10 transition-colors text-center whitespace-nowrap text-white",
-              currentPath.startsWith(link.href) ? "bg-white/10" : ""
+              "font-heading text-[15px] font-medium px-4 py-2 rounded-full transition-colors text-center whitespace-nowrap",
+              isLight ? "text-brand-dark hover:bg-brand-dark/10" : "text-white hover:bg-white/10",
+              currentPath.startsWith(link.href) ? (isLight ? "bg-brand-dark/10" : "bg-white/10") : ""
             ]}
           >
             {link.label}
           </a>
         ))}
 
-        <a href="/newsletter" class="font-heading text-[15px] font-medium px-4 py-2 rounded-full bg-brand-coral text-brand-dark hover:bg-brand-coral-light transition-colors whitespace-nowrap ml-2">
+        <a href="/newsletter" class:list={[
+          "font-heading text-[15px] font-medium px-4 py-2 rounded-full transition-colors whitespace-nowrap ml-2",
+          isLight ? "bg-brand-dark text-white hover:bg-brand-dark/90" : "bg-brand-coral text-brand-dark hover:bg-brand-coral-light"
+        ]}>
           Newsletter
         </a>
       </div>
@@ -39,7 +54,7 @@ const currentPath = Astro.url.pathname;
       <!-- Mobile Menu Button -->
       <button
         id="mobile-menu-toggle"
-        class="md:hidden p-2 -mr-2 text-white"
+        class:list={["md:hidden p-2 -mr-2", isLight ? "text-brand-dark" : "text-white"]}
         aria-label="Toggle menu"
         aria-expanded="false"
       >
@@ -56,11 +71,11 @@ const currentPath = Astro.url.pathname;
     <div id="mobile-menu" class="hidden md:hidden pt-6 pb-4">
       <div class="flex flex-col gap-4">
         {navLinks.map((link) => (
-          <a href={link.href} class="font-heading text-xl font-bold text-white">
+          <a href={link.href} class:list={["font-heading text-xl font-bold", isLight ? "text-brand-dark" : "text-white"]}>
             {link.label}
           </a>
         ))}
-        <a href="/newsletter" class="font-heading text-xl font-bold text-brand-coral">
+        <a href="/newsletter" class:list={["font-heading text-xl font-bold", isLight ? "text-brand-dark" : "text-brand-coral"]}>
           Newsletter
         </a>
       </div>

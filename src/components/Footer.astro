@@ -1,4 +1,10 @@
 ---
+interface Props {
+  variant?: 'dark' | 'light';
+}
+
+const { variant = 'dark' } = Astro.props;
+
 const quickLinks = [
   { href: '/about', label: 'Start Here' },
   { href: '/articles', label: 'Blog' },
@@ -16,9 +22,14 @@ const products = [
 ];
 
 const currentYear = new Date().getFullYear();
+
+const isLight = variant === 'light';
 ---
 
-<footer class="bg-brand-dark-light border-t border-white/10 mt-auto">
+<footer class:list={[
+  "border-t mt-auto",
+  isLight ? "bg-brand-dark border-brand-dark/10" : "bg-brand-dark-light border-white/10"
+]}>
   <div class="max-w-[1200px] mx-auto px-6 py-16">
     <div class="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-8">
       <!-- Bio Column -->

@@ -3,16 +3,16 @@ import Layout from '../layouts/Layout.astro';
 import NewsletterForm from '../components/NewsletterForm.astro';
 ---
 
-<Layout title="Start Here - Approachable Design" description="Meet Nate Kadlac, a writer, designer, and instructor helping non-designers build authentic brands and improve their visual design skills.">
+<Layout title="Start Here - Approachable Design" description="Meet Nate Kadlac, a writer, designer, and instructor helping non-designers build authentic brands and improve their visual design skills." variant="light">
   <section class="py-16 md:py-24">
     <div class="container">
       <div class="max-w-3xl mx-auto">
         <!-- Hero -->
-        <h1 class="font-display text-4xl md:text-5xl font-bold mb-6">
+        <h1 class="font-display text-4xl md:text-5xl font-bold mb-6 text-brand-dark">
           It's about time we met!
         </h1>
-        <p class="text-xl text-white/70 mb-12">
-          I'm <strong class="text-brand-coral">Nate Kadlac</strong>—a writer, designer, and instructor based in Los Angeles.
+        <p class="text-xl text-brand-dark/70 mb-12">
+          I'm <strong class="text-brand-purple">Nate Kadlac</strong>—a writer, designer, and instructor based in Los Angeles.
         </p>
 
         <!-- Profile Image -->
@@ -20,12 +20,12 @@ import NewsletterForm from '../components/NewsletterForm.astro';
           <img
             src="/images/site/x3mPS06W2WlJckFnxps0NWqYsMY.png.webp"
             alt="Nate Kadlac"
-            class="w-48 h-48 rounded-full object-cover border-4 border-brand-coral/30"
+            class="w-48 h-48 rounded-full object-cover border-4 border-brand-purple/30"
           />
         </div>
 
         <!-- Story -->
-        <div class="prose prose-lg">
+        <div class="prose prose-lg prose-light">
           <p>
             I spent 18+ years in brand and product design roles, including a Creative Director position at a startup that was acquired in 2021.
           </p>
@@ -65,8 +65,8 @@ import NewsletterForm from '../components/NewsletterForm.astro';
         </div>
 
         <!-- Newsletter CTA -->
-        <div class="mt-12 p-8 bg-brand-dark-light rounded-2xl border border-white/10">
-          <h3 class="font-heading font-bold text-xl mb-4">Join the newsletter</h3>
+        <div class="mt-12 p-8 bg-brand-dark rounded-2xl">
+          <h3 class="font-heading font-bold text-xl mb-4 text-white">Join the newsletter</h3>
           <p class="text-white/60 mb-6">
             Get design tips, insights, and resources delivered to your inbox 3x a week.
           </p>
@@ -74,16 +74,16 @@ import NewsletterForm from '../components/NewsletterForm.astro';
         </div>
 
         <!-- Connect -->
-        <div class="mt-12 pt-8 border-t border-white/10">
-          <h3 class="font-heading font-bold text-lg mb-4">Connect with me</h3>
+        <div class="mt-12 pt-8 border-t border-brand-dark/10">
+          <h3 class="font-heading font-bold text-lg mb-4 text-brand-dark">Connect with me</h3>
           <div class="flex gap-4">
-            <a href="https://twitter.com/kadlac" target="_blank" rel="noopener noreferrer" class="text-white/60 hover:text-brand-coral transition-colors">
+            <a href="https://twitter.com/kadlac" target="_blank" rel="noopener noreferrer" class="text-brand-dark/60 hover:text-brand-purple transition-colors">
               X (Twitter)
             </a>
-            <a href="https://www.linkedin.com/in/natekadlac/" target="_blank" rel="noopener noreferrer" class="text-white/60 hover:text-brand-coral transition-colors">
+            <a href="https://www.linkedin.com/in/natekadlac/" target="_blank" rel="noopener noreferrer" class="text-brand-dark/60 hover:text-brand-purple transition-colors">
               LinkedIn
             </a>
-            <a href="https://www.youtube.com/@natekadlac" target="_blank" rel="noopener noreferrer" class="text-white/60 hover:text-brand-coral transition-colors">
+            <a href="https://www.youtube.com/@natekadlac" target="_blank" rel="noopener noreferrer" class="text-brand-dark/60 hover:text-brand-purple transition-colors">
               YouTube
             </a>
           </div>
@@ -92,3 +92,21 @@ import NewsletterForm from '../components/NewsletterForm.astro';
     </div>
   </section>
 </Layout>
+
+<style>
+  .prose-light {
+    color: #0B0A16;
+  }
+  .prose-light p {
+    color: rgba(11, 10, 22, 0.8);
+  }
+  .prose-light strong {
+    color: #0B0A16;
+  }
+  .prose-light h2 {
+    color: #0B0A16;
+  }
+  .prose-light ul li {
+    color: rgba(11, 10, 22, 0.8);
+  }
+</style>

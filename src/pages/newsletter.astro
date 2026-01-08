@@ -36,41 +36,43 @@ const testimonials = [
 ];
 ---
 
-<Layout title="Newsletter - Approachable Design" description="Join 3,800+ solopreneurs & professionals learning to build authentic brands and improve visual design skills.">
+<Layout title="Newsletter - Approachable Design" description="Join 3,800+ solopreneurs & professionals learning to build authentic brands and improve visual design skills." variant="light">
   <section class="py-16 md:py-24">
     <div class="container">
       <div class="max-w-3xl mx-auto text-center mb-16">
-        <h1 class="font-display text-4xl md:text-5xl font-bold mb-6">
+        <h1 class="font-display text-4xl md:text-5xl font-bold mb-6 text-brand-dark">
           Make It Yours Newsletter
         </h1>
-        <p class="text-xl text-white/70 mb-4">
-          Join <strong class="text-brand-coral">3,800+ solopreneurs & professionals</strong> learning to build authentic brands, increase sales, and improve visual design skills.
+        <p class="text-xl text-brand-dark/70 mb-4">
+          Join <strong class="text-brand-purple">3,800+ solopreneurs & professionals</strong> learning to build authentic brands, increase sales, and improve visual design skills.
         </p>
-        <p class="text-white/50 mb-10">
+        <p class="text-brand-dark/50 mb-10">
           No templates. No generic advice. Just actionable insights delivered 3x a week.
         </p>
         <div class="flex justify-center">
-          <NewsletterForm variant="card" />
+          <div class="bg-brand-dark rounded-2xl p-6 w-full max-w-md">
+            <NewsletterForm variant="card" />
+          </div>
         </div>
       </div>
 
       <!-- What You'll Get -->
       <div class="max-w-4xl mx-auto mb-20">
-        <h2 class="font-heading font-bold text-2xl mb-8 text-center">What you'll get</h2>
+        <h2 class="font-heading font-bold text-2xl mb-8 text-center text-brand-dark">What you'll get</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div class="bg-brand-dark-light rounded-2xl p-6 border border-white/10 text-center">
+          <div class="bg-brand-dark rounded-2xl p-6 text-center">
             <div class="text-4xl mb-4">🎨</div>
-            <h3 class="font-heading font-semibold mb-2">Design Tips</h3>
+            <h3 class="font-heading font-semibold mb-2 text-white">Design Tips</h3>
             <p class="text-white/60 text-sm">Practical design advice you can apply immediately, no design degree required.</p>
           </div>
-          <div class="bg-brand-dark-light rounded-2xl p-6 border border-white/10 text-center">
+          <div class="bg-brand-dark rounded-2xl p-6 text-center">
             <div class="text-4xl mb-4">💡</div>
-            <h3 class="font-heading font-semibold mb-2">Brand Insights</h3>
+            <h3 class="font-heading font-semibold mb-2 text-white">Brand Insights</h3>
             <p class="text-white/60 text-sm">Learn how to build an authentic brand that resonates with your audience.</p>
           </div>
-          <div class="bg-brand-dark-light rounded-2xl p-6 border border-white/10 text-center">
+          <div class="bg-brand-dark rounded-2xl p-6 text-center">
             <div class="text-4xl mb-4">🛠️</div>
-            <h3 class="font-heading font-semibold mb-2">Tool Reviews</h3>
+            <h3 class="font-heading font-semibold mb-2 text-white">Tool Reviews</h3>
             <p class="text-white/60 text-sm">Stay ahead with early access to the best design tools and resources.</p>
           </div>
         </div>
@@ -78,10 +80,10 @@ const testimonials = [
 
       <!-- Testimonials -->
       <div class="mb-20">
-        <h2 class="font-heading font-bold text-2xl mb-8 text-center">What readers say</h2>
+        <h2 class="font-heading font-bold text-2xl mb-8 text-center text-brand-dark">What readers say</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {testimonials.map((testimonial) => (
-            <div class="bg-brand-dark-light rounded-2xl p-6 border border-white/10">
+            <div class="bg-brand-dark rounded-2xl p-6">
               <p class="text-white/80 italic mb-4">"{testimonial.quote}"</p>
               <div>
                 <p class="font-heading font-semibold text-white">{testimonial.author}</p>
@@ -93,7 +95,7 @@ const testimonials = [
       </div>
 
       <!-- About Nate -->
-      <div class="max-w-3xl mx-auto bg-brand-dark-light rounded-2xl p-8 md:p-12 border border-white/10">
+      <div class="max-w-3xl mx-auto bg-brand-dark rounded-2xl p-8 md:p-12">
         <div class="md:flex items-center gap-8">
           <div class="md:w-1/4 mb-6 md:mb-0">
             <div class="w-32 h-32 mx-auto bg-brand-coral/20 rounded-full flex items-center justify-center">
@@ -101,7 +103,7 @@ const testimonials = [
             </div>
           </div>
           <div class="md:w-3/4">
-            <h2 class="font-heading font-bold text-xl mb-4">Hey, I'm Nate</h2>
+            <h2 class="font-heading font-bold text-xl mb-4 text-white">Hey, I'm Nate</h2>
             <p class="text-white/70 mb-4">
               I'm a former creative director and product designer. I've worked with Fortune 500 companies and scrappy startups.
             </p>
@@ -114,9 +116,11 @@ const testimonials = [
 
       <!-- Final CTA -->
       <div class="mt-16 text-center">
-        <p class="text-white/50 mb-6">Ready to level up your design skills?</p>
+        <p class="text-brand-dark/50 mb-6">Ready to level up your design skills?</p>
         <div class="flex justify-center">
-          <NewsletterForm variant="card" />
+          <div class="bg-brand-dark rounded-2xl p-6 w-full max-w-md">
+            <NewsletterForm variant="card" />
+          </div>
         </div>
       </div>
     </div>
