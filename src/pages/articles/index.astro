@@ -1,0 +1,103 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+// Get all articles and sort by date
+const articles = await getCollection('articles');
+const sortedArticles = articles.sort((a, b) =>
+  new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+);
+
+// Get featured article (most recent)
+const featuredArticle = sortedArticles[0];
+const remainingArticles = sortedArticles.slice(1);
+
+// Categories for filtering
+const categories = ['All', 'Design', 'Branding', 'YouTube Design', 'AI'];
+---
+
+<Layout title="Blog - Approachable Design" description="Design tips, tutorials, and insights for non-designers and solopreneurs.">
+  <section class="py-16 md:py-24">
+    <div class="container">
+      <h1 class="font-display text-4xl md:text-5xl font-bold mb-4">Blog</h1>
+      <p class="text-xl text-white/60 mb-12 max-w-2xl">
+        Design tips, tutorials, and insights to help you create better visuals without hiring a designer.
+      </p>
+
+      {featuredArticle && (
+        <div class="mb-16">
+          <p class="text-brand-coral uppercase tracking-widest text-sm font-semibold mb-4">Featured</p>
+          <a href={`/articles/${featuredArticle.slug}`} class="group block bg-brand-dark-light rounded-2xl overflow-hidden border border-white/10 hover:border-brand-coral/50 transition-colors">
+            <div class="md:flex">
+              {featuredArticle.data.image && (
+                <div class="md:w-1/2">
+                  <img
+                    src={featuredArticle.data.image}
+                    alt={featuredArticle.data.title}
+                    class="w-full h-64 md:h-full object-cover"
+                  />
+                </div>
+              )}
+              <div class="p-8 md:w-1/2 flex flex-col justify-center">
+                {featuredArticle.data.category && (
+                  <span class="text-brand-purple text-sm font-medium uppercase tracking-wider mb-2">
+                    {featuredArticle.data.category}
+                  </span>
+                )}
+                <h2 class="font-heading font-bold text-2xl md:text-3xl mb-4 group-hover:text-brand-coral transition-colors">
+                  {featuredArticle.data.title}
+                </h2>
+                <p class="text-white/60 mb-6">{featuredArticle.data.description}</p>
+                <span class="text-brand-coral font-medium">Read the Article &rarr;</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      )}
+
+      <h2 class="font-heading font-bold text-2xl mb-8">All Articles</h2>
+
+      {remainingArticles.length > 0 ? (
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {remainingArticles.map((article) => (
+            <a href={`/articles/${article.slug}`} class="group bg-brand-dark-light rounded-2xl overflow-hidden border border-white/10 hover:border-brand-coral/50 transition-colors">
+              {article.data.image && (
+                <img
+                  src={article.data.image}
+                  alt={article.data.title}
+                  class="w-full h-48 object-cover"
+                />
+              )}
+              <div class="p-6">
+                {article.data.category && (
+                  <span class="text-brand-purple text-xs font-medium uppercase tracking-wider">
+                    {article.data.category}
+                  </span>
+                )}
+                <h3 class="font-heading font-bold text-lg mt-2 mb-2 group-hover:text-brand-coral transition-colors">
+                  {article.data.title}
+                </h3>
+                <p class="text-white/60 text-sm line-clamp-2">{article.data.description}</p>
+                <span class="text-brand-coral text-sm font-medium mt-4 inline-block">Read the Article &rarr;</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      ) : (
+        <div class="text-center py-16 bg-brand-dark-light rounded-2xl border border-white/10">
+          <p class="text-white/60 text-lg mb-4">No articles yet.</p>
+          <p class="text-white/40">Check back soon for design tips and tutorials!</p>
+        </div>
+      )}
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>

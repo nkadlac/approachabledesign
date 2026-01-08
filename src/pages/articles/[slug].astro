@@ -1,0 +1,71 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const articles = await getCollection('articles');
+  return articles.map((article) => ({
+    params: { slug: article.slug },
+    props: { article },
+  }));
+}
+
+const { article } = Astro.props;
+const { Content } = await render(article);
+
+// Format date
+const formattedDate = article.data.date.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+});
+---
+
+<Layout
+  title={`${article.data.title} - Approachable Design`}
+  description={article.data.description}
+  ogImage={article.data.image}
+  article={{ publishedDate: article.data.date }}
+>
+  <article class="py-16 md:py-24">
+    <div class="container">
+      <div class="max-w-3xl mx-auto">
+        <!-- Header -->
+        <header class="mb-12">
+          {article.data.category && (
+            <span class="text-brand-purple text-sm font-medium uppercase tracking-wider">
+              {article.data.category}
+            </span>
+          )}
+          <h1 class="font-display text-3xl md:text-5xl font-bold mt-4 mb-6">
+            {article.data.title}
+          </h1>
+          <p class="text-white/60">
+            {formattedDate}
+          </p>
+        </header>
+
+        <!-- Featured Image -->
+        {article.data.image && (
+          <img
+            src={article.data.image}
+            alt={article.data.title}
+            class="w-full rounded-2xl mb-12"
+          />
+        )}
+
+        <!-- Content -->
+        <div class="prose">
+          <Content />
+        </div>
+
+        <!-- Back link -->
+        <div class="mt-16 pt-8 border-t border-white/10">
+          <a href="/articles" class="text-brand-coral hover:underline">
+            &larr; Back to all articles
+          </a>
+        </div>
+      </div>
+    </div>
+  </article>
+</Layout>

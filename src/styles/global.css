@@ -1,0 +1,210 @@
+@import "tailwindcss";
+
+/* Design System - approachabledesign.co */
+@theme {
+  /* Colors - Dark theme */
+  --color-brand-dark: #0B0A16;
+  --color-brand-dark-light: #1a1928;
+  --color-brand-coral: #FFCCAF;
+  --color-brand-coral-light: #FFE0CC;
+  --color-brand-purple: #5148CA;
+  --color-brand-purple-light: #6B63D9;
+  --color-brand-white: #FFFFFF;
+  --color-brand-gray: #9CA3AF;
+
+  /* Typography */
+  --font-display: "Roslindale", Georgia, serif;
+  --font-heading: "Manrope", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-serif: "Noto Serif Georgian", Georgia, serif;
+
+  /* Spacing */
+  --radius-card: 16px;
+  --radius-button: 8px;
+
+  /* Breakpoints (matching Framer) */
+  --breakpoint-tablet: 781px;
+  --breakpoint-desktop: 1200px;
+}
+
+/* Base styles */
+html {
+  font-family: var(--font-body);
+  background-color: var(--color-brand-dark);
+  color: var(--color-brand-white);
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+/* Typography utilities */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+/* Prose styles for article content */
+.prose {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: var(--color-brand-white);
+}
+
+.prose h1 {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+.prose h2 {
+  font-family: var(--font-heading);
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.prose h3 {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose p {
+  margin-bottom: 1.5rem;
+}
+
+.prose blockquote {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1.25rem;
+  border-left: 3px solid var(--color-brand-coral);
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  color: var(--color-brand-coral-light);
+}
+
+.prose img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius-card);
+  margin: 2rem 0;
+}
+
+.prose a {
+  color: var(--color-brand-coral);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.prose a:hover {
+  text-decoration: none;
+}
+
+.prose ul, .prose ol {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.prose li {
+  margin-bottom: 0.5rem;
+}
+
+/* Button base */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.875rem 1.75rem;
+  border-radius: var(--radius-button);
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: var(--color-brand-coral);
+  color: var(--color-brand-dark);
+  border: 2px solid var(--color-brand-coral);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-brand-coral-light);
+  border-color: var(--color-brand-coral-light);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--color-brand-white);
+  border: 2px solid var(--color-brand-white);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-brand-white);
+  color: var(--color-brand-dark);
+}
+
+.btn-purple {
+  background-color: var(--color-brand-purple);
+  color: var(--color-brand-white);
+  border: 2px solid var(--color-brand-purple);
+}
+
+.btn-purple:hover {
+  background-color: var(--color-brand-purple-light);
+  border-color: var(--color-brand-purple-light);
+}
+
+/* Card base */
+.card {
+  background-color: var(--color-brand-dark-light);
+  border-radius: var(--radius-card);
+  padding: 1.5rem;
+}
+
+/* Link styles */
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* Container utility */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+@media (min-width: 781px) {
+  .container {
+    padding: 0 2rem;
+  }
+}

@@ -1,0 +1,165 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NewsletterForm from '../components/NewsletterForm.astro';
+
+const courses = [
+  {
+    title: "The Creator Design Kit",
+    description: "A 20-day email course teaching you design fundamentals and Figma skills. Build your own visual design kit with daily video lessons delivered to your inbox.",
+    price: "$249",
+    badge: "LOVED BY 250+ CREATORS",
+    href: "https://approachabledesign.co/courses/8020-design-challenge",
+    cta: "Get The Creator Design Kit",
+    image: "/images/creator-design-kit.webp",
+    features: [
+      "20 daily video lessons",
+      "Learn Figma from scratch",
+      "Build your personal brand kit",
+      "Lifetime access"
+    ]
+  },
+  {
+    title: "Build Slide Decks with Style",
+    description: "A self-paced video course using Figma to create visually compelling slide decks without design experience.",
+    price: "$49+",
+    badge: "COMING SOON",
+    href: "#",
+    cta: "Coming Soon",
+    image: "/images/slide-decks.webp",
+    features: [
+      "Self-paced video lessons",
+      "Figma templates included",
+      "Professional slide design",
+      "No design experience needed"
+    ],
+    comingSoon: true
+  },
+  {
+    title: "Design Workshop for Creators",
+    description: "A live weekend workshop where you'll build a personalized brand kit using design fundamentals in Figma. Hands-on learning with direct feedback.",
+    price: "TBD",
+    badge: "WEEKEND WORKSHOP",
+    href: "#",
+    cta: "Join the Waitlist",
+    image: "/images/workshop.webp",
+    features: [
+      "Live weekend sessions",
+      "Personalized brand kit",
+      "Direct feedback",
+      "Small group setting"
+    ],
+    waitlist: true
+  }
+];
+
+const testimonials = [
+  {
+    quote: "This course changed how I approach design. I went from zero Figma experience to creating professional graphics in just 20 days.",
+    author: "Sarah K.",
+    role: "Course Graduate"
+  },
+  {
+    quote: "The ROI on this course is insane. I've already saved thousands by not hiring a designer.",
+    author: "Mike R.",
+    role: "Solopreneur"
+  }
+];
+---
+
+<Layout title="Courses - Approachable Design" description="Learn design fundamentals with courses built for non-designers. Master Figma, build brand kits, and create professional visuals.">
+  <section class="py-16 md:py-24">
+    <div class="container">
+      <h1 class="font-display text-4xl md:text-5xl font-bold mb-4">Courses</h1>
+      <p class="text-xl text-white/60 mb-16 max-w-2xl">
+        Learn design fundamentals with courses built specifically for non-designers and solopreneurs.
+      </p>
+
+      <div class="space-y-8">
+        {courses.map((course) => (
+          <div class="bg-brand-dark-light rounded-2xl border border-white/10 overflow-hidden">
+            <div class="md:flex">
+              <div class="md:w-2/5 bg-brand-purple/10 p-8 flex items-center justify-center">
+                <div class="aspect-video w-full bg-brand-dark/50 rounded-xl flex items-center justify-center">
+                  <span class="text-6xl">🎨</span>
+                </div>
+              </div>
+              <div class="md:w-3/5 p-8">
+                <span class="text-brand-purple text-xs font-semibold uppercase tracking-wider">
+                  {course.badge}
+                </span>
+                <h2 class="font-heading font-bold text-2xl md:text-3xl mt-2 mb-4">
+                  {course.title}
+                </h2>
+                <p class="text-white/70 mb-6">{course.description}</p>
+
+                <ul class="space-y-2 mb-6">
+                  {course.features.map((feature) => (
+                    <li class="flex items-center gap-2 text-white/60">
+                      <svg class="w-5 h-5 text-brand-coral flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                      </svg>
+                      {feature}
+                    </li>
+                  ))}
+                </ul>
+
+                <div class="flex items-center gap-6">
+                  <span class="font-heading font-bold text-3xl text-brand-coral">{course.price}</span>
+                  {course.comingSoon ? (
+                    <button disabled class="btn bg-white/10 text-white/50 cursor-not-allowed">
+                      {course.cta}
+                    </button>
+                  ) : course.waitlist ? (
+                    <button class="btn btn-secondary">
+                      {course.cta}
+                    </button>
+                  ) : (
+                    <a href={course.href} target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                      {course.cta}
+                    </a>
+                  )}
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <!-- Testimonials -->
+      <div class="mt-20">
+        <h2 class="font-heading font-bold text-2xl mb-8 text-center">What students say</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {testimonials.map((testimonial) => (
+            <div class="bg-brand-dark-light rounded-2xl p-6 border border-white/10">
+              <p class="text-white/80 italic mb-4">"{testimonial.quote}"</p>
+              <div>
+                <p class="font-heading font-semibold text-white">{testimonial.author}</p>
+                <p class="text-sm text-white/50">{testimonial.role}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- About Instructor -->
+      <div class="mt-20 bg-brand-dark-light rounded-2xl p-8 md:p-12 border border-white/10">
+        <div class="md:flex items-center gap-12">
+          <div class="md:w-1/3 mb-8 md:mb-0">
+            <div class="w-48 h-48 mx-auto bg-brand-purple/20 rounded-full flex items-center justify-center">
+              <span class="text-6xl">👨‍🏫</span>
+            </div>
+          </div>
+          <div class="md:w-2/3">
+            <h2 class="font-heading font-bold text-2xl mb-4">Your Instructor</h2>
+            <p class="text-white/70 mb-4">
+              Hi, I'm <strong class="text-white">Nate Kadlac</strong>. I'm a former creative director and product designer with experience at Fortune 500 companies and startups.
+            </p>
+            <p class="text-white/70">
+              I've helped hundreds of non-designers learn to create professional visuals. My teaching approach focuses on practical skills you can apply immediately, not theory that sits unused.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

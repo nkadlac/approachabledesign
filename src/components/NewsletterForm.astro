@@ -1,0 +1,171 @@
+---
+interface Props {
+  variant?: 'default' | 'card';
+  centered?: boolean;
+  showDescription?: boolean;
+}
+
+const { variant = 'default', centered = false, showDescription = true } = Astro.props;
+// Note: Update this formId with the actual Kit.com form ID for approachabledesign.co
+const formId = '3725037';
+
+const isCard = variant === 'card';
+---
+
+{isCard ? (
+  <!-- Card variant (homepage style) -->
+  <div>
+    <!-- Desktop: inline pill layout -->
+    <div class="hidden md:block bg-brand-dark-light rounded-full p-2 max-w-xl border border-white/10">
+      <form
+        action={`https://app.kit.com/forms/${formId}/subscriptions`}
+        method="post"
+        data-sv-form={formId}
+        data-uid={formId}
+        data-format="inline"
+        data-version="5"
+        data-options='{"settings":{"after_subscribe":{"action":"redirect","redirect_url":"https://www.approachabledesign.co/thanks"}}}'
+        class="newsletter-form flex items-center gap-2"
+      >
+        <input
+          type="email"
+          name="email_address"
+          placeholder="Your best email"
+          required
+          aria-label="Email address"
+          class="flex-1 px-5 py-4 bg-transparent text-white placeholder:text-white/50 focus:outline-none font-body text-lg"
+        />
+        <button
+          type="submit"
+          class="px-6 py-4 rounded-full bg-brand-coral text-brand-dark font-heading font-semibold text-base hover:bg-brand-coral-light transition-colors whitespace-nowrap"
+        >
+          Join the Newsletter
+        </button>
+      </form>
+    </div>
+    <!-- Mobile: stacked layout -->
+    <div class="md:hidden bg-brand-dark-light rounded-2xl p-6 max-w-xl border border-white/10">
+      <form
+        action={`https://app.kit.com/forms/${formId}/subscriptions`}
+        method="post"
+        data-sv-form={formId}
+        data-uid={formId}
+        data-format="inline"
+        data-version="5"
+        data-options='{"settings":{"after_subscribe":{"action":"redirect","redirect_url":"https://www.approachabledesign.co/thanks"}}}'
+        class="newsletter-form flex flex-col gap-4"
+      >
+        <input
+          type="email"
+          name="email_address"
+          placeholder="Your best email"
+          required
+          aria-label="Email address"
+          class="w-full px-5 py-4 bg-white/5 rounded-xl text-white placeholder:text-white/40 focus:outline-none focus:ring-2 focus:ring-brand-coral/50 text-lg border border-white/10"
+        />
+        <button
+          type="submit"
+          class="w-full px-5 py-4 rounded-xl bg-brand-coral text-brand-dark font-heading font-semibold text-lg hover:bg-brand-coral-light transition-colors"
+        >
+          Join the Newsletter
+        </button>
+      </form>
+    </div>
+    <p class="mt-4 text-xs text-white/50 uppercase tracking-wider font-medium">
+      Join 3,800+ readers. Sent 3x every week. No spam.
+    </p>
+  </div>
+) : (
+  <!-- Default inline variant -->
+  <form
+    action={`https://app.kit.com/forms/${formId}/subscriptions`}
+    method="post"
+    data-sv-form={formId}
+    data-uid={formId}
+    data-format="inline"
+    data-version="5"
+    data-options='{"settings":{"after_subscribe":{"action":"redirect","redirect_url":"https://www.approachabledesign.co/thanks"}}}'
+    class:list={[
+      "newsletter-form flex flex-col sm:flex-row gap-3",
+      centered ? "max-w-md mx-auto" : "max-w-md"
+    ]}
+  >
+    <input
+      type="email"
+      name="email_address"
+      placeholder="your@email.com"
+      required
+      aria-label="Email address"
+      class:list={[
+        "flex-1 px-4 py-3 rounded-lg bg-white/5 border border-white/10",
+        "focus:border-brand-coral focus:outline-none font-body text-white placeholder:text-white/50",
+        centered ? "text-center sm:text-left" : ""
+      ]}
+    />
+    <button
+      type="submit"
+      class="btn btn-primary whitespace-nowrap"
+    >
+      Subscribe
+    </button>
+  </form>
+)}
+
+{showDescription && !isCard && (
+  <p class:list={[
+    "mt-3 text-sm text-white/50",
+    centered ? "text-center" : ""
+  ]}>
+    Join 3,800+ readers. Sent 3x every week. No spam.
+  </p>
+)}
+
+<style>
+  .newsletter-form button[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+</style>
+
+<script>
+  document.querySelectorAll('.newsletter-form').forEach(form => {
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const formEl = e.target as HTMLFormElement;
+      const button = formEl.querySelector('button');
+      const emailInput = formEl.querySelector('input[type="email"]') as HTMLInputElement;
+
+      if (!button || !emailInput) return;
+
+      const originalText = button.textContent;
+      button.textContent = 'Subscribing...';
+      button.setAttribute('disabled', 'true');
+
+      try {
+        const formData = new FormData(formEl);
+        const response = await fetch(formEl.action, {
+          method: 'POST',
+          body: formData,
+          headers: {
+            'Accept': 'application/json',
+          },
+        });
+
+        if (response.ok) {
+          button.textContent = 'Subscribed!';
+          emailInput.value = '';
+          window.location.href = '/thanks';
+        } else {
+          throw new Error('Subscription failed');
+        }
+      } catch (error) {
+        button.textContent = 'Try again';
+        button.removeAttribute('disabled');
+        setTimeout(() => {
+          button.textContent = originalText;
+        }, 3000);
+      }
+    });
+  });
+</script>

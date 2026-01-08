@@ -1,0 +1,88 @@
+---
+const navLinks = [
+  { href: '/articles', label: 'Blog' },
+  { href: '/courses', label: 'Courses' },
+  { href: '/products', label: 'Products' },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header id="main-header" class="sticky top-0 z-50 backdrop-blur-sm bg-brand-dark/95 border-b border-white/10">
+  <div class="max-w-[1200px] mx-auto px-6 py-4">
+    <nav class="flex items-center justify-between">
+      <!-- Logo -->
+      <a href="/" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+        <span class="font-heading font-bold text-xl text-white">Approachable Design</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <div class="hidden md:flex items-center gap-2">
+        {navLinks.map((link) => (
+          <a
+            href={link.href}
+            class:list={[
+              "font-heading text-[15px] font-medium px-4 py-2 rounded-full hover:bg-white/10 transition-colors text-center whitespace-nowrap text-white",
+              currentPath.startsWith(link.href) ? "bg-white/10" : ""
+            ]}
+          >
+            {link.label}
+          </a>
+        ))}
+
+        <a href="/newsletter" class="font-heading text-[15px] font-medium px-4 py-2 rounded-full bg-brand-coral text-brand-dark hover:bg-brand-coral-light transition-colors whitespace-nowrap ml-2">
+          Newsletter
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button
+        id="mobile-menu-toggle"
+        class="md:hidden p-2 -mr-2 text-white"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+      >
+        <svg class="w-6 h-6 hamburger-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+        <svg class="w-6 h-6 close-icon hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div id="mobile-menu" class="hidden md:hidden pt-6 pb-4">
+      <div class="flex flex-col gap-4">
+        {navLinks.map((link) => (
+          <a href={link.href} class="font-heading text-xl font-bold text-white">
+            {link.label}
+          </a>
+        ))}
+        <a href="/newsletter" class="font-heading text-xl font-bold text-brand-coral">
+          Newsletter
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+  function initHeader() {
+    const toggle = document.getElementById('mobile-menu-toggle');
+    const menu = document.getElementById('mobile-menu');
+    const hamburger = toggle?.querySelector('.hamburger-icon');
+    const closeIcon = toggle?.querySelector('.close-icon');
+
+    toggle?.addEventListener('click', () => {
+      const isOpen = menu?.classList.contains('hidden');
+      menu?.classList.toggle('hidden');
+      hamburger?.classList.toggle('hidden');
+      closeIcon?.classList.toggle('hidden');
+      toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+  }
+
+  initHeader();
+  document.addEventListener('astro:after-swap', initHeader);
+</script>

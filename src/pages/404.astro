@@ -1,0 +1,27 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Page Not Found - Approachable Design">
+  <section class="py-32">
+    <div class="container text-center">
+      <div class="max-w-2xl mx-auto">
+        <div class="text-8xl mb-8">🔍</div>
+        <h1 class="font-display text-4xl md:text-5xl font-bold mb-6">
+          Page not found
+        </h1>
+        <p class="text-xl text-white/70 mb-8">
+          Looks like this page doesn't exist. Maybe it was moved, or maybe it never existed in the first place.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="/" class="btn btn-primary">
+            Go Home
+          </a>
+          <a href="/articles" class="btn btn-secondary">
+            Read Articles
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

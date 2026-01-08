@@ -1,0 +1,129 @@
+---
+import { ViewTransitions } from 'astro:transitions';
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+  article?: {
+    publishedDate: Date;
+    modifiedDate?: Date;
+  };
+}
+
+const {
+  title,
+  description = "Join 3,800+ solopreneurs & professionals learning to build authentic brands, increase sales, and improve visual design skills without hiring a designer.",
+  ogImage = "/og-image.jpg",
+  article
+} = Astro.props;
+
+const siteUrl = "https://www.approachabledesign.co";
+const canonicalUrl = new URL(Astro.url.pathname, siteUrl).href;
+const fullOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`;
+
+// JSON-LD Schemas
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Approachable Design",
+  "url": siteUrl,
+  "description": "Design education for non-designers and solopreneurs",
+  "author": {
+    "@type": "Person",
+    "name": "Nate Kadlac"
+  }
+};
+
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Nate Kadlac",
+  "url": siteUrl,
+  "jobTitle": "Designer, Writer, & Instructor",
+  "sameAs": [
+    "https://twitter.com/kadlac",
+    "https://www.linkedin.com/in/natekadlac/",
+    "https://www.youtube.com/@natekadlac"
+  ]
+};
+
+const articleSchema = article ? {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": title,
+  "description": description,
+  "image": fullOgImage,
+  "author": {
+    "@type": "Person",
+    "name": "Nate Kadlac",
+    "url": siteUrl
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Nate Kadlac"
+  },
+  "datePublished": article.publishedDate.toISOString(),
+  ...(article.modifiedDate && { "dateModified": article.modifiedDate.toISOString() }),
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": canonicalUrl
+  }
+} : null;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- SEO -->
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="alternate" type="application/rss+xml" title="Approachable Design RSS Feed" href="/rss.xml" />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content={article ? "article" : "website"} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={fullOgImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={fullOgImage} />
+
+    <meta name="generator" content={Astro.generator} />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Noto+Serif+Georgian:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <title>{title}</title>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
+    {articleSchema && (
+      <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+    )}
+
+    <ViewTransitions />
+  </head>
+  <body class="flex flex-col min-h-screen">
+    <Header />
+    <main class="flex-1">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

@@ -1,0 +1,110 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const products = [
+  {
+    title: "YouTube Thumbnail Design Masterclass",
+    description: "Learn to create click-worthy YouTube thumbnails with design breakdowns, live examples, templates, and over-the-shoulder instruction.",
+    price: "$49",
+    href: "https://approachabledesign.co/products/youtube-masterclass",
+    cta: "Get the Masterclass",
+    icon: "📺",
+    features: [
+      "Design breakdowns of top thumbnails",
+      "Live design examples",
+      "Figma templates included",
+      "Over-the-shoulder instruction"
+    ]
+  },
+  {
+    title: "The Design Vault",
+    description: "A curated library of 90+ beautifully designed websites that you can filter by category. Perfect for finding inspiration for your next project.",
+    price: "$149",
+    href: "https://approachabledesign.co/products/design-vault",
+    cta: "Access the Vault",
+    icon: "🗂️",
+    features: [
+      "90+ curated websites",
+      "Filter by category",
+      "Regular updates",
+      "Landing pages, SaaS, blogs & more"
+    ]
+  },
+  {
+    title: "Design Checklist",
+    description: "A comprehensive checklist covering fundamental design principles. Use it to audit your designs and ensure you're not missing anything important.",
+    price: "$5",
+    href: "https://approachabledesign.co/products/design-checklist",
+    cta: "Get the Checklist",
+    icon: "✅",
+    features: [
+      "20 essential design principles",
+      "Easy-to-follow checklist format",
+      "Use for any design project",
+      "Instant download"
+    ]
+  }
+];
+---
+
+<Layout title="Products - Approachable Design" description="Design resources and tools for non-designers. Templates, inspiration vaults, and checklists to level up your visual design.">
+  <section class="py-16 md:py-24">
+    <div class="container">
+      <h1 class="font-display text-4xl md:text-5xl font-bold mb-4">Products</h1>
+      <p class="text-xl text-white/60 mb-16 max-w-2xl">
+        Design resources built for non-designers. Get templates, inspiration, and tools to create better visuals.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {products.map((product) => (
+          <div class="bg-brand-dark-light rounded-2xl border border-white/10 overflow-hidden flex flex-col">
+            <div class="aspect-video bg-brand-coral/10 flex items-center justify-center">
+              <span class="text-6xl">{product.icon}</span>
+            </div>
+            <div class="p-6 flex flex-col flex-1">
+              <h2 class="font-heading font-bold text-xl mb-3">{product.title}</h2>
+              <p class="text-white/60 text-sm mb-6 flex-1">{product.description}</p>
+
+              <ul class="space-y-2 mb-6">
+                {product.features.map((feature) => (
+                  <li class="flex items-start gap-2 text-white/60 text-sm">
+                    <svg class="w-4 h-4 text-brand-coral flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                    </svg>
+                    {feature}
+                  </li>
+                ))}
+              </ul>
+
+              <div class="flex items-center justify-between mt-auto pt-4 border-t border-white/10">
+                <span class="font-heading font-bold text-2xl text-brand-coral">{product.price}</span>
+                <a href={product.href} target="_blank" rel="noopener noreferrer" class="btn btn-primary text-sm px-4 py-2">
+                  {product.cta}
+                </a>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <!-- FAQ Section -->
+      <div class="mt-20">
+        <h2 class="font-heading font-bold text-2xl mb-8 text-center">Frequently Asked Questions</h2>
+        <div class="max-w-2xl mx-auto space-y-6">
+          <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
+            <h3 class="font-heading font-semibold mb-2">Do I need design experience?</h3>
+            <p class="text-white/60">No! All products are built specifically for non-designers. If you can use a computer, you can use these resources.</p>
+          </div>
+          <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
+            <h3 class="font-heading font-semibold mb-2">What software do I need?</h3>
+            <p class="text-white/60">Most resources work with Figma, which is free to use. Some products are platform-agnostic and work with any design tool.</p>
+          </div>
+          <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
+            <h3 class="font-heading font-semibold mb-2">Is there a refund policy?</h3>
+            <p class="text-white/60">Yes! If you're not satisfied within 30 days, reach out for a full refund. No questions asked.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
