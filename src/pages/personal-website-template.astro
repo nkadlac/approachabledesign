@@ -1,0 +1,73 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NewsletterForm from '../components/NewsletterForm.astro';
+---
+
+<Layout title="Personal Website Content Template - Approachable Design" description="A template to help you build your personal website through quality content development with Story Spokes prompts.">
+  <section class="py-16 md:py-24">
+    <div class="container">
+      <div class="max-w-3xl mx-auto">
+        <!-- Hero -->
+        <h1 class="font-display text-4xl md:text-5xl font-bold mb-6">
+          Your Personal Website Content Template
+        </h1>
+        <p class="text-xl text-white/70 mb-12">
+          A template designed to help you build your personal website through quality content development—because great websites start with great content.
+        </p>
+
+        <!-- What's Included -->
+        <div class="mb-12">
+          <h2 class="font-heading font-bold text-2xl mb-6">What's Included</h2>
+          <div class="space-y-4">
+            <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
+              <h3 class="font-heading font-bold text-lg mb-2">Story Spokes Prompts</h3>
+              <p class="text-white/60">Guided prompts to help you craft personalized content snippets that tell your unique story.</p>
+            </div>
+            <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
+              <h3 class="font-heading font-bold text-lg mb-2">Content Placeholders</h3>
+              <p class="text-white/60">Pre-formatted sections for each page of your personal website so you know exactly what to write.</p>
+            </div>
+            <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
+              <h3 class="font-heading font-bold text-lg mb-2">Resources & Tools</h3>
+              <p class="text-white/60">Guidance and recommendations to help you determine appropriate content selections.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- How It Works -->
+        <div class="bg-brand-purple/10 rounded-2xl p-8 border border-brand-purple/20 mb-12">
+          <h2 class="font-heading font-bold text-2xl mb-6">How It Works</h2>
+          <ol class="space-y-4">
+            <li class="flex gap-4">
+              <span class="w-8 h-8 bg-brand-purple rounded-full flex items-center justify-center flex-shrink-0 font-bold text-sm">1</span>
+              <div>
+                <p class="text-white/80">Use the Story Spokes prompts to brainstorm and gather your personal stories, experiences, and expertise.</p>
+              </div>
+            </li>
+            <li class="flex gap-4">
+              <span class="w-8 h-8 bg-brand-purple rounded-full flex items-center justify-center flex-shrink-0 font-bold text-sm">2</span>
+              <div>
+                <p class="text-white/80">Fill in the content placeholders with your unique content for each page section.</p>
+              </div>
+            </li>
+            <li class="flex gap-4">
+              <span class="w-8 h-8 bg-brand-purple rounded-full flex items-center justify-center flex-shrink-0 font-bold text-sm">3</span>
+              <div>
+                <p class="text-white/80">Transfer your polished content to your website builder of choice.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <!-- CTA -->
+        <div class="bg-brand-dark-light rounded-2xl p-8 border border-white/10">
+          <h2 class="font-heading font-bold text-2xl mb-4">Get the Template</h2>
+          <p class="text-white/60 mb-6">
+            Sign up for the newsletter to receive the personal website content template along with weekly design tips.
+          </p>
+          <NewsletterForm />
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

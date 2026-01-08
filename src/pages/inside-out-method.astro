@@ -1,0 +1,89 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NewsletterForm from '../components/NewsletterForm.astro';
+---
+
+<Layout title="The Inside-Out Method - Approachable Design" description="Discover your unique visual style through the inside-out design method. Stop copying others and start creating from your authentic self.">
+  <section class="py-16 md:py-24">
+    <div class="container">
+      <div class="max-w-3xl mx-auto">
+        <!-- Hero -->
+        <h1 class="font-display text-4xl md:text-5xl font-bold mb-6">
+          How do you stand out against the noise?
+        </h1>
+        <p class="text-xl text-white/70 mb-12">
+          Stop copying what others are doing and discover your authentic visual style through the inside-out design method.
+        </p>
+
+        <!-- Method Explanation -->
+        <div class="prose prose-lg mb-12">
+          <p>
+            Most people approach design from the outside in—they look at what others are doing and try to copy or adapt it for themselves. This leads to generic, forgettable brands that blend into the noise.
+          </p>
+          <p>
+            <strong>The Inside-Out Method</strong> flips this approach. Instead of starting with external inspiration, you start with yourself—your stories, experiences, and unique perspective.
+          </p>
+        </div>
+
+        <!-- The Process -->
+        <div class="mb-12">
+          <h2 class="font-heading font-bold text-2xl mb-6">The Process</h2>
+          <div class="space-y-4">
+            <div class="flex gap-4">
+              <span class="w-8 h-8 bg-brand-purple rounded-full flex items-center justify-center flex-shrink-0 font-bold text-sm">1</span>
+              <div>
+                <h3 class="font-heading font-bold text-lg">Unlock Your Creative Taste</h3>
+                <p class="text-white/60">Identify what genuinely resonates with you through guided exercises and reflection.</p>
+              </div>
+            </div>
+            <div class="flex gap-4">
+              <span class="w-8 h-8 bg-brand-purple rounded-full flex items-center justify-center flex-shrink-0 font-bold text-sm">2</span>
+              <div>
+                <h3 class="font-heading font-bold text-lg">Find Your Patterns</h3>
+                <p class="text-white/60">Discover the common threads in your aesthetic preferences across different domains.</p>
+              </div>
+            </div>
+            <div class="flex gap-4">
+              <span class="w-8 h-8 bg-brand-purple rounded-full flex items-center justify-center flex-shrink-0 font-bold text-sm">3</span>
+              <div>
+                <h3 class="font-heading font-bold text-lg">Build Your Visual Language</h3>
+                <p class="text-white/60">Translate your inner taste into concrete design decisions—colors, typography, textures, and shapes.</p>
+              </div>
+            </div>
+            <div class="flex gap-4">
+              <span class="w-8 h-8 bg-brand-purple rounded-full flex items-center justify-center flex-shrink-0 font-bold text-sm">4</span>
+              <div>
+                <h3 class="font-heading font-bold text-lg">Apply to Real Projects</h3>
+                <p class="text-white/60">Use your personal "Taste Palette" to make confident design decisions for websites, presentations, and social profiles.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonials -->
+        <div class="mb-12">
+          <h2 class="font-heading font-bold text-2xl mb-6">What People Say</h2>
+          <div class="space-y-4">
+            <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
+              <p class="text-white/80 italic mb-3">"The workshop let me come up with my own style and taste which is huge for me especially as the founder."</p>
+              <p class="text-sm text-white/50">— Khe Hy, Founder of RadReads</p>
+            </div>
+            <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
+              <p class="text-white/80 italic mb-3">"Nate radically shifted how I see design in many aspects."</p>
+              <p class="text-sm text-white/50">— Paul Millerd, Author</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CTA -->
+        <div class="bg-brand-purple/10 rounded-2xl p-8 border border-brand-purple/20">
+          <h2 class="font-heading font-bold text-2xl mb-4">Learn the Method</h2>
+          <p class="text-white/70 mb-6">
+            Join the newsletter to get design tips and insights delivered to your inbox, including more about the inside-out approach.
+          </p>
+          <NewsletterForm />
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,56 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NewsletterForm from '../components/NewsletterForm.astro';
+---
+
+<Layout title="Google Doc Template - Approachable Design" description="The Google Doc template that will impress your colleagues and clients with enhanced typography and design.">
+  <section class="py-16 md:py-24">
+    <div class="container">
+      <div class="max-w-3xl mx-auto">
+        <!-- Hero -->
+        <h1 class="font-display text-4xl md:text-5xl font-bold mb-6">
+          The Google Doc template that will impress your colleagues and clients
+        </h1>
+        <p class="text-xl text-white/70 mb-12">
+          Transform Google Docs into a more pleasant writing and reading environment, moving beyond the default utilitarian experience.
+        </p>
+
+        <!-- Features -->
+        <div class="mb-12">
+          <h2 class="font-heading font-bold text-2xl mb-6">What's Included</h2>
+          <div class="space-y-4">
+            <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
+              <h3 class="font-heading font-bold text-lg mb-2">Pageless Viewing Mode</h3>
+              <p class="text-white/60">Seamless document flow without distracting page breaks.</p>
+            </div>
+            <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
+              <h3 class="font-heading font-bold text-lg mb-2">Tinted Background</h3>
+              <p class="text-white/60">Reduce eye strain and enhance your writing experience with a subtle warm tint.</p>
+            </div>
+            <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
+              <h3 class="font-heading font-bold text-lg mb-2">Enhanced Typography</h3>
+              <p class="text-white/60">Thoughtful font selections for improved readability and visual appeal.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Why It Matters -->
+        <div class="bg-brand-purple/10 rounded-2xl p-8 border border-brand-purple/20 mb-12">
+          <h2 class="font-heading font-bold text-2xl mb-4">Why This Matters</h2>
+          <p class="text-white/70">
+            Google Docs' default interface is purely functional. By layering thoughtful design choices—color, type, and layout—this template creates a workspace that feels intentional rather than generic. Your documents will look more professional and be more enjoyable to write.
+          </p>
+        </div>
+
+        <!-- CTA -->
+        <div class="bg-brand-dark-light rounded-2xl p-8 border border-white/10">
+          <h2 class="font-heading font-bold text-2xl mb-4">Get the Template</h2>
+          <p class="text-white/60 mb-6">
+            Sign up for the newsletter to receive the Google Docs template along with weekly design tips for creators and non-designers.
+          </p>
+          <NewsletterForm />
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

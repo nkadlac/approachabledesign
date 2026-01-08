@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NewsletterForm from '../components/NewsletterForm.astro';
+---
+
+<Layout title="Make It Yours Newsletter - Approachable Design" description="Join 3,200+ creators and entrepreneurs who get actionable stories and insights every Sunday.">
+  <section class="py-16 md:py-24">
+    <div class="container">
+      <div class="max-w-3xl mx-auto text-center">
+        <!-- Hero -->
+        <h1 class="font-display text-4xl md:text-5xl font-bold mb-6">
+          Make It Yours
+        </h1>
+        <p class="text-xl text-white/70 mb-4">
+          (Formerly "Plan Your Next")
+        </p>
+        <p class="text-lg text-white/60 mb-12">
+          Join 3,200+ creators and entrepreneurs every Sunday who get actionable stories and insights so you can design products and businesses that stand out.
+        </p>
+
+        <!-- Newsletter Form -->
+        <div class="bg-brand-dark-light rounded-2xl p-8 border border-white/10 mb-12">
+          <NewsletterForm />
+        </div>
+
+        <!-- Testimonial -->
+        <div class="bg-brand-purple/10 rounded-2xl p-8 border border-brand-purple/20">
+          <p class="text-white/80 italic mb-4">
+            "It feels like stepping into a boutique full of beautifully crafted metaphorical and literal artifacts."
+          </p>
+          <p class="text-sm text-white/50">— Newsletter Reader</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

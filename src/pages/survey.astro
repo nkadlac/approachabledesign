@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NewsletterForm from '../components/NewsletterForm.astro';
+---
+
+<Layout title="Tell Me About You - Approachable Design" description="Help me send you exactly the type of content that can help you.">
+  <section class="py-16 md:py-24">
+    <div class="container">
+      <div class="max-w-2xl mx-auto text-center">
+        <h1 class="font-display text-4xl md:text-5xl font-bold mb-6">
+          I want to make sure I send you exactly the type of content that can help you
+        </h1>
+        <p class="text-xl text-white/70 mb-12">
+          Spend 15 seconds to tell me about you and your design needs.
+        </p>
+
+        <!-- Survey Form - Links to external survey or embed -->
+        <div class="bg-brand-dark-light rounded-2xl p-8 border border-white/10">
+          <p class="text-white/60 mb-6">
+            What brings you to Approachable Design? What are you hoping to learn?
+          </p>
+          <a href="mailto:nate@kadlac.com?subject=About%20Me%20and%20My%20Design%20Needs" class="btn btn-primary">
+            Tell Me About You
+          </a>
+          <p class="text-sm text-white/40 mt-4">
+            Or just reply to any of my emails!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

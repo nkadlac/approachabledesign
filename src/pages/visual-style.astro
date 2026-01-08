@@ -1,0 +1,55 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NewsletterForm from '../components/NewsletterForm.astro';
+---
+
+<Layout title="Build Your Visual Style - Approachable Design" description="Build a brand or business that resonates with your audience and stop copying what others are doing.">
+  <section class="py-16 md:py-24">
+    <div class="container">
+      <div class="max-w-3xl mx-auto text-center">
+        <!-- Hero -->
+        <h1 class="font-display text-4xl md:text-5xl font-bold mb-6">
+          Build a brand that resonates with your audience
+        </h1>
+        <p class="text-xl text-white/70 mb-4">
+          (and stop copying what others are doing)
+        </p>
+        <p class="text-lg text-white/60 mb-12">
+          Join 3,000+ creators and entrepreneurs who receive weekly actionable stories and insights to design products and businesses that stand out—even without a design background.
+        </p>
+
+        <!-- Newsletter Form -->
+        <div class="bg-brand-dark-light rounded-2xl p-8 border border-white/10 mb-12">
+          <h2 class="font-heading font-bold text-2xl mb-4">Join the Newsletter</h2>
+          <p class="text-white/60 mb-6">
+            Get design tips delivered every Sunday to help you make better design decisions.
+          </p>
+          <NewsletterForm />
+        </div>
+
+        <!-- What You'll Get -->
+        <div class="text-left">
+          <h2 class="font-heading font-bold text-2xl mb-6 text-center">What You'll Learn</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
+              <h3 class="font-heading font-bold text-lg mb-2">Design Fundamentals</h3>
+              <p class="text-white/60 text-sm">Color, typography, layout, and visual hierarchy basics explained simply.</p>
+            </div>
+            <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
+              <h3 class="font-heading font-bold text-lg mb-2">Brand Building</h3>
+              <p class="text-white/60 text-sm">Create an authentic visual identity that connects with your audience.</p>
+            </div>
+            <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
+              <h3 class="font-heading font-bold text-lg mb-2">Practical Tools</h3>
+              <p class="text-white/60 text-sm">Figma tips, templates, and resources you can use immediately.</p>
+            </div>
+            <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
+              <h3 class="font-heading font-bold text-lg mb-2">Real Examples</h3>
+              <p class="text-white/60 text-sm">Breakdowns of effective designs and what makes them work.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
