@@ -3,7 +3,7 @@ title: "This personal website page will set you free"
 date: 2023-09-03
 category: personal
 description: "Give me three minutes to show you:"
-image: "https://framerusercontent.com/images/MqfRqTAW4mguA3DmyoLdjdyv6KI.jpg"
+image: "/images/articles/MqfRqTAW4mguA3DmyoLdjdyv6KI.jpg.webp"
 ---
 
 **Give me three minutes to show you:**
@@ -12,7 +12,7 @@ image: "https://framerusercontent.com/images/MqfRqTAW4mguA3DmyoLdjdyv6KI.jpg"
 🌲 How to design an 800 sqft sidewalk garden in SF
 👁️ Can your peripheral vision sense color?
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)Last week I wrote 5,700 words about personal websites. I thought most people would ignore it because of its length.
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)Last week I wrote 5,700 words about personal websites. I thought most people would ignore it because of its length.
 
 I had no idea it would take off like it did, and become one of my most popular pieces that quickly.
 
@@ -38,7 +38,7 @@ By creating an offer page on your own website, it will give you a door into a ne
 
 For those with more established services or audiences, it give you the flexibility to craft a paid offer and an easy way to let people book your time.
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)## 🎨 Better Design Decisions
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)## 🎨 Better Design Decisions
 
 [​**How to design an 800 sqft sidewalk garden in the middle of SF's Mission District**​](https://zachklein.com/Sidewalk+Garden). I'm a Zach Klein fan through and through.
 
@@ -46,11 +46,11 @@ For those with more established services or audiences, it give you the flexibili
 
 [​**Your peripheral vision is color blind**​](https://twitter.com/BecomingCritter/status/1694164204834492901?s=20)**. **Related: Your vision eats up 2/3 of your brain's electrical activity.
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)## 📸 Make It Yours Moment
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)## 📸 Make It Yours Moment
 
 Burger King reveals their take on how fresh their ingredients really are.
 
-![](https://framerusercontent.com/images/Z9WCG61ewGkg1qTKJDteEcJo4.png)
+![](/images/articles/Z9WCG61ewGkg1qTKJDteEcJo4.png.webp)
 
 A special shout out to [​Danny Miranda​](https://open.spotify.com/show/6zteH1pAiF07ArhYYNhSfb?si=668dff518b744eb0) who brought a lot of new faces this week by letting me jam out with him on the design of his upcoming course, [​The Art of Interviewing​](https://twitter.com/heydannymiranda/status/1697731820647829885?s=61&t=aYFBE2L0_nnPdFHbjdvsOw).
 

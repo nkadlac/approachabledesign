@@ -14,13 +14,13 @@ In a sea of popular dark mode and black and white templates, I'm defining the lo
 
 Failing to structure your content and ideas intentionally is one of the sole reasons your website lacks focus, bounce rates are high, and visitors are not converting into subscribers or customers.
 
-![The new kadlac.com](https://framerusercontent.com/images/scncBrsKk0Qbzb9kJ7nHjE1PImA.png)Retail stores like Ikea have nailed their content strategy. They pull you around various content—or rooms—by nudging you in subtle ways to ensure you never get lost. And you can't really leave the store without walking right through the checkout area, forcing you to sneak out if you walk through empty-handed.
+![The new kadlac.com](/images/articles/scncBrsKk0Qbzb9kJ7nHjE1PImA.png.webp)Retail stores like Ikea have nailed their content strategy. They pull you around various content—or rooms—by nudging you in subtle ways to ensure you never get lost. And you can't really leave the store without walking right through the checkout area, forcing you to sneak out if you walk through empty-handed.
 
 So here's how to build a personal website like an Ikea store and make sure everyone sees your offer.
 
 ## The four-page recipe to destroy your goals
 
-![Four pages that will kill your personal website](https://framerusercontent.com/images/PnkuDVV7WV1q0q4LIxGwb8gbZYs.png)The four pages will kill your motivation whenever you want to build your site:
+![Four pages that will kill your personal website](/images/articles/PnkuDVV7WV1q0q4LIxGwb8gbZYs.png.webp)The four pages will kill your motivation whenever you want to build your site:
 
 **Home, About, Blog, and Contact pages.**
 
@@ -32,7 +32,7 @@ But it's not even close.
 
 ## A content-forward framework
 
-![Content building blocks](https://framerusercontent.com/images/ztfqOBN6YfyAhwY7RYQLr1Ei7wQ.png)Instead of thinking of your site in terms of pages, use this simple formula to create a site as effectively as possible.
+![Content building blocks](/images/articles/ztfqOBN6YfyAhwY7RYQLr1Ei7wQ.png.webp)Instead of thinking of your site in terms of pages, use this simple formula to create a site as effectively as possible.
 
 **Skill + Goal + Educate + Action**
 
@@ -51,7 +51,7 @@ Each page should be treated as a landing page for a clear idea.
 
 ​[Aaron Francis](https://aaronfrancis.com/)**'** navigation has a unique structure. His particular skill is creating educational videos that developers love to watch. He leads with his content and then follows it up with a link for sponsorship opportunities.
 
-![Aaron Francis' website navigation](https://framerusercontent.com/images/NkUGAksKtdl5eRamAQPI6k9PYk.png)One idea for Aaron would be to call out one clear action to take in the navigation and highlight it over everything else. Overall, his navigation feels intentional and specific to his goals of booking client work and sponsorship revenue.
+![Aaron Francis' website navigation](/images/articles/NkUGAksKtdl5eRamAQPI6k9PYk.png.webp)One idea for Aaron would be to call out one clear action to take in the navigation and highlight it over everything else. Overall, his navigation feels intentional and specific to his goals of booking client work and sponsorship revenue.
 
 ## What are your skills and goals?
 

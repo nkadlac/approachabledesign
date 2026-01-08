@@ -24,7 +24,7 @@ By using the rule of thirds for your creative projects, you’ll give yourself a
 
 Ultimately, the rule of thirds is less a rule and more of a guideline. But if you want to create an image that's pleasing to the eye, it's the first thing you should consider applying.
 
-![The rule of thirds](https://framerusercontent.com/images/9aqA4qb1vTSWIx4sWpP1puHf5s.png)## **How does the rule of thirds show up in the world?**
+![The rule of thirds](/images/articles/9aqA4qb1vTSWIx4sWpP1puHf5s.png.webp)## **How does the rule of thirds show up in the world?**
 
 The best way to learn how to use the rule is first to see how this rule shows up in your everyday life. Then by breaking those patterns down, you'll be able to replicate and apply the rule into your own work. 
 
@@ -36,9 +36,9 @@ The best designers know how to take advantage of this small space, using imagery
 
 If you look closely, you'll see the rule of thirds applied in 90% of the cases. Look at how your eye is drawn to a specific part of the thumbnail first, then moves around as if it's being guided by a hand. This is usually a good indicator that the rule of thirds is being used here to create points of interest.
 
-![Coda artwork using the rule of thirds](https://framerusercontent.com/images/u03JBZ3THgiugkF7BJEMXadAiRs.png)
+![Coda artwork using the rule of thirds](/images/articles/u03JBZ3THgiugkF7BJEMXadAiRs.png.webp)
 
-![AppleTV thumbnail art](https://framerusercontent.com/images/1mW7Gna2qulRAlPVONOkCLpJZo.png)### **A Golden Globe Award-winning series**
+![AppleTV thumbnail art](/images/articles/1mW7Gna2qulRAlPVONOkCLpJZo.png.webp)### **A Golden Globe Award-winning series**
 
 One of my favorite examples of the rule of thirds is the drama series, Mr. Robot, because they unconventionally use the guideline.
 
@@ -48,7 +48,7 @@ But the director shows us how impactful using the same rule can achieve a dramat
 
 Once you see this used, you’ll start to notice how action and dramatic shots rely on focal points anchored to these intersecting points. 
 
-![Mr. Robot uses the rule of thirds](https://framerusercontent.com/images/PrgxVPkgec7NSwxcwV4v9frdQ.png)![Using the lower quadrant to compose the shot in Mr. Robot](https://framerusercontent.com/images/QlTM1YEX1HSzNQvKtljgQvb9Es.png)![Elliot looking off-frame in the lower quadrant of Mr. Robot](https://framerusercontent.com/images/ldFELhZacNkITtKDQwAYecJQfRU.png)
+![Mr. Robot uses the rule of thirds](/images/articles/PrgxVPkgec7NSwxcwV4v9frdQ.png.webp)![Using the lower quadrant to compose the shot in Mr. Robot](/images/articles/QlTM1YEX1HSzNQvKtljgQvb9Es.png.webp)![Elliot looking off-frame in the lower quadrant of Mr. Robot](/images/articles/ldFELhZacNkITtKDQwAYecJQfRU.png.webp)
 
 ### **Interior design**
 
@@ -58,7 +58,7 @@ While not many people will know, the rule of thirds plays heavily into the harmo
 
 It's not immediately apparent, but this technique can be used in many other rooms, to help strengthen the visual interest of a room, while directing your attention more effortlessly.
 
-![Our kitchen layout using the rule of thirds—Photo by Nate Kadlac](https://framerusercontent.com/images/vkOT48ayYM33t2AAaHiao0txJTQ.png)### **Landscape photography**
+![Our kitchen layout using the rule of thirds—Photo by Nate Kadlac](/images/articles/vkOT48ayYM33t2AAaHiao0txJTQ.png.webp)### **Landscape photography**
 
 The rule of thirds for landscape photography is likely the easiest way to see an improvement in your images.
 
@@ -68,13 +68,13 @@ What the pros do are position the horizon line along one of the two horizontal r
 
 Notice the horizon line on the Lone Cypress tree image below, and we use the rule to simply rest it on the top third.
 
-![Lone Cypress tree and Santa Barbara Pier—Photo by Nate Kadlac](https://framerusercontent.com/images/kFCjE2S4u6gKvhjpLtrCmuzrDaA.png)### **Fine art**
+![Lone Cypress tree and Santa Barbara Pier—Photo by Nate Kadlac](/images/articles/kFCjE2S4u6gKvhjpLtrCmuzrDaA.png.webp)### **Fine art**
 
 Even though the rule of thirds wasn't coined until 1797, you can see how it was naturally used in some early artworks by legends like Leonardo Da Vinci and Van Gough.
 
 Composing a piece of artwork is like framing a photo through a lens. The same principles apply, as we unconsciously look for a sense of order. A visual hierarchy.
 
-![Leonardo Da Vinci and Van Gough](https://framerusercontent.com/images/Ep0DbGuo1D5laK0B6cnDHkiJ8gM.png)### **Book covers love the rule of thirds**
+![Leonardo Da Vinci and Van Gough](/images/articles/Ep0DbGuo1D5laK0B6cnDHkiJ8gM.png.webp)### **Book covers love the rule of thirds**
 
 If you're a book on a shelf, you're competing against thousands of other books for our attention. This is why many designers [rely on the rule of thirds](https://www.approachabledesign.co/articles/rule-of-thirds-in-design) not only stand to out, but to draw us in with perfect harmony and visual intrigue. While the right colors, imagery and fonts have a lot to do with this, the layout is one of the most important aspects of book design.
 
@@ -82,7 +82,7 @@ Think about it, there's a lot to convey in a cover. The title of the book, the a
 
 Here's how some book covers use the rule.
 
-![Book cover design using the rule of thirds](https://framerusercontent.com/images/56xRFYRcffKif6cYO0FjXfbEek.png)## **Practice using the rule of thirds grid to increase visual interest**
+![Book cover design using the rule of thirds](/images/articles/56xRFYRcffKif6cYO0FjXfbEek.png.webp)## **Practice using the rule of thirds grid to increase visual interest**
 
 ### **Applying the rule in photography**
 
@@ -94,15 +94,15 @@ Practice taking pictures by aligning the most important element to one of the fo
 
 **Portrait photos**When shooting portraits of people or pets, try aligning the face or the eyes to one of the intersection points. You'll create more drama, essentially telling us what to look at first.
 
-![Unsplash Photo by @filipp_roman_photography](https://framerusercontent.com/images/fVz2WhSmAcqXfRddoO3OZ6Yjag.png)**Landscape photos**When shooting landscapes, align the horizon to one of the horizontal lines, so you're offsetting either the sky or the land.
+![Unsplash Photo by @filipp_roman_photography](/images/articles/fVz2WhSmAcqXfRddoO3OZ6Yjag.png.webp)**Landscape photos**When shooting landscapes, align the horizon to one of the horizontal lines, so you're offsetting either the sky or the land.
 
 If you're not worried about the horizon line, try anchoring a foreground element to an intersection point, like this highly photographed volcano erupting on the Big Island of Hawaii. When the flames are offset, it draw attention to it first, but then notice how your eye floats out to sea, moving around the image in the blink of an eye.
 
 The same goes for the Golden Gate Bridge shot from afar, anchored to the lower right quadrant, drawing all of its focus at first.
 
-![Volcano erupting in Kauai, Hawaii—Photo by Nate Kadlac](https://framerusercontent.com/images/aPsAua7WcLgh3yAX3ucF4xCsE.png)
+![Volcano erupting in Kauai, Hawaii—Photo by Nate Kadlac](/images/articles/aPsAua7WcLgh3yAX3ucF4xCsE.png.webp)
 
-![Golden Gate Bridge—Photo by Nate Kadlac](https://framerusercontent.com/images/2HqiqoeNz3laaEKtW72CSR1jQ.png)### **Applying the rule of thirds in design**
+![Golden Gate Bridge—Photo by Nate Kadlac](/images/articles/2HqiqoeNz3laaEKtW72CSR1jQ.png.webp)### **Applying the rule of thirds in design**
 
 To create a well balanced design, it doesn't mean that everything should be the same size, or even symmentrical. Emotion, tension, and visual intrigues stems from properly counterbalancing the objects at play. This is important to know why the rule of thirds works so well. It's because it helps force you to counterbalance objects on the screen.
 

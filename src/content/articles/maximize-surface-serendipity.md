@@ -3,7 +3,7 @@ title: "Maximize surface serendipity"
 date: 2023-08-13
 category: personal
 description: "Give me four minutes to show you:"
-image: "https://framerusercontent.com/images/USXTjPJIQ4WqBVhAUj2arBMccI.jpg"
+image: "/images/articles/USXTjPJIQ4WqBVhAUj2arBMccI.jpg.webp"
 ---
 
 **Give me four minutes to show you:**
@@ -13,7 +13,7 @@ image: "https://framerusercontent.com/images/USXTjPJIQ4WqBVhAUj2arBMccI.jpg"
 📣 29 hand-picked fonts for YouTube Thumbnails
 💻 Learn the essentials of web design
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)*”People who maximize serendipity balance the humility of not knowing where their next big break will come from with the arrogance of knowing that it will come from somewhere.“ —David Perell*
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)*”People who maximize serendipity balance the humility of not knowing where their next big break will come from with the arrogance of knowing that it will come from somewhere.“ —David Perell*
 
 Since the beginning of my solo creator journey this quote seeps into my mind weekly.
 
@@ -43,7 +43,7 @@ Keep pushing on those doors, then keep telling people about the doors you’re p
 
 ​And then, get on the [waitlist for this book](https://www.extrafocusbook.com/).
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)## 🎨 Better Design Decisions
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)## 🎨 Better Design Decisions
 
 ​[**Learn the design process behind designing podcast covers**](https://lu.ma/podcast-redesign): Khe Hy (Founder RadReads) and I are redesigning his new [**podcast**](https://open.spotify.com/show/40D06BjbvSZvvRlLu1N8lf?si=07456140f689426b) cover art on **Thursday, Aug 24. LIVE.** You'll learn how to approach your own design process, how to choose fonts, colors, and make professional design decisions in your own work. [**Register here. It's free to join.**](https://lu.ma/podcast-redesign)​
 
@@ -53,7 +53,7 @@ Keep pushing on those doors, then keep telling people about the doors you’re p
 
 ## 📸 Make It Yours Moment
 
-![Charles Schulz](https://framerusercontent.com/images/6jGsWK7JK0JcBGxYuiOMDEH2tE.jpg)I'm still working on the final piece to my [**landing page series**](https://approachabledesign.co/articles), so next week I'll show how to design a landing page for a $1,000 product or service offering.
+![Charles Schulz](/images/articles/6jGsWK7JK0JcBGxYuiOMDEH2tE.jpg.webp)I'm still working on the final piece to my [**landing page series**](https://approachabledesign.co/articles), so next week I'll show how to design a landing page for a $1,000 product or service offering.
 
 ​See you next Sunday!
 

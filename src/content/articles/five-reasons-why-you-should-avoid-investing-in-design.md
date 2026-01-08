@@ -3,7 +3,7 @@ title: "Five reasons why you should avoid investing in design"
 date: 2023-10-29
 category: personal
 description: "Give me three minutes to show you:"
-image: "https://framerusercontent.com/images/s8lHkhq4CktxUuY9QAZVbII4w.jpg"
+image: "/images/articles/s8lHkhq4CktxUuY9QAZVbII4w.jpg.webp"
 ---
 
 **Give me three minutes to show you:**
@@ -14,7 +14,7 @@ image: "https://framerusercontent.com/images/s8lHkhq4CktxUuY9QAZVbII4w.jpg"
 
 📽️ 29 of the best fonts for YouTube thumbnails
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)Remember the early sites like Google, Twitter, and Facebook when they launched? They were so simple and ugly, yet they are now worth billions.
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)Remember the early sites like Google, Twitter, and Facebook when they launched? They were so simple and ugly, yet they are now worth billions.
 
 If it has worked out well for them, why should a creator or business like you spend any time on design?
 
@@ -26,13 +26,13 @@ In his eyes, if you’re building something, you shouldn’t spend any time on i
 
 As he says, look at the early days of some of the biggest tech companies. If they survived and looked like this at the beginning, then why put more effort into yours?
 
-![](https://framerusercontent.com/images/tq2HqkbUWrMaLaZIg9zVQOIs.png)I’m inspired by Pieter as an entrepreneur, but there is never one approach to market and designing your products. If there were, every business would look identical because we would all be serving the same, single customer.
+![](/images/articles/tq2HqkbUWrMaLaZIg9zVQOIs.png.webp)I’m inspired by Pieter as an entrepreneur, but there is never one approach to market and designing your products. If there were, every business would look identical because we would all be serving the same, single customer.
 
 You don’t need fancy gradients or animations to create something that stands out, but you might want to show up and design for your users and not yourself.
 
 **But if you don't agree, here are five reasons to avoid investing in design.**
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)## 🎨 Better Design Decisions
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)## 🎨 Better Design Decisions
 
 Your brand does not equal [**your colors or your logo**](https://twitter.com/karrisaarinen/status/1707776326776824223?utm_source=approachabledesign&utm_medium=email)​
 
@@ -42,7 +42,7 @@ Your brand does not equal [**your colors or your logo**](https://twitter.com/kar
 
 ## 📸 Make It Yours Moment
 
-![](https://framerusercontent.com/images/lEoRUrE9GR0n8e2w1Z3y9x8XAU.png)​Public speaking has always been something that intimidates me. The nerves, shaky voice, and the feeling of being unprepared.​
+![](/images/articles/lEoRUrE9GR0n8e2w1Z3y9x8XAU.png.webp)​Public speaking has always been something that intimidates me. The nerves, shaky voice, and the feeling of being unprepared.​
 
 Over the past three weeks, I was invited to participate in the Ultraspeaking Creator Cohort. I took it because I want to shoot more YouTube videos and to show up more on camera more confidently. (And with less preparation)
 

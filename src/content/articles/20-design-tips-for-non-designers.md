@@ -26,7 +26,7 @@ But, if you choose one like [Noto Sans](https://fonts.google.com/specimen/Open+S
 
 These flexible families come in handy when you're designing [YouTube thumbnails](https://approachabledesign.co/articles/youtube-thumbnail-design), podcast cover art, or other odd-sized assets you might need to use for your brand identity.
 
-![Noto Serif on Google Fonts](https://framerusercontent.com/images/IPPdkk9T1pGKBl0PFcKL4Y8VtNg.jpg)
+![Noto Serif on Google Fonts](/images/articles/IPPdkk9T1pGKBl0PFcKL4Y8VtNg.jpg.webp)
 
 ### **Design tip #2: Use padding instead of borders**
 
@@ -36,7 +36,7 @@ You might have a lot of text boxes on the screen, and you’re thinking, “this
 
 Stop. This is why we can use spacing and padding to achieve an invisible border. By adding a little bit of extra spacing, it gives the illusion of a border. 
 
-![How to use padding between lines](https://framerusercontent.com/images/qOZ2NHEfBBHIDTuoUyw63es9k.jpg)### 
+![How to use padding between lines](/images/articles/qOZ2NHEfBBHIDTuoUyw63es9k.jpg.webp)### 
 
 ### **Design tip #3: Ignore color psychology (Hot take!)**
 
@@ -68,7 +68,7 @@ The contrast between elements can be created using scale, imagery, color, and sh
 
 See tip #6 for combining contrasting typefaces.
 
-![Use contrast to stand out](https://framerusercontent.com/images/FoNmvv26IiDD6jGd6S4DoZ1hnwM.jpg)
+![Use contrast to stand out](/images/articles/FoNmvv26IiDD6jGd6S4DoZ1hnwM.jpg.webp)
 
 ### **Design tip #6: Don’t use similar typefaces**
 
@@ -78,7 +78,7 @@ Instead, combine two that have high contrast in style, like a serif and a sans-s
 
 By combining two fonts that look very different, you instantly create an emotional pull.
 
-![Arial vs Helvetica](https://framerusercontent.com/images/iKnzyCcC1TB3259lAJ9ubZo76U.jpg)### 
+![Arial vs Helvetica](/images/articles/iKnzyCcC1TB3259lAJ9ubZo76U.jpg.webp)### 
 
 ### **Design tip #7: Create a visual stack **
 
@@ -208,7 +208,7 @@ The back of a book is compelling but reserved for marketing the author and offer
 
 Your websites should be designed similarly. Take creative control over your home pages and about pages, and make sure your middle content is legible and comfortable to read. 
 
-![Treat your website like a book](https://framerusercontent.com/images/zWt5h2DbLZoshSvn0E5spbngQ.jpg)### 
+![Treat your website like a book](/images/articles/zWt5h2DbLZoshSvn0E5spbngQ.jpg.webp)### 
 
 ### **Design tip #20: Minimalism is boring**
 

@@ -3,7 +3,7 @@ title: "Guess what? You're an art director now"
 date: 2023-07-23
 category: personal
 description: "On Wednesday, I co-hosted a live YouTube thumbnail workshop with 43 people. And while I taught some design fundamentals, what I was really teaching those who joined was how to Art Direct.​"
-image: "https://framerusercontent.com/images/3np2J8oViRfsXShmf6jiUP9I9Q.jpg"
+image: "/images/articles/3np2J8oViRfsXShmf6jiUP9I9Q.jpg.webp"
 ---
 
 On Wednesday, I co-hosted a live YouTube thumbnail workshop with 43 people. And while I taught some design fundamentals, what I was really teaching those who joined was how to Art Direct.​
@@ -12,7 +12,7 @@ Art direction is the ability to add humanity to your design. And it’s going to
 
 *But first, I built something for you if you couldn’t join live. *[***Join the waitlist here***](https://approachabledesign.co/products/youtube-masterclass)* if you want to score a deep discount on it later this week.​(And next week I’ll talk more about building a waitlist landing page like this one)*
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)**Give me three minutes to show you:**
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)**Give me three minutes to show you:**
 
 🎨 How to discover your visual style
 
@@ -20,7 +20,7 @@ Art direction is the ability to add humanity to your design. And it’s going to
 
 🏀 A custom-painted basketball court in the middle of Paris
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)In a fascinating conversation about music production and his role, Rick Rubin admitted he doesn’t know how to use a soundboard or how to make beats.
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)In a fascinating conversation about music production and his role, Rick Rubin admitted he doesn’t know how to use a soundboard or how to make beats.
 
 His skills using instruments are minimal.​
 
@@ -46,7 +46,7 @@ In essence, it’s what Rick Rubin is doing with his artists: He’s helping art
 
 And you need to become an art director for your own business to differentiate yourself.
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)## 🎨 Better Design Decisions
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)## 🎨 Better Design Decisions
 
 ​[**Watch the design process from sketch to final product**](https://www.youtube.com/watch?v=2MrNSjJFBBI?utm_source=approachabledesign&utm_medium=email): It's rare to watch a designer break down ideas and visuals in one session.
 
@@ -54,7 +54,7 @@ And you need to become an art director for your own business to differentiate yo
 
 ​[**If you're a creator, don't quit too soon**](https://www.reddit.com/r/Entrepreneur/comments/o22h74/the_art_and_science_of_getting_to_the_very_top_of?utm_source=approachabledesign&utm_medium=email): Some great insights into what it takes to survive as a creator
 
-![](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)![Photo by Sebastien Michelini](https://framerusercontent.com/images/ErFkhnQD0BNOD4zMYWw4A2Qyw.jpeg)*The Paris' Pigalle basketball court canvassed in a gradient of smooth, iridescent hues.*
+![](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)![Photo by Sebastien Michelini](/images/articles/ErFkhnQD0BNOD4zMYWw4A2Qyw.jpeg.webp)*The Paris' Pigalle basketball court canvassed in a gradient of smooth, iridescent hues.*
 
 Thanks for being here. Next week we'll dive into landing pages that need a waitlist.
 

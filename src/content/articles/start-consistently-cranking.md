@@ -3,7 +3,7 @@ title: "Start consistently cranking"
 date: 2023-07-02
 category: personal
 description: "A fresh coat of ideas"
-image: "https://framerusercontent.com/images/DY99nXlDooMCQVhoHkhWgUqzGw.jpg"
+image: "/images/articles/DY99nXlDooMCQVhoHkhWgUqzGw.jpg.webp"
 ---
 
 ## A fresh coat of ideas
@@ -37,7 +37,7 @@ Consistently cranking is where you make real progress.
 
 ## 📸 Make It Yours Moment
 
-![Drafting ideas for the newsletter](https://framerusercontent.com/images/cBL3akjj19zrZ9MKeQws1GOYWc.jpg)Thanks for sticking around for this fresh coat of paint. Next week I'll dig into why every product or service you have should have its own highly-designed landing page.
+![Drafting ideas for the newsletter](/images/articles/cBL3akjj19zrZ9MKeQws1GOYWc.jpg.webp)Thanks for sticking around for this fresh coat of paint. Next week I'll dig into why every product or service you have should have its own highly-designed landing page.
 
 Your friend in design,
 

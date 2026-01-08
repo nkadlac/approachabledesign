@@ -3,7 +3,7 @@ title: "You're using Midjourney backwards"
 date: 2023-10-01
 category: personal
 description: "Give me three minutes to show you:"
-image: "https://framerusercontent.com/images/x7wVLMqIxFb6wEX2b4NQMNJXCc.jpg"
+image: "/images/articles/x7wVLMqIxFb6wEX2b4NQMNJXCc.jpg.webp"
 ---
 
 **Give me three minutes to show you:**
@@ -12,7 +12,7 @@ image: "https://framerusercontent.com/images/x7wVLMqIxFb6wEX2b4NQMNJXCc.jpg"
 👨‍🎤 3 questions you should ask a designer before hiring them
 🎬 Inside fake movie Branding
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)Learning a new skill requires an appreciation for what's come before.
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)Learning a new skill requires an appreciation for what's come before.
 
 Kevin Garnett and Lebron James entered the NBA as high schoolers with an internet-sized index of knowledge of the Hall of Famers who came before them.
 
@@ -38,6 +38,6 @@ The single word is "/describe" and you'll learn how to use it in this week's ess
 
 What do you stand for, and how do you showcase it? Linear co-founder Karri Saarinen describes how its brand plays a role in the company.
 
-![make It Yours Moment](https://framerusercontent.com/images/PoWpbbSCa3Rk7VQjEfvmVhu0BuE.png)Thanks for showing up this week. Next Sunday I'll describe why confusing your friends and family with what you do is a good thing.
+![make It Yours Moment](/images/articles/PoWpbbSCa3Rk7VQjEfvmVhu0BuE.png.webp)Thanks for showing up this week. Next Sunday I'll describe why confusing your friends and family with what you do is a good thing.
 
 See you next Sunday!

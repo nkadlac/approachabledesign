@@ -3,7 +3,7 @@ title: "The most important page you have"
 date: 2023-07-16
 category: personal
 description: "If you have a product or service offering, the single most important page to turn onlookers into customers is a landing page."
-image: "https://framerusercontent.com/images/PNCKpYPB8wWCW87xxgPrXgURPfc.jpg"
+image: "/images/articles/PNCKpYPB8wWCW87xxgPrXgURPfc.jpg.webp"
 ---
 
 If you have a product or service offering, the single most important page to turn onlookers into customers is a landing page.
@@ -14,7 +14,7 @@ Join us as we whip up visually appealing, clicka-licious thumbnails for Paul!
 
 It’s free to join live, but there won’t be a recording. [​Register now​](https://lu.ma/wb6g2xk2).
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)**Give me five minutes to show you:**
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)**Give me five minutes to show you:**
 
 🎨 How to design a newsletter landing page
 
@@ -22,7 +22,7 @@ It’s free to join live, but there won’t be a recording. [​Register now​]
 
 💻 How do you want your audience to feel?
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)Not long ago, I received an inbound email from a prospect.
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)Not long ago, I received an inbound email from a prospect.
 
 Old Nate would email back promptly, fielding the request swiftly, and engage in a back-and-forth email thread over needs, desires, and pain points. After a week or three, finally sending over a proposal and making the offer.
 
@@ -38,7 +38,7 @@ Landing pages are typically the first interaction someone might have with your p
 
 [**Read this week's blog post**](/articles/newsletter-landing-page)
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)## 🎨 Better Design Decisions
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)## 🎨 Better Design Decisions
 
 [​**How do you want your audience to feel about you?**​](https://open.spotify.com/episode/0qiXsnrff8siCz0xDQKAjT?si=6c7a747541954a6b?utm_source=approachabledesign&utm_medium=email) Monical Lim invited me on her podcast to talk about how design can impact our choices.
 
@@ -46,7 +46,7 @@ Landing pages are typically the first interaction someone might have with your p
 
 "[​**Great packaging does not copy or study. It invents**​](https://open.spotify.com/episode/2qgmvAf1OeEfd5anNPxVs9?si=779abc23f53b4fae)."*—*Estée* Lauder.* This insight is at 24:50 of the episode.
 
-![](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)![](https://framerusercontent.com/images/APWR2Lk17SVjJjrQ0sBWGjM.jpeg)Khe Hy ([​RadReads​](https://radreads.co/?utm_source=approachabledesign&utm_medium=email)) hosted a launch party for his new podcast here in Venice and invited Kris Abdelmessih of [​Moontower Meta​](https://moontower.substack.com/?utm_source=approachabledesign&utm_medium=email) as a guest. What I loved about the party is how Khe made it his own. No frills—just good people in a good space can create magic.
+![](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)![](/images/articles/APWR2Lk17SVjJjrQ0sBWGjM.jpeg.webp)Khe Hy ([​RadReads​](https://radreads.co/?utm_source=approachabledesign&utm_medium=email)) hosted a launch party for his new podcast here in Venice and invited Kris Abdelmessih of [​Moontower Meta​](https://moontower.substack.com/?utm_source=approachabledesign&utm_medium=email) as a guest. What I loved about the party is how Khe made it his own. No frills—just good people in a good space can create magic.
 
 Next week, we'll dig into a more comprehensive designed landing page if you're trying to build demand for a waitlist.
 

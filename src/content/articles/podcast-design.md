@@ -51,7 +51,7 @@ To stay on brand, we kept the same name as our company to avoid any confusion, a
 
 When I initially designed our site, I went with an simple stacked logo, amplifying only the exclamation point. 
 
-![Compnay logos](https://framerusercontent.com/images/SQrPVsrZ7NJAApEKvqliFbFrM.jpg)![Company logo marks](https://framerusercontent.com/images/NAPzhTm6om1AVd0S7Qcye5QFdVg.jpg)![Podcast cover art](https://framerusercontent.com/images/HOawCZgy7ZxQmAaX01uvTv24B3k.jpg)For anyone starting out, don’t spend hours on your logo. But take 20 minutes to [find a good font and type it out](/articles/create-a-simple-logo). 
+![Compnay logos](/images/articles/SQrPVsrZ7NJAApEKvqliFbFrM.jpg.webp)![Company logo marks](/images/articles/NAPzhTm6om1AVd0S7Qcye5QFdVg.jpg.webp)![Podcast cover art](/images/articles/HOawCZgy7ZxQmAaX01uvTv24B3k.jpg.webp)For anyone starting out, don’t spend hours on your logo. But take 20 minutes to [find a good font and type it out](/articles/create-a-simple-logo). 
 
 Part of this exploration is about sending a signal about your taste. It’s subtle, but stacking single intentional decisions like this can save you time and money later on.
 
@@ -71,7 +71,7 @@ We built a list of potential guests to interview, and started reaching out using
 
 Once we confirm a guest, we set up a SquadCast link, and sent that out in a confirmation email. 
 
-![SquadCast screenshot](https://framerusercontent.com/images/yF7lhOPCCPpaJlAKyNbbAis3eB8.jpg)Just before we decided to launch our podcast, Descript acquired [Squadcast](https://squadcast.fm/). Squadcast is like Riverside, but more tightly integrated with [Descript’s software](https://www.descript.com?lmref=C1InTA), and free to use. 
+![SquadCast screenshot](/images/articles/yF7lhOPCCPpaJlAKyNbbAis3eB8.jpg.webp)Just before we decided to launch our podcast, Descript acquired [Squadcast](https://squadcast.fm/). Squadcast is like Riverside, but more tightly integrated with [Descript’s software](https://www.descript.com?lmref=C1InTA), and free to use. 
 
 For the first interview, I took a couple of hours doing research and pulling articles, interviews, and anything I could find on the guest. Then I built a list of questions using some prompts from [Danny Miranda’s](https://twitter.com/heydannymiranda) course—[The Art of Interviewing](https://www.artofinterviewing.com/)—to create a list of good questions to ask.
 
@@ -91,7 +91,7 @@ While we eventually want to hire a full-time audio/video editor, we have been us
 
 ## Creating show notes with AI
 
-![Editing an audio transcript](https://framerusercontent.com/images/I45AbenTiZpa5n1C89keuQj2Mx8.jpg)Just eight months ago, creating show notes, timestamps, and summaries had to be done manually. 
+![Editing an audio transcript](/images/articles/I45AbenTiZpa5n1C89keuQj2Mx8.jpg.webp)Just eight months ago, creating show notes, timestamps, and summaries had to be done manually. 
 
 But now, there are several AI services available to do all of this for your manually. 
 
@@ -103,7 +103,7 @@ Descript also just announced that they’re able to do this too, so I might swit
 
 ## Hosting the podcast
 
-![Settings in Transistor.fm](https://framerusercontent.com/images/eF5VDnElFe6ZnMrcbNzKIR5g.jpg)I did nominal research here, but I have always been a fan of Transistor and their easy to use tools. I’ve followed the co-founder [Justin Jackson](https://twitter.com/mijustin) for awhile, and while bootstrapped, I find their software far ahead of everyone else. 
+![Settings in Transistor.fm](/images/articles/eF5VDnElFe6ZnMrcbNzKIR5g.jpg.webp)I did nominal research here, but I have always been a fan of Transistor and their easy to use tools. I’ve followed the co-founder [Justin Jackson](https://twitter.com/mijustin) for awhile, and while bootstrapped, I find their software far ahead of everyone else. 
 
 We were looking for a service that allowed for dynamic ad insertion, to promote our own games and sponsors. 
 
@@ -115,7 +115,7 @@ Transistor also has some great analytic tools, and support for publishing your p
 
 ## Designing an episode page for our website
 
-![Hey, Good Game episode landing page](https://framerusercontent.com/images/0bnnfWkADQvLoipbAnYFNUCl3s.jpg)Where do you want your episode to live?
+![Hey, Good Game episode landing page](/images/articles/0bnnfWkADQvLoipbAnYFNUCl3s.jpg.webp)Where do you want your episode to live?
 
 I can’t remember the last time I visited a web page for any given podcast I listened to, apart from trying to find a link to a product they mentioned. 
 
@@ -155,17 +155,17 @@ This is not something I could do myself, and so I sought out recommendations for
 
 What’s important when working with creative people is to speak their language. Even providing images or examples you love go a long way. 
 
-![Custom podcast graphics](https://framerusercontent.com/images/0qpW5L89OL6qmrCuzqSByr41q9E.jpg)I gave David my Figma file and a couple of image examples to work with, and he hit it out of the park. 
+![Custom podcast graphics](/images/articles/0qpW5L89OL6qmrCuzqSByr41q9E.jpg.webp)I gave David my Figma file and a couple of image examples to work with, and he hit it out of the park. 
 
 ## Branding the video experience
 
-![Custom animated trailor for a podcast](https://framerusercontent.com/images/lhEGJ4KsG70DvjgBH5d5EESK2Hc.jpg)We're not quite here yet, because we haven't found an editor yet. But, based on the colors, the fonts, and the overall vibe, I've put together some design assets that I want to convey in the interviews. 
+![Custom animated trailor for a podcast](/images/articles/lhEGJ4KsG70DvjgBH5d5EESK2Hc.jpg.webp)We're not quite here yet, because we haven't found an editor yet. But, based on the colors, the fonts, and the overall vibe, I've put together some design assets that I want to convey in the interviews. 
 
 Even if they don't feel complete, I think it's good to explore the overall tone you want to convey. Doing this ahead of time can save you hours when you later decide to take on this effort. 
 
 Just knowing how to throw around some colors and fonts in a design tool like Figma can help you create whatever you can imagine, even if you're not a designer. I [even have a course](https://approachabledesign.co/courses/8020-design-challenge) to show you how to do this. 
 
-![Podcast video graphics](https://framerusercontent.com/images/IAfuSZMIZhAAGa4FhdAkR4Ej44.jpg)
+![Podcast video graphics](/images/articles/IAfuSZMIZhAAGa4FhdAkR4Ej44.jpg.webp)
 
 ## Hiring a full-time podcast/YouTube editor
 

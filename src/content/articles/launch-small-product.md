@@ -3,7 +3,7 @@ title: "How to launch a small digital product into the world"
 date: 2023-08-06
 category: personal
 description: "Give me three minutes to show you:"
-image: "https://framerusercontent.com/images/h5LNN7QAhJx4BQn6MmQgAlACKA.jpg"
+image: "/images/articles/h5LNN7QAhJx4BQn6MmQgAlACKA.jpg.webp"
 ---
 
 **Give me three minutes to show you:**
@@ -12,7 +12,7 @@ image: "https://framerusercontent.com/images/h5LNN7QAhJx4BQn6MmQgAlACKA.jpg"
 📣 One idea to stand out that is still underrated
 💻 What 120 architects decided to do in Ukraine
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)This week I announced the [​**official launch**​](https://twitter.com/kadlac/status/1684969967111057409?s=20) of a new business that a few friends and I started earlier this year. It's called Hey Good Game, and it's like a tinier version of [​**Tiny**​](https://tiny.com/)—for brainy games.
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)This week I announced the [​**official launch**​](https://twitter.com/kadlac/status/1684969967111057409?s=20) of a new business that a few friends and I started earlier this year. It's called Hey Good Game, and it's like a tinier version of [​**Tiny**​](https://tiny.com/)—for brainy games.
 
 What I love most about this is that it combines everything I love: design, business, branding, games, writing, SEO, marketing, and community.
 
@@ -44,7 +44,7 @@ At [​**Hey Good Game**​](https://www.hey.gg/), none of us could handle every
 
 Don't be afraid to have fun and start your next project. But make sure to consider the areas you want to avoid ahead of time.
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)## 🎨 Make Better Design Decisions
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)## 🎨 Make Better Design Decisions
 
 [​**How to make your sales page much stronger**​](https://www.youtube.com/watch?v=ZDqK4Fye114?utm_source=approachabledesign&utm_medium=email): A live session on crafting better sales pages.
 
@@ -56,9 +56,9 @@ Don't be afraid to have fun and start your next project. But make sure to consid
 
 ## 📸 Make It Yours Moment
 
-![](https://framerusercontent.com/images/A432Btvk2KfJsRwcSWVslxSpBM.jpg)After Russia pulled forces out of the Kyiv suburb of Irpin, 120 architects devised a plan to rebuild and make it theirs.
+![](/images/articles/A432Btvk2KfJsRwcSWVslxSpBM.jpg.webp)After Russia pulled forces out of the Kyiv suburb of Irpin, 120 architects devised a plan to rebuild and make it theirs.
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)Thanks for reading!
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)Thanks for reading!
 
 Next week I'll dig into the last of our landing page series, what goes into a high-ticket course landing page, and how I built mine for my live workshop.
 

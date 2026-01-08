@@ -62,7 +62,7 @@ And if the same word comes up more than once, that’s a good sign as you’ll s
 
 ### Step 1: Spend one minute on each question and write 2-3 words for each:
 
-![](https://framerusercontent.com/images/z40FiOUvoRBVVeMS0wF6l2D6L8.jpg)
+![](/images/articles/z40FiOUvoRBVVeMS0wF6l2D6L8.jpg.webp)
 - Where is your favorite place in the world?
 - What brings you joy?
 - Describe the room you’re sitting in right now
@@ -76,7 +76,7 @@ And if the same word comes up more than once, that’s a good sign as you’ll s
 
 ### Step 2: Pick 3-5 keywords that represent your best self
 
-![](https://framerusercontent.com/images/T4CeZkY7AODVlQCCQ96T4KhkxFI.jpg)Much of this process is about laying down all the seeds of our personality, then standing up and spotting patterns. 
+![](/images/articles/T4CeZkY7AODVlQCCQ96T4KhkxFI.jpg.webp)Much of this process is about laying down all the seeds of our personality, then standing up and spotting patterns. 
 
 Start by taking your 20-30 keywords and look to see how they make you feel. These words are like loose puzzle pieces to your personality. You want to pick the ones that best represent how you view yourself, and narrow your collection down to 3-5 words. 
 
@@ -84,7 +84,7 @@ First, look for the words that you mentioned 2-3 times, and circle those. If you
 
 ### Step 3: Save 3-5 images for each keyword
 
-![](https://framerusercontent.com/images/YifZWGbJ6LnOagirNduD4GDtKyA.jpg)This next step is where we apply a visual aesthetic to your keywords. Each word serves as a launching point for choosing your images. 
+![](/images/articles/YifZWGbJ6LnOagirNduD4GDtKyA.jpg.webp)This next step is where we apply a visual aesthetic to your keywords. Each word serves as a launching point for choosing your images. 
 
 Use each word and search Unsplash.com with it (or any image search) and start to pick images that you feel connected to in some way. It could be because of the vibe, the colors, or if it reminds you of something in your life. 
 
@@ -102,7 +102,7 @@ Take all 15-25 images and lay them out on a board. I tend to use Figma (It’s f
 
 ### Step 4: Loosely grab 10 colors from your images
 
-![](https://framerusercontent.com/images/Tdeu1zqoD3GkwIiVfCtDE3tVqhs.jpg)Gather your images together in Figma (or any design program that allows you to set all of your images together) and select 10 colors.
+![](/images/articles/Tdeu1zqoD3GkwIiVfCtDE3tVqhs.jpg.webp)Gather your images together in Figma (or any design program that allows you to set all of your images together) and select 10 colors.
 
 At this step, you’re again looking for colors repeated in your images. Using the eyedropper tool, you can sample the most common colors and set them aside. 
 
@@ -114,7 +114,7 @@ For example, you might have selected a few images that include water in them. Yo
 
 ### Step 5: Choose 1 or 2 colors to use
 
-![](https://framerusercontent.com/images/FKLXGuYxfWQFosglZyJcVjznno.jpg)Now comes the moment of truth!
+![](/images/articles/FKLXGuYxfWQFosglZyJcVjznno.jpg.webp)Now comes the moment of truth!
 
 Looking at your 10 colors, it’s time to pick 1 or 2 colors from the set. At this point there are no wrong decisions, because all of the colors you’ve chosen have been filtered down through your personal stories and experiences. 
 
@@ -122,7 +122,7 @@ Picking one color from the bunch might feel difficult, but just follow your inst
 
 ### Step 6: Name your colors
 
-![](https://framerusercontent.com/images/l8u5QwBp22js4W1ZhqW7MRWGiPc.jpg)The last step is to name your colors. You can name them anything you want, but I recommend naming them with [color] + [noun].
+![](/images/articles/l8u5QwBp22js4W1ZhqW7MRWGiPc.jpg.webp)The last step is to name your colors. You can name them anything you want, but I recommend naming them with [color] + [noun].
 
 For my gold color, I used Gold Sun. For my off-white, I call it Sandy White. These are simple names but now they’re my names. 
 

@@ -40,7 +40,7 @@ Why spend hundreds of hours building something up you care about, then type out 
 
 For the purpose of this guide, we're focusing on creating a **logotype**. A logotype is a logo that focuses on your name or initials. It doesn't require too much effort, because we're not trying to create a graphic icon.
 
-![](https://framerusercontent.com/images/3kJt7P6mXvV1nNoezCLq9fvZx00.webp)Examples of logotypes
+![](/images/articles/3kJt7P6mXvV1nNoezCLq9fvZx00.webp.webp)Examples of logotypes
 
 ### Approach 1: Your signature is your snowflake
 
@@ -48,13 +48,13 @@ One of the easiest ways to come up with something unique is by using your own si
 
 There are many good examples, but popular YouTuber [Ali Abdaal](https://aliabdaal.com/) uses his own initials for his [personal website](https://approachabledesign.co/articles/personal-website), which is one of the first things I notice when I visit it. It adds some personality to an otherwise straightforward design.
 
-![Ali Abdaal’s logo](https://framerusercontent.com/images/SsyTEB0GyPUWPkMRbFoAvhSPQ.webp)Using your full name, a nickname, or your initials is all fair game here. Choose something that you can repeat, and make it recognizable and fun. Plus, you saved yourself some cash.
+![Ali Abdaal’s logo](/images/articles/SsyTEB0GyPUWPkMRbFoAvhSPQ.webp.webp)Using your full name, a nickname, or your initials is all fair game here. Choose something that you can repeat, and make it recognizable and fun. Plus, you saved yourself some cash.
 
 One thing to be careful of is sizing. If your signature or initials aren't legible at small sizes, it might not be legible enough to use. Thankfully, it's easy to get this right.
 
 An example of this is the signature I use for my illustrations. I use just my last name, which was just a sketch I made on the iPad and brought it over to Figma. It's now easy to just layer that on top of my sketches.
 
-![My own watermark was created from a sketch](https://framerusercontent.com/images/5bi36i10HwxJFkZkwTIO9ZWcYSo.webp)**How to create a logo from your signature using Figma:**
+![My own watermark was created from a sketch](/images/articles/5bi36i10HwxJFkZkwTIO9ZWcYSo.webp.webp)**How to create a logo from your signature using Figma:**
 
 Create a digital version of your signature
 
@@ -98,7 +98,7 @@ A simple question would be, do you find yourself connecting with modern design o
 
 For Charlie Bleecker's site, we found a beautiful-looking serif typeface, because Charlie felt drawn towards a natural and traditional aesthetic. Plus, her love of Harry Potter was hard not to embrace.
 
-![Testing different font variations](https://framerusercontent.com/images/JC8SL1u4tOZN84r3ntsrrdlUcA.webp)From there, we typed it out in Figma and started playing around with some layout options. But because we picked something interesting and unique to start with, we hardly had to modify it.
+![Testing different font variations](/images/articles/JC8SL1u4tOZN84r3ntsrrdlUcA.webp.webp)From there, we typed it out in Figma and started playing around with some layout options. But because we picked something interesting and unique to start with, we hardly had to modify it.
 
 ### Approach 3: Modify your typeface
 
@@ -115,7 +115,7 @@ Figma is free to use, so first, go download the desktop app for Mac or PC.
 - Double click on your name and you'll see a number of small circles, which are points you can drag, delete, or add to.
 - Experiment and modify your typeface into something unique.
 
-![Outline your text and modify the logo](https://framerusercontent.com/images/EfzCVxaID6UXu86yEYdV8U9iQE.webp)Outline your text and modify the logo
+![Outline your text and modify the logo](/images/articles/EfzCVxaID6UXu86yEYdV8U9iQE.webp.webp)Outline your text and modify the logo
 
 Try [different layouts](/articles/rule-of-thirds-in-design) like stacking it or laying it out horizontally. You might even want a few options if you're going to use it in different places.
 
@@ -123,15 +123,15 @@ You could try changing the weight of your first and last name, use just your ini
 
 **There are an infinite number of choices here that beat out typing your name in Arial.**
 
-![Different font choices](https://framerusercontent.com/images/tj8RzIAt9gDJk70OiuMDAkuIbh8.webp)For Charlie's logo, we wanted to make sure her name was legible but included a bit of flair to it. I ended up using a capitalized first name, and a title case last name. I then added a flourish to the 'I' by using an existing shape I found in the typeface itself.
+![Different font choices](/images/articles/tj8RzIAt9gDJk70OiuMDAkuIbh8.webp.webp)For Charlie's logo, we wanted to make sure her name was legible but included a bit of flair to it. I ended up using a capitalized first name, and a title case last name. I then added a flourish to the 'I' by using an existing shape I found in the typeface itself.
 
-![Glyphs found in the typeface](https://framerusercontent.com/images/XOCpmBsFREZPPS9zX4bDpWL2r4.webp)**TIP:** This is a hidden secret many don't know about. On a mac, you can use Apple's Font Book to view all of the fonts on your computer. By opening it up, designers sometimes add a lot of extra characters or glyphs you can use for icons or in our case, a dot for the letter I. (For your next friendly trivia game, the dot is actually called a tittle.)
+![Glyphs found in the typeface](/images/articles/XOCpmBsFREZPPS9zX4bDpWL2r4.webp.webp)**TIP:** This is a hidden secret many don't know about. On a mac, you can use Apple's Font Book to view all of the fonts on your computer. By opening it up, designers sometimes add a lot of extra characters or glyphs you can use for icons or in our case, a dot for the letter I. (For your next friendly trivia game, the dot is actually called a tittle.)
 
 We also chose some primary and secondary colors for her site and used that to fill in the tittle sparkle (I'll never get used to that word) so it stood out.
 
 We now created a logo using only the beautiful work of an existing design, and we didn't need to create anything ourselves.
 
-![Final logotype for Charlie Bleecker](https://framerusercontent.com/images/NOsSVAGT3roZNpclUtnHquIEaXQ.webp)In the end, we designed two stacked variations for both light and dark backgrounds, which you can see on her site here.
+![Final logotype for Charlie Bleecker](/images/articles/NOsSVAGT3roZNpclUtnHquIEaXQ.webp.webp)In the end, we designed two stacked variations for both light and dark backgrounds, which you can see on her site here.
 
 We built a beautiful logo that leaned heavily on the work of the original typeface, without having to edit or spend too much time on it overall.
 

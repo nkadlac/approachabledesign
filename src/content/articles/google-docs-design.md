@@ -20,7 +20,7 @@ Printed books have been doing something right for over a thousand years. So toda
 
 These next few minutes could change your life. (And mine if you ever share a doc with me!)
 
-![Google Docs Experience](https://framerusercontent.com/images/4acu3EgnL4JtGU8R5OWpBhyiok.png)**Here’s a quick breakdown:**
+![Google Docs Experience](/images/articles/4acu3EgnL4JtGU8R5OWpBhyiok.png.webp)**Here’s a quick breakdown:**
 
 - Remove page breaks
 - Change the background color to anything except pure white
@@ -43,7 +43,7 @@ To turn on pageless viewing, navigate here:
 
 **→ File > Page Setup > Select the tab labeled *****Pageless***
 
-![File > Page Setup > Pageless View](https://framerusercontent.com/images/IpKkhIxbEypaulChNe0Adys.jpg)File > Page Setup > Pageless View
+![File > Page Setup > Pageless View](/images/articles/IpKkhIxbEypaulChNe0Adys.jpg.webp)File > Page Setup > Pageless View
 
 ## 2. Change the background color to anything except bright white
 
@@ -51,7 +51,7 @@ Now, if we just stopped after step one, the entire internet might let out a big 
 
 There’s one thing you need to know about pure black and white: they’re the most intense colors you can use together. They’re also used out of pure laziness because they’re default settings no one wants to change. They’re also used explicitly by luxury brands like Prada or Gucci when they need your immediate attention to spend thousands of dollars on a handbag.
 
-![](https://framerusercontent.com/images/gdMBdk0Sclgt1mLYEM32NwP4I.jpg)But we’re just trying to give your colleagues and readers a more pleasant reading experience—not sell thousand-dollar heels—so let’s soften it up a bit.
+![](/images/articles/gdMBdk0Sclgt1mLYEM32NwP4I.jpg.webp)But we’re just trying to give your colleagues and readers a more pleasant reading experience—not sell thousand-dollar heels—so let’s soften it up a bit.
 
 I’m going to give you a nice off-white sandy beachy color to use, which takes the edge off a bit. It’s going to feel like a soft piece of paper lit by an old gold-plated 40w desk lamp. You can always change this up later.
 
@@ -61,7 +61,7 @@ I’m going to give you a nice off-white sandy beachy color to use, which takes 
 
 File > Page Setup > Background Color
 
-![Background Color > Custom HEX Value](https://framerusercontent.com/images/QCZtOtsrg0WrcyHV13oodGn3Q.jpg)Background Color > Custom HEX Value
+![Background Color > Custom HEX Value](/images/articles/QCZtOtsrg0WrcyHV13oodGn3Q.jpg.webp)Background Color > Custom HEX Value
 
 Now that you’re here, click on the color swatch labeled "Background color.”
 
@@ -83,7 +83,7 @@ It’s easier to tell you what not to do, instead of the many things you can do.
 
 But first, just set up your Google Doc with a title, headers (1-4), subtitle, and normal text. You’ll want to see these side by side when making your text decisions. [Here’s a starting template](https://approachabledesign.co/google-docs-template) for you to use. (File > Make a Copy before editing please!)
 
-![](https://framerusercontent.com/images/li2gxA5GxquXR3YoxdgH6J02By0.jpg)**Don’t make these mistakes:**
+![](/images/articles/li2gxA5GxquXR3YoxdgH6J02By0.jpg.webp)**Don’t make these mistakes:**
 
 - Never use more than two typefaces unless you want to make things difficult for yourself. And really, most of you can stick with one font that has multiple styles.
 - Don’t use two different sans-serif fonts, like Helvetica and Arial. Just pick one and use different sizes or weights to differentiate between them.
@@ -103,7 +103,7 @@ First, I’ll add a few pieces of text to a document to cover my immediate bases
 - Then select the Style dropdown and select “Update *Title* to match”
 - Now do the same for the title, headers (1-5), subtitle, and normal text options.
 
-![Update your font styles to match](https://framerusercontent.com/images/e06JtLZfLtze01dLiAnKiuL6Lg.webp)Update your font styles to match
+![Update your font styles to match](/images/articles/e06JtLZfLtze01dLiAnKiuL6Lg.webp.webp)Update your font styles to match
 
 ## 4. Update your font colors
 

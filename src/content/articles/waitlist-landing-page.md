@@ -17,11 +17,11 @@ I can't remember where this bet came from, but only where it ended up.
 - Part 3: [How to flip a free workshop into an evergreen product landing page](/articles/digital-product-landing-page)
 - Part 4: [How to design a landing page for a $1,000 product or service offering](https://approachabledesign.co/articles/1000-landing-page-offer)
 
-![How long should your landing page be?](https://framerusercontent.com/images/aPasIZJdCFeMF4dUeOP8RJ3Djq0.jpg)To set the stakes even higher (and to prove it publicly) I devised a plan to create an event to prove I could eat more hot dogs.  
+![How long should your landing page be?](/images/articles/aPasIZJdCFeMF4dUeOP8RJ3Djq0.jpg.webp)To set the stakes even higher (and to prove it publicly) I devised a plan to create an event to prove I could eat more hot dogs.  
 
 So of course I created a landing page and website for the "coming soon" Hot Dog Eating Contest. 
 
-![Hot Dog Eating Contest](https://framerusercontent.com/images/vutTBg74I7pTfrckHjupU17BQhs.jpg)Over the next two months, I turned a silly bet into a full blown contest where we had the local news, the BBC News, and [videos](https://www.youtube.com/watch?v=RddLlXpgMfc&list=PLo25oAsbZUv9KEV4RRDroW4EVGGrzrpn4&index=3) of all 14 contestants creating fake identities like wrestling characters promoting the main event. 
+![Hot Dog Eating Contest](/images/articles/vutTBg74I7pTfrckHjupU17BQhs.jpg.webp)Over the next two months, I turned a silly bet into a full blown contest where we had the local news, the BBC News, and [videos](https://www.youtube.com/watch?v=RddLlXpgMfc&list=PLo25oAsbZUv9KEV4RRDroW4EVGGrzrpn4&index=3) of all 14 contestants creating fake identities like wrestling characters promoting the main event. 
 
 We even attracted a Nathan's Hot Dog participant who didn't want to be named because this event was in his words, "Non-sanctioned." 
 
@@ -31,19 +31,19 @@ On the more serious side, an email app called Mailbox in 2013 generated 380,000 
 
 What goes into a perfect waitlist page? 
 
-![How long should your landing page be?](https://framerusercontent.com/images/aPasIZJdCFeMF4dUeOP8RJ3Djq0.jpg)## Five things an effective coming-soon landing page needs to have
+![How long should your landing page be?](/images/articles/aPasIZJdCFeMF4dUeOP8RJ3Djq0.jpg.webp)## Five things an effective coming-soon landing page needs to have
 
 In many ways, a coming-soon landing page is less complicated than most pages. You don't have to share too many details since there is no product yet.
 
 But your main goal is to drive curiosity and anticipation.
 
-![Mailbox App Landing Page](https://framerusercontent.com/images/ELHQsOPn0Nqtu7Sma6sJOiCzOk.jpg)### 1. A clear mission
+![Mailbox App Landing Page](/images/articles/ELHQsOPn0Nqtu7Sma6sJOiCzOk.jpg.webp)### 1. A clear mission
 
 Many effective landing pages are stories at the heart.
 
 Hey.com and Mailbox—both email apps—launched seven years apart, but used the same method. Write a long form post and put a stake in the ground.
 
-![Hey.com landing page waitlist](https://framerusercontent.com/images/NpzwCXioJUZ6iAcVY4u0OCe1a4.jpg)With a lead magnet or newsletter landing page, the offer is immediate and needs to be clear, RIGHT NOW.
+![Hey.com landing page waitlist](/images/articles/NpzwCXioJUZ6iAcVY4u0OCe1a4.jpg.webp)With a lead magnet or newsletter landing page, the offer is immediate and needs to be clear, RIGHT NOW.
 
 If you're building a waitlist, the offer is not immediate, so you need to tug on their emotions a little more to get them to buy into the mission of what you're doing.
 

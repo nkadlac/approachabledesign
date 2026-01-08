@@ -10,7 +10,7 @@ It’s a Friday night with a glass of boxed cabernet in hand—and like most peo
 
 The first two results are YouTube videos and this is what passes as being acceptable examples of well-designed Google Sheets:
 
-![](https://framerusercontent.com/images/1CGs8TZTBV2sKjh3PsRXUQqS8.jpg)In case I’m being too subtle, these are not well-designed!
+![](/images/articles/1CGs8TZTBV2sKjh3PsRXUQqS8.jpg.webp)In case I’m being too subtle, these are not well-designed!
 
 Nothing against what these people view as acceptable, but if you decide that vertically aligned text, low-contrast backgrounds, and brightly colored cells with unreadable text are what people enjoy looking at; many thoughts and prayers.
 
@@ -36,13 +36,13 @@ Even bad restaurant menus lack good spacing. (Badly formatted menus when I’m h
 
 I will usually add two spaces of padding to the left of each cell. This helps to give the text some breathing room around the text, especially if you end up using background colors later on. (Which we will)
 
-![](https://framerusercontent.com/images/Ifa0f2XLQMI7pUwkdqwkO2kbtU.jpg)To do this, open up the Custom Number Format menu:
+![](/images/articles/Ifa0f2XLQMI7pUwkdqwkO2kbtU.jpg.webp)To do this, open up the Custom Number Format menu:
 
 **→ *****Select all cells***** > Format > Number > Custom Number Format**
 
-![](https://framerusercontent.com/images/I4vAbDhIRBCCHC4nTmcXyygzw.jpg)
+![](/images/articles/I4vAbDhIRBCCHC4nTmcXyygzw.jpg.webp)
 
-![](https://framerusercontent.com/images/PjKz2M3TzPAKp7Au5CX8iwjfGEw.jpg)Once you have this menu open, you’ll want to type, **[space][space]@**, then click Apply.
+![](/images/articles/PjKz2M3TzPAKp7Au5CX8iwjfGEw.jpg.webp)Once you have this menu open, you’ll want to type, **[space][space]@**, then click Apply.
 
 It feels a bit hacky, but what you’re doing is adding two spaces to the left of each cell that is selected. The “@” symbol represents the cell itself.
 
@@ -62,9 +62,9 @@ Imagine what spreadsheets might look like from some major brands. These are not 
 
 Now, what might your own fresh sheets look like?
 
-![](https://framerusercontent.com/images/8FqzKnbwwqffHIRd5tdayb98k.jpg)**Here’s how I think about picking color schemes for spreadsheets:**
+![](/images/articles/8FqzKnbwwqffHIRd5tdayb98k.jpg.webp)**Here’s how I think about picking color schemes for spreadsheets:**
 
-![](https://framerusercontent.com/images/SUZHIylUGgsOSGOoaQnGABPNUOs.jpg)You’ll want to choose a primary color—used for headers—then pick two alternating row colors that pull from the same color (or hue), with slight differentiation in tint and shade.
+![](/images/articles/SUZHIylUGgsOSGOoaQnGABPNUOs.jpg.webp)You’ll want to choose a primary color—used for headers—then pick two alternating row colors that pull from the same color (or hue), with slight differentiation in tint and shade.
 
 Even though we’re using dark headers above, I prefer to keep mine on the lighter side so I don’t need to also change text colors based on the background.
 
@@ -72,7 +72,7 @@ Even though we’re using dark headers above, I prefer to keep mine on the light
 
 **→ Format > Alternating Colors**
 
-![Alternating color rows](https://framerusercontent.com/images/sgWCaR9zu8n1DlYI5iEZn9EloA.jpg)By clicking on each swatch, you’ll open up a menu where you can change the HEX values of the header and alternating rows. This will give your spreadsheet an entirely new canvas to work from.
+![Alternating color rows](/images/articles/sgWCaR9zu8n1DlYI5iEZn9EloA.jpg.webp)By clicking on each swatch, you’ll open up a menu where you can change the HEX values of the header and alternating rows. This will give your spreadsheet an entirely new canvas to work from.
 
 **I included my default settings here, but you can add any color you want.**
 
@@ -80,7 +80,7 @@ Even though we’re using dark headers above, I prefer to keep mine on the light
 - Color 1: #FFFEFB
 - Color 2: #FBF8F2
 
-![My default sheets template](https://framerusercontent.com/images/LP5OpYGpHxipEq5rIeXCOXC2ENc.jpg)## 
+![My default sheets template](/images/articles/LP5OpYGpHxipEq5rIeXCOXC2ENc.jpg.webp)## 
 
 ## 3. The best spreadsheet fonts to use that are not Arial
 

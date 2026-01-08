@@ -34,7 +34,7 @@ If you try to say or show too much, you’ll end up confusing the message and fo
 
 ### 1. What can be removed from your video thumbnails?
 
-![Paul Millerd YouTube thumbnail](https://framerusercontent.com/images/gXyAPbfmUmjd1GOVuRLaUw9qQw.png)This is the very first question I ask myself. Are there too many people in the shot? Are you using more than 4 words? Do things look cluttered? If you squint your eyes, what is the visual priority?
+![Paul Millerd YouTube thumbnail](/images/articles/gXyAPbfmUmjd1GOVuRLaUw9qQw.png.webp)This is the very first question I ask myself. Are there too many people in the shot? Are you using more than 4 words? Do things look cluttered? If you squint your eyes, what is the visual priority?
 
 Start with a single image, a few words, a single color, and the rule of thirds. Play with the spacing and get an idea for where you want to go. Play with these ideas on an open canvas like Figma, which lets you iterate and compare designs side by side. 
 
@@ -48,7 +48,7 @@ Also, try resisting the urge to use stock images. It comes off as generic—and 
 
 Color contrastSimply, if you have a dark photo, try using a lighter background. One of the first design changes I improved here was to help lift the image off the background by moving in the opposite direction of the focal point. Many times this means choosing a darker background to offset the lighter image. 
 
-![High-contrast YouTube thumbnail](https://framerusercontent.com/images/qVUP06mlPNThHdF5HvF0oGmOl90.png)BackgroundsA busy background image creates chaos in your YouTube thumbnail images. One of the easiest tricks to downplay a busy image is to desaturate it, then apply a simple color screen over the top at about an 80% opacity. 
+![High-contrast YouTube thumbnail](/images/articles/qVUP06mlPNThHdF5HvF0oGmOl90.png.webp)BackgroundsA busy background image creates chaos in your YouTube thumbnail images. One of the easiest tricks to downplay a busy image is to desaturate it, then apply a simple color screen over the top at about an 80% opacity. 
 
 This gives the background a monotone look, leveling up the quality and giving you a professional YouTube thumbnail image to work with.
 
@@ -60,13 +60,13 @@ And if that takes more than a second, you’ve lost their attention.
 
 What you want to do is scale up your images or text and remove what’s unnecessary. 
 
-![High-contrast text](https://framerusercontent.com/images/N4lqE8XraLfegWNrkbYaUUbFCy4.png)For instance, Khe started with two people in this shot with some text in the center.  But the text was shrunk to fit between them. This is pretty common, but try overlapping the text over the bodies and using a color background to highlight a keyword or two. 
+![High-contrast text](/images/articles/N4lqE8XraLfegWNrkbYaUUbFCy4.png.webp)For instance, Khe started with two people in this shot with some text in the center.  But the text was shrunk to fit between them. This is pretty common, but try overlapping the text over the bodies and using a color background to highlight a keyword or two. 
 
 This simple trick adds contrast, pulls attention into one word, and lets you scale up instead of down. Your YouTube thumbnail will now feel more balanced when the text isn't trying to squeeze into a small space. 
 
 ### 3. Do you have high-quality assets?
 
-![High quality self portraits](https://framerusercontent.com/images/PMXYtzXdpHYhXgJTffG2Y15nRM.jpg)A common approach is to shoot and edit your video and then screenshot your video for graphics. If you’re doing this, you’re working from behind, and it’s difficult to create something notable. 
+![High quality self portraits](/images/articles/PMXYtzXdpHYhXgJTffG2Y15nRM.jpg.webp)A common approach is to shoot and edit your video and then screenshot your video for graphics. If you’re doing this, you’re working from behind, and it’s difficult to create something notable. 
 
 Fonts: I usually opt for sans-serif fonts for thumbnails. It’s easier to read at smaller sizes, and to work with. [Here's an article on my favorite YouTube fonts to use](https://approachabledesign.co/articles/best-youtube-fonts).
 
@@ -76,25 +76,25 @@ Backgrounds: Use high-quality images, or try using [AI tools like Midjourney](ht
 
 Icons: I don’t always recommend icons, but [Josh Spector](https://www.youtube.com/@JoshSpectorVideos) uses them in his minimal approach. It works because he doesn't rely on other images or effects. 
 
-![Josh Spector YouTube thumbnails](https://framerusercontent.com/images/haLH8xV0mkzZ6RKq8UdSyJ80os.png)In my [YouTube Masterclass](https://approachabledesign.co/products/youtube-masterclass), I provide you several high-quality assets to work with in all of your thumbnails. 
+![Josh Spector YouTube thumbnails](/images/articles/haLH8xV0mkzZ6RKq8UdSyJ80os.png.webp)In my [YouTube Masterclass](https://approachabledesign.co/products/youtube-masterclass), I provide you several high-quality assets to work with in all of your thumbnails. 
 
 ### 4. Are you using less than five words?
 
-![YouTube thumbnails using minimal text](https://framerusercontent.com/images/xDbQns2uMpZ2RvIcGW8gVMoA0zQ.png)The best YouTube thumbnails convey a story without any text. Unfortunately, this is an extremely difficult and expensive process because you need to craft a story with pre-planned photography. This requires custom design work. 
+![YouTube thumbnails using minimal text](/images/articles/xDbQns2uMpZ2RvIcGW8gVMoA0zQ.png.webp)The best YouTube thumbnails convey a story without any text. Unfortunately, this is an extremely difficult and expensive process because you need to craft a story with pre-planned photography. This requires custom design work. 
 
 You’ll notice big channels like Mr. Beast rarely use text because the images are so strong. But they pay thumbnail designers in the low five figures to create and a/b test these. 
 
-![Khe Hy YouTube thumbnail](https://framerusercontent.com/images/lNhQlsZhPAQ7Y9TuhNMy537jxM.png)When you make a YouTube thumbnail, the text should be simple, and compelling, and does not repeat your video title. Use these few words to drive curiosity and intrigue, like a hook to your title. 
+![Khe Hy YouTube thumbnail](/images/articles/lNhQlsZhPAQ7Y9TuhNMy537jxM.png.webp)When you make a YouTube thumbnail, the text should be simple, and compelling, and does not repeat your video title. Use these few words to drive curiosity and intrigue, like a hook to your title. 
 
 Let the video title do the heavy lifting, and the thumbnail text provokes the viewer. 
 
 ### 5. Are you creating depth by stacking layers?
 
-![Layer Stacking](https://framerusercontent.com/images/eMCuEhfPXeAl24WTb3dBOX5oJo.png)Beautiful and compelling thumbnails use layer stacking to create a sense of depth. This gives your design a sense of natural flow, because in the real world, things overlap all the time and it’s natural to allow for a bit of imperfect qualities. 
+![Layer Stacking](/images/articles/eMCuEhfPXeAl24WTb3dBOX5oJo.png.webp)Beautiful and compelling thumbnails use layer stacking to create a sense of depth. This gives your design a sense of natural flow, because in the real world, things overlap all the time and it’s natural to allow for a bit of imperfect qualities. 
 
-![Tim Ferriss Layered Text](https://framerusercontent.com/images/LrrgFepjDSWvfkXRMS7v0xPVQQ0.png)Think of layers like a deck of cards. The topmost card covers the cards below it. The bottom card is covered up by all the cards above it. Layers in design work the same way, and you can use this to your advantage when tucking letters behind people, or overlapping your own images with other layers. 
+![Tim Ferriss Layered Text](/images/articles/LrrgFepjDSWvfkXRMS7v0xPVQQ0.png.webp)Think of layers like a deck of cards. The topmost card covers the cards below it. The bottom card is covered up by all the cards above it. Layers in design work the same way, and you can use this to your advantage when tucking letters behind people, or overlapping your own images with other layers. 
 
-![Netflix Thumbnails](https://framerusercontent.com/images/76TwKspBVBB19YWrV1ajNvh89U0.png)Take a look at any streaming service and study their thumbnail art. You’ll see text running behind people, overlapping in front of people, and it just looks great. This same technique can help your YouTube thumbnail design stand out.
+![Netflix Thumbnails](/images/articles/76TwKspBVBB19YWrV1ajNvh89U0.png.webp)Take a look at any streaming service and study their thumbnail art. You’ll see text running behind people, overlapping in front of people, and it just looks great. This same technique can help your YouTube thumbnail design stand out.
 
 ### 6. Are you designing using the right YouTube thumbnail size?
 
@@ -114,7 +114,7 @@ My favorite trick to create eye-catching YouTube thumbnail is to space things us
 
 When you have a lot of design elements to work with, it's difficult to know where to place everything. 
 
-The Rule of Thirds![](https://framerusercontent.com/images/nsLaWoT893ojZcTDGm55H5WMhs.png)While it's popular in photography, using the [rule of thirds](https://approachabledesign.co/articles/rule-of-thirds-in-design) in your YouTube thumbnails can help create a better visual hierarchy overall. 
+The Rule of Thirds![](/images/articles/nsLaWoT893ojZcTDGm55H5WMhs.png.webp)While it's popular in photography, using the [rule of thirds](https://approachabledesign.co/articles/rule-of-thirds-in-design) in your YouTube thumbnails can help create a better visual hierarchy overall. 
 
 Try finding the four sweet spots in your design, and aligning the main focal point along the intersection. Our eyes are naturally drawn to these areas, and it will help give you a grid to work with when placing your text and imagery.
 
@@ -124,7 +124,7 @@ I don't love using thumbnail templates, but I understand the convenience. Creati
 
 CanvaCanva has the most YouTube thumbnail templates for you to get started. I don't love this online YouTube thumbnail maker because of its limited canvas space to play around, but the video thumbnail templates are decent and easy to use. 
 
-Figma![](https://framerusercontent.com/images/WUPjq5XTLdSFpvehUH0yGgnCJ1w.png)Figma is powerful, even if you're a beginner. Using Figma for your YouTube thumbnail design allows you to create custom thumbnail image templates that will help you build a repeatable process to maintain brand consistency and flexibility. Learn how to design in Figma in [my email-based course](https://approachabledesign.co/courses/8020-design-challenge), especially if you have never used it before. 
+Figma![](/images/articles/WUPjq5XTLdSFpvehUH0yGgnCJ1w.png.webp)Figma is powerful, even if you're a beginner. Using Figma for your YouTube thumbnail design allows you to create custom thumbnail image templates that will help you build a repeatable process to maintain brand consistency and flexibility. Learn how to design in Figma in [my email-based course](https://approachabledesign.co/courses/8020-design-challenge), especially if you have never used it before. 
 
 Once you have a finalized look, you can build out your YouTube thumbnail templates to reuse in Figma quite easily. 
 

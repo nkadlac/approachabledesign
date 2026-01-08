@@ -23,7 +23,7 @@ In this last part of my four-part series, I want to focus on $1,000 landing page
 - Part 3: [How to flip a free workshop into an evergreen product landing page](https://approachabledesign.co/articles/digital-product-landing-page)
 - Part 4: You're here!
 
-![How long should your landing page be?](https://framerusercontent.com/images/jhyxkQwSOHIHVqjPqYtmrSEBrA.jpg)## Myths about the length of landing pages
+![How long should your landing page be?](/images/articles/jhyxkQwSOHIHVqjPqYtmrSEBrA.jpg.webp)## Myths about the length of landing pages
 
 One myth when it comes to landing pages is that people won't spend time reading a lengthy landing page. But in reality, many people landing on your page have a high degree of skepticism. There's little to no trust built up at the outset, and the size of a landing page increases the more you ask of someone, either in time or money.
 
@@ -41,7 +41,7 @@ Be prepared to do some more work.
 
 ## The Fundamentals of Landing Page Template
 
-![The components of a $1,000 landing page](https://framerusercontent.com/images/tk0rB8Htdm2HvXgcPuZlwzuOcdw.jpg)Let's get this straight—a great landing page is not a typical page of your website. It's not your about page, or your home page. It's a specific page targeting a specific audience with a specific problem.
+![The components of a $1,000 landing page](/images/articles/tk0rB8Htdm2HvXgcPuZlwzuOcdw.jpg.webp)Let's get this straight—a great landing page is not a typical page of your website. It's not your about page, or your home page. It's a specific page targeting a specific audience with a specific problem.
 
 If you have one product that appeals to different types of buyers, it's possible you might have multiple landing pages targeting different buyers.
 
@@ -75,7 +75,7 @@ By mastering these key components and learning how to optimize landing pages, yo
 
 ### Nod Your Head-Lines
 
-![Describe the transformation](https://framerusercontent.com/images/WzxF2fLAZCvmlL4fo257wxKU8.png)The entire goal of the headline is to get someone to nod their head. If you don't drive curiosity immediately, or speak to a specific need, you'll lose them.
+![Describe the transformation](/images/articles/WzxF2fLAZCvmlL4fo257wxKU8.png.webp)The entire goal of the headline is to get someone to nod their head. If you don't drive curiosity immediately, or speak to a specific need, you'll lose them.
 
 To create an attention-grabbing headline, focus on addressing your audience’s pain points and highlighting the benefits of your offer.
 
@@ -185,7 +185,7 @@ Let’s delve into each of these psychological factors and explore how they can 
 
 ### Social Proof
 
-![](https://framerusercontent.com/images/mbMVZHd3iUL2G4z29yfSIMp2Kk.jpg)[SEO MBA](https://seomba.com/executive-presence/) by Tom Critchlow
+![](/images/articles/mbMVZHd3iUL2G4z29yfSIMp2Kk.jpg.webp)[SEO MBA](https://seomba.com/executive-presence/) by Tom Critchlow
 
 Social proof is a powerful psychological principle that can help build trust and credibility with your audience. By incorporating testimonials, reviews, and endorsements on your landing page, you can demonstrate the value of your product or service and reassure potential customers of its quality. Social proof can come in various forms, such as customer testimonials, star ratings, or even logos of well-known clients or partners.
 
@@ -201,7 +201,7 @@ However, it’s essential to use these tactics ethically and accurately represen
 
 ### Pricing
 
-![](https://framerusercontent.com/images/u73tkHqWyjWuztKHiC0UK0Gjr8.jpg)A good strategy for pricing is to always give your customers a choice. Instead of leading with just one option, offer an additional one or two tiers to help price anchor the most valuable offer.
+![](/images/articles/u73tkHqWyjWuztKHiC0UK0Gjr8.jpg.webp)A good strategy for pricing is to always give your customers a choice. Instead of leading with just one option, offer an additional one or two tiers to help price anchor the most valuable offer.
 
 In my own workshop, I'll provide more 1:1 support at the $2k price, and it has been purchased multiple times during several of my cohorts, because of the 80/20 rule at play. 
 

@@ -26,7 +26,7 @@ AI-image tools like Midjourney can take any image and reveal the prompts behind 
 
 Let’s imagine you are standing in a store and a pattern from a slice of wallpaper caught your attention.
 
-![Wallpaper design](https://framerusercontent.com/images/tPCeIEg2BQE4lAeouKQCcSkSY08.jpg)If you’re not an art history major, you'll likely lack the vocabulary to articulate what you love about it.
+![Wallpaper design](/images/articles/tPCeIEg2BQE4lAeouKQCcSkSY08.jpg.webp)If you’re not an art history major, you'll likely lack the vocabulary to articulate what you love about it.
 
 Most of us will squint and say, “This looks cool. I like the droopy pink flower tentacles.”
 
@@ -36,9 +36,9 @@ Using "/imagine" is the default way many people start out. It's an empty text fi
 
 **Tip: If you have never tried Midjourney, check out their *[*docs*](https://docs.midjourney.com/docs/quick-start)* for full instructions. *
 
-![Midjourney prompt field](https://framerusercontent.com/images/Wdy0NuBzbWhEY8oWd00NFlqaJM.jpg)In about 30 seconds, you might get returned something much better than you anticipated. Like this:
+![Midjourney prompt field](/images/articles/Wdy0NuBzbWhEY8oWd00NFlqaJM.jpg.webp)In about 30 seconds, you might get returned something much better than you anticipated. Like this:
 
-![Midjourney results](https://framerusercontent.com/images/7Xkq1XR06zuGofqNp3nPOXQWetI.jpg)Not bad! 
+![Midjourney results](/images/articles/7Xkq1XR06zuGofqNp3nPOXQWetI.jpg.webp)Not bad! 
 
 Now, you just need to refine using your high school grade art vocabulary to figure out where to take this. 
 
@@ -50,21 +50,21 @@ Instead of starting from scratch, let's go back to the empty input field in Midj
 
 This time, type “**/describe**” into the field.
 
-![Midjourney empty prompt field](https://framerusercontent.com/images/AuPFaTzSrQUn4LEL4FPkyhZiMP0.jpg)Once you hit enter, you’ll be greeted with a file upload button. 
+![Midjourney empty prompt field](/images/articles/AuPFaTzSrQUn4LEL4FPkyhZiMP0.jpg.webp)Once you hit enter, you’ll be greeted with a file upload button. 
 
 Now upload the photo into Midjourney and wait another 30 seconds. 
 
-![upload image field](https://framerusercontent.com/images/zQSlO32FJnzzfAsxMQbqrBaTgrw.jpg)Like magic, MidJourney takes its Kevin Garnett-like IQ of everything that came before it so it can distill it down into simple and descriptive words you and I both can understand. 
+![upload image field](/images/articles/zQSlO32FJnzzfAsxMQbqrBaTgrw.jpg.webp)Like magic, MidJourney takes its Kevin Garnett-like IQ of everything that came before it so it can distill it down into simple and descriptive words you and I both can understand. 
 
 It's reverse engineering the image into text. 
 
 And instead of one, it gives us four options to be exact. 
 
-![Four Midjourney prompts](https://framerusercontent.com/images/GTp0BJxofEfeSJFOjyaFpR0zI.jpg)Now, you can click the button “Imagine All” button and it will create four images based on the above prompts it just deconstructed for us.  
+![Four Midjourney prompts](/images/articles/GTp0BJxofEfeSJFOjyaFpR0zI.jpg.webp)Now, you can click the button “Imagine All” button and it will create four images based on the above prompts it just deconstructed for us.  
 
-![Midjourney Imagine All](https://framerusercontent.com/images/1AUi2ts0isQYfUjpVKDnWvrSFNU.jpg)And now, I have recreated four images from the text prompt Midjourney already revealed to us.
+![Midjourney Imagine All](/images/articles/1AUi2ts0isQYfUjpVKDnWvrSFNU.jpg.webp)And now, I have recreated four images from the text prompt Midjourney already revealed to us.
 
-![Midjourney Results](https://framerusercontent.com/images/O0l99zNsjtcIYRpJmnyuxpR3U8.png)## Expand your curiosity
+![Midjourney Results](/images/articles/O0l99zNsjtcIYRpJmnyuxpR3U8.png.webp)## Expand your curiosity
 
 The goal isn’t to find an exact replica of our original, but to give us some visual hooks into an aesthetic we love.
 
@@ -74,7 +74,7 @@ The first step is to pick one of the groupings of images, and then go back to th
 
 For instance, I’m drawn to this visual style. It's close to our original but it's surfacing some new ideas I hadn't thought about before. 
 
-![Midjourney Results sample](https://framerusercontent.com/images/eXe9rWXPangNLsZoRmXkvPLTi4.jpg)If I look back into the text prompt for this series, I can do some more exploring based on what was used.
+![Midjourney Results sample](/images/articles/eXe9rWXPangNLsZoRmXkvPLTi4.jpg.webp)If I look back into the text prompt for this series, I can do some more exploring based on what was used.
 
 - William Malcolm custom fabric
 - Gaudy and grotesque

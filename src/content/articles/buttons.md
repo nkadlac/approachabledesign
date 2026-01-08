@@ -58,7 +58,7 @@ Instead, lean into this simple hack and imagine what the button should say if th
 
 ### Call to Value (CTV) vs Call to Action (CTA)
 
-![](https://framerusercontent.com/images/73iyTyoPizlp7ZZhIw5T3R4kqWA.png)You might *think* all buttons are calls to action.
+![](/images/articles/73iyTyoPizlp7ZZhIw5T3R4kqWA.png.webp)You might *think* all buttons are calls to action.
 
 But not every button forces a visitor to take immediate action.
 

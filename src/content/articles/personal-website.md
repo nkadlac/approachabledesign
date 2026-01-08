@@ -20,7 +20,7 @@ Since then, my website has mimicked a ball of squishy playdoh, morphing from sha
 
 And today, I wouldn't sell it for $1,000,000.
 
-![Nate Kadlac's Personal Website](https://framerusercontent.com/images/0WZH5bK2LTViC4R0E6dBzqN8Ss.png)## Why a personal website is important and how this post is structured
+![Nate Kadlac's Personal Website](/images/articles/0WZH5bK2LTViC4R0E6dBzqN8Ss.png.webp)## Why a personal website is important and how this post is structured
 
 Listen, a one-page website is better than a none-page website. But you want to let the internet work for you by giving it more to work with.
 
@@ -59,7 +59,7 @@ Keep in mind, that while this website is for you, it's actually for the people r
 
 ### Create your Story Spokes
 
-![Story Spokes Wheel](https://framerusercontent.com/images/iCpciO4LNfQqwAWy9zQ1i5i5w.jpg)Our lives are like a bicycle wheel that continues to roll forward. The individual spokes are the stories that make up our lives, propelling us in a direction of our choosing.
+![Story Spokes Wheel](/images/articles/iCpciO4LNfQqwAWy9zQ1i5i5w.jpg.webp)Our lives are like a bicycle wheel that continues to roll forward. The individual spokes are the stories that make up our lives, propelling us in a direction of our choosing.
 
 And just like a bicycle wheel, our websites are made up of not just one spoke, but a combination of many. 
 
@@ -123,7 +123,7 @@ Hell, Tesla even had to settle for teslamotors.com at first.
 
 ## 2. The five essential pages a personal website should have
 
-![Components of a Personal Website](https://framerusercontent.com/images/zhSoNV3oYo7pUzWJ4rwAtRbIFOI.png)Listen, a one-page website is better than a none-page website. But you want to let the internet work for you by giving it more to work with.
+![Components of a Personal Website](/images/articles/zhSoNV3oYo7pUzWJ4rwAtRbIFOI.png.webp)Listen, a one-page website is better than a none-page website. But you want to let the internet work for you by giving it more to work with.
 
 I fully believe to give yourself an advantage in almost any career decision, having a fully baked five-page website gives you a 10x advantage over a one-page website. 
 
@@ -147,7 +147,7 @@ The worst thing you can do is to remove all personality and list your job title.
 
 Even best selling author [James Clear](https://jamesclear.com/) has updated his personal website from the generic heading to something more benefit driven. 
 
-![James Clear Homepage](https://framerusercontent.com/images/l8L8SvkP9lDuh3F7OgQJPKJTgXE.jpg)**Here are the components of a solid homepage:**
+![James Clear Homepage](/images/articles/l8L8SvkP9lDuh3F7OgQJPKJTgXE.jpg.webp)**Here are the components of a solid homepage:**
 
 - Headline
 - Subheadline
@@ -155,7 +155,7 @@ Even best selling author [James Clear](https://jamesclear.com/) has updated his 
 - CTA
 - Featured posts, social proof, and testimonials
 
-Optional: Visual Venn Mode![](https://framerusercontent.com/images/NTg80XyX7L7ysW48LvmFSMGicFw.jpg)Before I go too far, I'd like to address another type of format: The visual Venn Diagram my friend [Tom Critchlow](https://tomcritchlow.com/) likes to use. It's less text-heavy, but it quickly indicates what his interests are, and what he loves to write about. It also acts as a Wiki so you can springboard into any piece of content he wants to feature. Check it out!
+Optional: Visual Venn Mode![](/images/articles/NTg80XyX7L7ysW48LvmFSMGicFw.jpg.webp)Before I go too far, I'd like to address another type of format: The visual Venn Diagram my friend [Tom Critchlow](https://tomcritchlow.com/) likes to use. It's less text-heavy, but it quickly indicates what his interests are, and what he loves to write about. It also acts as a Wiki so you can springboard into any piece of content he wants to feature. Check it out!
 
 So what do you do?In this case, being a web designer in itself doesn't help anyone. It's mainly making you feel good about yourself by saying it out loud. 
 
@@ -197,7 +197,7 @@ Make it personal, but don't try to ask people to do two or three different thing
 
 ### Your About Page
 
-![Marie Poulin's Website](https://framerusercontent.com/images/UY9sKMvPpgIksXRuC2K4w3pwE.jpeg)[*Marie Poulin's Personal Website*](https://mariepoulin.com/)
+![Marie Poulin's Website](/images/articles/UY9sKMvPpgIksXRuC2K4w3pwE.jpeg.webp)[*Marie Poulin's Personal Website*](https://mariepoulin.com/)
 
 Your About Page is likely the second most trafficked page on your site. Its purpose is to get to know the person behind the door, and to share a bit of backstory. 
 
@@ -205,7 +205,7 @@ This page lets you display a bit of vulnerability, and personality, as well as a
 
 Too many people try to lift themselves up on the homepage, but this is where you should actually put your ego to work. 
 
-![Justin Welsh About Page](https://framerusercontent.com/images/UAVz81HzX7quQR45BY33D0eT64.jpg)[*Justin Welsh's Personal Website*](https://www.justinwelsh.me/)
+![Justin Welsh About Page](/images/articles/UAVz81HzX7quQR45BY33D0eT64.jpg.webp)[*Justin Welsh's Personal Website*](https://www.justinwelsh.me/)
 
 *Tip: If you're early in your career and you don't have recognized credibility to share, include other articles, videos, or books that you're interested in. This gives your About Page a personal touch and tells me a little more about you through curation.*
 
@@ -247,7 +247,7 @@ Your [offer page](/articles/free-offer) should be unique to you, and what you're
 
 [Tom Hirst](https://www.tomhirst.com/wordpress-consultant/) does a good job of highlighting his offer from his professional website.
 
-![Tom Hirst's website](https://framerusercontent.com/images/R80Knqx0BTebX4Ca5tdGYWB6KiU.jpeg)[*Tom Hirst's Personal Website*](https://tomhirst.com/)
+![Tom Hirst's website](/images/articles/R80Knqx0BTebX4Ca5tdGYWB6KiU.jpeg.webp)[*Tom Hirst's Personal Website*](https://tomhirst.com/)
 
 **Components of an offer page:**
 
@@ -341,7 +341,7 @@ Thankfully, that doesn't mean we need to continue to create more pages on our pe
 
 ### Start a newsletter (and own your most valuable personal asset)
 
-![ConvertKit Newsletter](https://framerusercontent.com/images/BFiVSvIE8U9TH8wNEdAaV3XE1Tc.png)Many people will let their personal website sit there without being updated, or without sharing it with the world. Sometimes it can feel heavy to update your personal website because you might be creating new pages, or updating old ones.
+![ConvertKit Newsletter](/images/articles/BFiVSvIE8U9TH8wNEdAaV3XE1Tc.png.webp)Many people will let their personal website sit there without being updated, or without sharing it with the world. Sometimes it can feel heavy to update your personal website because you might be creating new pages, or updating old ones.
 
 Instead of feeling like you need to constantly be updating your personal website, I want to suggest you start a newsletter instead.
 
@@ -376,7 +376,7 @@ Below are a few popular services that are free to start, with paid premium featu
 
 ### SEO and how to let the Internet work for you
 
-![Google SEO](https://framerusercontent.com/images/1gP3F4KEC2fPG2vplGHfXfhMeY.png)One of the low-hanging fruits out there is Search Engine Optimization (SEO). Even if you don't know anything about it, just having a personal website and five pages with a decent amount of writing on it, will let me be searched and trusted by Google.
+![Google SEO](/images/articles/1gP3F4KEC2fPG2vplGHfXfhMeY.png.webp)One of the low-hanging fruits out there is Search Engine Optimization (SEO). Even if you don't know anything about it, just having a personal website and five pages with a decent amount of writing on it, will let me be searched and trusted by Google.
 
 Without doing anything, you'll be writing about keywords and topics that inevitably are searched by other people, potentially bringing in new people into your world of ideas.
 
@@ -423,7 +423,7 @@ Once you have a color, create a light and dark variation of it. Then add a secon
 
 Lastly, choose a neutral palette consisting of seven colors, from white to black. Want to learn more about picking colors? [Here's my 80/20 course](https://approachabledesign.co/courses/8020-design-challenge) on design which will help you create your own palette.
 
-![A simple color palette](https://framerusercontent.com/images/GVUIuXWnx723k43WoafzF35ybDw.png)FontsThe next culprit that everyone seems to have difficulty with.
+![A simple color palette](/images/articles/GVUIuXWnx723k43WoafzF35ybDw.png.webp)FontsThe next culprit that everyone seems to have difficulty with.
 
 Choosing fonts can feel like you're banging your head against a wall because we tend to compare them at small sizes.
 
@@ -431,7 +431,7 @@ But let's step back and I'll show you a quick process to choosing a font.
 
 **How to choose a font: **First, look at this picture.
 
-![Fonts](https://framerusercontent.com/images/EhwDRVPZHSPYPV5kHvCU1GqAqIs.png)
+![Fonts](/images/articles/EhwDRVPZHSPYPV5kHvCU1GqAqIs.png.webp)
 - Choose one of the six categories that you vibe with. Don't think too hard about it.
 - Head to [Google Fonts](https://fonts.google.com/) and filter by the category you chose. (Pick the closest one).
 - Now type in your name into the "Type something" field.
@@ -446,7 +446,7 @@ If this last part feels too ambiguous, try typing in an "&" or a couple of numbe
 
 Now you have a Google font you can download and install it to your computer and use it in your designs, offline.
 
-Images![Nate's images](https://framerusercontent.com/images/HWdqztghxbx5C2u4gHjBsvgRw.jpeg)If you know how to work a camera, then you should have a slew of decent and professional-looking photos.
+Images![Nate's images](/images/articles/HWdqztghxbx5C2u4gHjBsvgRw.jpeg.webp)If you know how to work a camera, then you should have a slew of decent and professional-looking photos.
 
 If you're using a more recent iPhone, you can set it to Portrait mode and have someone take a few headshots or casual shots for your site.
 
@@ -456,7 +456,7 @@ Or if you're looking for something a bit more "done-for-you", use a service like
 
 [Here's my compilation](https://www.kadlac.com/about) from my personal website to show different facets of my life. Note I opted for being vulnerable instead of presenting anything too professional. You do you!
 
-Custom logo![](https://framerusercontent.com/images/XGQ4kJ5jHnf6ROsuAix09JBL7Zo.png)Even as a designer, I urge you not to spend any time on a logo before launching your website. Just use a basic text font to type out your name and run with that.
+Custom logo![](/images/articles/XGQ4kJ5jHnf6ROsuAix09JBL7Zo.png.webp)Even as a designer, I urge you not to spend any time on a logo before launching your website. Just use a basic text font to type out your name and run with that.
 
 But after you're up and running, there are ways to show people that you have taste and care about the details.
 
@@ -474,13 +474,13 @@ About, [Your offer], Newsletter, Writing. That's it.
 
 In this case, Charlie doesn't have an offer, but she does use her podcast to fill that spot.
 
-![](https://framerusercontent.com/images/5zTHQntRI4LjPc8RpTh8NnBLm8Q.png)Then, make one of those stand out from the rest, so you give people a place to go. I put "Newsletter" in a button to call attention to that, but you could do the same for your offer, or an article.
+![](/images/articles/5zTHQntRI4LjPc8RpTh8NnBLm8Q.png.webp)Then, make one of those stand out from the rest, so you give people a place to go. I put "Newsletter" in a button to call attention to that, but you could do the same for your offer, or an article.
 
 My site navigation is slightly different because I've been writing on my personal website for a long time. But I still keep the navigation straightforward, and clear. I also tuck in a number of items within Work With Me to keep it clean.
 
-![](https://framerusercontent.com/images/GU4ooXXYH6qSmRzfaedx5BoKPoM.png)### How to get testimonials and social proof
+![](/images/articles/GU4ooXXYH6qSmRzfaedx5BoKPoM.png.webp)### How to get testimonials and social proof
 
-![Testimonials](https://framerusercontent.com/images/htkXJwSEI9SK72vSujTs5bDfwXU.png)One of the easiest ways to add a bit of credibility to your site is by getting reviews or testimonials from your network. Aim to get three testimonials.
+![Testimonials](/images/articles/htkXJwSEI9SK72vSujTs5bDfwXU.png.webp)One of the easiest ways to add a bit of credibility to your site is by getting reviews or testimonials from your network. Aim to get three testimonials.
 
 Once you have three, you can sprinkle them throughout your pages in the most relevant areas. At the end of your Hire Me page, on your About page, at the bottom of your articles, or on your home page.
 

@@ -3,7 +3,7 @@ title: "Am I pricing it all wrong?"
 date: 2023-11-12
 category: personal
 description: "​Give me four minutes to show you:"
-image: "https://framerusercontent.com/images/VEWA26954VuNRVjr9oy5sRlils.jpg"
+image: "/images/articles/VEWA26954VuNRVjr9oy5sRlils.jpg.webp"
 ---
 
 **​Give me four minutes to show you:**
@@ -12,11 +12,11 @@ image: "https://framerusercontent.com/images/VEWA26954VuNRVjr9oy5sRlils.jpg"
 📣 How animated graphics can be created in Keynote
 💻 How to improve your slide decks
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)First, you all should check out my friend Chenell and her newsletter, [​**Growth in Reverse**​](https://join.growthinreverse.com/dabac921/). She reverse-engineers the stories of creators with audiences over 50k.
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)First, you all should check out my friend Chenell and her newsletter, [​**Growth in Reverse**​](https://join.growthinreverse.com/dabac921/). She reverse-engineers the stories of creators with audiences over 50k.
 
 She’s insightful, personal, and holy hell it looks like a lot of work. This is not an ad, but this is a blatant plea to help get me a shoutout in her newsletter. She just needs your soul (or just your email). [​**Yes, I will help Nate’s cheap marketing effort and in return receive a one index-to-thumb finger dad hat tip.**](https://join.growthinreverse.com/dabac921/)
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)![](https://framerusercontent.com/images/oSGLBCk7TN3Zy5fprZCQViU8p04.png)Have you ever poured your heart into creating a product or service, only to undervalue it with a low price tag?
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)![](/images/articles/oSGLBCk7TN3Zy5fprZCQViU8p04.png.webp)Have you ever poured your heart into creating a product or service, only to undervalue it with a low price tag?
 
 Or perhaps you've set a modest price because the idea of marketing it at its true worth felt intimidating?
 
@@ -38,7 +38,7 @@ Also, my design vault has expanded to over 130 sites, and reaching 1,000 next ye
 
 More changes are coming, but if you’ve been contemplating diving deeper into design before the year ends, this is a great onramp.
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)## 🎨 Better Design Decisions
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)## 🎨 Better Design Decisions
 
 How to improve your slide decks in [​**seven steps**​](https://approachabledesign.co/articles/what-makes-a-good-slide-deck)
 
@@ -46,8 +46,8 @@ How to improve your slide decks in [​**seven steps**​](https://approachabled
 
 Want to stand out easily? Start with a unique typeface. [​**This one**​](https://www.fontfabric.com/fonts/auge) is gorgeous.
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)## 📸 Make It Yours Moment
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)## 📸 Make It Yours Moment
 
 An off-grid design studio by designer, Mike Matas
 
-![Image](https://framerusercontent.com/images/sErn6283CZEjHFI92pQlxdR7vI.jpg)Thanks for being here, and I'll see you next Sunday!
+![Image](/images/articles/sErn6283CZEjHFI92pQlxdR7vI.jpg.webp)Thanks for being here, and I'll see you next Sunday!

@@ -29,7 +29,7 @@ Over the next few weeks, I'll be talking about different flavors of landing page
 - Part 3: [How to flip a free workshop into an evergreen product landing page](/articles/digital-product-landing-page)
 - Part 4: [How to design a landing page for a $1,000 product or service offering](https://approachabledesign.co/articles/1000-landing-page-offer)
 
-![How long should your landing page be?](https://framerusercontent.com/images/Tfw2B1JIkEsjPBVE7Ujij849SA.jpg)*Last week I asked for landing pages from you all, and I'm excited to redesign Reginald's opt-in landing page for his business. If you have one you know should be improved, send it my way and it may make it into a future issue.*
+![How long should your landing page be?](/images/articles/Tfw2B1JIkEsjPBVE7Ujij849SA.jpg.webp)*Last week I asked for landing pages from you all, and I'm excited to redesign Reginald's opt-in landing page for his business. If you have one you know should be improved, send it my way and it may make it into a future issue.*
 
 ## 
 
@@ -61,7 +61,7 @@ A simple rule of thumb: The more you’re asking from someone—time or money—
 
 Let’s explore each of these within the context of a simple newsletter sign up page.
 
-![](https://framerusercontent.com/images/kd1B3MFW32dNQswvAkQo70p8.jpg)
+![](/images/articles/kd1B3MFW32dNQswvAkQo70p8.jpg.webp)
 
 1. Build trust with strong visuals and design“In a blink of an eye” is a cliche phrase for something that happens fast. A blink happens in a tenth of a second, which is the same amount of time it takes for us to develop a first impression.
 
@@ -91,13 +91,13 @@ Your headline should be short, and clear about the value it provides. For a news
 
 Your subhead should clearly explain how you’ll create that value. How does your newsletter deliver on the promise made in the headline? 
 
-![Strategy Breakdowns](https://framerusercontent.com/images/PVYlaQ519881FhjFCm3tKj8Omw.jpg)3. Show what’s in it for themThis section How do you deliver the value through the features and benefits of your newsletter? This section is done through explaining what’s in it for them, by using compelling bullet points to create fascinations. 
+![Strategy Breakdowns](/images/articles/PVYlaQ519881FhjFCm3tKj8Omw.jpg.webp)3. Show what’s in it for themThis section How do you deliver the value through the features and benefits of your newsletter? This section is done through explaining what’s in it for them, by using compelling bullet points to create fascinations. 
 
 Bullet points are easy to read, and prevent us from talking around the subject. 
 
 In design, bullet points are a quick way to drive curiosity and interest.
 
-![The Ultimate Guide to Unbundling Subreddit](https://framerusercontent.com/images/KF0JCo2JLYDppCEoKbcaRPe4.jpg)
+![The Ultimate Guide to Unbundling Subreddit](/images/articles/KF0JCo2JLYDppCEoKbcaRPe4.jpg.webp)
 
 4. Give them an action to takeOne of the most common mistakes with buttons happened when the original iPhone came out. The paradigm to push screens forward and backwards was new, and so many people just labeled the back button “Back.” 
 
@@ -107,11 +107,11 @@ The problem behind this is that most people casually use “Learn more” or “
 
 Clearly label your buttons so the visitor knows what is going to happen without confusion. 
 
-![A clear CTA](https://framerusercontent.com/images/eeMkg8tVliGssxyIXkor154eUI.jpg)
+![A clear CTA](/images/articles/eeMkg8tVliGssxyIXkor154eUI.jpg.webp)
 
 5. Support your claims with proofTo wrap up your newsletter landing page, adding some social proof goes a long way to mitigate risk. You can use logos, testimonials, or number of subscribers as a way to show you’re not the first person to sign up. It immediately validates your offer, and makes the decision to opt-in much easier. 
 
-![Social Proof](https://framerusercontent.com/images/KBEfxMbQSoHQpn0UoVLtbDOAe0.jpg)
+![Social Proof](/images/articles/KBEfxMbQSoHQpn0UoVLtbDOAe0.jpg.webp)
 
 ## In conclusion
 

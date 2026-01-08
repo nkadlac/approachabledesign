@@ -20,7 +20,7 @@ The rule of thirds grid is based on our field of vision, and the rule is a guide
 
 Here's a simple illustration of the rule of thirds grid. The two things to remember are the four sweet spots (or four intersections), and the four divider lines making up the grid. You're left with nine quadrants that divide up your canvas, giving you a simple structure to work with.
 
-![Four sweet spots and four divider lines make up the rule of thirds](https://framerusercontent.com/images/1zhrKkz4YxILsaEckce9UFEI.jpg)## 
+![Four sweet spots and four divider lines make up the rule of thirds](/images/articles/1zhrKkz4YxILsaEckce9UFEI.jpg.webp)## 
 
 ## **How the rule of thirds in graphic design is counterintuitive**
 
@@ -86,7 +86,7 @@ Using the top horizontal line, we can create a visual balance that increases the
 
 The lower horizontal line can also act as a sturdy anchor point and creating an interesting composition.
 
-![Book cover design by Daniel Gray](https://framerusercontent.com/images/bvzWLafL0AxE4ndi0FxA5WTLRQ.jpg)### **Use the rule to create visual interest**
+![Book cover design by Daniel Gray](/images/articles/bvzWLafL0AxE4ndi0FxA5WTLRQ.jpg.webp)### **Use the rule to create visual interest**
 
 To create visual interest, you need to use visual contrast. Contrast draws our eyes in, creating tension between objects. Sometimes it can be between the foreground and the background, or between typography and shapes.
 
@@ -104,7 +104,7 @@ Normally when using the rule of thirds grid, you rely on the sweet spots or the 
 
 Note how the designer of the classic cover artwork of the movie Jaws used the central column to bring focus on the shark as well as the swimmer. The negative space in both the left and right columns is empty, creating tension between the two. There's nothing in either the bottom left or the bottom right thirds, bringing the viewer's eye straight to the center.
 
-![Jaws cover art](https://framerusercontent.com/images/CVSRnfxvvzadEXL8RcyvZdM7zI8.jpg)### **Using the row of thirds**
+![Jaws cover art](/images/articles/CVSRnfxvvzadEXL8RcyvZdM7zI8.jpg.webp)### **Using the row of thirds**
 
 Breaking away from the rule of thirds, let's apply the rule in a counterintuitive way. Just like we did using columns, another way to break the rule of thirds grid is to focus on using the rows.
 
@@ -112,7 +112,7 @@ By narrowing in on the rows of our design, we can use negative space to achieve 
 
 Note how the Black Swan title spans between the bottom left and bottom right quadrants to grab our attention, while the top two-thirds are used for just the art. This is a common way to divide up your design and create contrast between the sections.
 
-![Black swan cover art](https://framerusercontent.com/images/BHyrkc6gMmnYelhzujKUtRf0liI.jpg)### **Use negative space to your advantage**
+![Black swan cover art](/images/articles/BHyrkc6gMmnYelhzujKUtRf0liI.jpg.webp)### **Use negative space to your advantage**
 
 It's not easy wanting to fill the white space in our designs. As a designer, even I have to constantly have to remind myself that I don't actually need to put a chair in the empty corner of my room. White space is a useful tool to increase contrast in our designs.
 
@@ -122,9 +122,9 @@ The Golden Globe Award winning show Mr. Robot does this consistently in many of 
 
 By pushing past the grid lines, you'll add a distinct look to your piece that is unconventional, immediately creating intrigue.
 
-![Lower quadrant framing of Mr. Robot](https://framerusercontent.com/images/tBCOYgRSNUnQKzwUDkodODytJw.jpg)
+![Lower quadrant framing of Mr. Robot](/images/articles/tBCOYgRSNUnQKzwUDkodODytJw.jpg.webp)
 
-![Bottom third framing of Mr. Robot](https://framerusercontent.com/images/DJnDCl5F6mY6V6vvoLCizPWcDo.jpg)### **Use opposing quadrants to increase contrast**
+![Bottom third framing of Mr. Robot](/images/articles/DJnDCl5F6mY6V6vvoLCizPWcDo.jpg.webp)### **Use opposing quadrants to increase contrast**
 
 Another unique way to use the rule of thirds is to use opposing quadrants to draw your eye in intentionally. You don’t want to draw focus on two areas sitting side by side, since it reduces the amount of flow and eye travel. 
 
@@ -134,7 +134,7 @@ You can see how this work in the Dune example. In both the top and bottom quadra
 
 It creates a very dynamic and intriguing layout, based on this emotional tension.
 
-![Cover art for Dune](https://framerusercontent.com/images/EulrTBk3Ovo55BcWgAMc1Q48BM0.jpg)## 
+![Cover art for Dune](/images/articles/EulrTBk3Ovo55BcWgAMc1Q48BM0.jpg.webp)## 
 
 ## **Four unique examples of the rule of thirds in design**
 
@@ -142,7 +142,7 @@ It creates a very dynamic and intriguing layout, based on this emotional tension
 
 Because call to action buttons are usually higher in contrast, pairing the graphic in a sweet spot will help naturally draw a visitors eye to that area. It's a fairly straightforward way to design, which is why you see many templates follow this tactic.
 
-![Aligning your call to actions to the grid](https://framerusercontent.com/images/vh6TKqm7ZX3fVp5f1Tgc3P5aHY.jpg)
+![Aligning your call to actions to the grid](/images/articles/vh6TKqm7ZX3fVp5f1Tgc3P5aHY.jpg.webp)
 
 **Rule of thirds used in thumbnail design**Thumbnails can be difficult to work with, because there is a limited amount of room.
 
@@ -152,13 +152,13 @@ To stand out, you need to make sure your thumbnail is legible, tells a story, an
 
 Because you're dealing with a 16:9 ratio, most thumbnails use the vertical line divider lines to place objects. Text on one side, and imagery on the other. The placement can be somewhat loose, but if you're consistent with this, you can do a lot with just a little bit of room.
 
-![AppleTV movie thumbnail designs](https://framerusercontent.com/images/Z1TfDpApK6CT5LXgpIlEGhqupP4.jpg)**Rule of thirds in photography**Great design relies on great photography. And many of the above examples rely on images that have a composition with space to apply text and other designed elements.
+![AppleTV movie thumbnail designs](/images/articles/Z1TfDpApK6CT5LXgpIlEGhqupP4.jpg.webp)**Rule of thirds in photography**Great design relies on great photography. And many of the above examples rely on images that have a composition with space to apply text and other designed elements.
 
 One of the easiest ways to use the rule of thirds in photography is by aligning the landscape to one of the divider lines of the frame. Instead of trying to center the horizon line, give preference to a focal points—either the sky or the landscape—and helping the audience focus on one first.
 
-![Landscape photography aligned to a sweet spot](https://framerusercontent.com/images/xdgZf2LCH75M2KgKQujzjRVJkI.jpg)In portrait photography, you can utilize the rule of thirds in your image by aligning the subject at one of the sweet spots. Popular ways to use this are focusing on the subject's eyes at one of the four intersections, drawing us in immediately.
+![Landscape photography aligned to a sweet spot](/images/articles/xdgZf2LCH75M2KgKQujzjRVJkI.jpg.webp)In portrait photography, you can utilize the rule of thirds in your image by aligning the subject at one of the sweet spots. Popular ways to use this are focusing on the subject's eyes at one of the four intersections, drawing us in immediately.
 
-![Portrait photo aligned to the top left sweet spot](https://framerusercontent.com/images/x7LkhMSIPbYh1gPeO2vTRA2s8.jpg)**The rule of thirds used in interior design**Most of us don't have the convenience of building our own homes from scratch. If you're like me, maybe you've moved[ nine times in ten years](https://planyournext.com/p/addicted-to-moving#details); don't hate. So if you're like me, you're left with oddly sized walls and nooks almost useful for nothing.
+![Portrait photo aligned to the top left sweet spot](/images/articles/x7LkhMSIPbYh1gPeO2vTRA2s8.jpg.webp)**The rule of thirds used in interior design**Most of us don't have the convenience of building our own homes from scratch. If you're like me, maybe you've moved[ nine times in ten years](https://planyournext.com/p/addicted-to-moving#details); don't hate. So if you're like me, you're left with oddly sized walls and nooks almost useful for nothing.
 
 But, because the rule of thirds relies heavily on asymmetry, we can use this to our advantage.
 
@@ -168,7 +168,7 @@ In our kitchen, notice how our exposed shelves create harmony because one is a b
 
 Look for other ways to apply the rule of thirds to your bedroom, bathroom, and living room spaces.
 
-![My kitchen shelving aligned to the rule of thirds grid](https://framerusercontent.com/images/iP7jWj724VzxVIZi92fKTPaUkk.jpg)## **Conclusion**
+![My kitchen shelving aligned to the rule of thirds grid](/images/articles/iP7jWj724VzxVIZi92fKTPaUkk.jpg.webp)## **Conclusion**
 
 The rule of thirds is just a rule of thumb. But it's a great way to adhere to a simple guideline while giving your design some structure. Many designers use the rule of thirds in web design, print design, [YouTube thumbnails](/products/youtube-masterclass/workshop), [slide deck design](/articles/what-makes-a-good-slide-deck), and much more.
 

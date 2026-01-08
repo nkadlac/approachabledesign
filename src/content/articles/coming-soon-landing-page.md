@@ -3,7 +3,7 @@ title: "How to design a pre-launch landing page"
 date: 2023-07-30
 category: personal
 description: "This week I launched a new product for ​designing thumbnails​(https://approachabledesign.co/products/youtube-masterclass) and learned a lot about how to walk the line between the act of building and t"
-image: "https://framerusercontent.com/images/IRNtXsHr4ddEXTcMdPJFNNlsVRQ.jpg"
+image: "/images/articles/IRNtXsHr4ddEXTcMdPJFNNlsVRQ.jpg.webp"
 ---
 
 This week I launched a new product for [​**designing thumbnails**​](https://approachabledesign.co/products/youtube-masterclass) and learned a lot about how to walk the line between the act of building and the act of selling.
@@ -24,13 +24,13 @@ I believe this is one of the best (and fastest) ways to go from idea > product w
 
 I've already started jamming on live design ideas with [​**Khe Hy**​](https://radreads.co/?utm_source=approachabledesign&utm_medium=email) (founder of Rad Reas), **so I'd love to hear what you want us to cover related to design and branding!**
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)**Give me three minutes to show you:**
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)**Give me three minutes to show you:**
 
 🎨 How to design a "coming soon" landing page
 📣 How HGTV is making your home boring and sad
 💻 How to unconventionally end an offer letter
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)## 🎨 Make Better Design Decisions
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)## 🎨 Make Better Design Decisions
 
 [​**HGTV is making our homes boring and sad**​](https://www.washingtonpost.com/home/2023/07/07/hgtv-makes-homes-boring-sad): *"...neutrals reign supreme, and the goal is to create a place that is inoffensive and that could appeal to many." *I will die on this hill. **Minimalism is the default choice because it's the least offensive choice.**
 
@@ -42,7 +42,7 @@ I've already started jamming on live design ideas with [​**Khe Hy**​](https:
 
 Steve Jobs’ “insanely great” job offer—via [​Jon Erlichman​](https://twitter.com/JonErlichman/status/1681348834922840077?utm_source=approachabledesign&utm_medium=email)
 
-![](https://framerusercontent.com/images/mQafDVzFA5OFO1TYBHjo68Ouaw.png)
+![](/images/articles/mQafDVzFA5OFO1TYBHjo68Ouaw.png.webp)
 
 Thanks for being here this week. It was a big week and I'm glad you stuck around.
 

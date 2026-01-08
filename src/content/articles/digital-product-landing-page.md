@@ -23,14 +23,14 @@ And you don’t want that.
 - Part 3: You're here!
 - Part 4: [How to design a landing page for a $1,000 product or service offering](https://approachabledesign.co/articles/1000-landing-page-offer)
 
-![How long should your landing page be?](https://framerusercontent.com/images/7KptAlBs5Unw4gbkRHMSvrDuuY.jpg)## Here are four steps we’ll cover in this article:
+![How long should your landing page be?](/images/articles/7KptAlBs5Unw4gbkRHMSvrDuuY.jpg.webp)## Here are four steps we’ll cover in this article:
 
 - Test your idea
 - Build and design your idea
 - Market your product
 - Sell and build post-purchase relationships
 
-![The components of a product landing page](https://framerusercontent.com/images/NlnGIo0GU64Q8kB39N5uLR5YV9A.jpg)## The four components to build and sell a digital product
+![The components of a product landing page](/images/articles/NlnGIo0GU64Q8kB39N5uLR5YV9A.jpg.webp)## The four components to build and sell a digital product
 
 To sell anything online, you have to focus on four essential components.
 
@@ -167,7 +167,7 @@ This alone brought in a few dozen signups. One intangible advantage of this was 
 
 ### Co-host the workshop with a friend
 
-![Tweet image from Paul Millerd](https://framerusercontent.com/images/EnFOKxZQC5GjWodbP7itSanDd4.jpg)With [Paul Millerd](https://think-boundless.com/) prompting me with the [initial invite](https://twitter.com/p_millerd/status/1678379606187859968?s=20), it took a lot of anxiety away because you knew your friend would be there to help and support you. 
+![Tweet image from Paul Millerd](/images/articles/EnFOKxZQC5GjWodbP7itSanDd4.jpg.webp)With [Paul Millerd](https://think-boundless.com/) prompting me with the [initial invite](https://twitter.com/p_millerd/status/1678379606187859968?s=20), it took a lot of anxiety away because you knew your friend would be there to help and support you. 
 
 Along with the support, you get to tap into their network and discover more people who are interested in the same idea. 
 
@@ -175,7 +175,7 @@ Marketing works!
 
 ### Announce on Twitter
 
-![Announcement Tweet on Twitter](https://framerusercontent.com/images/yC2JydZ6rDahD3U3HkH9cNFR1s8.jpg)For the event, most of our audiences were on Twitter or our newsletters. Our public announcement came on Twitter where we brought in an additional couple dozen people, a few of whom I have looked up to and admired their creator journey.
+![Announcement Tweet on Twitter](/images/articles/yC2JydZ6rDahD3U3HkH9cNFR1s8.jpg.webp)For the event, most of our audiences were on Twitter or our newsletters. Our public announcement came on Twitter where we brought in an additional couple dozen people, a few of whom I have looked up to and admired their creator journey.
 
 The key here is, don’t be afraid to talk about what you’re working on, even if it feels extremely small in the big picture. 
 
@@ -195,7 +195,7 @@ In the meantime, I was building the landing page and getting it ready to showcas
 
 ### Create an early-bird event with a discount
 
-![Welcome series](https://framerusercontent.com/images/5YTVoSAz80z2FGuoLmLMXHk0c.jpg)Lastly, I held an early-bird special for 72 hours, prompting people to sign up with a 50% discount on the first two tiers. To do this, I set up an automated email sequence using [ConvertKit](https://convertkit.com/?lmref=uwqJyg), sending out seven emails during those three days. 
+![Welcome series](/images/articles/5YTVoSAz80z2FGuoLmLMXHk0c.jpg.webp)Lastly, I held an early-bird special for 72 hours, prompting people to sign up with a 50% discount on the first two tiers. To do this, I set up an automated email sequence using [ConvertKit](https://convertkit.com/?lmref=uwqJyg), sending out seven emails during those three days. 
 
 ## 4. Sell and build post-purchase relationships
 
@@ -227,7 +227,7 @@ Creating a strong welcome sequence helps continue to deliver value after the pur
 
 And we know that selling to repeat customers is much easier than attracting new customers. 
 
-![Automation sequence](https://framerusercontent.com/images/PUww7ekwmOWiB8gZtFFa4V6cez8.jpg)
+![Automation sequence](/images/articles/PUww7ekwmOWiB8gZtFFa4V6cez8.jpg.webp)
 
 ### Your customer welcome sequence:
 

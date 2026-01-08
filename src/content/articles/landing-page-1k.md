@@ -3,7 +3,7 @@ title: "How to design a landing page for a $1k product or service"
 date: 2023-08-20
 category: personal
 description: "Give me four minutes to show you:"
-image: "https://framerusercontent.com/images/N0r7vNniNiyRqpMgRjmK8UILNM.jpg"
+image: "/images/articles/N0r7vNniNiyRqpMgRjmK8UILNM.jpg.webp"
 ---
 
 **Give me four minutes to show you:**
@@ -14,7 +14,7 @@ image: "https://framerusercontent.com/images/N0r7vNniNiyRqpMgRjmK8UILNM.jpg"
 
 ☕️ The $2,700 Espresso Machine Principle
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)There's a simple framework I use whenever the "Art vs Design" conversation comes up.
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)There's a simple framework I use whenever the "Art vs Design" conversation comes up.
 
 ​Design answers a question. Art asks a question.
 
@@ -32,7 +32,7 @@ This Thursday I'll be redesigning [**Khe Hy's**](https://twitter.com/khemaridh) 
 
 ​[**Join us here**](https://lu.ma/podcast-redesign)! (It's free!)
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)## 🎨 Better Design Decisions
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)## 🎨 Better Design Decisions
 
 ​[**Reinforce your difference with design**](https://twitter.com/mikaelcho/status/1270743622619717632?s=20): How Unsplash started with 10 photos and $38.
 
@@ -46,7 +46,7 @@ This Thursday I'll be redesigning [**Khe Hy's**](https://twitter.com/khemaridh) 
 
 ## 📸 Make It Yours Moment
 
-![](https://framerusercontent.com/images/Ol52lZvh8yoRbrCNVVhYGNFIeA.png)If I were to write about something for you next week, what would it be?
+![](/images/articles/Ol52lZvh8yoRbrCNVVhYGNFIeA.png.webp)If I were to write about something for you next week, what would it be?
 
 Your friend in design,
 

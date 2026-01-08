@@ -3,7 +3,7 @@ title: "How to use this 226 year old rule"
 date: 2023-07-09
 category: personal
 description: "Yo!"
-image: "https://framerusercontent.com/images/sm6rVKEtto9XiBjSrCb3FJEkrg.jpg"
+image: "/images/articles/sm6rVKEtto9XiBjSrCb3FJEkrg.jpg.webp"
 ---
 
 Yo!

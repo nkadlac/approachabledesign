@@ -18,7 +18,7 @@ The good news is, it doesn’t have to be this way. You can build beautiful, sim
 
 And in this article, I will show you how to avoid retrofitting your content into giant presentation templates like this. (This gives me nightmares)
 
-![Do templates like these drive you crazy?](https://framerusercontent.com/images/m7LyqoBFHGoemIr64bvLdemDiw.png)## **Understanding the Basics of a Slide Deck**
+![Do templates like these drive you crazy?](/images/articles/m7LyqoBFHGoemIr64bvLdemDiw.png.webp)## **Understanding the Basics of a Slide Deck**
 
 A slide deck is essentially a collection of slides that serve as visual aids during a presentation. Think of it as your trusty sidekick, helping you communicate ideas, showcase information, and keep your audience engaged. Whether you’re pitching a groundbreaking idea, delivering a lecture, or leading a business meeting, a well-crafted slide deck can make all the difference. Each slide in the deck has its own unique content, design, and purpose, working together to tell a cohesive story.
 
@@ -60,7 +60,7 @@ Now that many presentations are given virtually, it's more important than ever t
 
 ### **Tip #1: Build your slide deck like a book**
 
-![Structure your slide deck like a book](https://framerusercontent.com/images/mli92JDvQ3xDtdetJaOQd1ET9rs.png)For a moment, think about holding a book in your hands. Just holding it in your hands, it reveals several characteristics that tell us a bit about it. A slide deck template can serve a similar purpose, offering various designs for company meetings, real estate client pitches, educational lesson plans, and financial reporting.
+![Structure your slide deck like a book](/images/articles/mli92JDvQ3xDtdetJaOQd1ET9rs.png.webp)For a moment, think about holding a book in your hands. Just holding it in your hands, it reveals several characteristics that tell us a bit about it. A slide deck template can serve a similar purpose, offering various designs for company meetings, real estate client pitches, educational lesson plans, and financial reporting.
 
 - The cover creates intrigue and hints at the story before opening it.
 - The size of the book tells us how much time it might take us to read it.
@@ -83,7 +83,7 @@ We want people to know where they are, and how much time they have left. These u
 
 ### **Tip #2: Every presentation deck should tell a story**
 
-![Takeaway titles for your slides](https://framerusercontent.com/images/mSoRbkK2Nhh6yXc4bhD9gdtScI.png)Most people immediately start putting too much information into slides. It's easy to make the mistake that your slide decks need a lot of information.
+![Takeaway titles for your slides](/images/articles/mSoRbkK2Nhh6yXc4bhD9gdtScI.png.webp)Most people immediately start putting too much information into slides. It's easy to make the mistake that your slide decks need a lot of information.
 
 Instead, the story arc of a slide deck presentation should mimic a movie. You'll have a beginning, middle, and end. Each deck should communicate one large idea, and within that, you're sharing supporting ideas, each on its own slide.
 
@@ -101,7 +101,7 @@ As Keith lays out for executing a great pitch deck to investors, the key is to a
 
 ### **Tip #3: Present one takeaway per slide**
 
-![Slide titles should contain the insight or takeaway](https://framerusercontent.com/images/AqPejnMvctIzVc7l0KVlqEDw.png)It's better to have five slides, each with one main point, versus one slide with five points. One way to focus on this strategy is to title the slide with the ultimate takeaway.
+![Slide titles should contain the insight or takeaway](/images/articles/AqPejnMvctIzVc7l0KVlqEDw.png.webp)It's better to have five slides, each with one main point, versus one slide with five points. One way to focus on this strategy is to title the slide with the ultimate takeaway.
 
 Breaking up static slides with engaging visuals such as images, video animations, and audio can significantly enhance audience engagement and ensure that crucial information stands out during presentations. This helps the overall flow of your slide deck and enables you to think only about what the audience needs to hear.
 
@@ -113,7 +113,7 @@ If there's one piece of text your audience will read, it's going to be the title
 
 ### **Tip #4: Communicate your ideas using the Pyramid Principle**
 
-![The Pyramid Principle](https://framerusercontent.com/images/2zvH0tonEkX4mgo4T3b1KA6LV0.png)Your audience is busy. If you're presenting to the C-suite, you might not get through all your slides. The Pyramid Principle was created by Barbara Minto at McKinsey as a method for logically structuring your arguments.
+![The Pyramid Principle](/images/articles/2zvH0tonEkX4mgo4T3b1KA6LV0.png.webp)Your audience is busy. If you're presenting to the C-suite, you might not get through all your slides. The Pyramid Principle was created by Barbara Minto at McKinsey as a method for logically structuring your arguments.
 
 - Start with the answer first
 - Group and summarize your supporting arguments
@@ -179,7 +179,7 @@ Even if your presentation doesn’t look great yet, don’t worry! We’ll get t
 
 ### **Colors: Use three colors + light and dark versions for the body text**
 
-![Just a few colors take you most of the way](https://framerusercontent.com/images/Q9OVIjcTe7GSerB5s6hEBK28wYo.png)Three colors are all you need when designing a presentation deck. If you have a brand deck, please use those colors and don't deviate from them. Building reputable brands means using the same consistent choices over and over.
+![Just a few colors take you most of the way](/images/articles/Q9OVIjcTe7GSerB5s6hEBK28wYo.png.webp)Three colors are all you need when designing a presentation deck. If you have a brand deck, please use those colors and don't deviate from them. Building reputable brands means using the same consistent choices over and over.
 
 Applying brand decisions should be boring.
 
@@ -207,7 +207,7 @@ Feel free to experiment, but neutral colors are *almost* white. In the example a
 
 The purpose is not to overuse this color, but to use it strategically when necessary.
 
-**Avoid using true black and white for body text**![Choose colors just inside the black and white spectrum](https://framerusercontent.com/images/t1RMuryPJehnffNdjXnhTAfk7TM.png)Most templates will use pure black and white for body text. But these colors are high-contrast, and demand unnecessary attention. Pure black and white don't exist in the world because of the way light reflects off surfaces. Even shadows aren’t pure black because they absorb the color of the surface. (Unless maybe you're in a pitch-black float tank?)
+**Avoid using true black and white for body text**![Choose colors just inside the black and white spectrum](/images/articles/t1RMuryPJehnffNdjXnhTAfk7TM.png.webp)Most templates will use pure black and white for body text. But these colors are high-contrast, and demand unnecessary attention. Pure black and white don't exist in the world because of the way light reflects off surfaces. Even shadows aren’t pure black because they absorb the color of the surface. (Unless maybe you're in a pitch-black float tank?)
 
 Instead of just going with the defaults, I’ll pull in the ends of each just slightly, so to soften the intensity overall.
 
@@ -237,7 +237,7 @@ I use Figma to create all of my charts, but there are plenty of great creative t
 
 ### **Use simple grid layouts in your slide deck**
 
-![](https://framerusercontent.com/images/jP0sah87POYCslSzwZZxG6LVKFc.png)Laying out content can always cause a bit of a struggle. It’s best to keep things simple for your content. 
+![](/images/articles/jP0sah87POYCslSzwZZxG6LVKFc.png.webp)Laying out content can always cause a bit of a struggle. It’s best to keep things simple for your content. 
 
 Use a simple grid structureImagine your slide deck divided between 1-4 equally spaced columns. This gives you a basic grid when planning how to lay out content in your slide deck. 
 

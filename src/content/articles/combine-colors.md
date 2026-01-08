@@ -30,7 +30,7 @@ So remember this: the color wheel represents the full-color spectrum where every
 
 Speaking of saturation, that’s one of the principles that make up color. But first let’s talk about Hue, which happens to be the same name as one of my favorite actors. Not, Hugh Grant. The other Hugh. Wolverine Hugh.
 
-![](https://framerusercontent.com/images/1EzSvgDq9sNuEx5PwRvthFMGzFg.jpg)### Hue, Saturation, and Value
+![](/images/articles/1EzSvgDq9sNuEx5PwRvthFMGzFg.jpg.webp)### Hue, Saturation, and Value
 
 ### **Hue**
 
@@ -40,7 +40,7 @@ In most software that contains a color picker, you might see this resemble a hor
 
 Imagine a color wheel cut in half and laid out in a straight line. This is what you normally see in color-picking tools like Figma or Google Slides.
 
-![](https://framerusercontent.com/images/y5XAA8mOSrshL6TILYF6eCPcIyQ.jpg)
+![](/images/articles/y5XAA8mOSrshL6TILYF6eCPcIyQ.jpg.webp)
 
 ### **Saturation**
 
@@ -50,7 +50,7 @@ In many design tools, you might see a color picker like this.
 
 To adjust saturation, you’ll slide the cursor horizontally from left to right. The right side is 100% saturation, while the left side is 0% saturation.
 
-![](https://framerusercontent.com/images/JVPjzNUjfO1GnCdprUiBJqthg.jpg)
+![](/images/articles/JVPjzNUjfO1GnCdprUiBJqthg.jpg.webp)
 
 ### **Value**
 
@@ -60,7 +60,7 @@ Imagine a splotch of purple paint. 100% fully saturated purple. Now add white pa
 
 It goes both directions though. Add black paint little by little, and you’re adding shade to it, but in the best kind of way. You’re affecting its value in the same way.
 
-![](https://framerusercontent.com/images/cpgMSMm5TGdZPI2ZD9NBjChS4.jpg)Why do these three principles matter? To find ways to combine colors, we need to manipulate their properties, using hue, saturation, and value.
+![](/images/articles/cpgMSMm5TGdZPI2ZD9NBjChS4.jpg.webp)Why do these three principles matter? To find ways to combine colors, we need to manipulate their properties, using hue, saturation, and value.
 
 For example, since we don’t want to combine two rainbow colors fighting for attention, we need to change the properties of one or both to help them play nice.
 
@@ -84,7 +84,7 @@ As long as you stay within the same hue, you can pick any variation and know it�
 
 **Here are some examples of monochromatic colors:**
 
-![](https://framerusercontent.com/images/Hv7XhVqUicLRmv2v6oAIhEwVA.jpg)Complementary combinationsComplementary colors sit opposite each other on the color wheel. So, take your first color and grab a color opposite of it.
+![](/images/articles/Hv7XhVqUicLRmv2v6oAIhEwVA.jpg.webp)Complementary combinationsComplementary colors sit opposite each other on the color wheel. So, take your first color and grab a color opposite of it.
 
 These two colors will have high contrast when sitting next to each other.
 
@@ -92,10 +92,10 @@ These two colors will have high contrast when sitting next to each other.
 
 **Here are some examples of complementary color combinations:**
 
-![](https://framerusercontent.com/images/cf0DKwKGuLWUMj4dZIEbVQuAk.jpg)Analogous combinationsAnalogous colors sit next to each other on the color wheel. These are often easy to work with, as long as you maintain one dominant color. Use the others as accents or by adjusting the saturation and value to calm them down.
+![](/images/articles/cf0DKwKGuLWUMj4dZIEbVQuAk.jpg.webp)Analogous combinationsAnalogous colors sit next to each other on the color wheel. These are often easy to work with, as long as you maintain one dominant color. Use the others as accents or by adjusting the saturation and value to calm them down.
 
 *Tip: Using your main color, pick two more colors that sit next to it. Pick one as your base color, and change the saturation and value of your others to play a backup role, or limit their use.*
 
 **Here are some examples of analogous color combinations:**
 
-![](https://framerusercontent.com/images/XkUpPgbTffBIntMjER5ADRo96Ng.jpg)Choosing a single color is difficult, but using a few simple principles to combine colors can add depth and personality to your websites, newsletters, and businesses.
+![](/images/articles/XkUpPgbTffBIntMjER5ADRo96Ng.jpg.webp)Choosing a single color is difficult, but using a few simple principles to combine colors can add depth and personality to your websites, newsletters, and businesses.

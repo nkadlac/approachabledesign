@@ -40,7 +40,7 @@ But I wanted to experiment and find another door that took me outside of my own 
 
 ## Your free offer
 
-![](https://framerusercontent.com/images/K6OfglvLnXP0J3tbRuGnLqUFXjY.png)When you have nowhere to turn, this is the perfect moment for a free offer. 
+![](/images/articles/K6OfglvLnXP0J3tbRuGnLqUFXjY.png.webp)When you have nowhere to turn, this is the perfect moment for a free offer. 
 
 A free offer is suited for those who feel stuck, without an audience or a personal brand that exists outside of their identity as an employee. 
 
@@ -54,7 +54,7 @@ At the bottom of my emails, I created a Calendly link and started "Creative Call
 
 **My offer was simply called Creative Calls:**
 
-![](https://framerusercontent.com/images/K6I85qsbQGkCmBthBuLUfgdwLs.png)“Weird and crazy ideas are fragile. Sharing them with friends and family will leave you questioning those ideas. My offer is a free 20-minute call so you can share your idea with me and leave encouraged to pursue it."
+![](/images/articles/K6I85qsbQGkCmBthBuLUfgdwLs.png.webp)“Weird and crazy ideas are fragile. Sharing them with friends and family will leave you questioning those ideas. My offer is a free 20-minute call so you can share your idea with me and leave encouraged to pursue it."
 
 I honestly didn't know what to expect or what to say. However I aligned my free offer with my interest in helping others pursue their ideas, hoping to give me confidence to pursue my own. 
 
@@ -64,7 +64,7 @@ Many of the calls helped shape what Approachable Design is today, but back then,
 
 ## Your paid offer
 
-![](https://framerusercontent.com/images/dwIb5e4Qc0JRSCqddtsjlrn44.png)A paid offer works great if you're someone who has some established audience, or a product or service to sell. You might be a freelancer, coach, PM, or founder with some past trusted experience.
+![](/images/articles/dwIb5e4Qc0JRSCqddtsjlrn44.png.webp)A paid offer works great if you're someone who has some established audience, or a product or service to sell. You might be a freelancer, coach, PM, or founder with some past trusted experience.
 
 Even if you are these things, but aren't actively talking or publishing your ideas, I recommend defaulting to a free or affordable offer. The conversion rate is higher and will open you up to more conversations. 
 
@@ -110,7 +110,7 @@ When possible, get specific and clear about who you want to help.
 
 ### **What problem are you solving?**
 
-![](https://framerusercontent.com/images/c9aiHvgAsNfZuCC3G8wIUVRoO24.png)[*Paul Millerd's offer*](https://think-boundless.com/consulting/)
+![](/images/articles/c9aiHvgAsNfZuCC3G8wIUVRoO24.png.webp)[*Paul Millerd's offer*](https://think-boundless.com/consulting/)
 
 Next, you want to be clear about the problem you can help with. Again, it's good to be specific about the struggle or the source of the pain point here. 
 
@@ -132,7 +132,7 @@ Don't focus on the how just yet. Focus on the end result they get because of the
 
 ### **How will you do it?**
 
-![](https://framerusercontent.com/images/r2PnMVfaxYS546MWIBnJd6oGn7k.png)[*Cole Schafer's process*](https://www.honeycopy.co/)
+![](/images/articles/r2PnMVfaxYS546MWIBnJd6oGn7k.png.webp)[*Cole Schafer's process*](https://www.honeycopy.co/)
 
 This section lends itself to how you will use your process to guide them to a solution. For my own workshop, I approach design in a very specific way called Inside Out Design.
 
@@ -144,7 +144,7 @@ Think about how you might walk someone through your process. Even if it's not fu
 
 ### **Who have you helped in the past?**
 
-![](https://framerusercontent.com/images/T2eqfVK9nqkNp5JdjJ1fsxBQNs.png)I used to scoff at LinkedIn's testimonials section. But it's actually quite brilliant to encourage employees to seek out reviews of their work. 
+![](/images/articles/T2eqfVK9nqkNp5JdjJ1fsxBQNs.png.webp)I used to scoff at LinkedIn's testimonials section. But it's actually quite brilliant to encourage employees to seek out reviews of their work. 
 
 This is what we want to include for our individual offers, on our own websites. 
 
@@ -158,7 +158,7 @@ As you dig up this gold, you can use these across your personal website in diffe
 
 ### **Why are you capable of helping solve this?**
 
-![](https://framerusercontent.com/images/EKtYRNR27IdjgWiyiBCmTf4jiYc.png)[*Jason Chin's About Me*](https://www.easlo.co/)
+![](/images/articles/EKtYRNR27IdjgWiyiBCmTf4jiYc.png.webp)[*Jason Chin's About Me*](https://www.easlo.co/)
 
 This section doesn't need to be extensive, but giving a few sentences on your background and why you're capable of their investment of time or money should stand out. 
 
@@ -172,7 +172,7 @@ This section doesn't need to be extensive, but giving a few sentences on your ba
 
 ### **Your CTA and what it costs**
 
-![](https://framerusercontent.com/images/TiTEuDmfQkVv2A8AmwJBQJU1M.png)Lastly, think about a clear call-to-action for your page.
+![](/images/articles/TiTEuDmfQkVv2A8AmwJBQJU1M.png.webp)Lastly, think about a clear call-to-action for your page.
 
 It should be direct and to the point. Use specific action-oriented verbs, and not generic buttons like "Learn More."
 

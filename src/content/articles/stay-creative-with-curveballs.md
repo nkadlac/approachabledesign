@@ -3,7 +3,7 @@ title: "How to stay creative when life throws curveballs"
 date: 2023-11-12
 category: personal
 description: "Give me three minutes to show you:"
-image: "https://framerusercontent.com/images/tDJqcqKw5MKOBxDGKtUUE0f4xvQ.jpg"
+image: "/images/articles/tDJqcqKw5MKOBxDGKtUUE0f4xvQ.jpg.webp"
 ---
 
 **Give me three minutes to show you:**
@@ -12,9 +12,9 @@ image: "https://framerusercontent.com/images/tDJqcqKw5MKOBxDGKtUUE0f4xvQ.jpg"
 ⚾️ What happens when your life gets a curveball
 💻 The golden age of gadgets
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)
 
-![](https://framerusercontent.com/images/AyRdSITo4JrkDWLQR21HwvIo21E.jpg)At 1:30 pm on Monday, I got a call from my wife.
+![](/images/articles/AyRdSITo4JrkDWLQR21HwvIo21E.jpg.webp)At 1:30 pm on Monday, I got a call from my wife.
 
 “We’re having a baby today.”
 
@@ -44,7 +44,7 @@ With my first daughter, I thought I was losing my free time. But instead, I just
 
 Now I may need to adjust that schedule again to free up even more time. But with more constraints comes more creative firepower.
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)## 🎨 Better Design Decisions
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)## 🎨 Better Design Decisions
 
 [​**Who chooses the color of the year?**​](https://thehustle.co/who-chooses-the-worlds-color-of-the-year/)
 
@@ -56,6 +56,6 @@ What do [​**top creator websites have in common**​](https://x.com/jspector/s
 
 [​**The golden age of gadgets**​](https://cabel.com/2023/11/06/dak-and-the-golden-age-of-gadget-catalogs/) never looked so beautiful. (via Cabel Sasser)
 
-![](https://framerusercontent.com/images/n2inAsQWu9txoacNnAzX5b5TM0.png)![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)Remember, if you’re a coach or creator missing opportunities because your website feels incomplete or is too embarrassing to share, would you [​**help me by clicking here**​](https://approachabledesign.co/confirmed)?
+![](/images/articles/n2inAsQWu9txoacNnAzX5b5TM0.png.webp)![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)Remember, if you’re a coach or creator missing opportunities because your website feels incomplete or is too embarrassing to share, would you [​**help me by clicking here**​](https://approachabledesign.co/confirmed)?
 
 Thanks and I'll see you next Sunday!

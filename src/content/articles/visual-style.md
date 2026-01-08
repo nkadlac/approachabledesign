@@ -14,7 +14,7 @@ And black just works. It’s highly unlikely you’re going to dress in all whit
 
 Although maybe I should be convinced otherwise?
 
-![](https://framerusercontent.com/images/x62ksXvI6xq5pRl64si0aYgOjh0.jpg)Your visual style can be an anchor for your design decisions. It doesn’t always need to be expressed in every single medium. I dial down my visual style in the clothes I wear, but it doesn’t mean I don’t let them fly in many of the products I build.
+![](/images/articles/x62ksXvI6xq5pRl64si0aYgOjh0.jpg.webp)Your visual style can be an anchor for your design decisions. It doesn’t always need to be expressed in every single medium. I dial down my visual style in the clothes I wear, but it doesn’t mean I don’t let them fly in many of the products I build.
 
 In fact, I define my fashion choices by what I don’t like, versus what I do like. For example, I hate wearing anything heavily branded. I’d rather work out in a black cotton t-shirt than a Nike-branded moisture-wicking shirt.
 
@@ -38,7 +38,7 @@ Integrating personal style into your visual decisions can make your designs more
 
 Going through all my old pictures, I saw the color orange pop up over and over. The day was sunny, but the trail was crowded with cedar trees and bamboo. The Torri gates are all bright orange with dark markings in the names of the businesses and people who donated them.
 
-![](https://framerusercontent.com/images/KJDgtOrotGTvhXdrMzgLNgc4cQ.jpg)Most people skip this step, and instead, go and mimic a website they like, or a color palette someone else created. But these decisions have already been made for someone else, and for a different reason.
+![](/images/articles/KJDgtOrotGTvhXdrMzgLNgc4cQ.jpg.webp)Most people skip this step, and instead, go and mimic a website they like, or a color palette someone else created. But these decisions have already been made for someone else, and for a different reason.
 
 The secret is to [make](/newsletter) design decisions that connect to your own life, then you won’t feel the need to update it six months later.
 
@@ -56,7 +56,7 @@ I know we’re building and buying logic-based mobile and web games, and so many
 
 Incorporating pencil sketches into your visual research board can add a unique and personal touch to your design process.
 
-![](https://framerusercontent.com/images/oBlfJgtGIDf8fqkcs0K4mHmlfc.jpg)I’m really thinking about all of these pieces while collecting visuals, backstories, icons, and typography.
+![](/images/articles/oBlfJgtGIDf8fqkcs0K4mHmlfc.jpg.webp)I’m really thinking about all of these pieces while collecting visuals, backstories, icons, and typography.
 
 There might be intriguing ways to remix the interesting pieces and give them a new look that connects with the theme from step one.
 
@@ -68,7 +68,7 @@ Visual elements are the building blocks of visual style, including shapes, lines
 
 Throughout my research, I started seeing a number of grids pop up. Then I noticed the color orange in the objects around me. Shortly after, I noticed a design book near my desk called Grid Systems, which is set in a similar orange, using black type, and is a book on grids!
 
-![](https://framerusercontent.com/images/pMpSZJvKcsZ3uWLopx0EcT7uudc.jpg)While it’s not uncommon for this to happen when you start chasing rabbit holes, you should embrace this cognitive bias. It’s an enjoyable experience in design, especially when you’re trying to define a visual style.
+![](/images/articles/pMpSZJvKcsZ3uWLopx0EcT7uudc.jpg.webp)While it’s not uncommon for this to happen when you start chasing rabbit holes, you should embrace this cognitive bias. It’s an enjoyable experience in design, especially when you’re trying to define a visual style.
 
 Alongside the black and orange pairing, and overall grid structures, I loved how circles kept popping up in various ways. Patterns like flowing lines and dynamic curves, characteristic of organic design, can emerge during the research process. It contrasts the other shapes easily, and so I want to keep this around for safekeeping. In the back of my head, I started thinking about using an exclamation point due to its universal symbolism for excitement, and the instant energy it brings.
 
@@ -102,7 +102,7 @@ The goal is to express your unique taste in a distinctive visual style, all stem
 
 Incorporating other visual cues, such as patterns and labels, can enhance the accessibility and clarity of your visual taste palette.
 
-![](https://framerusercontent.com/images/UtIEVMZyCCNUdQ8XiukHRfTSqc.jpg)A simple technique is to set the background color in one of the colors you chose, then screengrab everything you found that’s related into one canvas.
+![](/images/articles/UtIEVMZyCCNUdQ8XiukHRfTSqc.jpg.webp)A simple technique is to set the background color in one of the colors you chose, then screengrab everything you found that’s related into one canvas.
 
 Notice how we haven’t actually designed anything yet! We’re just being curious, experimenting, and seeing how far we can get without designing.
 

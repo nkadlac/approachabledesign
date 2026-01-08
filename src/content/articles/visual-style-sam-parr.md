@@ -3,7 +3,7 @@ title: "This creator used their visual style to launch a multi-million dollar bu
 date: 2023-09-10
 category: personal
 description: "Give me five minutes to show you:"
-image: "https://framerusercontent.com/images/uz7PlEwQIUSRFx5voTZLVrbBBg.jpg"
+image: "/images/articles/uz7PlEwQIUSRFx5voTZLVrbBBg.jpg.webp"
 ---
 
 **Give me five minutes to show you:**
@@ -12,13 +12,13 @@ image: "https://framerusercontent.com/images/uz7PlEwQIUSRFx5voTZLVrbBBg.jpg"
 🔵 Test your design eye with this simple game
 📱What the iPhone would look like if Apple listened to everyone
 
-![Divider line](https://framerusercontent.com/images/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png)Not long ago, I asked entrepreneur Sam Parr how he came up with his beautiful visual identity for his new company, Hampton.
+![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)Not long ago, I asked entrepreneur Sam Parr how he came up with his beautiful visual identity for his new company, Hampton.
 
 He responded:
 
 Sam Parr's visual starting point for his new company
 
-![](https://framerusercontent.com/images/2HFYKJrMvWfFw1hSAWDJfWxhEUI.png)I'm not surprised.
+![](/images/articles/2HFYKJrMvWfFw1hSAWDJfWxhEUI.png.webp)I'm not surprised.
 
 Sam's not a designer, but if you have listened to his popular podcast, [​***My First Million***​](https://open.spotify.com/show/3mliji9352UAk3XnWElnDV?si=edc921ae15f54d6c), you'll know he's vocal about what he loves. I fully expected an answer like this.
 
@@ -28,7 +28,7 @@ I thought it would be fun to break this response down and see how it was foundat
 
 I don't know what images Sam used to define his style, but a simple Google search for, ”*old school car and rolex ads. British racing green. like an old e type jaguar" *created some fundamental images that work for this example.
 
-![](https://framerusercontent.com/images/pylZTZHr8A3j71jUJ6VBNsBA5w.jpg)*A Taste Palette from Sam's stated preferences*
+![](/images/articles/pylZTZHr8A3j71jUJ6VBNsBA5w.jpg.webp)*A Taste Palette from Sam's stated preferences*
 
 To me, I see the muted greens, the sandy undertones, the elegant serif typefaces, and the classic imagery. I've laid them out on this board to distill the vibe for you quickly.
 
@@ -50,7 +50,7 @@ The sandy color treatments, buttons, spot graphics, and serif font choices feel 
 
 While Sam hired an agency to do the work, giving them a north star pointed them in the right direction, saving him potentially tens of thousands of dollars and hundreds of hours along the way.
 
-![](https://framerusercontent.com/images/UVgsYpoWFqaaLniwpJnk58BHX9Q.jpg)**Remember, a designer's goal is to **[​**answer a question**​](https://approachabledesign.co/newsletter/landing-page-1k)**.**
+![](/images/articles/UVgsYpoWFqaaLniwpJnk58BHX9Q.jpg.webp)**Remember, a designer's goal is to **[​**answer a question**​](https://approachabledesign.co/newsletter/landing-page-1k)**.**
 
 As a designer, I want to convey and answer the question, “Who am I?” and do that in a visually distinctive way that's true to the founder. There are other questions I'm solving for, but if you're excited about how you're presenting your true self to the world, it's easy to stay focused and motivated on building your business or side project.
 
@@ -66,7 +66,7 @@ My own journey of discovering my visual style was to answer the question, “Wha
 
 I loved palm trees, and I wanted to better understand why. So I embarked on a 100-day creative challenge to draw a palm tree each day.
 
-![](https://framerusercontent.com/images/5YxFb2Nudfg6fcSA3UykslIzt0.jpg)*100 Day Palm Tree Challenge*
+![](/images/articles/5YxFb2Nudfg6fcSA3UykslIzt0.jpg.webp)*100 Day Palm Tree Challenge*
 
 If you look closely, Palm Tree #65 is where I found something unique. A moody background with a leaf being hit with a single source of light. Most of my personal design projects incorporate three elements. The **sun**, **sand**, and **palm trees** using moody backgrounds.
 
