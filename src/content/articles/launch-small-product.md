@@ -1,6 +1,7 @@
 ---
 title: "How to launch a small digital product into the world"
 date: 2023-08-06
+type: newsletter
 category: personal
 description: "Give me three minutes to show you:"
 image: "/images/articles/h5LNN7QAhJx4BQn6MmQgAlACKA.jpg.webp"

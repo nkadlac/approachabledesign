@@ -3,6 +3,7 @@ title: "20 unconventional design tips for non-designers"
 date: 2026-01-08
 category: youtube-design
 description: "You make design decisions every single day."
+image: "/images/articles/TFHmnQngk4nBmA1OF275IZgWkCw.jpg.webp"
 
 ---
 

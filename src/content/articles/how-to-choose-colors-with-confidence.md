@@ -1,6 +1,7 @@
 ---
 title: "How to choose colors with confidence"
 date: 2023-09-24
+type: newsletter
 category: personal
 description: "Give me three minutes to show you:"
 image: "/images/articles/VJqHZlNBM5IfXcUw23RF3v04c.jpg.webp"

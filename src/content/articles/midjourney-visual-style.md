@@ -3,6 +3,7 @@ title: "Discover your visual style using one word in Midjourney"
 date: 2026-01-08
 category: youtube-design
 description: "Learning a new skill requires an appreciation for what's come before."
+image: "/images/articles/x7wVLMqIxFb6wEX2b4NQMNJXCc.jpg.webp"
 
 ---
 

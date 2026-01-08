@@ -3,6 +3,7 @@ title: "How to create a free or paid offering on your personal website"
 date: 2026-01-08
 category: branding
 description: "Every once in a while I'll stumble across a list of designer websites someone attempted to cobble together as a list of resources. In my experience, 90% of them end up as broken links, badly outdated"
+image: "/images/articles/MqfRqTAW4mguA3DmyoLdjdyv6KI.jpg.webp"
 
 ---
 

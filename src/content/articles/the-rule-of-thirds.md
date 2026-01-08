@@ -1,6 +1,7 @@
 ---
 title: "How to use this 226 year old rule"
 date: 2023-07-09
+type: newsletter
 category: personal
 description: "Yo!"
 image: "/images/articles/sm6rVKEtto9XiBjSrCb3FJEkrg.jpg.webp"

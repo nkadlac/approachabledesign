@@ -3,6 +3,7 @@ title: "The modern guide to creating a personal website that drives career and p
 date: 2026-01-08
 category: youtube-design
 description: "My personal website has single-handedly played a specific role in accelerating my career growth and income for the past 18 years."
+image: "/images/articles/Bfbcg25lKimwoPl62mMjt1zE.png.webp"
 
 ---
 

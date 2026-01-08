@@ -3,6 +3,7 @@ title: "Find your visual style"
 date: 2026-01-08
 category: branding
 description: "\"If you think good design is expensive, you should look at the cost of bad design.” —Ralf Speth, former CEO of Jaguar Land Rover"
+image: "/images/articles/0qpW5L89OL6qmrCuzqSByr41q9E.jpg.webp"
 
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "How to design a landing page for a $1k product or service"
 date: 2023-08-20
+type: newsletter
 category: personal
 description: "Give me four minutes to show you:"
 image: "/images/articles/N0r7vNniNiyRqpMgRjmK8UILNM.jpg.webp"

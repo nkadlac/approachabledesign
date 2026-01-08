@@ -1,6 +1,7 @@
 ---
 title: "This personal website page will set you free"
 date: 2023-09-03
+type: newsletter
 category: personal
 description: "Give me three minutes to show you:"
 image: "/images/articles/MqfRqTAW4mguA3DmyoLdjdyv6KI.jpg.webp"

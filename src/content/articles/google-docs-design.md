@@ -3,6 +3,7 @@ title: "How to improve your Google Docs writing experience"
 date: 2026-01-08
 category: branding
 description: "A simple book is the perfect example of great design."
+image: "/images/articles/hevqvX55wHHYZqr2VGu1Vwbfcy4.jpg.webp"
 
 ---
 

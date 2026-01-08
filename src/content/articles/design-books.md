@@ -3,6 +3,7 @@ title: "8 design books for non-designers"
 date: 2026-01-08
 category: branding
 description: "Every creator faces a design challenge at some point."
+image: "/images/articles/1mW7Gna2qulRAlPVONOkCLpJZo.png.webp"
 
 ---
 

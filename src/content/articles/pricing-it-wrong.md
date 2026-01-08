@@ -1,6 +1,7 @@
 ---
 title: "Am I pricing it all wrong?"
 date: 2023-11-12
+type: newsletter
 category: personal
 description: "​Give me four minutes to show you:"
 image: "/images/articles/VEWA26954VuNRVjr9oy5sRlils.jpg.webp"

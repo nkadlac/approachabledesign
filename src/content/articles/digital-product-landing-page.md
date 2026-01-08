@@ -3,6 +3,7 @@ title: "How to flip a free workshop into an evergreen product landing page that 
 date: 2026-01-08
 category: youtube-design
 description: "I recently turned a free 90-minute workshop into a small but profitable digital product in under a week."
+image: "/images/articles/PNCKpYPB8wWCW87xxgPrXgURPfc.jpg.webp"
 
 ---
 

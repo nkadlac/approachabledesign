@@ -25,6 +25,7 @@ const formattedDate = article.data.date.toLocaleDateString('en-US', {
   title={`${article.data.title} - Approachable Design`}
   description={article.data.description}
   ogImage={article.data.image}
+  variant="light"
   article={{ publishedDate: article.data.date }}
 >
   <article class="py-16 md:py-24">
@@ -34,13 +35,13 @@ const formattedDate = article.data.date.toLocaleDateString('en-US', {
         <header class="mb-12">
           {article.data.category && (
             <span class="text-brand-purple text-sm font-medium uppercase tracking-wider">
-              {article.data.category}
+              {article.data.category.replace('-', ' ')}
             </span>
           )}
-          <h1 class="font-display text-3xl md:text-5xl font-bold mt-4 mb-6">
+          <h1 class="font-display text-3xl md:text-5xl font-bold mt-4 mb-6 text-brand-dark">
             {article.data.title}
           </h1>
-          <p class="text-white/60">
+          <p class="text-brand-dark/60">
             {formattedDate}
           </p>
         </header>
@@ -55,13 +56,13 @@ const formattedDate = article.data.date.toLocaleDateString('en-US', {
         )}
 
         <!-- Content -->
-        <div class="prose">
+        <div class="prose prose-light">
           <Content />
         </div>
 
         <!-- Back link -->
-        <div class="mt-16 pt-8 border-t border-white/10">
-          <a href="/articles" class="text-brand-coral hover:underline">
+        <div class="mt-16 pt-8 border-t border-brand-dark/10">
+          <a href="/articles" class="text-brand-purple hover:underline">
             &larr; Back to all articles
           </a>
         </div>
@@ -69,3 +70,31 @@ const formattedDate = article.data.date.toLocaleDateString('en-US', {
     </div>
   </article>
 </Layout>
+
+<style>
+  .prose-light {
+    color: #0B0A16;
+  }
+  .prose-light :global(p) {
+    color: rgba(11, 10, 22, 0.8);
+  }
+  .prose-light :global(strong) {
+    color: #0B0A16;
+  }
+  .prose-light :global(h1),
+  .prose-light :global(h2),
+  .prose-light :global(h3) {
+    color: #0B0A16;
+  }
+  .prose-light :global(ul li),
+  .prose-light :global(ol li) {
+    color: rgba(11, 10, 22, 0.8);
+  }
+  .prose-light :global(a) {
+    color: #5148CA;
+  }
+  .prose-light :global(blockquote) {
+    color: rgba(11, 10, 22, 0.7);
+    border-left-color: #5148CA;
+  }
+</style>

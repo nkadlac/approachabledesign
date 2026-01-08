@@ -3,6 +3,7 @@ title: "How to combine colors with confidence"
 date: 2026-01-08
 category: branding
 description: "How to combine colors"
+image: "/images/articles/2HFYKJrMvWfFw1hSAWDJfWxhEUI.png.webp"
 
 ---
 

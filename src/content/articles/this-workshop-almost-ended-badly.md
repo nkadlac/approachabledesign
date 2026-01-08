@@ -1,6 +1,7 @@
 ---
 title: "This workshop almost ended badly"
 date: 2023-09-17
+type: newsletter
 category: personal
 description: "Give me three minutes to show you:"
 image: "/images/articles/t08zj6RlRjaRhlTOPfyMgyGJpeE.jpg.webp"

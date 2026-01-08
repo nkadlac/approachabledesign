@@ -1,6 +1,7 @@
 ---
 title: "How to design impactful (and beautiful) YouTube thumbnails"
 date: 2023-11-05
+type: newsletter
 category: personal
 description: "​Give me four minutes to show you:"
 image: "/images/articles/gDBgBeZPiwBEMj2KjE6gMBIEI.jpg.webp"

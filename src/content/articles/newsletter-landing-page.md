@@ -3,6 +3,7 @@ title: "How to design a newsletter landing page"
 date: 2026-01-08
 category: branding
 description: "Not long ago, I received an inbound email from a prospect."
+image: "/images/articles/h5LNN7QAhJx4BQn6MmQgAlACKA.jpg.webp"
 
 ---
 

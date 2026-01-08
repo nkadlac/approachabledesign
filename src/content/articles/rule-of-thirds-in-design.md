@@ -3,6 +3,7 @@ title: "How is the rule of thirds used in design?"
 date: 2026-01-08
 category: youtube-design
 description: "Design can feel overwhelming when you sit down staring at a blank page, not knowing where to start. Thankfully, there's a simple rule that once you learn it, you'll never forget it."
+image: "/images/articles/U8kB1rXHySPEXNEu3T03uWTCfo.jpg.webp"
 
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Guess what? You're an art director now"
 date: 2023-07-23
+type: newsletter
 category: personal
 description: "On Wednesday, I co-hosted a live YouTube thumbnail workshop with 43 people. And while I taught some design fundamentals, what I was really teaching those who joined was how to Art Direct.​"
 image: "/images/articles/3np2J8oViRfsXShmf6jiUP9I9Q.jpg.webp"

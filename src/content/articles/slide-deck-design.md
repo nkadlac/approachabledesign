@@ -3,6 +3,7 @@ title: "How to Build a Presentation Deck That Doesn't Put People to Sleep"
 date: 2026-01-08
 category: youtube-design
 description: "Slide deck presentations are broken."
+image: "/images/articles/N0r7vNniNiyRqpMgRjmK8UILNM.jpg.webp"
 
 ---
 

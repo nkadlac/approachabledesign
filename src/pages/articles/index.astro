@@ -2,8 +2,8 @@
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 
-// Get all articles and sort by date
-const articles = await getCollection('articles');
+// Get blog articles only (not newsletter) and sort by date
+const articles = await getCollection('articles', ({ data }) => data.type !== 'newsletter');
 const sortedArticles = articles.sort((a, b) =>
   new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
 );

@@ -3,6 +3,7 @@ title: "How to design a landing page for a $1,000 product or service"
 date: 2026-01-08
 category: branding
 description: "Creating a landing page is like working on a piece of art. You're never really done improving it. Even after designing your landing page, you'll be testing copy, creating new layouts, and finding new"
+image: "/images/articles/4bW19YgTtSf9hArsW7IkPIeR4.jpg.webp"
 
 ---
 

@@ -3,6 +3,7 @@ title: "What makes a good slide deck?"
 date: 2026-01-08
 category: ai
 description: "Slides are an essential part of any presentation; they help keep the audience engaged and give you a chance to visualize your ideas. But, like all good things in life, a slide deck is only as good as"
+image: "/images/articles/DY99nXlDooMCQVhoHkhWgUqzGw.jpg.webp"
 
 ---
 

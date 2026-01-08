@@ -1,6 +1,7 @@
 ---
 title: "Five reasons why you should avoid investing in design"
 date: 2023-10-29
+type: newsletter
 category: personal
 description: "Give me three minutes to show you:"
 image: "/images/articles/s8lHkhq4CktxUuY9QAZVbII4w.jpg.webp"

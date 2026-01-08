@@ -3,6 +3,7 @@ title: "What is the rule of thirds?"
 date: 2026-01-08
 category: youtube-design
 description: "‍Imagine knowing a guideline so well, you'll know how to shoot better photos, add drama to a compelling video, or know where to place a button in the perfect spot of your business home page. All in a"
+image: "/images/articles/4acu3EgnL4JtGU8R5OWpBhyiok.png.webp"
 
 ---
 

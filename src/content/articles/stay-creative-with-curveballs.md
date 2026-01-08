@@ -1,6 +1,7 @@
 ---
 title: "How to stay creative when life throws curveballs"
 date: 2023-11-12
+type: newsletter
 category: personal
 description: "Give me three minutes to show you:"
 image: "/images/articles/tDJqcqKw5MKOBxDGKtUUE0f4xvQ.jpg.webp"

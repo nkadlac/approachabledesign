@@ -3,6 +3,7 @@ title: "How to pick colors with confidence"
 date: 2026-01-08
 category: youtube-design
 description: "“Does this color look good?”"
+image: "/images/articles/VJqHZlNBM5IfXcUw23RF3v04c.jpg.webp"
 
 ---
 

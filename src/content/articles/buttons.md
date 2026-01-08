@@ -3,6 +3,7 @@ title: "Stop saying \"Learn More\": How to create buttons that convert"
 date: 2026-01-08
 category: ai
 description: "It’s 6:26 am. It’s dark in the living room, which is technically a family room, as my three-year-old likes to tell me."
+image: "/images/articles/gDBgBeZPiwBEMj2KjE6gMBIEI.jpg.webp"
 
 ---
 

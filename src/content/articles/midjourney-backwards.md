@@ -1,6 +1,7 @@
 ---
 title: "You're using Midjourney backwards"
 date: 2023-10-01
+type: newsletter
 category: personal
 description: "Give me three minutes to show you:"
 image: "/images/articles/x7wVLMqIxFb6wEX2b4NQMNJXCc.jpg.webp"

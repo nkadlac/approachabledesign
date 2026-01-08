@@ -1,6 +1,7 @@
 ---
 title: "Maximize surface serendipity"
 date: 2023-08-13
+type: newsletter
 category: personal
 description: "Give me four minutes to show you:"
 image: "/images/articles/USXTjPJIQ4WqBVhAUj2arBMccI.jpg.webp"

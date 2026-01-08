@@ -1,6 +1,7 @@
 ---
 title: "This creator used their visual style to launch a multi-million dollar business"
 date: 2023-09-10
+type: newsletter
 category: personal
 description: "Give me five minutes to show you:"
 image: "/images/articles/uz7PlEwQIUSRFx5voTZLVrbBBg.jpg.webp"

@@ -1,6 +1,7 @@
 ---
 title: "The most important page you have"
 date: 2023-07-16
+type: newsletter
 category: personal
 description: "If you have a product or service offering, the single most important page to turn onlookers into customers is a landing page."
 image: "/images/articles/PNCKpYPB8wWCW87xxgPrXgURPfc.jpg.webp"

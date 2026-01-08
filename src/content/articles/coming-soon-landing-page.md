@@ -1,6 +1,7 @@
 ---
 title: "How to design a pre-launch landing page"
 date: 2023-07-30
+type: newsletter
 category: personal
 description: "This week I launched a new product for ​designing thumbnails​(https://approachabledesign.co/products/youtube-masterclass) and learned a lot about how to walk the line between the act of building and t"
 image: "/images/articles/IRNtXsHr4ddEXTcMdPJFNNlsVRQ.jpg.webp"

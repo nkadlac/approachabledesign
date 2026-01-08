@@ -3,6 +3,7 @@ title: "YouTube Thumbnails: How to design click-worthy images"
 date: 2026-01-08
 category: youtube-design
 description: "A well-designed thumbnail can increase your video views, boost engagement, and improve your YouTube channel's overall performance. But how do you create thumbnails that are both appealing and effectiv"
+image: "/images/articles/Ax5G8NsZhPmcmenlbYKmUgHkxU.jpg.webp"
 
 ---
 

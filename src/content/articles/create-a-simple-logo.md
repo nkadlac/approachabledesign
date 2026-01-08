@@ -3,6 +3,7 @@ title: "How to create a logo from scratch using a free font"
 date: 2026-01-08
 category: youtube-design
 description: "There are a lot of steps between coming up with an idea, then presenting it to the world."
+image: "/images/articles/IRNtXsHr4ddEXTcMdPJFNNlsVRQ.jpg.webp"
 
 ---
 
