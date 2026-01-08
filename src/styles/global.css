@@ -1,5 +1,38 @@
 @import "tailwindcss";
 
+/* Domaine Display Font */
+@font-face {
+  font-family: 'Domaine Display';
+  src: url('/fonts/domaine-display-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Domaine Display';
+  src: url('/fonts/domaine-display-regular-italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Domaine Display';
+  src: url('/fonts/domaine-display-black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Domaine Display';
+  src: url('/fonts/domaine-display-black-italic.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
 /* Design System - approachabledesign.co */
 @theme {
   /* Colors - Dark theme */
@@ -13,7 +46,7 @@
   --color-brand-gray: #9CA3AF;
 
   /* Typography */
-  --font-display: "Roslindale", Georgia, serif;
+  --font-display: "Domaine Display", Georgia, serif;
   --font-heading: "Manrope", system-ui, sans-serif;
   --font-body: "Inter", system-ui, sans-serif;
   --font-serif: "Noto Serif Georgian", Georgia, serif;
