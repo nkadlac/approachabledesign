@@ -1,0 +1,87 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+// Get newsletter articles only and sort by date (oldest first to get issue numbers)
+const newsletters = await getCollection('articles', ({ data }) => data.type === 'newsletter');
+const sortedNewsletters = newsletters.sort((a, b) =>
+  new Date(a.data.date).getTime() - new Date(b.data.date).getTime()
+);
+
+// Add issue numbers (oldest = 001, newest = highest)
+const newslettersWithIssues = sortedNewsletters.map((newsletter, index) => ({
+  ...newsletter,
+  issueNumber: String(index + 1).padStart(3, '0')
+}));
+
+// Reverse for display (newest first)
+const displayNewsletters = [...newslettersWithIssues].reverse();
+---
+
+<Layout title="Newsletter Archive - Approachable Design" description="Browse past issues of the Make It Yours newsletter on design for non-designers." variant="light">
+  <section class="py-16 md:py-24">
+    <div class="container max-w-4xl">
+      <!-- Hero -->
+      <div class="text-center mb-16">
+        <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-brand-dark">
+          Newsletter Archive
+        </h1>
+        <p class="text-lg text-brand-dark/60 max-w-xl mx-auto">
+          Past issues of Make It Yours, a newsletter about making better design decisions.
+        </p>
+      </div>
+
+      <!-- Newsletter List -->
+      {displayNewsletters.length > 0 ? (
+        <div class="space-y-6">
+          {displayNewsletters.map((newsletter) => (
+            <a href={`/newsletter/${newsletter.slug}`} class="group block">
+              <div class="flex items-center gap-6 p-6 rounded-2xl bg-white/50 hover:bg-white transition-colors">
+                {newsletter.data.image && (
+                  <img
+                    src={newsletter.data.image}
+                    alt={newsletter.data.title}
+                    class="w-20 h-20 object-cover rounded-lg flex-shrink-0"
+                  />
+                )}
+                <div class="flex-1 min-w-0">
+                  <div class="flex items-center gap-3 mb-2">
+                    <span class="text-brand-purple text-xs font-semibold uppercase tracking-wider">
+                      Issue #{newsletter.issueNumber}
+                    </span>
+                    <span class="text-brand-dark/40 text-sm">
+                      {new Date(newsletter.data.date).toLocaleDateString('en-US', {
+                        year: 'numeric',
+                        month: 'short',
+                        day: 'numeric'
+                      })}
+                    </span>
+                  </div>
+                  <h2 class="font-heading font-bold text-lg text-brand-dark group-hover:text-brand-purple transition-colors truncate">
+                    {newsletter.data.title}
+                  </h2>
+                </div>
+                <span class="text-brand-coral text-sm font-medium flex-shrink-0 hidden sm:inline-flex items-center gap-1">
+                  Read <span>&rarr;</span>
+                </span>
+              </div>
+            </a>
+          ))}
+        </div>
+      ) : (
+        <div class="text-center py-16">
+          <p class="text-brand-dark/60 text-lg mb-4">No newsletters yet.</p>
+          <p class="text-brand-dark/40">Check back soon!</p>
+        </div>
+      )}
+
+      <!-- Subscribe CTA -->
+      <div class="mt-16 text-center">
+        <p class="text-brand-dark/60 mb-4">Want to receive new issues directly?</p>
+        <a href="/newsletter" class="inline-flex items-center gap-2 bg-brand-dark text-white font-medium px-6 py-3 rounded-full hover:bg-brand-purple transition-colors">
+          Subscribe to the Newsletter
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>

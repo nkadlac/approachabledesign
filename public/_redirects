@@ -9,3 +9,22 @@
 
 # Newsletter legacy redirects
 /plan-your-next /newsletter 301
+
+# Newsletter article redirects (from /articles/ to /newsletter/)
+/articles/start-consistently-cranking /newsletter/start-consistently-cranking 301
+/articles/the-rule-of-thirds /newsletter/the-rule-of-thirds 301
+/articles/the-most-important-page /newsletter/the-most-important-page 301
+/articles/youre-an-art-director-now /newsletter/youre-an-art-director-now 301
+/articles/coming-soon-landing-page /newsletter/coming-soon-landing-page 301
+/articles/launch-small-product /newsletter/launch-small-product 301
+/articles/maximize-surface-serendipity /newsletter/maximize-surface-serendipity 301
+/articles/landing-page-1k /newsletter/landing-page-1k 301
+/articles/this-personal-website-page-will-set-you-free /newsletter/this-personal-website-page-will-set-you-free 301
+/articles/visual-style-sam-parr /newsletter/visual-style-sam-parr 301
+/articles/this-workshop-almost-ended-badly /newsletter/this-workshop-almost-ended-badly 301
+/articles/how-to-choose-colors-with-confidence /newsletter/how-to-choose-colors-with-confidence 301
+/articles/midjourney-backwards /newsletter/midjourney-backwards 301
+/articles/five-reasons-why-you-should-avoid-investing-in-design /newsletter/five-reasons-why-you-should-avoid-investing-in-design 301
+/articles/8-questions-youtube-thumbnail-design /newsletter/8-questions-youtube-thumbnail-design 301
+/articles/pricing-it-wrong /newsletter/pricing-it-wrong 301
+/articles/stay-creative-with-curveballs /newsletter/stay-creative-with-curveballs 301

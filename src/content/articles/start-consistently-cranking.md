@@ -1,6 +1,7 @@
 ---
 title: "Start consistently cranking"
 date: 2023-07-02
+type: newsletter
 category: personal
 description: "A fresh coat of ideas"
 image: "/images/articles/DY99nXlDooMCQVhoHkhWgUqzGw.jpg.webp"
