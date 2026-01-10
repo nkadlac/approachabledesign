@@ -3,108 +3,195 @@ import Layout from '../layouts/Layout.astro';
 
 const products = [
   {
-    title: "YouTube Thumbnail Design Masterclass",
-    description: "Learn to create click-worthy YouTube thumbnails with design breakdowns, live examples, templates, and over-the-shoulder instruction.",
+    title: "YouTube Thumbnail Design Masterclass + Figma Template",
+    badge: "NEW: YouTube Masterclass",
+    description: "Level up your thumbnail designs with breakdowns, live examples, templates, and over-the-shoulder examples.",
     price: "$49",
-    href: "https://approachabledesign.co/products/youtube-masterclass",
-    cta: "Get the Masterclass",
-    icon: "📺",
-    features: [
-      "Design breakdowns of top thumbnails",
-      "Live design examples",
-      "Figma templates included",
-      "Over-the-shoulder instruction"
-    ]
+    href: "/products/youtube-masterclass",
+    cta: "Design Better Thumbnails",
+    image: "/images/site/youtube-masterclass.png",
   },
   {
     title: "The Design Vault",
-    description: "A curated library of 90+ beautifully designed websites that you can filter by category. Perfect for finding inspiration for your next project.",
+    badge: "Design Inspiration",
+    description: "Never lose inspiration for your next website project. This hosted vault is a comprehensive library of highly designed websites, hand-picked by Nate. Over 90+ sites can be filtered by landing pages, personal sites, SaaS companies, blogs, and more. The library will grow to 1,000 by the end of 2023!",
     price: "$149",
-    href: "https://approachabledesign.co/products/design-vault",
-    cta: "Access the Vault",
-    icon: "🗂️",
-    features: [
-      "90+ curated websites",
-      "Filter by category",
-      "Regular updates",
-      "Landing pages, SaaS, blogs & more"
-    ]
+    href: "/products/design-vault",
+    cta: "Peek Inside the Vault",
+    image: "/images/site/design-vault.png",
   },
   {
     title: "Design Checklist",
-    description: "A comprehensive checklist covering fundamental design principles. Use it to audit your designs and ensure you're not missing anything important.",
+    badge: "Design Resource",
+    description: "A 20-Day email course to help you learn the 80/20 of design, and learn to create your own designs using Figma, the most powerful tool designers use.",
     price: "$5",
-    href: "https://approachabledesign.co/products/design-checklist",
-    cta: "Get the Checklist",
-    icon: "✅",
-    features: [
-      "20 essential design principles",
-      "Easy-to-follow checklist format",
-      "Use for any design project",
-      "Instant download"
-    ]
+    href: "#",
+    cta: "Get on the Waitlist",
+    image: "/images/site/design-checklist.png",
+  }
+];
+
+const testimonials = [
+  {
+    quote: "You'll level up your Figma game within hours of watching, and can then easily start experimenting to impress clients, classmates, teachers, etc.",
+    author: "Hina",
+    role: "Student"
+  },
+  {
+    quote: "the stuff I'm producing already feels a lot lighter and visually compelling",
+    author: "Cécile",
+    role: "Student"
+  },
+  {
+    quote: "I wish I had learned this years ago for all those semi-beautiful presentations I created.",
+    author: "Filipe",
+    role: "Student"
+  },
+  {
+    quote: "SERIOUSLY...I feel like I'm very good using Figma. Every single day I would receive an email with a Figma file as well as a Loom video and let me tell you, it's VERY, VERY, VERY valuable content.",
+    author: "Irving",
+    role: "Student"
+  },
+  {
+    quote: "I usually would have skipped designing anything visual because I felt it would take too long or not look good, but after a few lessons I just hopped in.",
+    author: "Sola",
+    role: "Student"
+  },
+  {
+    quote: "Loved the email series",
+    author: "Jonny Miller",
+    role: "Founder, Nervous System Mastery"
+  },
+  {
+    quote: "Thank you Nate! The best investment I made this year. Every dollar is worth it!",
+    author: "Iliyan Slavov",
+    role: "Student"
+  },
+  {
+    quote: "For the first time, I was able to connect with my audience while giving a presentation.",
+    author: "Eduardo Holschneider",
+    role: "Investor and Entrepreneur"
+  },
+  {
+    quote: "The price to value ratio on this product is insane.",
+    author: "Mike Newton",
+    role: "Student"
+  },
+  {
+    quote: "Nate radically shifted how I see design in many aspects of my work and I think one of the biggest mistakes I made was not working with Nate earlier!",
+    author: "Paul Millerd",
+    role: "Author, The Pathless Path"
   }
 ];
 ---
 
-<Layout title="Products - Approachable Design" description="Design resources and tools for non-designers. Templates, inspiration vaults, and checklists to level up your visual design.">
+<Layout title="Products - Approachable Design" description="Digital goods to level up your design game. Design resources built for non-designers.">
   <section class="py-16 md:py-24">
     <div class="container">
-      <h1 class="font-display text-4xl md:text-5xl font-bold mb-4">Products</h1>
-      <p class="text-xl text-white/60 mb-16 max-w-2xl">
-        Design resources built for non-designers. Get templates, inspiration, and tools to create better visuals.
-      </p>
+      <!-- Hero -->
+      <div class="text-center mb-16">
+        <h1 class="font-display-black-italic text-4xl md:text-5xl lg:text-6xl mb-6">Digital goods to level up your design game</h1>
+        <p class="text-xl text-white/60 max-w-2xl mx-auto">
+          If you're not a designer, these products are built for you
+        </p>
+      </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Products -->
+      <div class="space-y-12">
         {products.map((product) => (
-          <div class="bg-brand-dark-light rounded-2xl border border-white/10 overflow-hidden flex flex-col">
-            <div class="aspect-video bg-brand-coral/10 flex items-center justify-center">
-              <span class="text-6xl">{product.icon}</span>
-            </div>
-            <div class="p-6 flex flex-col flex-1">
-              <h2 class="font-heading font-bold text-xl mb-3">{product.title}</h2>
-              <p class="text-white/60 text-sm mb-6 flex-1">{product.description}</p>
+          <div class="bg-brand-dark-light rounded-2xl border border-white/10 overflow-hidden">
+            <div class="md:flex">
+              <div class="md:w-1/2 p-6 flex items-center justify-center bg-brand-purple/5">
+                <img
+                  src={product.image}
+                  alt={product.title}
+                  class="w-full max-w-md rounded-xl"
+                />
+              </div>
+              <div class="md:w-1/2 p-8 flex flex-col justify-center">
+                <span class="text-brand-coral text-sm font-medium uppercase tracking-wider mb-2">
+                  {product.badge}
+                </span>
+                <h2 class="font-heading font-bold text-2xl md:text-3xl mb-4">
+                  {product.title}
+                </h2>
+                <p class="text-white/70 mb-6">{product.description}</p>
 
-              <ul class="space-y-2 mb-6">
-                {product.features.map((feature) => (
-                  <li class="flex items-start gap-2 text-white/60 text-sm">
-                    <svg class="w-4 h-4 text-brand-coral flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                    </svg>
-                    {feature}
-                  </li>
-                ))}
-              </ul>
-
-              <div class="flex items-center justify-between mt-auto pt-4 border-t border-white/10">
-                <span class="font-heading font-bold text-2xl text-brand-coral">{product.price}</span>
-                <a href={product.href} target="_blank" rel="noopener noreferrer" class="btn btn-primary text-sm px-4 py-2">
-                  {product.cta}
-                </a>
+                <div class="flex items-center gap-6">
+                  <span class="font-heading font-bold text-3xl text-brand-coral">{product.price}</span>
+                  <a href={product.href} class="btn btn-primary">
+                    {product.cta}
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         ))}
       </div>
 
-      <!-- FAQ Section -->
-      <div class="mt-20">
-        <h2 class="font-heading font-bold text-2xl mb-8 text-center">Frequently Asked Questions</h2>
-        <div class="max-w-2xl mx-auto space-y-6">
-          <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
-            <h3 class="font-heading font-semibold mb-2">Do I need design experience?</h3>
-            <p class="text-white/60">No! All products are built specifically for non-designers. If you can use a computer, you can use these resources.</p>
+      <!-- Featured Testimonial -->
+      <div class="mt-20 bg-brand-dark-light rounded-2xl p-8 md:p-12 border border-white/10">
+        <div class="md:flex items-center gap-12">
+          <div class="md:w-1/4 mb-8 md:mb-0">
+            <img
+              src="/images/site/khe-hy.jpg"
+              alt="Khe Hy"
+              class="w-32 h-32 mx-auto rounded-full object-cover"
+            />
           </div>
-          <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
-            <h3 class="font-heading font-semibold mb-2">What software do I need?</h3>
-            <p class="text-white/60">Most resources work with Figma, which is free to use. Some products are platform-agnostic and work with any design tool.</p>
+          <div class="md:w-3/4">
+            <p class="text-xl md:text-2xl text-white/90 italic mb-6">
+              "The workshop let me come up with my own style and taste which is huge for me especially as the founder of a brand that wants to communicate our customer and student ethos."
+            </p>
+            <div>
+              <p class="font-heading font-bold text-white">Khe Hy</p>
+              <p class="text-white/50">Founder, RadReads</p>
+            </div>
           </div>
-          <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
-            <h3 class="font-heading font-semibold mb-2">Is there a refund policy?</h3>
-            <p class="text-white/60">Yes! If you're not satisfied within 30 days, reach out for a full refund. No questions asked.</p>
+        </div>
+      </div>
+
+      <!-- All Testimonials -->
+      <div class="mt-16">
+        <h2 class="font-heading font-bold text-2xl mb-8 text-center">What customers say</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {testimonials.map((testimonial) => (
+            <div class="bg-brand-dark-light rounded-2xl p-6 border border-white/10">
+              <p class="text-white/80 italic mb-4">"{testimonial.quote}"</p>
+              <div>
+                <p class="font-heading font-semibold text-white">{testimonial.author}</p>
+                <p class="text-sm text-white/50">{testimonial.role}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- About Creator -->
+      <div class="mt-20 bg-brand-dark-light rounded-2xl p-8 md:p-12 border border-white/10">
+        <div class="md:flex items-center gap-12">
+          <div class="md:w-1/3 mb-8 md:mb-0">
+            <img
+              src="/images/site/nate-instructor.png"
+              alt="Nate Kadlac"
+              class="w-48 h-48 mx-auto rounded-full object-cover"
+            />
+          </div>
+          <div class="md:w-2/3">
+            <h2 class="font-heading font-bold text-2xl mb-2">Nate Kadlac, Founder</h2>
+            <p class="text-brand-coral mb-4">Creator & facilitator</p>
+            <p class="text-white/70">
+              Nate is a former creative director and product designer who has helped Fortune 500 companies and early-stage startups grow their companies and reach millions of consumers. In 2021, after spending seven years focused on helping build a real estate startup into an eight figure acquisition, he left and now works as a freelance consultant, educator, and creator.
+            </p>
           </div>
         </div>
       </div>
     </div>
   </section>
 </Layout>
+
+<style>
+  .font-display-black-italic {
+    font-family: var(--font-display-black-italic);
+  }
+</style>

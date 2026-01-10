@@ -3,7 +3,7 @@ title: "The four page personal website that will never get updated"
 date: 2026-01-08
 category: ai
 description: "After four years, I've started to redesign my personal website."
-image: "/images/articles/0WZH5bK2LTViC4R0E6dBzqN8Ss.png.webp"
+image: "/images/articles/ooBFjggSGmvKkYjdPlf2H6xTqI.png"
 
 ---
 

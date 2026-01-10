@@ -24,8 +24,12 @@ const isLight = variant === 'light';
   <div class="max-w-[1200px] mx-auto px-6 py-4">
     <nav class="flex items-center justify-between">
       <!-- Logo -->
-      <a href="/" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
-        <span class:list={["font-heading font-bold text-xl", isLight ? "text-brand-dark" : "text-white"]}>Approachable Design</span>
+      <a href="/" class="flex items-center hover:opacity-80 transition-opacity">
+        {isLight ? (
+          <img src="/images/site/ad-logo-dark.svg" alt="Approachable Design" class="w-[240px]" />
+        ) : (
+          <img src="/images/site/ad-logo-light.svg" alt="Approachable Design" class="w-[240px]" />
+        )}
       </a>
 
       <!-- Desktop Navigation -->
@@ -45,7 +49,7 @@ const isLight = variant === 'light';
 
         <a href="/newsletter" class:list={[
           "font-heading text-[15px] font-medium px-4 py-2 rounded-full transition-colors whitespace-nowrap ml-2",
-          isLight ? "bg-brand-dark text-white hover:bg-brand-dark/90" : "bg-brand-coral text-brand-dark hover:bg-brand-coral-light"
+          "bg-brand-purple text-white hover:bg-brand-purple-light"
         ]}>
           Newsletter
         </a>
@@ -75,7 +79,7 @@ const isLight = variant === 'light';
             {link.label}
           </a>
         ))}
-        <a href="/newsletter" class:list={["font-heading text-xl font-bold", isLight ? "text-brand-dark" : "text-brand-coral"]}>
+        <a href="/newsletter" class="font-heading text-xl font-bold text-brand-purple">
           Newsletter
         </a>
       </div>

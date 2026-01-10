@@ -1,107 +1,123 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import NewsletterForm from '../components/NewsletterForm.astro';
 
 const courses = [
   {
     title: "The Creator Design Kit",
-    description: "A 20-day email course teaching you design fundamentals and Figma skills. Build your own visual design kit with daily video lessons delivered to your inbox.",
+    format: "20-Day Email Course",
+    description: "Start designing your own graphics and show up consistently across channels. Get one video lesson a day and learn to use Figma right from your inbox.",
     price: "$249",
-    badge: "LOVED BY 250+ CREATORS",
-    href: "/courses/creator-design-kit",
+    href: "https://natekadlac.gumroad.com/l/the-creator-design-kit",
     cta: "Get The Creator Design Kit",
-    image: "/images/site/1rZAUWsoPRm6FDzsZCr0doBJHU.png.webp",
-    features: [
-      "20 daily video lessons",
-      "Learn Figma from scratch",
-      "Build your personal brand kit",
-      "Lifetime access"
-    ]
+    image: "/images/site/creator-design-kit.png",
   },
   {
     title: "Build Slide Decks with Style",
-    description: "A self-paced video course using Figma to create visually compelling slide decks without design experience.",
+    format: "Self-Paced Video Course",
+    description: "Use Figma to build consistent and beautiful slide decks with no prior design experience. Unleash your visual storytelling using simple tools.",
     price: "$49+",
-    badge: "COMING SOON",
     href: "#",
     cta: "Coming Soon",
-    image: "/images/slide-decks.webp",
-    features: [
-      "Self-paced video lessons",
-      "Figma templates included",
-      "Professional slide design",
-      "No design experience needed"
-    ],
+    image: "/images/site/slide-decks-course.png",
     comingSoon: true
   },
   {
-    title: "Design Workshop for Creators",
-    description: "A live weekend workshop where you'll build a personalized brand kit using design fundamentals in Figma. Hands-on learning with direct feedback.",
+    title: "Design Workshop for Creators and Non-Designers",
+    format: "Live Weekend Workshop",
+    description: "In just two-days, build your stand-out brand kit using design fundamentals in Figma. Build your personalized design kit to stand out with your business or brand.",
     price: "TBD",
-    badge: "WEEKEND WORKSHOP",
     href: "#",
-    cta: "Join the Waitlist",
-    image: "/images/workshop.webp",
-    features: [
-      "Live weekend sessions",
-      "Personalized brand kit",
-      "Direct feedback",
-      "Small group setting"
-    ],
+    cta: "Join the waitlist",
+    image: "/images/site/slide-decks-course.png",
     waitlist: true
   }
 ];
 
 const testimonials = [
   {
-    quote: "This course changed how I approach design. I went from zero Figma experience to creating professional graphics in just 20 days.",
-    author: "Sarah K.",
-    role: "Course Graduate"
+    quote: "13/10 Would recommend to anyone who wants to learn design and their personal style.",
+    author: "Chase Adams",
+    role: "Software Developer"
   },
   {
-    quote: "The ROI on this course is insane. I've already saved thousands by not hiring a designer.",
-    author: "Mike R.",
-    role: "Solopreneur"
+    quote: "I learned a lot from Nate. SERIOUSLY... it's VERY, VERY, VERY valuable content.",
+    author: "Irving",
+    role: "Student"
+  },
+  {
+    quote: "Loved the email series",
+    author: "Jonny Miller",
+    role: "Founder, Nervous System Mastery"
+  },
+  {
+    quote: "You'll level up your Figma game within hours of watching, and can then easily start experimenting.",
+    author: "Hina",
+    role: "Student"
+  },
+  {
+    quote: "The best investment I made this year. Every dollar is worth it!",
+    author: "Iliyan Slavov",
+    role: "Student"
+  },
+  {
+    quote: "The price to value ratio on this product is insane.",
+    author: "Mike Newton",
+    role: "Student"
+  },
+  {
+    quote: "I wish I had learned this years ago for all those semi-beautiful presentations I created.",
+    author: "Filipe",
+    role: "Student"
+  },
+  {
+    quote: "I already 'designed' my first thing!... after a few lessons I just hopped in and made it.",
+    author: "Sola",
+    role: "Student"
+  },
+  {
+    quote: "Nate radically shifted how I see design in many aspects of my work and I think one of the biggest mistakes I made was not working with Nate earlier!",
+    author: "Paul Millerd",
+    role: "Author, The Pathless Path"
+  },
+  {
+    quote: "the stuff I'm producing already feels a lot lighter and visually compelling",
+    author: "Cécile",
+    role: "Student"
   }
 ];
 ---
 
-<Layout title="Courses - Approachable Design" description="Learn design fundamentals with courses built for non-designers. Master Figma, build brand kits, and create professional visuals.">
+<Layout title="Courses - Approachable Design" description="Design courses for the non-designer. Level up your design thinking and stop losing customers to your competition.">
   <section class="py-16 md:py-24">
     <div class="container">
-      <h1 class="font-display text-4xl md:text-5xl font-bold mb-4">Courses</h1>
-      <p class="text-xl text-white/60 mb-16 max-w-2xl">
-        Learn design fundamentals with courses built specifically for non-designers and solopreneurs.
-      </p>
+      <!-- Hero -->
+      <div class="text-center mb-16">
+        <h1 class="font-display-black-italic text-4xl md:text-5xl lg:text-6xl mb-6">Design courses for the non-designer</h1>
+        <p class="text-xl text-white/60 max-w-2xl mx-auto">
+          Interested in making better design decisions? Level up your design thinking and stop losing customers to your competition.
+        </p>
+      </div>
 
+      <!-- Courses -->
       <div class="space-y-8">
         {courses.map((course) => (
           <div class="bg-brand-dark-light rounded-2xl border border-white/10 overflow-hidden">
             <div class="md:flex">
-              <div class="md:w-2/5 bg-brand-purple/10 p-8 flex items-center justify-center">
-                <div class="aspect-video w-full bg-brand-dark/50 rounded-xl flex items-center justify-center">
-                  <span class="text-6xl">🎨</span>
-                </div>
+              <div class="md:w-2/5 p-6 flex items-center justify-center">
+                <img
+                  src={course.image}
+                  alt={course.title}
+                  class="w-full rounded-xl"
+                />
               </div>
               <div class="md:w-3/5 p-8">
-                <span class="text-brand-purple text-xs font-semibold uppercase tracking-wider">
-                  {course.badge}
+                <span class="text-brand-coral text-sm font-medium">
+                  {course.format}
                 </span>
                 <h2 class="font-heading font-bold text-2xl md:text-3xl mt-2 mb-4">
                   {course.title}
                 </h2>
                 <p class="text-white/70 mb-6">{course.description}</p>
-
-                <ul class="space-y-2 mb-6">
-                  {course.features.map((feature) => (
-                    <li class="flex items-center gap-2 text-white/60">
-                      <svg class="w-5 h-5 text-brand-coral flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                      </svg>
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
 
                 <div class="flex items-center gap-6">
                   <span class="font-heading font-bold text-3xl text-brand-coral">{course.price}</span>
@@ -114,7 +130,7 @@ const testimonials = [
                       {course.cta}
                     </button>
                   ) : (
-                    <a href={course.href} class="btn btn-primary">
+                    <a href={course.href} target="_blank" rel="noopener noreferrer" class="btn btn-primary">
                       {course.cta}
                     </a>
                   )}
@@ -128,7 +144,7 @@ const testimonials = [
       <!-- Testimonials -->
       <div class="mt-20">
         <h2 class="font-heading font-bold text-2xl mb-8 text-center">What students say</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {testimonials.map((testimonial) => (
             <div class="bg-brand-dark-light rounded-2xl p-6 border border-white/10">
               <p class="text-white/80 italic mb-4">"{testimonial.quote}"</p>
@@ -145,17 +161,22 @@ const testimonials = [
       <div class="mt-20 bg-brand-dark-light rounded-2xl p-8 md:p-12 border border-white/10">
         <div class="md:flex items-center gap-12">
           <div class="md:w-1/3 mb-8 md:mb-0">
-            <div class="w-48 h-48 mx-auto bg-brand-purple/20 rounded-full flex items-center justify-center">
-              <span class="text-6xl">👨‍🏫</span>
-            </div>
+            <img
+              src="/images/site/nate-instructor.png"
+              alt="Nate Kadlac"
+              class="w-48 h-48 mx-auto rounded-full object-cover"
+            />
           </div>
           <div class="md:w-2/3">
-            <h2 class="font-heading font-bold text-2xl mb-4">Your Instructor</h2>
+            <h2 class="font-heading font-bold text-2xl mb-4">Nate Kadlac, Founder & Facilitator</h2>
             <p class="text-white/70 mb-4">
-              Hi, I'm <strong class="text-white">Nate Kadlac</strong>. I'm a former creative director and product designer with experience at Fortune 500 companies and startups.
+              I'm a former creative director and product designer with experience at Fortune 500 companies and early-stage startups.
+            </p>
+            <p class="text-white/70 mb-4">
+              I spent 7 years building a real estate startup to an eight-figure acquisition. Now I work as a freelance consultant, educator, and creator.
             </p>
             <p class="text-white/70">
-              I've helped hundreds of non-designers learn to create professional visuals. My teaching approach focuses on practical skills you can apply immediately, not theory that sits unused.
+              I've helped hundreds of non-designers learn to create professional visuals. My teaching approach focuses on practical skills you can apply immediately.
             </p>
           </div>
         </div>
@@ -163,3 +184,9 @@ const testimonials = [
     </div>
   </section>
 </Layout>
+
+<style>
+  .font-display-black-italic {
+    font-family: var(--font-display-black-italic);
+  }
+</style>

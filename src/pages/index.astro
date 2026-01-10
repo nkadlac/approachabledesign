@@ -1,59 +1,62 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import NewsletterForm from '../components/NewsletterForm.astro';
-
-const testimonials = [
-  {
-    quote: "Nate's newsletter feels like stepping into a boutique full of beautifully crafted metaphorical and literal artifacts.",
-    author: "Florian",
-    role: "Stripe"
-  },
-  {
-    quote: "Beautiful illustrations and profound insights. One of the few newsletters I actually look forward to.",
-    author: "Nick deWilde",
-    role: "The Jungle Gym"
-  },
-  {
-    quote: "It's really about designing, planning, and living your best life.",
-    author: "Scott Krouse",
-    role: "Creator"
-  },
-];
 ---
 
 <Layout title="Approachable Design - Design smarter, not harder">
   <!-- Hero Section -->
   <section class="py-20 md:py-32">
-    <div class="container text-center">
-      <h1 class="font-display text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
-        Design smarter,<br />
-        <span class="text-brand-coral">not harder.</span>
-      </h1>
-      <p class="text-xl md:text-2xl text-white/70 max-w-2xl mx-auto mb-10">
-        Join 3,800+ solopreneurs & professionals learning to build authentic brands and improve visual design skills without hiring a designer.
-      </p>
-      <div class="flex justify-center">
-        <NewsletterForm variant="card" />
+    <div class="container">
+      <div class="max-w-4xl mx-auto text-center">
+        <h1 class="font-display-black-italic text-5xl md:text-6xl lg:text-7xl leading-tight mb-6">
+          Design smarter, not harder
+        </h1>
+        <p class="text-xl md:text-2xl text-white/70 mb-10">
+          Imagine creating visuals starting with your personality—not another template.
+        </p>
       </div>
     </div>
   </section>
 
-  <!-- Testimonials Section -->
-  <section class="py-16 border-t border-white/10">
+  <!-- Newsletter CTA Section -->
+  <section class="py-16">
     <div class="container">
-      <p class="text-center text-white/50 uppercase tracking-widest text-sm mb-12">
-        Trusted by creators & professionals
-      </p>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {testimonials.map((testimonial) => (
-          <div class="bg-brand-dark-light rounded-2xl p-6 border border-white/10">
-            <p class="text-white/80 italic mb-4">"{testimonial.quote}"</p>
+      <div class="max-w-3xl mx-auto bg-brand-dark-light rounded-2xl p-8 md:p-12 border border-white/10">
+        <h2 class="font-heading font-bold text-2xl md:text-3xl mb-4 text-center">
+          Join 3,800+ solopreneurs & professionals 3x a week
+        </h2>
+        <p class="text-white/70 text-center mb-8 text-lg">
+          I'll help you <strong class="text-white">build trust with your customers</strong>, <strong class="text-white">sell more by creating an authentic brand</strong>, and <strong class="text-white">take your visuals from stink eye to slow clap</strong> <em class="text-white/50">(without hiring a designer)</em>.
+        </p>
+        <div class="flex justify-center">
+          <NewsletterForm variant="card" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Section -->
+  <section class="py-16">
+    <div class="container">
+      <div class="max-w-3xl mx-auto">
+        <div class="md:flex items-center gap-8">
+          <div class="md:w-1/4 mb-6 md:mb-0">
+            <img
+              src="/images/site/paul-millerd.jpg"
+              alt="Paul Millerd"
+              class="w-24 h-24 mx-auto rounded-full object-cover"
+            />
+          </div>
+          <div class="md:w-3/4">
+            <p class="text-xl md:text-2xl text-white/90 italic mb-4">
+              "Nate radically shifted how I see design in many aspects of my work and I think one of the biggest mistakes I made was not working with Nate earlier!"
+            </p>
             <div>
-              <p class="font-heading font-semibold text-white">{testimonial.author}</p>
-              <p class="text-sm text-white/50">{testimonial.role}</p>
+              <p class="font-heading font-bold text-white">Paul Millerd</p>
+              <p class="text-white/50">Author, The Pathless Path</p>
             </div>
           </div>
-        ))}
+        </div>
       </div>
     </div>
   </section>
@@ -61,19 +64,27 @@ const testimonials = [
   <!-- About Section -->
   <section class="py-20 border-t border-white/10">
     <div class="container">
-      <div class="max-w-3xl mx-auto text-center">
-        <h2 class="font-display text-3xl md:text-4xl font-bold mb-6">
-          Hey, I'm <span class="text-brand-coral">Nate</span>
-        </h2>
-        <p class="text-lg text-white/70 mb-6">
-          I'm a former creative director and product designer who has worked with Fortune 500 companies and startups alike.
-        </p>
-        <p class="text-lg text-white/70 mb-8">
-          I believe the ability to communicate visually, tell stories with copy, and connect with branding should be approachable to everyone. That's why I created Approachable Design.
-        </p>
-        <a href="/courses" class="btn btn-secondary">
-          Explore Courses
-        </a>
+      <div class="max-w-4xl mx-auto">
+        <div class="md:flex items-center gap-12">
+          <div class="md:w-1/3 mb-8 md:mb-0">
+            <img
+              src="/images/site/nate-instructor.png"
+              alt="Nate Kadlac"
+              class="w-48 h-48 mx-auto rounded-full object-cover"
+            />
+          </div>
+          <div class="md:w-2/3">
+            <h2 class="font-display-black-italic text-3xl md:text-4xl mb-6">
+              Hey, I'm Nate
+            </h2>
+            <p class="text-lg text-white/70 mb-6">
+              Nate is a former creative director and product designer who has helped Fortune 500 companies and early-stage startups grow their companies and reach millions of consumers.
+            </p>
+            <p class="text-lg text-white/70">
+              In 2021, after spending seven years focused on helping build a real estate startup into an eight figure acquisition, he left and now works as a freelance consultant, educator, and creator.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -81,7 +92,7 @@ const testimonials = [
   <!-- Products Preview -->
   <section class="py-20 border-t border-white/10">
     <div class="container">
-      <h2 class="font-display text-3xl md:text-4xl font-bold text-center mb-4">
+      <h2 class="font-display-black-italic text-3xl md:text-4xl text-center mb-4">
         Level up your design skills
       </h2>
       <p class="text-center text-white/60 mb-12 max-w-2xl mx-auto">
@@ -89,24 +100,24 @@ const testimonials = [
       </p>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <a href="/courses" class="group bg-brand-dark-light rounded-2xl p-6 border border-white/10 hover:border-brand-coral/50 transition-colors">
-          <div class="aspect-video bg-brand-purple/20 rounded-xl mb-4 flex items-center justify-center">
-            <span class="text-4xl">🎨</span>
+          <div class="mb-4">
+            <img src="/images/site/creator-design-kit.png" alt="The Creator Design Kit" class="w-full rounded-xl" />
           </div>
           <h3 class="font-heading font-bold text-xl mb-2 group-hover:text-brand-coral transition-colors">The Creator Design Kit</h3>
           <p class="text-white/60 text-sm">Learn design and build your own visual design kit in 20 days.</p>
           <p class="text-brand-coral font-semibold mt-4">$249</p>
         </a>
-        <a href="/products" class="group bg-brand-dark-light rounded-2xl p-6 border border-white/10 hover:border-brand-coral/50 transition-colors">
-          <div class="aspect-video bg-brand-coral/20 rounded-xl mb-4 flex items-center justify-center">
-            <span class="text-4xl">📺</span>
+        <a href="/products/youtube-masterclass" class="group bg-brand-dark-light rounded-2xl p-6 border border-white/10 hover:border-brand-coral/50 transition-colors">
+          <div class="mb-4">
+            <img src="/images/site/youtube-masterclass.png" alt="YouTube Thumbnail Masterclass" class="w-full rounded-xl" />
           </div>
           <h3 class="font-heading font-bold text-xl mb-2 group-hover:text-brand-coral transition-colors">YouTube Thumbnail Masterclass</h3>
           <p class="text-white/60 text-sm">Design breakdowns, templates, and over-the-shoulder instruction.</p>
           <p class="text-brand-coral font-semibold mt-4">$49</p>
         </a>
-        <a href="/products" class="group bg-brand-dark-light rounded-2xl p-6 border border-white/10 hover:border-brand-coral/50 transition-colors">
-          <div class="aspect-video bg-brand-purple/20 rounded-xl mb-4 flex items-center justify-center">
-            <span class="text-4xl">🗂️</span>
+        <a href="/products/design-vault" class="group bg-brand-dark-light rounded-2xl p-6 border border-white/10 hover:border-brand-coral/50 transition-colors">
+          <div class="mb-4">
+            <img src="/images/site/design-vault.png" alt="The Design Vault" class="w-full rounded-xl" />
           </div>
           <h3 class="font-heading font-bold text-xl mb-2 group-hover:text-brand-coral transition-colors">The Design Vault</h3>
           <p class="text-white/60 text-sm">90+ curated websites filtered by category for endless inspiration.</p>
@@ -119,7 +130,7 @@ const testimonials = [
   <!-- Final CTA -->
   <section class="py-20 border-t border-white/10">
     <div class="container text-center">
-      <h2 class="font-display text-3xl md:text-4xl font-bold mb-6">
+      <h2 class="font-display-black-italic text-3xl md:text-4xl mb-6">
         Ready to design smarter?
       </h2>
       <p class="text-lg text-white/60 mb-8 max-w-xl mx-auto">
@@ -131,3 +142,9 @@ const testimonials = [
     </div>
   </section>
 </Layout>
+
+<style>
+  .font-display-black-italic {
+    font-family: var(--font-display-black-italic);
+  }
+</style>

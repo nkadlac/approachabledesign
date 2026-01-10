@@ -3,7 +3,7 @@ title: "Define your visual style in five steps"
 date: 2026-01-08
 category: branding
 description: "Most days you’ll find me wearing a black V-neck and black pants. Not because I think it’s cool, but because it’s one part convenience and one part easy to match."
-image: "/images/articles/uz7PlEwQIUSRFx5voTZLVrbBBg.jpg.webp"
+image: "/images/articles/pZuBQ94ho4OwogUoPfNnt1XTKc.jpg"
 
 ---
 

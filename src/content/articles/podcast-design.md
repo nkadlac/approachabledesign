@@ -3,7 +3,7 @@ title: "How to design, launch, and publish a podcast in 2024"
 date: 2026-01-08
 category: youtube-design
 description: "How I launched and designed a podcast"
-image: "/images/articles/t08zj6RlRjaRhlTOPfyMgyGJpeE.jpg.webp"
+image: "/images/articles/cmAs5X0qGDwTjTx5flP7tw2GAvI.jpg"
 
 ---
 

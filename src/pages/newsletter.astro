@@ -4,125 +4,145 @@ import NewsletterForm from '../components/NewsletterForm.astro';
 
 const testimonials = [
   {
-    quote: "Nate's newsletter feels like stepping into a boutique full of beautifully crafted metaphorical and literal artifacts.",
+    quote: "His newsletter feels like stepping into a boutique full of beautifully crafted metaphorical and literal artifacts",
     author: "Florian",
     role: "Stripe"
   },
   {
-    quote: "Beautiful illustrations and profound insights. One of the few newsletters I actually look forward to.",
+    quote: "It's a quick read full of beautiful illustrations and profound insights about what it means to be a creative person",
     author: "Nick deWilde",
     role: "The Jungle Gym"
   },
   {
-    quote: "It's really about designing, planning, and living your best life.",
+    quote: "This newsletter is really about designing, planning, and living your best life...with some bonus styling tips",
     author: "Scott Krouse",
     role: "Creator"
   },
   {
-    quote: "Nate is someone who seems to know about the software, tool, or topic six months before everyone else.",
+    quote: "A great weekly dose of inspiration to explore your curiosity, design your life, and launch your next project",
+    author: "On Renewal",
+    role: "Reader"
+  },
+  {
+    quote: "His friendly personality shines through in his letters, which offer a gentle guide through design concepts",
+    author: "Salman Ansari",
+    role: "Reader"
+  },
+  {
+    quote: "Nate always surprises with a mix of topics...I not only learn something, but I get to know Nate along the way",
+    author: "Lyle McKeany",
+    role: "Just Enough to Get Me in Trouble"
+  },
+  {
+    quote: "I learn something new from it every Sunday",
+    author: "Heather King",
+    role: "Reader"
+  },
+  {
+    quote: "Nate is someone who seems to know about the software, tool, or topic six months before everyone else",
     author: "Cam Houser",
     role: "Actionworks"
   },
   {
-    quote: "The design tips have genuinely improved how I present my work. Worth every minute spent reading.",
-    author: "Alex Chen",
-    role: "Founder"
-  },
-  {
-    quote: "Finally, design advice that doesn't assume I have a design degree. Practical and immediately useful.",
-    author: "Rachel M.",
-    role: "Content Creator"
+    quote: "He also crowds my literary space with his engaging, insightful, and charming newsletters",
+    author: "Teke O'Reilly",
+    role: "@icecreamingmeme"
   }
 ];
 ---
 
 <Layout title="Newsletter - Approachable Design" description="Join 3,800+ solopreneurs & professionals learning to build authentic brands and improve visual design skills." variant="light">
+  <!-- Hero Section -->
   <section class="py-16 md:py-24">
     <div class="container">
-      <div class="max-w-3xl mx-auto text-center mb-16">
-        <h1 class="font-display text-4xl md:text-5xl font-bold mb-6 text-brand-dark">
-          Make It Yours Newsletter
+      <div class="max-w-4xl mx-auto text-center">
+        <h1 class="font-display-black-italic text-4xl md:text-5xl lg:text-6xl mb-6 text-brand-dark">
+          Design smarter, not harder
         </h1>
-        <p class="text-xl text-brand-dark/70 mb-4">
-          Join <strong class="text-brand-purple">3,800+ solopreneurs & professionals</strong> learning to build authentic brands, increase sales, and improve visual design skills.
+        <p class="text-xl text-brand-dark/70 mb-10">
+          Imagine creating visuals starting with your personality. Not someone else's template.
         </p>
-        <p class="text-brand-dark/50 mb-10">
-          No templates. No generic advice. Just actionable insights delivered 3x a week.
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Signup -->
+  <section class="pb-16">
+    <div class="container">
+      <div class="max-w-3xl mx-auto bg-brand-dark rounded-2xl p-8 md:p-12">
+        <h2 class="font-heading font-bold text-2xl md:text-3xl mb-4 text-center text-white">
+          Join 3,800+ solopreneurs & professionals 3x a week
+        </h2>
+        <p class="text-white/70 text-center mb-8 text-lg">
+          I'll help you <strong class="text-white">build trust with your customers</strong>, <strong class="text-white">sell more by creating an authentic brand</strong>, and <strong class="text-white">take your visuals from stink eye to slow clap</strong> <em class="text-white/50">(without hiring a designer)</em>.
         </p>
         <div class="flex justify-center">
-          <div class="bg-brand-dark rounded-2xl p-6 w-full max-w-md">
-            <NewsletterForm variant="card" />
-          </div>
+          <NewsletterForm variant="card" />
         </div>
       </div>
+    </div>
+  </section>
 
-      <!-- What You'll Get -->
-      <div class="max-w-4xl mx-auto mb-20">
-        <h2 class="font-heading font-bold text-2xl mb-8 text-center text-brand-dark">What you'll get</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div class="bg-brand-dark rounded-2xl p-6 text-center">
-            <div class="text-4xl mb-4">🎨</div>
-            <h3 class="font-heading font-semibold mb-2 text-white">Design Tips</h3>
-            <p class="text-white/60 text-sm">Practical design advice you can apply immediately, no design degree required.</p>
-          </div>
-          <div class="bg-brand-dark rounded-2xl p-6 text-center">
-            <div class="text-4xl mb-4">💡</div>
-            <h3 class="font-heading font-semibold mb-2 text-white">Brand Insights</h3>
-            <p class="text-white/60 text-sm">Learn how to build an authentic brand that resonates with your audience.</p>
-          </div>
-          <div class="bg-brand-dark rounded-2xl p-6 text-center">
-            <div class="text-4xl mb-4">🛠️</div>
-            <h3 class="font-heading font-semibold mb-2 text-white">Tool Reviews</h3>
-            <p class="text-white/60 text-sm">Stay ahead with early access to the best design tools and resources.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Testimonials -->
-      <div class="mb-20">
-        <h2 class="font-heading font-bold text-2xl mb-8 text-center text-brand-dark">What readers say</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {testimonials.map((testimonial) => (
-            <div class="bg-brand-dark rounded-2xl p-6">
-              <p class="text-white/80 italic mb-4">"{testimonial.quote}"</p>
-              <div>
-                <p class="font-heading font-semibold text-white">{testimonial.author}</p>
-                <p class="text-sm text-white/50">{testimonial.role}</p>
-              </div>
+  <!-- Testimonials -->
+  <section class="py-16">
+    <div class="container">
+      <h2 class="font-heading font-bold text-2xl mb-8 text-center text-brand-dark">What readers say</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {testimonials.map((testimonial) => (
+          <div class="bg-brand-dark rounded-2xl p-6">
+            <p class="text-white/80 italic mb-4">"{testimonial.quote}"</p>
+            <div>
+              <p class="font-heading font-semibold text-white">{testimonial.author}</p>
+              <p class="text-sm text-white/50">{testimonial.role}</p>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
+    </div>
+  </section>
 
-      <!-- About Nate -->
+  <!-- About Nate -->
+  <section class="py-16">
+    <div class="container">
       <div class="max-w-3xl mx-auto bg-brand-dark rounded-2xl p-8 md:p-12">
         <div class="md:flex items-center gap-8">
           <div class="md:w-1/4 mb-6 md:mb-0">
-            <div class="w-32 h-32 mx-auto bg-brand-coral/20 rounded-full flex items-center justify-center">
-              <span class="text-5xl">👋</span>
-            </div>
+            <img
+              src="/images/site/nate-instructor.png"
+              alt="Nate Kadlac"
+              class="w-32 h-32 mx-auto rounded-full object-cover"
+            />
           </div>
           <div class="md:w-3/4">
             <h2 class="font-heading font-bold text-xl mb-4 text-white">Hey, I'm Nate</h2>
             <p class="text-white/70 mb-4">
-              I'm a former creative director and product designer. I've worked with Fortune 500 companies and scrappy startups.
+              I'm a former creative director and product designer who has helped Fortune 500 companies and early-stage startups grow their companies and reach millions of consumers.
             </p>
             <p class="text-white/70">
-              Now I help non-designers build authentic brands through my newsletter, courses, and resources. Every email is written by me, not a team or AI.
+              In 2021, after spending seven years focused on helping build a real estate startup into an eight figure acquisition, I left and now work as a freelance consultant, educator, and creator.
             </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Final CTA -->
-      <div class="mt-16 text-center">
-        <p class="text-brand-dark/50 mb-6">Ready to level up your design skills?</p>
-        <div class="flex justify-center">
-          <div class="bg-brand-dark rounded-2xl p-6 w-full max-w-md">
-            <NewsletterForm variant="card" />
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- Final CTA -->
+  <section class="py-16">
+    <div class="container text-center">
+      <p class="text-brand-dark/60 mb-6 text-lg">Ready to design smarter?</p>
+      <p class="font-heading font-bold text-xl text-brand-dark mb-8">JOIN 3,800+ others making better design decisions</p>
+      <div class="flex justify-center">
+        <div class="bg-brand-dark rounded-2xl p-6 w-full max-w-md">
+          <NewsletterForm variant="card" />
+        </div>
+      </div>
+    </div>
+  </section>
 </Layout>
+
+<style>
+  .font-display-black-italic {
+    font-family: var(--font-display-black-italic);
+  }
+</style>

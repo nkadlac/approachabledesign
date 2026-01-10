@@ -3,7 +3,7 @@ title: "How to Design a “Coming Soon” Landing Page "
 date: 2026-01-08
 category: youtube-design
 description: "Over a decade ago, I had a bet with friend over who could eat more hot dogs. (Yes, we're starting there.)"
-image: "/images/articles/sm6rVKEtto9XiBjSrCb3FJEkrg.jpg.webp"
+image: "/images/articles/4Y87i4WcikQdf6zBtfWAFHRzI8.jpg"
 
 ---
 

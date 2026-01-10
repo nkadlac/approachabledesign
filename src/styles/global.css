@@ -33,6 +33,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Domaine Display Black Italic';
+  src: url('/fonts/domaine-display-black-italic.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
 /* Design System - approachabledesign.co */
 @theme {
   /* Colors - Dark theme */
@@ -47,6 +55,7 @@
 
   /* Typography */
   --font-display: "Domaine Display", Georgia, serif;
+  --font-display-black-italic: "Domaine Display Black Italic", Georgia, serif;
   --font-heading: "Manrope", system-ui, sans-serif;
   --font-body: "Inter", system-ui, sans-serif;
   --font-serif: "Noto Serif Georgian", Georgia, serif;
@@ -99,9 +108,8 @@ body {
 }
 
 .prose h1 {
-  font-family: var(--font-display);
+  font-family: var(--font-display-black-italic);
   font-size: clamp(2.5rem, 6vw, 4.5rem);
-  font-weight: 700;
   letter-spacing: -0.02em;
   line-height: 1.1;
   margin-bottom: 1.5rem;

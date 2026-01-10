@@ -72,15 +72,18 @@ const remainingArticles = sortedArticles.slice(1);
                 />
               )}
               {article.data.category && (
-                <span class="text-brand-purple text-xs font-semibold uppercase tracking-wider">
+                <span class="inline-block bg-brand-dark/10 text-brand-dark text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded mb-2">
                   {article.data.category.replace('-', ' ')}
                 </span>
               )}
-              <h3 class="font-heading font-bold text-lg mt-2 mb-2 text-brand-dark group-hover:text-brand-purple transition-colors">
+              <h3 class="font-heading font-bold text-xl mb-2 text-brand-purple">
                 {article.data.title}
               </h3>
-              <span class="text-brand-coral text-sm font-medium inline-flex items-center gap-1">
-                Read the Article <span>&rarr;</span>
+              <span class="text-brand-purple text-sm font-bold inline-flex items-center gap-2">
+                Read the Article
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M6.3 2.84A1.5 1.5 0 004 4.11v11.78a1.5 1.5 0 002.3 1.27l9.344-5.891a1.5 1.5 0 000-2.538L6.3 2.84z" />
+                </svg>
               </span>
             </a>
           ))}
