@@ -1,5 +1,66 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import FeaturedTestimonial from '../../components/FeaturedTestimonial.astro';
+import AboutNate from '../../components/AboutNate.astro';
+
+const testimonials = [
+  {
+    quote: "Watching Nate work in real-time is incredible — I feel like I took away so many actionable heuristics and insights in such a short space of time. Highly highly recommend!!",
+    author: "Jonny Miller",
+    role: "Founder, NS Mastery"
+  },
+  {
+    quote: "I watched it with a friend and we were buzzing with ideas for how we could improve our own branding throughout. And he gave us some great templates we could start using immediately after, which made making the jump so much more approachable.",
+    author: "Nat Eliason",
+    role: "Writer & Entrepreneur"
+  },
+  {
+    quote: "Nate is a good instructor because he believes everyone can learn about design and apply it to their daily lives and business. He's clear, earnest, patient and understanding. Showing real world examples and explaining the choices made is especially illuminating.",
+    author: "Reginald Ferguson",
+    role: "Founder, New York Fashion Geek"
+  },
+  {
+    quote: "The Youtube thumbnails workshop was very useful, I learned a lot. I particularly liked the concrete tips about creating contrast and the rule of thirds.",
+    author: "Luca Dellana",
+    role: "Author"
+  },
+  {
+    quote: "I attended one of Nate's design workshops and it was a game-changer for me. He is the real deal. His design philosophy + practical approach makes design super simple and accessible.",
+    author: "Michael Gendler",
+    role: "Co-founder, Ultraspeaking"
+  },
+  {
+    quote: "If it weren't for him, his design workshops, and newsletter for non-designers, I'd still be stuck working at my local theater or Little Caesars. Thanks to him I started a design studio where I'm earning much more than I was at my former minimum wage jobs.",
+    author: "Irving Beltran",
+    role: "Designer"
+  }
+];
+
+const learningPoints = [
+  "What you can learn from Netflix movie thumbnails to design YouTube thumbnails",
+  "Timeless design principles to create better looking thumbnails without a designer",
+  "How to layout images, text and objects",
+  "Should you use a logo or not?",
+  "Use Midjourney to create images in minutes",
+  "How to use contrast so your thumbnails stand out",
+  "How to use Figma to create custom templates for YouTube thumbnails",
+  "What to do if your guests are not recognizable?"
+];
+
+const whatsInside = [
+  "90 minute masterclass video",
+  "Breaking down YouTube thumbnails from Colin & Samir, Mr. Beast, and Paul Millerd",
+  "Over-the-shoulder examples using Figma to redesign Paul Millerd's YouTube thumbnails",
+  "Why designing in Figma vs Photoshop helps you move faster as a non-designer",
+  "Q&A covering Midjourney, when to use faces vs regular images, and more"
+];
+
+const thumbnailExamples = [
+  "/images/products/thumbnails/thumbnail-1.jpg",
+  "/images/products/thumbnails/thumbnail-2.jpg",
+  "/images/products/thumbnails/thumbnail-3.jpg",
+  "/images/products/thumbnails/thumbnail-4.jpg"
+];
 ---
 
 <Layout title="YouTube Thumbnail Masterclass - Approachable Design" description="Create great YouTube thumbnails without a designer. A self-paced workshop teaching timeless design principles for click-worthy thumbnails.">
@@ -7,227 +68,356 @@ import Layout from '../../layouts/Layout.astro';
     <div class="container">
       <!-- Hero -->
       <div class="max-w-4xl mx-auto text-center mb-16">
-        <span class="text-brand-purple text-sm font-semibold uppercase tracking-wider">Video Workshop</span>
-        <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold mt-4 mb-6">
-          Thumbnail Design Workshop
+        <span class="inline-block px-6 py-2 rounded-full border border-white/30 text-white/70 text-sm font-medium uppercase tracking-wider mb-6">
+          For Content Creators and Non-Designers
+        </span>
+        <h1 class="font-display-black-italic text-4xl md:text-5xl lg:text-6xl mb-6">
+          Thumbnail Design Workshop: Create great YouTube thumbnails <em class="text-white/70">(without a designer)</em>
         </h1>
-        <p class="text-xl md:text-2xl text-white/70 mb-8">
-          Create great YouTube thumbnails (without a designer)
+        <p class="text-xl text-white/70 mb-8 max-w-3xl mx-auto">
+          Learn what makes a great YouTube thumbnail based on timeless design principles—not trends. Then, you'll create custom thumbnails that take less time as your channel grows, without relying on templates.
         </p>
-        <p class="text-lg text-white/60 max-w-2xl mx-auto">
-          A self-paced workshop teaching how to create better YouTube thumbnails using timeless design principles rather than trends.
-        </p>
+        <a href="#pricing" class="btn btn-primary text-lg px-8 py-4">
+          Get 50% OFF
+        </a>
+      </div>
+
+      <!-- Product Video -->
+      <div class="max-w-4xl mx-auto mb-16">
+        <video
+          src="/images/products/youtube-masterclass-hero.mp4"
+          autoplay
+          loop
+          muted
+          playsinline
+          class="w-full rounded-2xl"
+        ></video>
       </div>
 
       <!-- Problem -->
-      <div class="bg-brand-dark-light rounded-2xl p-8 md:p-12 border border-white/10 mb-16">
-        <div class="max-w-3xl mx-auto text-center">
-          <h2 class="font-heading font-bold text-2xl md:text-3xl mb-6">
+      <div class="bg-brand-dark-light rounded-2xl p-8 md:p-12 border border-white/10 mb-16 max-w-4xl mx-auto">
+        <div class="text-center">
+          <h2 class="font-display-black-italic text-2xl md:text-3xl mb-6">
             You spent all that effort on your video but no one clicked. Why?
           </h2>
           <p class="text-white/70 text-lg">
-            Your thumbnail is the first impression. Learn Netflix movie thumbnail strategies applied to YouTube, along with layout, typography, and contrast principles that actually work.
+            A self-paced workshop on how to create better YouTube thumbnails. This includes thumbnail breakdowns, design principles, Figma basics, how to use Midjourney, and 3 special bonuses to level up your eye for design.
           </p>
         </div>
       </div>
 
+      <!-- Thumbnail Examples Carousel -->
+      <div class="mb-16 max-w-5xl mx-auto">
+        <div class="relative overflow-hidden rounded-2xl" id="thumbnail-carousel">
+          <div class="carousel-track flex transition-transform duration-500 ease-out">
+            {thumbnailExamples.map((src, index) => (
+              <div class="carousel-slide flex-shrink-0 w-full md:w-1/2 px-2">
+                <img
+                  src={src}
+                  alt={`Thumbnail example ${index + 1}`}
+                  class="w-full rounded-xl shadow-lg"
+                />
+              </div>
+            ))}
+            {/* Duplicate for infinite loop */}
+            {thumbnailExamples.map((src, index) => (
+              <div class="carousel-slide flex-shrink-0 w-full md:w-1/2 px-2">
+                <img
+                  src={src}
+                  alt={`Thumbnail example ${index + 1}`}
+                  class="w-full rounded-xl shadow-lg"
+                />
+              </div>
+            ))}
+          </div>
+          <!-- Navigation dots -->
+          <div class="flex justify-center gap-2 mt-6">
+            {thumbnailExamples.map((_, index) => (
+              <button
+                class="carousel-dot w-2 h-2 rounded-full bg-white/30 transition-colors"
+                data-index={index}
+                aria-label={`Go to slide ${index + 1}`}
+              ></button>
+            ))}
+          </div>
+        </div>
+      </div>
+
       <!-- What You'll Learn -->
-      <div class="mb-16">
-        <h2 class="font-heading font-bold text-2xl md:text-3xl mb-8 text-center">What You'll Learn</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
-            <h3 class="font-heading font-bold text-lg mb-2">Netflix Strategies</h3>
-            <p class="text-white/60">Apply movie thumbnail strategies to your YouTube content.</p>
-          </div>
-          <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
-            <h3 class="font-heading font-bold text-lg mb-2">Layout & Typography</h3>
-            <p class="text-white/60">Master the fundamentals of visual hierarchy and text placement.</p>
-          </div>
-          <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
-            <h3 class="font-heading font-bold text-lg mb-2">Contrast Principles</h3>
-            <p class="text-white/60">Make your thumbnails pop in a sea of competing content.</p>
-          </div>
-          <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
-            <h3 class="font-heading font-bold text-lg mb-2">Figma Templates</h3>
-            <p class="text-white/60">Create reusable templates for consistency across your channel.</p>
-          </div>
-          <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
-            <h3 class="font-heading font-bold text-lg mb-2">Midjourney Integration</h3>
-            <p class="text-white/60">Use AI to generate professional backgrounds.</p>
-          </div>
-          <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
-            <h3 class="font-heading font-bold text-lg mb-2">Real-World Breakdowns</h3>
-            <p class="text-white/60">Analysis of thumbnails from Colin & Samir, MrBeast, and more.</p>
-          </div>
+      <div class="mb-16 max-w-4xl mx-auto">
+        <h2 class="font-display-black-italic text-2xl md:text-3xl mb-8 text-center">What You'll Learn</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {learningPoints.map((point) => (
+            <div class="flex items-start gap-3 bg-brand-dark-light rounded-xl p-4 border border-white/10">
+              <svg class="w-5 h-5 text-brand-coral flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              <span class="text-white/80">{point}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- What's Inside -->
+      <div class="mb-16 max-w-4xl mx-auto">
+        <h2 class="font-display-black-italic text-2xl md:text-3xl mb-8 text-center">What's Inside</h2>
+        <div class="bg-brand-dark-light rounded-2xl p-8 border border-white/10">
+          <ul class="space-y-4">
+            {whatsInside.map((item) => (
+              <li class="flex items-start gap-3">
+                <svg class="w-5 h-5 text-brand-purple flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                </svg>
+                <span class="text-white/80 text-lg">{item}</span>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
 
       <!-- Testimonials -->
       <div class="mb-16">
-        <h2 class="font-heading font-bold text-2xl md:text-3xl mb-8 text-center">What Students Say</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div class="bg-brand-dark-light rounded-2xl p-6 border border-white/10">
-            <p class="text-white/80 italic mb-4">"I feel like I took away so many actionable heuristics and insights quickly."</p>
-            <div>
-              <p class="font-heading font-semibold text-white">Jonny Miller</p>
-              <p class="text-sm text-white/50">Founder, Nervous System Mastery</p>
+        <h2 class="font-display-black-italic text-2xl md:text-3xl mb-8 text-center">What Students Say</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {testimonials.map((testimonial) => (
+            <div class="bg-brand-dark-light rounded-2xl p-6 border border-white/10">
+              <p class="text-white/80 italic mb-4">"{testimonial.quote}"</p>
+              <div>
+                <p class="font-heading font-semibold text-white">{testimonial.author}</p>
+                <p class="text-sm text-white/50">{testimonial.role}</p>
+              </div>
             </div>
-          </div>
-          <div class="bg-brand-dark-light rounded-2xl p-6 border border-white/10">
-            <p class="text-white/80 italic mb-4">"The concrete tips about contrast and rule of thirds were especially helpful."</p>
-            <div>
-              <p class="font-heading font-semibold text-white">Luca Dellana</p>
-              <p class="text-sm text-white/50">Author</p>
-            </div>
-          </div>
-          <div class="bg-brand-dark-light rounded-2xl p-6 border border-white/10">
-            <p class="text-white/80 italic mb-4">"We were buzzing with ideas for improving our branding. Templates made it approachable."</p>
-            <div>
-              <p class="font-heading font-semibold text-white">Nat Eliason</p>
-              <p class="text-sm text-white/50">Writer & Entrepreneur</p>
-            </div>
-          </div>
-          <div class="bg-brand-dark-light rounded-2xl p-6 border border-white/10">
-            <p class="text-white/80 italic mb-4">"His design philosophy plus practical approach makes design accessible."</p>
-            <div>
-              <p class="font-heading font-semibold text-white">Michael Gendler</p>
-              <p class="text-sm text-white/50">Co-founder, Ultraspeaking</p>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
 
       <!-- Bonuses -->
-      <div class="bg-brand-purple/10 rounded-2xl p-8 md:p-12 border border-brand-purple/20 mb-16">
-        <h2 class="font-heading font-bold text-2xl md:text-3xl mb-8 text-center">Included Bonuses</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div class="text-center">
-            <div class="w-16 h-16 bg-brand-coral/20 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg class="w-8 h-8 text-brand-coral" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
-              </svg>
-            </div>
-            <h3 class="font-heading font-bold text-lg mb-2">Thumbnail Checklist</h3>
-            <p class="text-white/60">20-step framework for every thumbnail</p>
+      <div class="mb-16">
+        <h2 class="font-display-black-italic text-3xl md:text-4xl lg:text-5xl text-center mb-16">
+          Additional Bonuses worth <span class="text-brand-coral">$197</span>
+        </h2>
+
+        <!-- Bonus #1: Image left, text right -->
+        <div class="md:flex items-center gap-12 mb-20">
+          <div class="md:w-1/2 mb-8 md:mb-0">
+            <img
+              src="/images/products/bonus-checklist.png"
+              alt="YouTube Thumbnail Design Checklist"
+              class="w-full rounded-2xl shadow-2xl"
+            />
           </div>
-          <div class="text-center">
-            <div class="w-16 h-16 bg-brand-coral/20 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg class="w-8 h-8 text-brand-coral" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
-              </svg>
-            </div>
-            <h3 class="font-heading font-bold text-lg mb-2">Design Kit Template</h3>
-            <p class="text-white/60">Reusable Figma template with 12 microphone assets</p>
+          <div class="md:w-1/2">
+            <h3 class="font-display-black-italic text-2xl md:text-3xl mb-6">
+              Bonus #1: A YouTube Thumbnail Design checklist
+            </h3>
+            <ul class="space-y-3 text-white/80">
+              <li class="flex items-start gap-3">
+                <span class="text-brand-coral mt-1">•</span>
+                <span>20 steps to better thumbnails</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-brand-coral mt-1">•</span>
+                <span>Brainstorm better thumbnail ideas</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-brand-coral mt-1">•</span>
+                <span>How to assemble your design kit</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-brand-coral mt-1">•</span>
+                <span>Learn which fonts work best</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-brand-coral mt-1">•</span>
+                <span>How to prepare your design assets</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-brand-coral mt-1">•</span>
+                <span>How much text to use</span>
+              </li>
+            </ul>
           </div>
-          <div class="text-center">
-            <div class="w-16 h-16 bg-brand-coral/20 rounded-full flex items-center justify-center mx-auto mb-4">
-              <svg class="w-8 h-8 text-brand-coral" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
-              </svg>
-            </div>
-            <h3 class="font-heading font-bold text-lg mb-2">YouTube Mockup Tool</h3>
-            <p class="text-white/60">Preview thumbnails on YouTube landing pages</p>
+        </div>
+
+        <!-- Bonus #2: Text left, image right (staggered) -->
+        <div class="md:flex items-center gap-12 flex-row-reverse mb-20">
+          <div class="md:w-1/2 mb-8 md:mb-0">
+            <img
+              src="/images/products/bonus-design-kit.jpg"
+              alt="YouTube Thumbnail Design Kit"
+              class="w-full rounded-2xl shadow-2xl"
+            />
+          </div>
+          <div class="md:w-1/2">
+            <h3 class="font-display-black-italic text-2xl md:text-3xl mb-6">
+              Bonus #2: YouTube Thumbnail Design Kit
+            </h3>
+            <ul class="space-y-3 text-white/80">
+              <li class="flex items-start gap-3">
+                <span class="text-brand-coral mt-1">•</span>
+                <span>Use this design kit template so you never have to start from scratch again</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-brand-coral mt-1">•</span>
+                <span>Add your own colors, fonts, and icons to give yourself a new starting point for every design project</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <span class="text-brand-coral mt-1">•</span>
+                <span>12 unique microphone icons to use for your podcast thumbnails</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Bonus #3: Image left, text right -->
+        <div class="md:flex items-center gap-12">
+          <div class="md:w-1/2 mb-8 md:mb-0">
+            <img
+              src="/images/products/bonus-mockup.jpg"
+              alt="YouTube Thumbnail Mockup"
+              class="w-full rounded-2xl shadow-2xl"
+            />
+          </div>
+          <div class="md:w-1/2">
+            <h3 class="font-display-black-italic text-2xl md:text-3xl mb-6">
+              Bonus #3: YouTube Thumbnail Mockup
+            </h3>
+            <p class="text-white/80 text-lg">
+              Test your thumbnail in a YouTube landing page preview, to see what it might look like sitting next to other thumbnails.
+            </p>
           </div>
         </div>
       </div>
 
+      <!-- Instructor -->
+      <div class="mb-16">
+        <AboutNate eyebrow="Who is teaching the workshop?" headline="Hi, I'm Nate!" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Testimonial -->
+  <FeaturedTestimonial
+    quote="I watched it with a friend and we were buzzing with ideas for how we could improve our own branding throughout. And he gave us some great templates we could start using immediately after, which made making the jump so much more approachable."
+    author="Nat Eliason"
+    role="Writer & Entrepreneur"
+    image="/images/site/nat-eliason.jpg"
+  />
+
+  <section class="py-16 md:py-24">
+    <div class="container">
       <!-- Pricing -->
-      <div class="max-w-4xl mx-auto">
-        <h2 class="font-heading font-bold text-2xl md:text-3xl mb-8 text-center">Choose Your Package</h2>
+      <div id="pricing" class="max-w-5xl mx-auto">
+        <h2 class="font-display-black-italic text-2xl md:text-3xl mb-8 text-center">Choose Your Package</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <!-- Masterclass Only -->
           <div class="bg-brand-dark-light rounded-2xl p-6 border border-white/10">
-            <h3 class="font-heading font-bold text-xl mb-2">Masterclass Only</h3>
-            <p class="text-3xl font-bold text-brand-coral mb-1">$49</p>
+            <h3 class="font-heading font-bold text-xl mb-2">Get the Masterclass</h3>
+            <p class="text-4xl font-bold text-brand-coral mb-1">$49</p>
             <p class="text-sm text-white/50 line-through mb-4">$100</p>
-            <ul class="space-y-2 mb-6">
+            <p class="text-white/60 text-sm mb-6">Instant Access</p>
+            <ul class="space-y-3 mb-6">
               <li class="flex items-start gap-2 text-white/70 text-sm">
                 <svg class="w-4 h-4 text-brand-coral flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                 </svg>
-                90-minute video workshop
+                90 min Masterclass + breakdowns, Q&A
               </li>
               <li class="flex items-start gap-2 text-white/70 text-sm">
                 <svg class="w-4 h-4 text-brand-coral flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                 </svg>
-                Real-world breakdowns
+                Bonus #1: YouTube Thumbnail Design Checklist
               </li>
               <li class="flex items-start gap-2 text-white/70 text-sm">
                 <svg class="w-4 h-4 text-brand-coral flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                 </svg>
-                Q&A session
+                Bonus #2: YouTube Kit Template
               </li>
               <li class="flex items-start gap-2 text-white/70 text-sm">
                 <svg class="w-4 h-4 text-brand-coral flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                 </svg>
-                3 bonuses included
+                Bonus #3: YouTube Thumbnail Mockup
               </li>
             </ul>
-            <a href="https://buy.stripe.com/8wM7uI5hgceI4Hm5kI" target="_blank" rel="noopener noreferrer" class="btn btn-secondary w-full text-center">
-              Get Started
+            <a href="https://natekadlac.gumroad.com/l/youtube-thumbnail-masterclass" target="_blank" rel="noopener noreferrer" class="btn btn-primary w-full text-center">
+              Get Instant Access
             </a>
           </div>
 
           <!-- With 1:1 -->
           <div class="bg-brand-dark-light rounded-2xl p-6 border-2 border-brand-purple relative">
             <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-brand-purple text-white text-xs font-semibold px-3 py-1 rounded-full">MOST POPULAR</span>
-            <h3 class="font-heading font-bold text-xl mb-2">+ 1:1 Consult</h3>
-            <p class="text-3xl font-bold text-brand-coral mb-4">$499</p>
-            <ul class="space-y-2 mb-6">
+            <h3 class="font-heading font-bold text-xl mb-2">Masterclass + 1:1 Consult</h3>
+            <p class="text-4xl font-bold text-brand-coral mb-4">$499</p>
+            <p class="text-white/60 text-sm mb-6">Instant Access</p>
+            <ul class="space-y-3 mb-6">
               <li class="flex items-start gap-2 text-white/70 text-sm">
                 <svg class="w-4 h-4 text-brand-coral flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                 </svg>
-                Everything in Masterclass
+                90 min Masterclass + breakdowns, Q&A
               </li>
               <li class="flex items-start gap-2 text-white/70 text-sm">
                 <svg class="w-4 h-4 text-brand-coral flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                 </svg>
-                60-minute 1:1 session
+                1:1 60 min design consult
               </li>
               <li class="flex items-start gap-2 text-white/70 text-sm">
                 <svg class="w-4 h-4 text-brand-coral flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                 </svg>
-                Custom template creation
+                Custom YouTube thumbnail template designed live
+              </li>
+              <li class="flex items-start gap-2 text-white/70 text-sm">
+                <svg class="w-4 h-4 text-brand-coral flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                </svg>
+                All three bonuses included
               </li>
             </ul>
-            <a href="https://buy.stripe.com/8wM7uI5hgceI4Hm5kI" target="_blank" rel="noopener noreferrer" class="btn btn-primary w-full text-center">
-              Get Started
+            <a href="https://natekadlac.gumroad.com/l/youtube-thumbnail-masterclass-consult" target="_blank" rel="noopener noreferrer" class="btn btn-primary w-full text-center">
+              Get Instant Access
             </a>
           </div>
 
           <!-- Done For You -->
           <div class="bg-brand-dark-light rounded-2xl p-6 border border-white/10">
-            <h3 class="font-heading font-bold text-xl mb-2">Done-For-You</h3>
-            <p class="text-3xl font-bold text-brand-coral mb-1">$1,299</p>
+            <span class="text-brand-coral text-xs font-semibold uppercase">Beta - Only 2 spots</span>
+            <h3 class="font-heading font-bold text-xl mb-2 mt-1">Done For You</h3>
+            <p class="text-4xl font-bold text-brand-coral mb-1">$1,299</p>
             <p class="text-sm text-white/50 mb-4">/month</p>
-            <ul class="space-y-2 mb-6">
+            <ul class="space-y-3 mb-6">
               <li class="flex items-start gap-2 text-white/70 text-sm">
                 <svg class="w-4 h-4 text-brand-coral flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                 </svg>
-                Unlimited thumbnails
+                Unlimited thumbnails & revisions
               </li>
               <li class="flex items-start gap-2 text-white/70 text-sm">
                 <svg class="w-4 h-4 text-brand-coral flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                 </svg>
-                2-day turnaround
+                2 day turnaround
               </li>
               <li class="flex items-start gap-2 text-white/70 text-sm">
                 <svg class="w-4 h-4 text-brand-coral flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                 </svg>
-                Professional design
+                Pause or cancel anytime
+              </li>
+              <li class="flex items-start gap-2 text-white/70 text-sm">
+                <svg class="w-4 h-4 text-brand-coral flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                </svg>
+                Includes Masterclass + Bonuses
               </li>
             </ul>
-            <a href="mailto:nate@kadlac.com?subject=Done-For-You Thumbnails" class="btn btn-secondary w-full text-center">
-              Contact Me
+            <a href="https://cal.com/natekadlac/youtube-thumbnails" target="_blank" rel="noopener noreferrer" class="btn btn-secondary w-full text-center">
+              Book a Call
             </a>
           </div>
         </div>
@@ -235,3 +425,95 @@ import Layout from '../../layouts/Layout.astro';
     </div>
   </section>
 </Layout>
+
+<style>
+  .font-display-black-italic {
+    font-family: var(--font-display-black-italic);
+  }
+
+  .carousel-dot.active {
+    background-color: white;
+  }
+</style>
+
+<script>
+  function initCarousel() {
+    const carousel = document.getElementById('thumbnail-carousel');
+    if (!carousel) return;
+
+    const track = carousel.querySelector('.carousel-track') as HTMLElement;
+    const dots = carousel.querySelectorAll('.carousel-dot');
+    const totalSlides = 4; // Number of original slides
+    let currentIndex = 0;
+    let autoplayInterval: ReturnType<typeof setInterval>;
+
+    function getSlideWidth() {
+      // On mobile: 100%, on desktop: 50%
+      return window.innerWidth >= 768 ? 50 : 100;
+    }
+
+    function updateDots() {
+      dots.forEach((dot, index) => {
+        dot.classList.toggle('active', index === currentIndex % totalSlides);
+      });
+    }
+
+    function goToSlide(index: number, animate = true) {
+      const slideWidth = getSlideWidth();
+      if (!animate) {
+        track.style.transition = 'none';
+      } else {
+        track.style.transition = 'transform 500ms ease-out';
+      }
+      track.style.transform = `translateX(-${index * slideWidth}%)`;
+      updateDots();
+    }
+
+    function nextSlide() {
+      currentIndex++;
+      goToSlide(currentIndex);
+
+      // Reset to beginning seamlessly when reaching duplicated slides
+      if (currentIndex >= totalSlides) {
+        setTimeout(() => {
+          currentIndex = 0;
+          goToSlide(0, false);
+        }, 500);
+      }
+    }
+
+    function startAutoplay() {
+      autoplayInterval = setInterval(nextSlide, 3000);
+    }
+
+    function stopAutoplay() {
+      clearInterval(autoplayInterval);
+    }
+
+    // Dot click handlers
+    dots.forEach((dot) => {
+      dot.addEventListener('click', () => {
+        stopAutoplay();
+        currentIndex = parseInt((dot as HTMLElement).dataset.index || '0');
+        goToSlide(currentIndex);
+        startAutoplay();
+      });
+    });
+
+    // Pause on hover
+    carousel.addEventListener('mouseenter', stopAutoplay);
+    carousel.addEventListener('mouseleave', startAutoplay);
+
+    // Initial state
+    updateDots();
+    startAutoplay();
+
+    // Handle resize
+    window.addEventListener('resize', () => {
+      goToSlide(currentIndex, false);
+    });
+  }
+
+  initCarousel();
+  document.addEventListener('astro:after-swap', initCarousel);
+</script>

@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import AboutNate from '../components/AboutNate.astro';
 
 const courses = [
   {
@@ -114,7 +115,7 @@ const testimonials = [
                 <span class="text-brand-coral text-sm font-medium">
                   {course.format}
                 </span>
-                <h2 class="font-heading font-bold text-2xl md:text-3xl mt-2 mb-4">
+                <h2 class="font-display-black-italic text-2xl md:text-3xl mt-2 mb-4">
                   {course.title}
                 </h2>
                 <p class="text-white/70 mb-6">{course.description}</p>
@@ -143,7 +144,7 @@ const testimonials = [
 
       <!-- Testimonials -->
       <div class="mt-20">
-        <h2 class="font-heading font-bold text-2xl mb-8 text-center">What students say</h2>
+        <h2 class="font-display-black-italic text-2xl mb-8 text-center">What students say</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {testimonials.map((testimonial) => (
             <div class="bg-brand-dark-light rounded-2xl p-6 border border-white/10">
@@ -158,28 +159,8 @@ const testimonials = [
       </div>
 
       <!-- About Instructor -->
-      <div class="mt-20 bg-brand-dark-light rounded-2xl p-8 md:p-12 border border-white/10">
-        <div class="md:flex items-center gap-12">
-          <div class="md:w-1/3 mb-8 md:mb-0">
-            <img
-              src="/images/site/nate-instructor.png"
-              alt="Nate Kadlac"
-              class="w-48 h-48 mx-auto rounded-full object-cover"
-            />
-          </div>
-          <div class="md:w-2/3">
-            <h2 class="font-heading font-bold text-2xl mb-4">Nate Kadlac, Founder & Facilitator</h2>
-            <p class="text-white/70 mb-4">
-              I'm a former creative director and product designer with experience at Fortune 500 companies and early-stage startups.
-            </p>
-            <p class="text-white/70 mb-4">
-              I spent 7 years building a real estate startup to an eight-figure acquisition. Now I work as a freelance consultant, educator, and creator.
-            </p>
-            <p class="text-white/70">
-              I've helped hundreds of non-designers learn to create professional visuals. My teaching approach focuses on practical skills you can apply immediately.
-            </p>
-          </div>
-        </div>
+      <div class="mt-20">
+        <AboutNate eyebrow="Your Instructor" headline="Hi, I'm Nate!" variant="compact" />
       </div>
     </div>
   </section>

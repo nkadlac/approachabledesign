@@ -1,0 +1,78 @@
+---
+interface Props {
+  eyebrow?: string;
+  headline?: string;
+  variant?: 'default' | 'compact';
+}
+
+const {
+  eyebrow = "Who is teaching the workshop?",
+  headline = "Hi, I'm Nate!",
+  variant = 'default'
+} = Astro.props;
+
+const isCompact = variant === 'compact';
+---
+
+<div class="bg-brand-purple/20 rounded-3xl p-8 md:p-12 lg:p-16">
+  <div class:list={[
+    "md:flex items-center",
+    isCompact ? "gap-8" : "gap-12"
+  ]}>
+    <div class:list={[
+      "mb-8 md:mb-0 relative",
+      isCompact ? "md:w-1/3" : "md:w-2/5"
+    ]}>
+      <img
+        src="/images/site/nate-triangle.png"
+        alt="Nate Kadlac"
+        class:list={[
+          "mx-auto",
+          isCompact ? "w-full max-w-[200px]" : "w-full max-w-[280px]"
+        ]}
+      />
+      <span class="absolute bottom-4 left-1/2 -translate-x-1/2 bg-brand-coral text-brand-dark text-sm font-medium px-4 py-2 rounded-full whitespace-nowrap">
+        Nate Kadlac, Founder
+      </span>
+    </div>
+    <div class:list={[
+      isCompact ? "md:w-2/3" : "md:w-3/5"
+    ]}>
+      {eyebrow && (
+        <p class="text-brand-coral text-sm font-medium uppercase tracking-wider mb-2">
+          {eyebrow}
+        </p>
+      )}
+      <h2 class:list={[
+        "font-display-black-italic mb-6",
+        isCompact ? "text-2xl md:text-3xl" : "text-3xl md:text-4xl"
+      ]}>
+        {headline}
+      </h2>
+      <p class:list={[
+        "text-white/80 mb-4",
+        isCompact ? "text-base" : "text-lg"
+      ]}>
+        I am a former creative director and product designer who has helped Fortune 500 companies and early-stage startups grow their companies and reach millions of consumers.
+      </p>
+      <p class:list={[
+        "text-white/80 mb-4",
+        isCompact ? "text-base" : "text-lg"
+      ]}>
+        Over my career, I've designed investment decks that have helped founders raise millions of dollars, ads to capture attention for companies like Microsoft, HP, Best Buy, and apps that delight millions of consumers.
+      </p>
+      <p class:list={[
+        "text-white/80",
+        isCompact ? "text-base" : "text-lg"
+      ]}>
+        Now, I work with creators and entrepreneurs who are building brands and companies that want to stand out against the noise.
+      </p>
+    </div>
+  </div>
+</div>
+
+<style>
+  .font-display-black-italic {
+    font-family: var(--font-display-black-italic);
+  }
+</style>

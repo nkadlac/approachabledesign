@@ -1,6 +1,6 @@
 ---
 interface Props {
-  variant?: 'default' | 'card';
+  variant?: 'default' | 'card' | 'light' | 'hero';
   centered?: boolean;
   showDescription?: boolean;
 }
@@ -10,9 +10,159 @@ const { variant = 'default', centered = false, showDescription = true } = Astro.
 const formId = '3725037';
 
 const isCard = variant === 'card';
+const isLight = variant === 'light';
+const isHero = variant === 'hero';
 ---
 
-{isCard ? (
+{isHero ? (
+  <!-- Hero variant (homepage dark background with white form) -->
+  <div class="w-full max-w-2xl">
+    <!-- Desktop: inline pill layout -->
+    <div class="hidden md:block bg-white rounded-full p-2">
+      <form
+        action={`https://app.kit.com/forms/${formId}/subscriptions`}
+        method="post"
+        data-sv-form={formId}
+        data-uid={formId}
+        data-format="inline"
+        data-version="5"
+        data-options='{"settings":{"after_subscribe":{"action":"redirect","redirect_url":"https://www.approachabledesign.co/thanks"}}}'
+        class="newsletter-form flex items-center gap-2"
+      >
+        <input
+          type="email"
+          name="email_address"
+          placeholder="Your best email"
+          required
+          aria-label="Email address"
+          class="flex-1 px-5 py-4 bg-transparent text-brand-dark placeholder:text-brand-dark/50 focus:outline-none font-body text-lg"
+        />
+        <button
+          type="submit"
+          class="px-6 py-4 rounded-full bg-brand-purple font-heading font-semibold text-base hover:bg-brand-purple-light transition-colors whitespace-nowrap"
+          style="color: white;"
+        >
+          Upgrade Your Design Eye
+        </button>
+      </form>
+    </div>
+    <!-- Mobile: stacked layout -->
+    <div class="md:hidden bg-white rounded-2xl p-6">
+      <form
+        action={`https://app.kit.com/forms/${formId}/subscriptions`}
+        method="post"
+        data-sv-form={formId}
+        data-uid={formId}
+        data-format="inline"
+        data-version="5"
+        data-options='{"settings":{"after_subscribe":{"action":"redirect","redirect_url":"https://www.approachabledesign.co/thanks"}}}'
+        class="newsletter-form flex flex-col gap-4"
+      >
+        <input
+          type="email"
+          name="email_address"
+          placeholder="Your best email"
+          required
+          aria-label="Email address"
+          class="w-full px-5 py-4 bg-brand-dark/5 rounded-xl text-brand-dark placeholder:text-brand-dark/40 focus:outline-none focus:ring-2 focus:ring-brand-purple/50 text-lg"
+        />
+        <button
+          type="submit"
+          class="w-full px-5 py-4 rounded-xl bg-brand-purple font-heading font-semibold text-lg hover:bg-brand-purple-light transition-colors"
+          style="color: white;"
+        >
+          Upgrade Your Design Eye
+        </button>
+      </form>
+    </div>
+    <!-- Avatars and social proof -->
+    <div class="flex items-center gap-3 mt-6">
+      <div class="flex -space-x-3">
+        <img src="/images/site/avatar-1.png" alt="" class="w-10 h-10 rounded-full border-2 border-brand-dark object-cover" />
+        <img src="/images/site/avatar-2.png" alt="" class="w-10 h-10 rounded-full border-2 border-brand-dark object-cover" />
+        <img src="/images/site/avatar-3.png" alt="" class="w-10 h-10 rounded-full border-2 border-brand-dark object-cover" />
+        <img src="/images/site/avatar-4.png" alt="" class="w-10 h-10 rounded-full border-2 border-brand-dark object-cover" />
+      </div>
+      <p class="text-sm font-heading font-bold text-white/80 uppercase tracking-wide">
+        JOIN 3,800+ DESIGN ADJACENT THINKERS
+      </p>
+    </div>
+  </div>
+) : isLight ? (
+  <!-- Light variant (newsletter page style) -->
+  <div class="w-full max-w-2xl mx-auto">
+    <!-- Desktop: inline pill layout -->
+    <div class="hidden md:block bg-brand-dark/5 rounded-full p-2">
+      <form
+        action={`https://app.kit.com/forms/${formId}/subscriptions`}
+        method="post"
+        data-sv-form={formId}
+        data-uid={formId}
+        data-format="inline"
+        data-version="5"
+        data-options='{"settings":{"after_subscribe":{"action":"redirect","redirect_url":"https://www.approachabledesign.co/thanks"}}}'
+        class="newsletter-form flex items-center gap-2"
+      >
+        <input
+          type="email"
+          name="email_address"
+          placeholder="Your best email"
+          required
+          aria-label="Email address"
+          class="flex-1 px-5 py-4 bg-transparent text-brand-dark placeholder:text-brand-dark/50 focus:outline-none font-body text-lg"
+        />
+        <button
+          type="submit"
+          class="px-6 py-4 rounded-full bg-brand-purple font-heading font-semibold text-base hover:bg-brand-purple-light transition-colors whitespace-nowrap"
+          style="color: white;"
+        >
+          Upgrade Your Design Eye
+        </button>
+      </form>
+    </div>
+    <!-- Mobile: stacked layout -->
+    <div class="md:hidden bg-brand-dark/5 rounded-2xl p-6">
+      <form
+        action={`https://app.kit.com/forms/${formId}/subscriptions`}
+        method="post"
+        data-sv-form={formId}
+        data-uid={formId}
+        data-format="inline"
+        data-version="5"
+        data-options='{"settings":{"after_subscribe":{"action":"redirect","redirect_url":"https://www.approachabledesign.co/thanks"}}}'
+        class="newsletter-form flex flex-col gap-4"
+      >
+        <input
+          type="email"
+          name="email_address"
+          placeholder="Your best email"
+          required
+          aria-label="Email address"
+          class="w-full px-5 py-4 bg-white rounded-xl text-brand-dark placeholder:text-brand-dark/40 focus:outline-none focus:ring-2 focus:ring-brand-purple/50 text-lg border border-brand-dark/10"
+        />
+        <button
+          type="submit"
+          class="w-full px-5 py-4 rounded-xl bg-brand-purple font-heading font-semibold text-lg hover:bg-brand-purple-light transition-colors"
+          style="color: white;"
+        >
+          Upgrade Your Design Eye
+        </button>
+      </form>
+    </div>
+    <!-- Avatars and social proof -->
+    <div class="flex items-center justify-center gap-3 mt-6">
+      <div class="flex -space-x-3">
+        <img src="/images/site/avatar-1.png" alt="" class="w-10 h-10 rounded-full border-2 border-[#FFECE2] object-cover" />
+        <img src="/images/site/avatar-2.png" alt="" class="w-10 h-10 rounded-full border-2 border-[#FFECE2] object-cover" />
+        <img src="/images/site/avatar-3.png" alt="" class="w-10 h-10 rounded-full border-2 border-[#FFECE2] object-cover" />
+        <img src="/images/site/avatar-4.png" alt="" class="w-10 h-10 rounded-full border-2 border-[#FFECE2] object-cover" />
+      </div>
+      <p class="text-sm font-heading font-bold text-brand-dark uppercase tracking-wide">
+        JOIN 3,800+ OTHERS MAKING BETTER DESIGN DECISIONS
+      </p>
+    </div>
+  </div>
+) : isCard ? (
   <!-- Card variant (homepage style) -->
   <div>
     <!-- Desktop: inline pill layout -->
@@ -111,7 +261,7 @@ const isCard = variant === 'card';
   </form>
 )}
 
-{showDescription && !isCard && (
+{showDescription && !isCard && !isLight && (
   <p class:list={[
     "mt-3 text-sm text-white/50",
     centered ? "text-center" : ""

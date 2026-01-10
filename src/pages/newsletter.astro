@@ -59,8 +59,14 @@ const testimonials = [
         <h1 class="font-display-black-italic text-4xl md:text-5xl lg:text-6xl mb-6 text-brand-dark">
           Design smarter, not harder
         </h1>
-        <p class="text-xl text-brand-dark/70 mb-10">
-          Imagine creating visuals starting with your personality. Not someone else's template.
+        <p class="text-xl text-brand-dark/80 mb-4">
+          Imagine creating visuals starting with your personality.
+        </p>
+        <p class="text-xl text-brand-dark/80 mb-6">
+          Not someone else's template.
+        </p>
+        <p class="text-lg text-brand-dark/70 mb-10">
+          Join 3,800+ solopreneurs & professionals 3x a week and I'll help you <strong class="text-brand-dark">build trust with your customers</strong>, <strong class="text-brand-dark">sell more by creating an authentic brand</strong>, and <strong class="text-brand-dark">take your visuals from stink eye to slow clap</strong> <em class="text-brand-dark/60">(without hiring a designer)</em>.
         </p>
       </div>
     </div>
@@ -69,16 +75,8 @@ const testimonials = [
   <!-- Newsletter Signup -->
   <section class="pb-16">
     <div class="container">
-      <div class="max-w-3xl mx-auto bg-brand-dark rounded-2xl p-8 md:p-12">
-        <h2 class="font-heading font-bold text-2xl md:text-3xl mb-4 text-center text-white">
-          Join 3,800+ solopreneurs & professionals 3x a week
-        </h2>
-        <p class="text-white/70 text-center mb-8 text-lg">
-          I'll help you <strong class="text-white">build trust with your customers</strong>, <strong class="text-white">sell more by creating an authentic brand</strong>, and <strong class="text-white">take your visuals from stink eye to slow clap</strong> <em class="text-white/50">(without hiring a designer)</em>.
-        </p>
-        <div class="flex justify-center">
-          <NewsletterForm variant="card" />
-        </div>
+      <div class="max-w-3xl mx-auto bg-white rounded-3xl p-8 md:p-12 shadow-sm">
+        <NewsletterForm variant="light" />
       </div>
     </div>
   </section>
@@ -86,14 +84,14 @@ const testimonials = [
   <!-- Testimonials -->
   <section class="py-16">
     <div class="container">
-      <h2 class="font-heading font-bold text-2xl mb-8 text-center text-brand-dark">What readers say</h2>
+      <h2 class="font-display-black-italic text-2xl mb-8 text-center text-brand-dark">What readers say</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {testimonials.map((testimonial) => (
-          <div class="bg-brand-dark rounded-2xl p-6">
-            <p class="text-white/80 italic mb-4">"{testimonial.quote}"</p>
+          <div class="bg-white rounded-2xl p-6 shadow-sm">
+            <p class="text-brand-dark/80 italic mb-4">"{testimonial.quote}"</p>
             <div>
-              <p class="font-heading font-semibold text-white">{testimonial.author}</p>
-              <p class="text-sm text-white/50">{testimonial.role}</p>
+              <p class="font-heading font-semibold text-brand-dark">{testimonial.author}</p>
+              <p class="text-sm text-brand-dark/50">{testimonial.role}</p>
             </div>
           </div>
         ))}
@@ -101,45 +99,7 @@ const testimonials = [
     </div>
   </section>
 
-  <!-- About Nate -->
-  <section class="py-16">
-    <div class="container">
-      <div class="max-w-3xl mx-auto bg-brand-dark rounded-2xl p-8 md:p-12">
-        <div class="md:flex items-center gap-8">
-          <div class="md:w-1/4 mb-6 md:mb-0">
-            <img
-              src="/images/site/nate-instructor.png"
-              alt="Nate Kadlac"
-              class="w-32 h-32 mx-auto rounded-full object-cover"
-            />
-          </div>
-          <div class="md:w-3/4">
-            <h2 class="font-heading font-bold text-xl mb-4 text-white">Hey, I'm Nate</h2>
-            <p class="text-white/70 mb-4">
-              I'm a former creative director and product designer who has helped Fortune 500 companies and early-stage startups grow their companies and reach millions of consumers.
-            </p>
-            <p class="text-white/70">
-              In 2021, after spending seven years focused on helping build a real estate startup into an eight figure acquisition, I left and now work as a freelance consultant, educator, and creator.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Final CTA -->
-  <section class="py-16">
-    <div class="container text-center">
-      <p class="text-brand-dark/60 mb-6 text-lg">Ready to design smarter?</p>
-      <p class="font-heading font-bold text-xl text-brand-dark mb-8">JOIN 3,800+ others making better design decisions</p>
-      <div class="flex justify-center">
-        <div class="bg-brand-dark rounded-2xl p-6 w-full max-w-md">
-          <NewsletterForm variant="card" />
-        </div>
-      </div>
-    </div>
-  </section>
-</Layout>
+  </Layout>
 
 <style>
   .font-display-black-italic {
