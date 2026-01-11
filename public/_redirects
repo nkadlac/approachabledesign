@@ -1,8 +1,9 @@
 # Cloudflare Pages Redirects
 # Format: /old-path /new-path [status-code]
 
-# Course redirects
-/courses/8020-design-challenge /courses/creator-design-kit 301
+# Course redirects (consolidated to /products)
+/courses /products 301
+/courses/* /products 301
 
 # Workshop redirect (ws folder)
 /ws /ws/design-flywheel 301

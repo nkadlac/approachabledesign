@@ -8,17 +8,16 @@ const { variant = 'dark' } = Astro.props;
 const quickLinks = [
   { href: '/about', label: 'Start Here' },
   { href: '/articles', label: 'Blog' },
-  { href: '/courses', label: 'Courses' },
   { href: '/products', label: 'Products' },
   { href: '/newsletter', label: 'Newsletter' },
   { href: 'https://twitter.com/kadlac', label: 'X (Twitter)', external: true },
 ];
 
 const products = [
-  { href: '/courses', label: 'The Creator Design Kit' },
-  { href: '/products', label: 'YouTube Thumbnail Masterclass' },
-  { href: '/products', label: 'The Design Vault' },
-  { href: '/products', label: 'Design Checklist' },
+  { href: '/products/creator-design-kit', label: 'The Creator Design Kit' },
+  { href: '/products/youtube-masterclass', label: 'YouTube Thumbnail Masterclass' },
+  { href: '/products/design-vault', label: 'The Design Vault' },
+  { href: '/products/design-checklist', label: 'Design Checklist' },
 ];
 
 const currentYear = new Date().getFullYear();
@@ -27,27 +26,27 @@ const isLight = variant === 'light';
 ---
 
 <footer class:list={[
-  "border-t mt-auto",
-  isLight ? "bg-brand-dark border-brand-dark/10" : "bg-brand-dark-light border-white/10"
+  "mt-auto border-t",
+  isLight ? "border-brand-dark/10" : "border-white/10"
 ]}>
   <div class="max-w-[1200px] mx-auto px-6 py-16">
     <div class="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-8">
       <!-- Bio Column -->
       <div class="md:col-span-5">
-        <p class="text-xl leading-relaxed text-white">
+        <p class:list={["text-xl leading-relaxed", isLight ? "text-brand-dark" : "text-white"]}>
           <strong class="font-bold">Approachable Design</strong>
         </p>
-        <p class="mt-4 text-white/70 leading-relaxed">
+        <p class:list={["mt-4 leading-relaxed", isLight ? "text-brand-dark/70" : "text-white/70"]}>
           Design smarter, not harder. Join thousands of solopreneurs & professionals learning to build authentic brands and improve visual design skills without hiring a designer.
         </p>
-        <p class="mt-4 text-white/70 leading-relaxed">
+        <p class:list={["mt-4 leading-relaxed", isLight ? "text-brand-dark/70" : "text-white/70"]}>
           Created by Nate Kadlac, a former creative director and product designer.
         </p>
       </div>
 
       <!-- Quick Links -->
       <div class="md:col-span-3 md:col-start-7">
-        <h4 class="font-heading font-semibold text-sm uppercase tracking-wider mb-6 text-white/50">
+        <h4 class:list={["font-heading font-semibold text-sm uppercase tracking-wider mb-6", isLight ? "text-brand-dark/50" : "text-white/50"]}>
           Quick Links
         </h4>
         <ul class="space-y-3">
@@ -55,7 +54,7 @@ const isLight = variant === 'light';
             <li>
               <a
                 href={link.href}
-                class="hover:text-brand-coral transition-colors text-white/80 inline-flex items-center gap-1.5"
+                class:list={["hover:text-brand-coral transition-colors inline-flex items-center gap-1.5", isLight ? "text-brand-dark/80" : "text-white/80"]}
                 target={link.external ? '_blank' : undefined}
                 rel={link.external ? 'noopener noreferrer' : undefined}
               >
@@ -74,7 +73,7 @@ const isLight = variant === 'light';
 
       <!-- Products -->
       <div class="md:col-span-3">
-        <h4 class="font-heading font-semibold text-sm uppercase tracking-wider mb-6 text-white/50">
+        <h4 class:list={["font-heading font-semibold text-sm uppercase tracking-wider mb-6", isLight ? "text-brand-dark/50" : "text-white/50"]}>
           Products
         </h4>
         <ul class="space-y-3">
@@ -82,7 +81,7 @@ const isLight = variant === 'light';
             <li>
               <a
                 href={link.href}
-                class="hover:text-brand-coral transition-colors text-white/80"
+                class:list={["hover:text-brand-coral transition-colors", isLight ? "text-brand-dark/80" : "text-white/80"]}
               >
                 {link.label}
               </a>
@@ -93,8 +92,8 @@ const isLight = variant === 'light';
     </div>
 
     <!-- Copyright -->
-    <div class="mt-16 pt-8 border-t border-white/10">
-      <p class="text-sm text-white/40">
+    <div class:list={["mt-16 pt-8 border-t", isLight ? "border-brand-dark/10" : "border-white/10"]}>
+      <p class:list={["text-sm", isLight ? "text-brand-dark/40" : "text-white/40"]}>
         &copy; {currentYear} Approachable Design LLC. All rights reserved.
       </p>
     </div>

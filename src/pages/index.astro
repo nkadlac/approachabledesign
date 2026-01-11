@@ -2,13 +2,17 @@
 import Layout from '../layouts/Layout.astro';
 import NewsletterForm from '../components/NewsletterForm.astro';
 import AboutNate from '../components/AboutNate.astro';
+import Testimonial from '../components/Testimonial.astro';
 ---
 
 <Layout title="Approachable Design - Design smarter, not harder">
+  <!-- Background Glow -->
+  <div class="hero-glow"></div>
+
   <!-- Hero Section -->
   <section class="py-20 md:py-32">
     <div class="container">
-      <div class="max-w-4xl">
+      <div class="max-w-[720px] mx-auto">
         <h1 class="font-display-black-italic text-5xl md:text-6xl lg:text-7xl leading-[1.1] mb-8">
           Design smarter,<br />not harder
         </h1>
@@ -24,33 +28,24 @@ import AboutNate from '../components/AboutNate.astro';
   </section>
 
   <!-- Testimonial Section -->
-  <section class="py-16">
+  <section class="py-16 md:py-24">
     <div class="container">
-      <div class="max-w-3xl mx-auto">
-        <div class="md:flex items-center gap-8">
-          <div class="md:w-1/4 mb-6 md:mb-0">
-            <img
-              src="/images/site/paul-millerd.jpg"
-              alt="Paul Millerd"
-              class="w-24 h-24 mx-auto rounded-full object-cover"
-            />
-          </div>
-          <div class="md:w-3/4">
-            <p class="text-xl md:text-2xl text-white/90 italic mb-4">
-              "Nate radically shifted how I see design in many aspects of my work and I think one of the biggest mistakes I made was not working with Nate earlier!"
-            </p>
-            <div>
-              <p class="font-heading font-bold text-white">Paul Millerd</p>
-              <p class="text-white/50">Author, The Pathless Path</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Testimonial
+        quote="Nate radically shifted how I see design in many aspects of my work and I think one of the biggest mistakes I made was not working with Nate earlier!"
+        author="Paul Millerd"
+        role="Author, The Pathless Path"
+        image="/images/site/paul-millerd.jpg"
+      />
     </div>
   </section>
 
+  <!-- Line Divider -->
+  <div class="flex justify-center py-16">
+    <img src="/images/site/line-divider.svg" alt="" class="h-48 md:h-64" />
+  </div>
+
   <!-- About Section -->
-  <section class="py-20 border-t border-white/10">
+  <section class="py-20">
     <div class="container">
       <AboutNate eyebrow="" headline="Hey, I'm Nate" variant="compact" />
     </div>
@@ -63,10 +58,10 @@ import AboutNate from '../components/AboutNate.astro';
         Level up your design skills
       </h2>
       <p class="text-center text-white/60 mb-12 max-w-2xl mx-auto">
-        Courses and resources built for non-designers who want to create professional visuals.
+        Products and resources built for non-designers who want to create professional visuals.
       </p>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <a href="/courses" class="group bg-brand-dark-light rounded-2xl p-6 border border-white/10 hover:border-brand-coral/50 transition-colors">
+        <a href="/products" class="group bg-brand-dark-light rounded-2xl p-6 border border-white/10 hover:border-brand-coral/50 transition-colors">
           <div class="mb-4">
             <img src="/images/site/creator-design-kit.png" alt="The Creator Design Kit" class="w-full rounded-xl" />
           </div>
@@ -99,5 +94,20 @@ import AboutNate from '../components/AboutNate.astro';
 <style>
   .font-display-black-italic {
     font-family: var(--font-display-black-italic);
+  }
+
+  .hero-glow {
+    position: fixed;
+    top: -10%;
+    right: -10%;
+    width: 80%;
+    height: 80%;
+    background-image: url('/images/site/hero-glow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.6;
   }
 </style>

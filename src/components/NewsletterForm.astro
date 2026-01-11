@@ -92,7 +92,7 @@ const isHero = variant === 'hero';
   <!-- Light variant (newsletter page style) -->
   <div class="w-full max-w-2xl mx-auto">
     <!-- Desktop: inline pill layout -->
-    <div class="hidden md:block bg-brand-dark/5 rounded-full p-2">
+    <div class="hidden md:block bg-white rounded-full p-2">
       <form
         action={`https://app.kit.com/forms/${formId}/subscriptions`}
         method="post"
@@ -121,7 +121,7 @@ const isHero = variant === 'hero';
       </form>
     </div>
     <!-- Mobile: stacked layout -->
-    <div class="md:hidden bg-brand-dark/5 rounded-2xl p-6">
+    <div class="md:hidden bg-white rounded-2xl p-6">
       <form
         action={`https://app.kit.com/forms/${formId}/subscriptions`}
         method="post"
@@ -138,7 +138,7 @@ const isHero = variant === 'hero';
           placeholder="Your best email"
           required
           aria-label="Email address"
-          class="w-full px-5 py-4 bg-white rounded-xl text-brand-dark placeholder:text-brand-dark/40 focus:outline-none focus:ring-2 focus:ring-brand-purple/50 text-lg border border-brand-dark/10"
+          class="w-full px-5 py-4 bg-brand-dark/5 rounded-xl text-brand-dark placeholder:text-brand-dark/40 focus:outline-none focus:ring-2 focus:ring-brand-purple/50 text-lg"
         />
         <button
           type="submit"

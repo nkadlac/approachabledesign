@@ -1,39 +1,51 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import FeaturedTestimonial from '../../components/FeaturedTestimonial.astro';
+import Testimonial from '../../components/Testimonial.astro';
+import TestimonialScroll from '../../components/TestimonialScroll.astro';
 import AboutNate from '../../components/AboutNate.astro';
 
-const testimonials = [
-  {
-    quote: "Watching Nate work in real-time is incredible — I feel like I took away so many actionable heuristics and insights in such a short space of time. Highly highly recommend!!",
-    author: "Jonny Miller",
-    role: "Founder, NS Mastery"
-  },
-  {
-    quote: "I watched it with a friend and we were buzzing with ideas for how we could improve our own branding throughout. And he gave us some great templates we could start using immediately after, which made making the jump so much more approachable.",
-    author: "Nat Eliason",
-    role: "Writer & Entrepreneur"
-  },
-  {
-    quote: "Nate is a good instructor because he believes everyone can learn about design and apply it to their daily lives and business. He's clear, earnest, patient and understanding. Showing real world examples and explaining the choices made is especially illuminating.",
-    author: "Reginald Ferguson",
-    role: "Founder, New York Fashion Geek"
-  },
-  {
-    quote: "The Youtube thumbnails workshop was very useful, I learned a lot. I particularly liked the concrete tips about creating contrast and the rule of thirds.",
-    author: "Luca Dellana",
-    role: "Author"
-  },
-  {
-    quote: "I attended one of Nate's design workshops and it was a game-changer for me. He is the real deal. His design philosophy + practical approach makes design super simple and accessible.",
-    author: "Michael Gendler",
-    role: "Co-founder, Ultraspeaking"
-  },
-  {
-    quote: "If it weren't for him, his design workshops, and newsletter for non-designers, I'd still be stuck working at my local theater or Little Caesars. Thanks to him I started a design studio where I'm earning much more than I was at my former minimum wage jobs.",
-    author: "Irving Beltran",
-    role: "Designer"
-  }
+const testimonialRows = [
+  // Row 1 - scrolls left
+  [
+    {
+      quote: "Watching Nate work in real-time is incredible — <strong>I feel like I took away so many actionable heuristics and insights in such a short space of time.</strong> Highly highly recommend!!",
+      author: "Jonny Miller",
+      role: "Founder Nervous System Mastery",
+      image: "/images/testimonials/jonny-miller.avif"
+    },
+    {
+      quote: "Nate is a good instructor because he believes everyone can learn about design and apply it to their daily lives and business. He's clear, earnest, patient and understanding. <strong>Showing real world examples and explaining the choices made is especially illuminating.</strong>",
+      author: "Reginald Ferguson",
+      role: "Founder New York Fashion Geek",
+      image: "/images/testimonials/reginald-ferguson.webp"
+    },
+    {
+      quote: "The Youtube thumbnails workshop was very useful, I learned a lot. <strong>I particularly liked the concrete tips about creating contrast and the rule of thirds.</strong>",
+      author: "Luca Dellana",
+      role: "Author",
+      image: "/images/testimonials/luca-dellana.webp"
+    }
+  ],
+  // Row 2 - scrolls right
+  [
+    {
+      quote: "I watched it with a friend and we were buzzing with ideas for how we could improve our own branding throughout. And he gave us some great templates we could start using immediately after, <strong>which made making the jump so much more approachable.</strong>",
+      author: "Nat Eliason",
+      role: "Writer & Entrepreneur",
+      image: "/images/testimonials/nat-eliason.avif"
+    },
+    {
+      quote: "I attended one of Nate's design workshops and it was a game-changer for me. He is the real deal. <strong>His design philosophy + practical approach makes design super simple and accessible.</strong> I'm VERY grateful for his teachings.",
+      author: "Michael Gendler",
+      role: "Co-founder Ultraspeaking",
+      image: "/images/testimonials/michael-gendler.avif"
+    },
+    {
+      quote: "If it weren't for him, his design workshops, and newsletter for non-designers, <strong>I'd still be stuck working at my local theater or Little Caesars.</strong> Thanks to him I started a design studio where I'm earning much more than I was at my former minimum wage jobs.",
+      author: "Irving Beltran",
+      role: "Designer"
+    }
+  ]
 ];
 
 const learningPoints = [
@@ -178,18 +190,17 @@ const thumbnailExamples = [
       <!-- Testimonials -->
       <div class="mb-16">
         <h2 class="font-display-black-italic text-2xl md:text-3xl mb-8 text-center">What Students Say</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {testimonials.map((testimonial) => (
-            <div class="bg-brand-dark-light rounded-2xl p-6 border border-white/10">
-              <p class="text-white/80 italic mb-4">"{testimonial.quote}"</p>
-              <div>
-                <p class="font-heading font-semibold text-white">{testimonial.author}</p>
-                <p class="text-sm text-white/50">{testimonial.role}</p>
-              </div>
-            </div>
-          ))}
-        </div>
       </div>
+    </div>
+  </section>
+
+  <!-- Scrolling Testimonials - Full Width -->
+  <section class="py-8">
+    <TestimonialScroll rows={testimonialRows} />
+  </section>
+
+  <section class="py-16 md:py-24">
+    <div class="container">
 
       <!-- Bonuses -->
       <div class="mb-16">
@@ -297,12 +308,16 @@ const thumbnailExamples = [
   </section>
 
   <!-- Featured Testimonial -->
-  <FeaturedTestimonial
-    quote="I watched it with a friend and we were buzzing with ideas for how we could improve our own branding throughout. And he gave us some great templates we could start using immediately after, which made making the jump so much more approachable."
-    author="Nat Eliason"
-    role="Writer & Entrepreneur"
-    image="/images/site/nat-eliason.jpg"
-  />
+  <section class="py-16 md:py-24">
+    <div class="container">
+      <Testimonial
+        quote="I watched it with a friend and we were buzzing with ideas for how we could improve our own branding throughout. And he gave us some great templates we could start using immediately after, which made making the jump so much more approachable."
+        author="Nat Eliason"
+        role="Writer & Entrepreneur"
+        image="/images/testimonials/nat-eliason.avif"
+      />
+    </div>
+  </section>
 
   <section class="py-16 md:py-24">
     <div class="container">

@@ -228,11 +228,11 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-  transition: opacity 0.2s ease;
+  transition: color 0.2s ease;
 }
 
 a:hover {
-  opacity: 0.8;
+  color: #574CEB;
 }
 
 /* Container utility */

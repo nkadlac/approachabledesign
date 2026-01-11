@@ -1,0 +1,363 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import AboutNate from '../../components/AboutNate.astro';
+import TestimonialScroll from '../../components/TestimonialScroll.astro';
+
+const testimonialRows = [
+  [
+    {
+      quote: "The workshop let me come up with my own style and taste which is huge for me especially as founder of a brand.",
+      author: "Khe Hy",
+      role: "Founder, Rad Reads",
+      image: "/images/site/khe-hy.jpg"
+    },
+    {
+      quote: "SERIOUSLY. I had tried using Figma before but didn't understand anything. Thanks to Nate I feel very good using Figma.",
+      author: "Irving",
+      role: "Course Graduate"
+    },
+    {
+      quote: "The stuff I'm producing already feels a lot lighter and visually compelling.",
+      author: "Cécile",
+      role: "Course Graduate",
+      image: "/images/testimonials/cecile.avif"
+    },
+  ],
+  [
+    {
+      quote: "This course definitely helped me become a much better designer, and as result – a better builder.",
+      author: "Louis Pereira",
+      role: "Founder, AudioPen.ai",
+      image: "/images/testimonials/louis-pereira.webp"
+    },
+    {
+      quote: "I wish I had learned this years ago for all those semi-beautiful presentations I created.",
+      author: "Filipe",
+      role: "Course Graduate"
+    },
+    {
+      quote: "The best investment I made this year. Every dollar is worth it!",
+      author: "Iliyan Slavov",
+      role: "Course Graduate"
+    },
+  ]
+];
+
+const curriculum = [
+  {
+    week: "Week 1",
+    title: "Foundations",
+    topics: ["Figma basics", "Font selection & typography", "Photography beyond stock", "Color theory", "Drop shadow techniques"]
+  },
+  {
+    week: "Week 2",
+    title: "Principles",
+    topics: ["Alignment principles", "Rule of thirds", "Contrast & visual intrigue", "Text hierarchy", "Legibility optimization"]
+  },
+  {
+    week: "Week 3",
+    title: "Personality",
+    topics: ["Adding personality through design", "Color pairing", "Font pairing combinations", "Layering and depth", "Shape creation in Figma"]
+  },
+  {
+    week: "Week 4",
+    title: "Your Design Kit",
+    topics: ["Gradient design", "Text-based logo creation", "Button design", "Masking techniques", "Capstone: Build your reusable design kit"]
+  }
+];
+
+const faqs = [
+  {
+    q: "Do I need design experience?",
+    a: "No. This course is created specifically for non-designers. If you can use a computer, you can take this course."
+  },
+  {
+    q: "When does it start?",
+    a: "Every Monday around 8am PST. You'll receive your first lesson immediately after signing up."
+  },
+  {
+    q: "What tools are needed?",
+    a: "Figma—a free design tool that works on PC/Mac, in your browser or as a desktop app."
+  },
+  {
+    q: "How do I get feedback?",
+    a: "Share your Figma file with nate@kadlac.com during the course for direct comments and feedback."
+  },
+  {
+    q: "Is there a money-back guarantee?",
+    a: "Yes! Full refund if you're unsatisfied after completing the entire course."
+  }
+];
+---
+
+<Layout title="The Creator Design Kit - Approachable Design" description="Learn design fundamentals and build a design kit that scales. A 20-day email course for non-designers.">
+  <!-- Hero -->
+  <section class="py-16 md:py-24">
+    <div class="container">
+      <div class="md:flex md:items-center md:gap-12 lg:gap-16">
+        <!-- Left: Text Content -->
+        <div class="md:w-1/2 lg:w-3/5">
+          <span class="inline-block bg-white/10 text-white/80 text-xs font-semibold uppercase tracking-wider px-4 py-2 rounded-full mb-6">
+            A Design Course for Creators
+          </span>
+          <h1 class="font-display-black-italic text-4xl md:text-5xl lg:text-6xl mb-6">
+            The Creator Design Kit
+          </h1>
+          <p class="text-xl md:text-2xl text-white/60 mb-6 max-w-xl">
+            Learn design fundamentals and build a design kit that scales, so you don't have to start your next project from scratch. Make every design decision feel like the right one without wasting time.
+          </p>
+          <p class="text-lg text-white mb-8">
+            Course starts on Monday.
+          </p>
+          <a href="#pricing" class="btn btn-primary text-lg px-8 py-4 gap-2">
+            Start Watching
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </a>
+
+          <!-- Social Proof -->
+          <div class="flex flex-wrap items-center gap-4 mt-10 text-sm">
+            <span class="text-brand-coral font-semibold uppercase tracking-wider">Join 250+ Students</span>
+            <span class="flex items-center gap-2 text-white/60">
+              <span class="text-yellow-400">⚡</span>
+              Highlighted by:
+              <span class="font-semibold text-white">Trends.vc</span>
+            </span>
+          </div>
+        </div>
+
+        <!-- Right: Product Image with Glow -->
+        <div class="md:w-1/2 lg:w-2/5 mt-12 md:mt-0 relative">
+          <!-- Atmospheric glow -->
+          <div class="hero-glow"></div>
+          <img
+            src="/images/site/creator-design-kit.png"
+            alt="The Creator Design Kit"
+            class="w-full max-w-[336px] mx-auto relative z-10"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Problem/Solution -->
+  <section class="py-16 border-t border-white/10">
+    <div class="container">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="font-display text-3xl md:text-4xl font-bold mb-6">
+          The design gap is holding you back
+        </h2>
+        <p class="text-lg text-white/70 mb-6">
+          If you've ever worked with a designer but you're never happy with the results, there's a design gap. You know what looks good, but you can't articulate why—or create it yourself.
+        </p>
+        <p class="text-lg text-white/70 mb-6">
+          This course teaches you the <strong class="text-white">80/20 of design</strong>—the most essential concepts without overwhelming complexity. You'll learn to make sound visual choices without needing to become a professional designer.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- What's Included -->
+  <section class="py-16 border-t border-white/10">
+    <div class="container">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="font-display text-3xl md:text-4xl font-bold mb-12 text-center">What's included</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="text-center">
+            <div class="text-5xl mb-4">📧</div>
+            <h3 class="font-heading font-bold text-xl mb-2">20 Email Lessons</h3>
+            <p class="text-white/60">One lesson per weekday for 4 weeks. Weekends are for catching up.</p>
+          </div>
+          <div class="text-center">
+            <div class="text-5xl mb-4">🎥</div>
+            <h3 class="font-heading font-bold text-xl mb-2">20 Video Tutorials</h3>
+            <p class="text-white/60">Each video is under 20 minutes. Learn at your own pace.</p>
+          </div>
+          <div class="text-center">
+            <div class="text-5xl mb-4">📁</div>
+            <h3 class="font-heading font-bold text-xl mb-2">20 Figma Files</h3>
+            <p class="text-white/60">Hands-on practice files for every lesson.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Curriculum -->
+  <section class="py-16 border-t border-white/10">
+    <div class="container">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="font-display text-3xl md:text-4xl font-bold mb-12 text-center">The 20-day curriculum</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {curriculum.map((week) => (
+            <div class="bg-brand-dark-light rounded-2xl p-6 border border-white/10">
+              <span class="text-brand-purple text-sm font-semibold uppercase tracking-wider">{week.week}</span>
+              <h3 class="font-heading font-bold text-xl mt-2 mb-4">{week.title}</h3>
+              <ul class="space-y-2">
+                {week.topics.map((topic) => (
+                  <li class="flex items-start gap-2 text-white/70">
+                    <svg class="w-5 h-5 text-brand-coral flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                    </svg>
+                    {topic}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Who It's For -->
+  <section class="py-16 border-t border-white/10">
+    <div class="container">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="font-display text-3xl md:text-4xl font-bold mb-8 text-center">Who this is for</h2>
+        <div class="space-y-4">
+          <div class="flex items-start gap-4 bg-brand-dark-light rounded-xl p-6 border border-white/10">
+            <span class="text-3xl">🎨</span>
+            <div>
+              <h3 class="font-heading font-bold text-lg">Coaches & Creators</h3>
+              <p class="text-white/60">Building branded graphics for your content, courses, and social media.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4 bg-brand-dark-light rounded-xl p-6 border border-white/10">
+            <span class="text-3xl">📈</span>
+            <div>
+              <h3 class="font-heading font-bold text-lg">Aspiring Designers</h3>
+              <p class="text-white/60">Looking to level up your fundamentals and build a solid foundation.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4 bg-brand-dark-light rounded-xl p-6 border border-white/10">
+            <span class="text-3xl">💼</span>
+            <div>
+              <h3 class="font-heading font-bold text-lg">PMs, Marketers & Developers</h3>
+              <p class="text-white/60">Improving your design communication and making better visual decisions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="py-16 border-t border-white/10">
+    <div class="container">
+      <h2 class="font-display-black-italic text-3xl md:text-4xl mb-12 text-center">What students say</h2>
+    </div>
+    <TestimonialScroll rows={testimonialRows} />
+  </section>
+
+  <!-- Instructor -->
+  <section class="py-16 border-t border-white/10">
+    <div class="container">
+      <AboutNate eyebrow="Your Instructor" headline="Hi, I'm Nate!" />
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="py-16 border-t border-white/10">
+    <div class="container">
+      <div class="max-w-xl mx-auto text-center">
+        <h2 class="font-display text-3xl md:text-4xl font-bold mb-8">Get the course</h2>
+        <div class="bg-brand-dark-light rounded-2xl p-8 border border-brand-coral/30">
+          <span class="text-brand-purple text-sm font-semibold uppercase tracking-wider">Full Access</span>
+          <div class="text-5xl font-bold text-brand-coral my-4">$249</div>
+          <ul class="text-left space-y-3 mb-8">
+            <li class="flex items-center gap-2 text-white/70">
+              <svg class="w-5 h-5 text-brand-coral" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              20 email lessons over 4 weeks
+            </li>
+            <li class="flex items-center gap-2 text-white/70">
+              <svg class="w-5 h-5 text-brand-coral" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              20 video tutorials (under 20 min each)
+            </li>
+            <li class="flex items-center gap-2 text-white/70">
+              <svg class="w-5 h-5 text-brand-coral" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              20 Figma practice files
+            </li>
+            <li class="flex items-center gap-2 text-white/70">
+              <svg class="w-5 h-5 text-brand-coral" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              Direct feedback from Nate
+            </li>
+            <li class="flex items-center gap-2 text-white/70">
+              <svg class="w-5 h-5 text-brand-coral" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              Lifetime access
+            </li>
+          </ul>
+          <a href="https://buy.stripe.com/placeholder" class="btn btn-primary w-full text-lg py-4">
+            Get The Creator Design Kit
+          </a>
+          <p class="text-white/50 text-sm mt-4">30-day money-back guarantee</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQs -->
+  <section class="py-16 border-t border-white/10">
+    <div class="container">
+      <div class="max-w-2xl mx-auto">
+        <h2 class="font-display text-3xl md:text-4xl font-bold mb-12 text-center">Frequently asked questions</h2>
+        <div class="space-y-6">
+          {faqs.map((faq) => (
+            <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
+              <h3 class="font-heading font-semibold mb-2">{faq.q}</h3>
+              <p class="text-white/60">{faq.a}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="py-16 border-t border-white/10">
+    <div class="container text-center">
+      <h2 class="font-display text-3xl md:text-4xl font-bold mb-6">
+        Ready to level up your design skills?
+      </h2>
+      <p class="text-lg text-white/60 mb-8 max-w-xl mx-auto">
+        Join 250+ creators who have transformed their visual design skills with The Creator Design Kit.
+      </p>
+      <a href="#pricing" class="btn btn-primary text-lg px-8 py-4">
+        Get the Course — $249
+      </a>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .font-display-black-italic {
+    font-family: var(--font-display-black-italic);
+  }
+
+  /* Hero atmospheric glow */
+  .hero-glow {
+    position: absolute;
+    inset: -20%;
+    background: radial-gradient(
+      ellipse 80% 80% at 50% 50%,
+      rgba(81, 72, 202, 0.4) 0%,
+      rgba(81, 72, 202, 0.2) 30%,
+      rgba(255, 204, 175, 0.1) 50%,
+      transparent 70%
+    );
+    filter: blur(40px);
+    z-index: 0;
+    pointer-events: none;
+  }
+</style>

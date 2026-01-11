@@ -1,166 +1,327 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import AboutNate from '../../components/AboutNate.astro';
+
+// Generate current date at build time
+const lastUpdated = new Date().toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+});
+
+const whatsIncluded = [
+  "Immediate & Lifetime Access",
+  "Vault growing to 1,000 examples",
+  "Hand-picked sites",
+  "Full-page screenshots",
+  "No login necessary",
+  "Filtered by type",
+  "Duplicate Notion Database"
+];
 ---
 
 <Layout title="The Design Vault - Approachable Design" description="Stop spending hours searching the web for design inspiration. Start with a highly-curated collection of designed sites and never feel stuck again.">
+  <!-- Hero Section -->
   <section class="py-16 md:py-24">
     <div class="container">
-      <!-- Hero -->
-      <div class="max-w-4xl mx-auto text-center mb-16">
-        <span class="text-brand-purple text-sm font-semibold uppercase tracking-wider">Design Inspiration</span>
-        <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold mt-4 mb-6">
+      <div class="max-w-4xl mx-auto text-center mb-12">
+        <span class="text-brand-coral text-sm font-semibold uppercase tracking-wider">Design Inspiration</span>
+        <h1 class="font-display-black-italic text-4xl md:text-5xl lg:text-6xl mt-4 mb-6">
           The Design Vault
         </h1>
-        <p class="text-xl md:text-2xl text-white/70 mb-8">
+        <p class="text-2xl md:text-3xl text-white/80 mb-6">
           A collection of drool-worthy design inspiration
         </p>
         <p class="text-lg text-white/60 max-w-2xl mx-auto mb-8">
           Stop spending hours searching the web for design inspiration. Start with a highly-curated collection of designed sites and never feel stuck again.
         </p>
-        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a href="https://natekadlac.notion.site/The-Design-Vault-f23e0e4e24c847aca45e0c1ff8e5a3e1" target="_blank" rel="noopener noreferrer" class="btn btn-primary text-lg px-8 py-4">
-            Get Instant Access - $149
-          </a>
-        </div>
+        <a href="https://natekadlac.gumroad.com/l/design-vault" target="_blank" rel="noopener noreferrer" class="btn btn-primary text-lg px-8 py-4">
+          Get The Design Vault - $149
+        </a>
       </div>
 
-      <!-- Value Prop -->
-      <div class="bg-brand-dark-light rounded-2xl p-8 md:p-12 border border-white/10 mb-16">
-        <div class="max-w-3xl mx-auto text-center">
-          <h2 class="font-heading font-bold text-2xl md:text-3xl mb-6">
-            You need fresh design ideas
-          </h2>
+      <!-- Product Video -->
+      <div class="max-w-5xl mx-auto">
+        <video
+          src="/images/products/design-vault-intro.mp4"
+          autoplay
+          loop
+          muted
+          playsinline
+          class="w-full rounded-2xl shadow-2xl"
+        ></video>
+      </div>
+    </div>
+  </section>
+
+  <!-- Podcast Cover Art Section -->
+  <section class="py-16 md:py-24">
+    <div class="container">
+      <!-- Header -->
+      <div class="max-w-4xl mx-auto text-center mb-16">
+        <span class="inline-block px-6 py-2 rounded-full border-2 border-[#2eff77] text-[#2eff77] text-sm font-semibold uppercase tracking-wider mb-6">
+          New! Podcast Cover Art
+        </span>
+        <h2 class="font-display-black-italic text-3xl md:text-4xl lg:text-5xl mb-6">
+          The Design Vault brings non-stop website & podcast inspiration
+        </h2>
+        <p class="text-xl text-white/70">
+          You need fresh design ideas. This growing collection will deliver and assist you when you are feeling creatively stuck.
+        </p>
+      </div>
+
+      <!-- Two Column Layout -->
+      <div class="md:flex items-center gap-12">
+        <div class="md:w-1/2 mb-8 md:mb-0">
+          <img
+            src="/images/products/notion-grid.avif"
+            alt="Design Vault Notion gallery view"
+            class="w-full rounded-2xl"
+          />
+        </div>
+        <div class="md:w-1/2">
+          <h3 class="font-display-black-italic text-2xl md:text-3xl lg:text-4xl mb-6">
+            Get inspired in seconds
+          </h3>
+          <p class="text-white/70 text-lg mb-6">
+            Browse through the websites and ideas in a responsive gallery view, which you can access on any mobile, tablet, or computer device without an account.
+          </p>
           <p class="text-white/70 text-lg">
-            This growing collection will deliver and assist you when you are feeling creatively stuck. Review similar websites and products that match your products or services in seconds.
+            Review similar websites and products that match your products or services in seconds.
           </p>
         </div>
       </div>
+    </div>
+  </section>
 
-      <!-- Features Grid -->
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
-        <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
-          <div class="w-12 h-12 bg-brand-purple/20 rounded-lg flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-brand-purple" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-            </svg>
+  <!-- Living Vault Section -->
+  <section class="py-16 md:py-24">
+    <div class="container">
+      <div class="max-w-4xl mx-auto text-center">
+        <!-- Progress Capsule -->
+        <div class="flex justify-center mb-6">
+          <div class="progress-capsule">
+            <div class="progress-indicator">
+              <span class="text-brand-dark font-heading font-bold text-2xl md:text-3xl">200+</span>
+            </div>
+            <span class="progress-text text-white/80 font-heading font-semibold text-sm md:text-base uppercase tracking-wider">1,000 Beautiful Sites</span>
           </div>
-          <h3 class="font-heading font-bold text-lg mb-2">Responsive Gallery View</h3>
-          <p class="text-white/60">Browse websites across mobile, tablet, and computer. No account required.</p>
         </div>
 
-        <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
-          <div class="w-12 h-12 bg-brand-purple/20 rounded-lg flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-brand-purple" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-            </svg>
-          </div>
-          <h3 class="font-heading font-bold text-lg mb-2">200+ Sites (Growing to 1,000)</h3>
-          <p class="text-white/60">Extensive database of hand-picked design inspiration, continuously updated.</p>
-        </div>
+        <!-- Last Updated -->
+        <p class="text-brand-coral text-sm font-medium uppercase tracking-wider mb-8">
+          Last Updated {lastUpdated}
+        </p>
 
-        <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
-          <div class="w-12 h-12 bg-brand-purple/20 rounded-lg flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-brand-purple" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
-            </svg>
-          </div>
-          <h3 class="font-heading font-bold text-lg mb-2">Detailed Metadata</h3>
-          <p class="text-white/60">Service type, domain URL, creator information, and social channel links.</p>
-        </div>
+        <!-- Headline -->
+        <h2 class="font-display-black-italic text-3xl md:text-4xl lg:text-5xl mb-6">
+          A living vault building its way up to 1,000 hand-picked websites and podcasts from all over the world
+        </h2>
 
-        <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
-          <div class="w-12 h-12 bg-brand-purple/20 rounded-lg flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-brand-purple" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-            </svg>
-          </div>
-          <h3 class="font-heading font-bold text-lg mb-2">High-Resolution Screenshots</h3>
-          <p class="text-white/60">Full-page design captures for analysis and measurement.</p>
-        </div>
-
-        <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
-          <div class="w-12 h-12 bg-brand-purple/20 rounded-lg flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-brand-purple" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
-            </svg>
-          </div>
-          <h3 class="font-heading font-bold text-lg mb-2">Smart Filtering</h3>
-          <p class="text-white/60">Organized by tags for easy discovery. Filter by page type and category.</p>
-        </div>
-
-        <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
-          <div class="w-12 h-12 bg-brand-purple/20 rounded-lg flex items-center justify-center mb-4">
-            <svg class="w-6 h-6 text-brand-purple" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
-            </svg>
-          </div>
-          <h3 class="font-heading font-bold text-lg mb-2">Light & Dark Mode</h3>
-          <p class="text-white/60">Browse without burning out your retinas at any time of the day.</p>
-        </div>
+        <!-- Description -->
+        <p class="text-white/70 text-xl max-w-3xl mx-auto">
+          As the vault grows, the price will increase. Lock in your price as the vault designs will hit 1,000 sites and podcasts in the next year.
+        </p>
       </div>
+    </div>
+  </section>
 
-      <!-- What's Included -->
-      <div class="bg-brand-purple/10 rounded-2xl p-8 md:p-12 border border-brand-purple/20 mb-16">
-        <h2 class="font-heading font-bold text-2xl md:text-3xl mb-8 text-center">What's Included</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-2xl mx-auto">
-          <div class="flex items-center gap-3">
-            <svg class="w-5 h-5 text-brand-coral flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-            </svg>
-            <span class="text-white/80">Immediate lifetime access</span>
-          </div>
-          <div class="flex items-center gap-3">
-            <svg class="w-5 h-5 text-brand-coral flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-            </svg>
-            <span class="text-white/80">Monthly updates</span>
-          </div>
-          <div class="flex items-center gap-3">
-            <svg class="w-5 h-5 text-brand-coral flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-            </svg>
-            <span class="text-white/80">Hand-picked sites</span>
-          </div>
-          <div class="flex items-center gap-3">
-            <svg class="w-5 h-5 text-brand-coral flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-            </svg>
-            <span class="text-white/80">Full-page screenshots</span>
-          </div>
-          <div class="flex items-center gap-3">
-            <svg class="w-5 h-5 text-brand-coral flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-            </svg>
-            <span class="text-white/80">No login required</span>
-          </div>
-          <div class="flex items-center gap-3">
-            <svg class="w-5 h-5 text-brand-coral flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-            </svg>
-            <span class="text-white/80">Filtered organization</span>
-          </div>
-          <div class="flex items-center gap-3">
-            <svg class="w-5 h-5 text-brand-coral flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-            </svg>
-            <span class="text-white/80">Duplicate Notion database</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Pricing CTA -->
-      <div class="max-w-2xl mx-auto text-center">
-        <div class="bg-brand-dark-light rounded-2xl p-8 md:p-12 border border-white/10">
-          <p class="text-white/60 mb-2">Lifetime Access</p>
-          <p class="font-display text-5xl md:text-6xl font-bold text-brand-coral mb-4">$149</p>
-          <p class="text-white/60 mb-8">
-            Lock in your price as the vault grows to 1,000 sites. Price increases with every 100 new sites added.
+  <!-- Staggered Features Section -->
+  <section class="py-16 md:py-24">
+    <div class="container">
+      <!-- Feature 1: Text left, Image right -->
+      <div class="md:flex items-center gap-12 mb-24">
+        <div class="md:w-1/2 mb-8 md:mb-0">
+          <h3 class="font-display-black-italic text-2xl md:text-3xl lg:text-4xl mb-6">
+            Get to know the design details
+          </h3>
+          <p class="text-white/70 text-lg">
+            You'll find metadata on each site such as the services type, domain url, creator, last updated, and a social channel. No account needed!
           </p>
-          <a href="https://natekadlac.notion.site/The-Design-Vault-f23e0e4e24c847aca45e0c1ff8e5a3e1" target="_blank" rel="noopener noreferrer" class="btn btn-primary text-lg px-8 py-4 w-full sm:w-auto">
+        </div>
+        <div class="md:w-1/2">
+          <img
+            src="/images/products/design-details.avif"
+            alt="Design details metadata view"
+            class="w-full rounded-2xl"
+          />
+        </div>
+      </div>
+
+      <!-- Feature 2: Image left, Text right -->
+      <div class="md:flex items-center gap-12 flex-row-reverse mb-24">
+        <div class="md:w-1/2 mb-8 md:mb-0">
+          <h3 class="font-display-black-italic text-2xl md:text-3xl lg:text-4xl mb-6">
+            Hi-res, full page design screenshots to assist your research process
+          </h3>
+          <p class="text-white/70 text-lg">
+            Inside the design vault, each website includes a hi-res screenshot so you can see and measure what the designers did to make it so unique.
+          </p>
+        </div>
+        <div class="md:w-1/2">
+          <img
+            src="/images/products/hgg.avif"
+            alt="Full page screenshot examples"
+            class="w-full rounded-2xl"
+          />
+        </div>
+      </div>
+
+      <!-- Feature 3: Text left, Tags right -->
+      <div class="md:flex items-center gap-12">
+        <div class="md:w-1/2 mb-8 md:mb-0">
+          <h3 class="font-display-black-italic text-2xl md:text-3xl lg:text-4xl mb-6">
+            Quickly filter designs by page type
+          </h3>
+          <p class="text-white/70 text-lg">
+            Each site is organized by tags, so you can easily find examples and design ideas similar to the project you're working on, like inspirational <span class="text-brand-coral">personal websites</span>.
+          </p>
+        </div>
+        <div class="md:w-1/2">
+          <img
+            src="/images/products/tags.svg"
+            alt="Filter tags including Landing Page, Communities, Courses, Podcasts, Personal Sites, Blogs, Agencies, SaaS Sites, Ecommerce"
+            class="w-full"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Light and Dark Mode Section -->
+  <section class="py-16 md:py-24">
+    <div class="container">
+      <div class="md:flex items-center gap-12">
+        <div class="md:w-1/2 mb-8 md:mb-0">
+          <img
+            src="/images/products/light-dark-vault.avif"
+            alt="Design Vault in light and dark mode"
+            class="w-full"
+          />
+        </div>
+        <div class="md:w-1/2">
+          <h3 class="font-display-black-italic text-3xl md:text-4xl lg:text-5xl mb-6">
+            Light and dark mode
+          </h3>
+          <p class="text-white/70 text-xl">
+            Sifting through design ideas and products can take awhile. Now you can do it using the design vault without burning out your retinas at any time of the day.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Line Divider -->
+  <div class="flex justify-center py-8">
+    <img src="/images/site/line-divider.svg" alt="" class="h-32 md:h-48" />
+  </div>
+
+  <!-- About Creator -->
+  <section class="py-16">
+    <div class="container">
+      <AboutNate eyebrow="About the Creator" headline="Hi, I'm Nate!" />
+    </div>
+  </section>
+
+  <!-- Line Divider -->
+  <div class="flex justify-center py-8">
+    <img src="/images/site/line-divider.svg" alt="" class="h-32 md:h-48" />
+  </div>
+
+  <!-- Pricing Section -->
+  <section class="py-16 md:py-24">
+    <div class="container">
+      <div class="max-w-xl mx-auto text-center">
+        <!-- Headline -->
+        <h2 class="font-display-black-italic text-4xl md:text-5xl mb-4">Pricing</h2>
+        <p class="text-white/70 text-lg mb-12">
+          Lifetime access with monthly updates up to 1,000 design examples
+        </p>
+
+        <!-- Pricing Card -->
+        <div class="pricing-card rounded-3xl p-8 md:p-10 border-4 border-brand-purple">
+          <!-- Price -->
+          <p class="text-5xl md:text-6xl font-bold text-brand-dark mb-4">$149</p>
+          <p class="font-heading font-bold text-brand-dark uppercase tracking-wider mb-1">
+            Own the Growing Database
+          </p>
+          <p class="text-brand-dark/60 text-sm mb-8">
+            (Price will increase every 100 sites)
+          </p>
+
+          <!-- Features List -->
+          <ul class="space-y-4 text-left mb-8">
+            {whatsIncluded.map((item) => (
+              <li class="flex items-center gap-3">
+                <svg class="w-6 h-6 text-brand-dark/70 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                </svg>
+                <span class="text-brand-dark font-medium">{item}</span>
+              </li>
+            ))}
+          </ul>
+
+          <!-- CTA Button -->
+          <a href="https://natekadlac.gumroad.com/l/design-vault" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 w-full bg-brand-purple text-white font-heading font-semibold text-lg px-8 py-4 rounded-xl hover:bg-brand-purple-light transition-colors">
             Get Instant Access
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
           </a>
         </div>
       </div>
     </div>
   </section>
 </Layout>
+
+<style>
+  .font-display-black-italic {
+    font-family: var(--font-display-black-italic);
+  }
+
+  .pricing-card {
+    background: linear-gradient(135deg, #e8e4f5 0%, #d8d4eb 100%);
+  }
+
+  .progress-capsule {
+    display: flex;
+    align-items: center;
+    background-color: #3a3a4a;
+    border-radius: 9999px;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .progress-indicator {
+    width: 20%;
+    aspect-ratio: 1;
+    min-width: 80px;
+    max-width: 100px;
+    background-color: #2eff77;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    box-shadow: 0 0 30px rgba(46, 255, 119, 0.3);
+  }
+
+  .progress-text {
+    flex: 1;
+    text-align: center;
+    padding-right: 1rem;
+  }
+
+  @media (min-width: 768px) {
+    .progress-capsule {
+      padding: 0.6rem;
+      max-width: 600px;
+    }
+
+    .progress-indicator {
+      min-width: 100px;
+      max-width: 120px;
+    }
+  }
+</style>

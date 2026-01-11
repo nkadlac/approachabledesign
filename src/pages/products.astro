@@ -1,88 +1,96 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import AboutNate from '../components/AboutNate.astro';
+import Testimonial from '../components/Testimonial.astro';
+import TestimonialScroll from '../components/TestimonialScroll.astro';
 
-const products = [
+const featuredProduct = {
+  title: "The Creator Design Kit",
+  format: "20-Day Email Course",
+  description: "Start designing your own graphics and show up consistently across channels. Get one video lesson a day and learn to use Figma right from your inbox.",
+  price: "$249",
+  href: "/products/creator-design-kit",
+  cta: "Get The Creator Design Kit",
+  image: "/images/site/creator-design-kit.png",
+};
+
+const secondaryProducts = [
   {
-    title: "YouTube Thumbnail Design Masterclass + Figma Template",
-    badge: "NEW: YouTube Masterclass",
+    title: "YouTube Thumbnail Masterclass",
+    badge: "YouTube Masterclass",
     description: "Level up your thumbnail designs with breakdowns, live examples, templates, and over-the-shoulder examples.",
     price: "$49",
     href: "/products/youtube-masterclass",
     cta: "Design Better Thumbnails",
-    image: "/images/site/youtube-masterclass.png",
+    image: "/images/products/thumbnails-thumbnail.png",
   },
   {
     title: "The Design Vault",
     badge: "Design Inspiration",
-    description: "Never lose inspiration for your next website project. This hosted vault is a comprehensive library of highly designed websites, hand-picked by Nate. Over 90+ sites can be filtered by landing pages, personal sites, SaaS companies, blogs, and more. The library will grow to 1,000 by the end of 2023!",
+    description: "Never lose inspiration for your next website project. A comprehensive library of 90+ highly designed websites, hand-picked and filtered by category.",
     price: "$149",
     href: "/products/design-vault",
     cta: "Peek Inside the Vault",
-    image: "/images/site/design-vault.png",
-  },
-  {
-    title: "Design Checklist",
-    badge: "Design Resource",
-    description: "A 20-Day email course to help you learn the 80/20 of design, and learn to create your own designs using Figma, the most powerful tool designers use.",
-    price: "$5",
-    href: "#",
-    cta: "Get on the Waitlist",
-    image: "/images/site/design-checklist.png",
+    image: "/images/products/design-vault-thumbnail.png",
   }
 ];
 
-const testimonials = [
-  {
-    quote: "You'll level up your Figma game within hours of watching, and can then easily start experimenting to impress clients, classmates, teachers, etc.",
-    author: "Hina",
-    role: "Student"
-  },
-  {
-    quote: "the stuff I'm producing already feels a lot lighter and visually compelling",
-    author: "Cécile",
-    role: "Student"
-  },
-  {
-    quote: "I wish I had learned this years ago for all those semi-beautiful presentations I created.",
-    author: "Filipe",
-    role: "Student"
-  },
-  {
-    quote: "SERIOUSLY...I feel like I'm very good using Figma. Every single day I would receive an email with a Figma file as well as a Loom video and let me tell you, it's VERY, VERY, VERY valuable content.",
-    author: "Irving",
-    role: "Student"
-  },
-  {
-    quote: "I usually would have skipped designing anything visual because I felt it would take too long or not look good, but after a few lessons I just hopped in.",
-    author: "Sola",
-    role: "Student"
-  },
-  {
-    quote: "Loved the email series",
-    author: "Jonny Miller",
-    role: "Founder, Nervous System Mastery"
-  },
-  {
-    quote: "Thank you Nate! The best investment I made this year. Every dollar is worth it!",
-    author: "Iliyan Slavov",
-    role: "Student"
-  },
-  {
-    quote: "For the first time, I was able to connect with my audience while giving a presentation.",
-    author: "Eduardo Holschneider",
-    role: "Investor and Entrepreneur"
-  },
-  {
-    quote: "The price to value ratio on this product is insane.",
-    author: "Mike Newton",
-    role: "Student"
-  },
-  {
-    quote: "Nate radically shifted how I see design in many aspects of my work and I think one of the biggest mistakes I made was not working with Nate earlier!",
-    author: "Paul Millerd",
-    role: "Author, The Pathless Path"
-  }
+const testimonialRows = [
+  // Row 1 - scrolls left
+  [
+    {
+      quote: "<strong>13/10 Would recommend</strong> to anyone who wants to learn design and their personal style.",
+      author: "Chase Adams",
+      role: "Software Developer",
+      image: "/images/testimonials/chase.avif"
+    },
+    {
+      quote: "I learned a lot from Nate. SERIOUSLY... <strong>it's VERY, VERY, VERY valuable content.</strong>",
+      author: "Irving",
+      role: "Student"
+    },
+    {
+      quote: "Loved the email series",
+      author: "Jonny Miller",
+      role: "Founder Nervous System Mastery",
+      image: "/images/testimonials/jonny-miller.avif"
+    },
+    {
+      quote: "<strong>You'll level up your Figma game within hours of watching,</strong> and can then easily start experimenting.",
+      author: "Hina",
+      role: "Student",
+      image: "/images/testimonials/hina.avif"
+    },
+    {
+      quote: "<strong>The best investment I made this year.</strong> Every dollar is worth it!",
+      author: "Iliyan Slavov",
+      role: "Student"
+    }
+  ],
+  // Row 2 - scrolls right
+  [
+    {
+      quote: "<strong>The price to value ratio on this product is insane.</strong>",
+      author: "Mike Newton",
+      role: "Student"
+    },
+    {
+      quote: "I wish I had learned this years ago for all those <strong>semi-beautiful presentations I created.</strong>",
+      author: "Filipe",
+      role: "Student"
+    },
+    {
+      quote: "I already 'designed' my first thing!... <strong>after a few lessons I just hopped in and made it.</strong>",
+      author: "Sola",
+      role: "Student"
+    },
+    {
+      quote: "Nate radically shifted how I see design in many aspects of my work and <strong>I think one of the biggest mistakes I made was not working with Nate earlier!</strong>",
+      author: "Paul Millerd",
+      role: "Author, The Pathless Path",
+      image: "/images/site/paul-millerd.jpg"
+    }
+  ]
 ];
 ---
 
@@ -97,81 +105,87 @@ const testimonials = [
         </p>
       </div>
 
-      <!-- Products -->
-      <div class="space-y-12">
-        {products.map((product) => (
-          <div class="bg-brand-dark-light rounded-2xl border border-white/10 overflow-hidden">
-            <div class="md:flex">
-              <div class="md:w-1/2 p-6 flex items-center justify-center bg-brand-purple/5">
-                <img
-                  src={product.image}
-                  alt={product.title}
-                  class="w-full max-w-md rounded-xl"
-                />
-              </div>
-              <div class="md:w-1/2 p-8 flex flex-col justify-center">
-                <span class="text-brand-coral text-sm font-medium uppercase tracking-wider mb-2">
-                  {product.badge}
-                </span>
-                <h2 class="font-display-black-italic text-2xl md:text-3xl mb-4">
-                  {product.title}
-                </h2>
-                <p class="text-white/70 mb-6">{product.description}</p>
-
-                <div class="flex items-center gap-6">
-                  <span class="font-heading font-bold text-3xl text-brand-coral">{product.price}</span>
-                  <a href={product.href} class="btn btn-primary">
-                    {product.cta}
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
-
-      <!-- Featured Testimonial -->
-      <div class="mt-20 bg-brand-dark-light rounded-2xl p-8 md:p-12 border border-white/10">
-        <div class="md:flex items-center gap-12">
-          <div class="md:w-1/4 mb-8 md:mb-0">
+      <!-- Featured Product: Creator Design Kit -->
+      <div class="bg-brand-purple/20 rounded-3xl border border-brand-purple/30 overflow-hidden mb-16">
+        <div class="md:flex">
+          <div class="md:w-1/2 p-8 md:p-12 flex items-center justify-center">
             <img
-              src="/images/site/khe-hy.jpg"
-              alt="Khe Hy"
-              class="w-32 h-32 mx-auto rounded-full object-cover"
+              src={featuredProduct.image}
+              alt={featuredProduct.title}
+              class="w-full max-w-md rounded-xl"
             />
           </div>
-          <div class="md:w-3/4">
-            <p class="text-xl md:text-2xl text-white/90 italic mb-6">
-              "The workshop let me come up with my own style and taste which is huge for me especially as the founder of a brand that wants to communicate our customer and student ethos."
-            </p>
-            <div>
-              <p class="font-heading font-bold text-white">Khe Hy</p>
-              <p class="text-white/50">Founder, RadReads</p>
+          <div class="md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
+            <span class="text-brand-coral text-sm font-medium uppercase tracking-wider mb-2">
+              {featuredProduct.format}
+            </span>
+            <h2 class="font-display-black-italic text-3xl md:text-4xl mb-4">
+              {featuredProduct.title}
+            </h2>
+            <p class="text-white/70 text-lg mb-8">{featuredProduct.description}</p>
+
+            <div class="flex items-center gap-6">
+              <span class="font-heading font-bold text-4xl text-brand-coral">{featuredProduct.price}</span>
+              <a href={featuredProduct.href} class="btn btn-primary text-lg px-8 py-4">
+                {featuredProduct.cta}
+              </a>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- All Testimonials -->
-      <div class="mt-16">
-        <h2 class="font-display-black-italic text-2xl mb-8 text-center">What customers say</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {testimonials.map((testimonial) => (
-            <div class="bg-brand-dark-light rounded-2xl p-6 border border-white/10">
-              <p class="text-white/80 italic mb-4">"{testimonial.quote}"</p>
-              <div>
-                <p class="font-heading font-semibold text-white">{testimonial.author}</p>
-                <p class="text-sm text-white/50">{testimonial.role}</p>
-              </div>
+      <!-- Secondary Products - Two Column Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {secondaryProducts.map((product) => (
+          <a href={product.href} class="group bg-brand-dark-light rounded-2xl p-6 border border-white/10 hover:border-brand-coral/50 transition-colors">
+            <div class="mb-4">
+              <img src={product.image} alt={product.title} class="w-full rounded-xl" />
             </div>
-          ))}
-        </div>
+            <span class="text-brand-coral text-sm font-medium uppercase tracking-wider">
+              {product.badge}
+            </span>
+            <h3 class="font-heading font-bold text-xl mt-2 mb-2 group-hover:text-brand-coral transition-colors">{product.title}</h3>
+            <p class="text-white/60 text-sm mb-4">{product.description}</p>
+            <p class="text-brand-coral font-semibold">{product.price}</p>
+          </a>
+        ))}
       </div>
+    </div>
+  </section>
 
+  <!-- Line Divider -->
+  <div class="flex justify-center py-16">
+    <img src="/images/site/line-divider.svg" alt="" class="h-48 md:h-64" />
+  </div>
+
+  <!-- Featured Testimonial -->
+  <section class="py-16 md:py-24">
+    <div class="container">
+      <Testimonial
+        quote="The workshop let me come up with my own style and taste which is huge for me especially as the founder of a brand that wants to communicate our customer and student ethos."
+        author="Khe Hy"
+        role="Founder, RadReads"
+        image="/images/site/khe-hy.jpg"
+      />
+    </div>
+  </section>
+
+  <!-- All Testimonials -->
+  <section class="pb-8">
+    <div class="container">
+      <h2 class="font-display-black-italic text-2xl mb-8 text-center">What customers say</h2>
+    </div>
+  </section>
+
+  <!-- Scrolling Testimonials - Full Width -->
+  <section class="py-8">
+    <TestimonialScroll rows={testimonialRows} />
+  </section>
+
+  <section class="py-16">
+    <div class="container">
       <!-- About Creator -->
-      <div class="mt-20">
-        <AboutNate eyebrow="About the Creator" headline="Hi, I'm Nate!" variant="compact" />
-      </div>
+      <AboutNate eyebrow="About the Creator" headline="Hi, I'm Nate!" variant="compact" />
     </div>
   </section>
 </Layout>

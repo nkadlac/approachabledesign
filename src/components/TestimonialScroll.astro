@@ -1,0 +1,97 @@
+---
+interface Testimonial {
+  quote: string;
+  author: string;
+  role?: string;
+  image?: string;
+}
+
+interface Props {
+  rows: Testimonial[][];
+}
+
+const { rows } = Astro.props;
+---
+
+<div class="testimonial-scroll-container overflow-hidden py-8">
+  {rows.map((row, rowIndex) => (
+    <div
+      class="testimonial-row flex gap-6 mb-6"
+      data-direction={rowIndex % 2 === 0 ? 'left' : 'right'}
+    >
+      <!-- Double the items for seamless loop -->
+      {[...row, ...row].map((testimonial) => (
+        <div class="testimonial-card flex-shrink-0 w-[400px] md:w-[500px] p-6 rounded-2xl border border-white/10 relative overflow-hidden">
+          <!-- Shimmer background -->
+          <div class="absolute inset-0 bg-gradient-to-br from-brand-purple/30 via-brand-purple/10 to-transparent"></div>
+          <div class="shimmer absolute inset-0"></div>
+
+          <!-- Content -->
+          <div class="relative z-10">
+            <div class="flex gap-4 items-start">
+              {testimonial.image && (
+                <img
+                  src={testimonial.image}
+                  alt={testimonial.author}
+                  class="w-12 h-12 rounded-full object-cover flex-shrink-0"
+                />
+              )}
+              <div class="flex-1">
+                <p class="text-white text-lg leading-relaxed mb-4" set:html={testimonial.quote} />
+                <p class="text-white/60 text-sm uppercase tracking-wider font-medium">
+                  {testimonial.author}{testimonial.role ? `, ${testimonial.role}` : ''}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  ))}
+</div>
+
+<style>
+  .testimonial-card {
+    background: linear-gradient(135deg, rgba(127, 90, 240, 0.15) 0%, rgba(127, 90, 240, 0.05) 50%, rgba(0, 0, 0, 0.2) 100%);
+  }
+
+  .shimmer {
+    background: linear-gradient(
+      110deg,
+      transparent 25%,
+      rgba(255, 255, 255, 0.03) 50%,
+      transparent 75%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 8s ease-in-out infinite;
+  }
+
+  @keyframes shimmer {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+  }
+
+  .testimonial-row {
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  .testimonial-row[data-direction="left"] {
+    animation-name: scroll-left;
+  }
+
+  .testimonial-row[data-direction="right"] {
+    animation-name: scroll-right;
+  }
+
+  @keyframes scroll-left {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  @keyframes scroll-right {
+    0% { transform: translateX(-50%); }
+    100% { transform: translateX(0); }
+  }
+</style>
