@@ -2,7 +2,7 @@
 title: "20 unconventional design tips for non-designers"
 date: 2026-01-08
 category: youtube-design
-description: "You make design decisions every single day."
+description: "Simple design decisions so you didn't have to think about it."
 image: "/images/articles/TFHmnQngk4nBmA1OF275IZgWkCw.jpg.webp"
 
 ---
@@ -15,17 +15,15 @@ But, if you’re a non-designer, these tiny decisions are frustrating to make ev
 
 Unfortunately, most people don't have the time to teach themselves the fundamentals of design. If that's you, these 20 tips are for you.
 
-### 
-
 ### **Design tip #1: Choose one typeface with more than 3 styles**
 
 The biggest brands use just 1-2 typefaces. How do they get away with this? The secret is that each of their typefaces has many different styles to play with. 
 
-Typefaces with only regular, bold, and italic can feel limiting. This is why you might feel compelled to find a couple of more fonts to download when you don't have a lot of space to work with, like [YouTube thumbnails](https://approachabledesign.co/articles/best-youtube-fonts).
+Typefaces with only regular, bold, and italic can feel limiting. This is why you might feel compelled to find a couple of more fonts to download when you don't have a lot of space to work with, like [YouTube thumbnails](/articles/best-youtube-fonts).
 
 But, if you choose one like [Noto Sans](https://fonts.google.com/specimen/Open+Sans?query=open+sans)—which has 18 styles!—you have an unlimited amount of combinations that are designed to work well together. 
 
-These flexible families come in handy when you're designing [YouTube thumbnails](https://approachabledesign.co/articles/youtube-thumbnail-design), podcast cover art, or other odd-sized assets you might need to use for your brand identity.
+These flexible families come in handy when you're designing [YouTube thumbnails](/articles/youtube-thumbnail-design), podcast cover art, or other odd-sized assets you might need to use for your brand identity.
 
 ![Noto Serif on Google Fonts](/images/articles/IPPdkk9T1pGKBl0PFcKL4Y8VtNg.jpg.webp)
 
@@ -37,7 +35,7 @@ You might have a lot of text boxes on the screen, and you’re thinking, “this
 
 Stop. This is why we can use spacing and padding to achieve an invisible border. By adding a little bit of extra spacing, it gives the illusion of a border. 
 
-![How to use padding between lines](/images/articles/qOZ2NHEfBBHIDTuoUyw63es9k.jpg.webp)### 
+![How to use padding between lines](/images/articles/qOZ2NHEfBBHIDTuoUyw63es9k.jpg.webp)
 
 ### **Design tip #3: Ignore color psychology (Hot take!)**
 
@@ -51,15 +49,11 @@ But, you should be making design decisions that connect to your story as a human
 
 Do this for yourself and you won’t be swayed when everyone uses the new [color of the year](https://www.pantone.com/color-of-the-year-2022) in all of their projects, only to change it next year.
 
-### 
-
 ### **Design tip #4: Stop looking at trends for design inspiration**
 
 Personalize your design decisions using inspiration from your own stories and experiences. Did you recently take a trip to Tulum and find joy in the hand-tied knots of your hammock, while staring up at the palm trees swaying in the wind above you? Take those sandy off whites, palm tree greens, and notted textures and work them into your brand so start connecting to your decisions. 
 
 The reason why you’re bored with the design of your slide decks or websites is that we don’t see ourselves in the choices we make. This is when you start to look elsewhere for inspiration, which becomes an infinite rollercoaster of never being satisfied.
-
-### 
 
 ### **Design tip #5: Use contrast to stand out**
 
@@ -79,9 +73,7 @@ Instead, combine two that have high contrast in style, like a serif and a sans-s
 
 By combining two fonts that look very different, you instantly create an emotional pull.
 
-![Arial vs Helvetica](/images/articles/iKnzyCcC1TB3259lAJ9ubZo76U.jpg.webp)### 
-
-### **Design tip #7: Create a visual stack **
+![Arial vs Helvetica](/images/articles/iKnzyCcC1TB3259lAJ9ubZo76U.jpg.webp)**Design tip #7: Create a visual stack **
 
 Your logo, header, subhead, body text, color, dividers, footers, styled buttons, and layout are all screaming for attention. Your users have just a few seconds to find what they’re looking for, so you can’t let everything scream in the same pitch. 
 
@@ -89,9 +81,7 @@ Make a list of all the elements on the screen and give them a number from 1 to 2
 
 A quick test is to squint your eyes. You should easily see numbers 1-5, with the rest taking longer to find. 
 
-Creating visual priority is like hand-holding someone down your page, making sure [one element leads to the next,](https://approachabledesign.co/articles/1000-landing-page-offer) like a walk on the beach.
-
-### 
+Creating visual priority is like hand-holding someone down your page, making sure [one element leads to the next,](/articles/1000-landing-page-offer) like a walk on the beach.
 
 ### **Design tip #8: Use just 1-3 colors**
 
@@ -101,15 +91,11 @@ Find a color that represents you well, and then pick a secondary color that cont
 
 You can add a third if you really need to, but try to stick to 1-2 at first. 
 
-### 
-
 ### **Design tip #9: Use 16-18px font for your website body text**
 
 Providing a good reading experience should be high on your list. If your body text is difficult to read, your brand can be directly associated with that negative feeling, unintended. 
 
 Most of us don’t think about the desktop and mobile experiences, and sticking with 16-18px font-size works well on both. 
-
-### 
 
 ### **Design tip #10: Brand design should be boring**
 
@@ -119,8 +105,6 @@ What makes successful brands work is their dedication to their design choices. I
 
 If you do get bored with your brand choices, experiment by flipping the same colors around. There are many unique combinations that can still capture the vibe you create. I love the site [Judy](https://judy.co/), because it’s a simple color palette that maximizes its design options by flipping its colors back and forth throughout its web experience.
 
-### 
-
 ### **Design tip #11: Use left alignment**
 
 Always default to left alignment for your text, headers, and containers on the screen. It’s easier for most people to skim the page this way, because it creates an invisible border (See #4) on the page. 
@@ -129,13 +113,9 @@ The mistake many use is to center align large blocks of text, which tires the ey
 
 This exhausted feeling will be associated with your brand experience, and encourage visitors not to come back. 
 
-### 
-
 ### **Design tip #12: Repeat visual elements**
 
 By repeating elements such as type choices, colors, buttons, and dividers, you strengthen and unify your design. This creates an experience that feels polished and thoughtful, building visual interest. 
-
-### 
 
 ### **Design tip #13: Use the rule of thirds for layout**
 
@@ -147,8 +127,6 @@ It’s basically full-proof.
 
 Divide any container into [nine equal parts](/articles/rule-of-thirds), and align any important element on a line or a cross-section on the grid. 
 
-### 
-
 ### **Design tip #14: Know your constraints**
 
 Design always has constraints. A business card is usually 3.5in x 2in. A social media ad for Instagram is 1080px 1080px.
@@ -158,8 +136,6 @@ Your design kit should have fixed constraints like colors, type, and textures.
 Knowing these constraints ahead of time prevents you from 
 
 You can duplicate my free Figma file, [Social Slates](https://www.figma.com/community/file/998415313057989690/Social-Slates), which contains 20+ pre-built social artboards. (Make sure to sign up for a free account on Figma.com first.)
-
-### 
 
 ### **Design tip #15: Use Figma over Canva**
 
@@ -175,8 +151,6 @@ By picking a unique font for your logo, it’s like starting a 100-meter race wi
 
 I wrote an entire article on how to choose a font and to modify it [here](/articles/create-a-simple-logo). 
 
-### 
-
 ### **Design tip #17: Avoid using 100% black or white **
 
 There’s a design secret that many non-designers aren’t aware of. 
@@ -187,15 +161,11 @@ Black and white are considered high contrast, and can often demand more attentio
 
 Try softening the ends of the spectrum by using an *almost* black like #111111 or *almost* white like #f7f7f7. You’ll notice it achieves a similar effect, but brings the intensity down a lot. 
 
-### 
-
 ### **Design tip #18: Add a background tint to your website**
 
 Most templates come with a stark white background. Most people don’t change this default setting. 
 
 But, the easiest way to inject life into a page is by adding a [light](https://www.kadlac.com/about) or [dark](https://www.charliebleecker.com/about) tint to it, immediately creating a vibe to draw us in.
-
-### 
 
 ### **Design tip #19: Treat your design projects like a book**
 
@@ -209,9 +179,7 @@ The back of a book is compelling but reserved for marketing the author and offer
 
 Your websites should be designed similarly. Take creative control over your home pages and about pages, and make sure your middle content is legible and comfortable to read. 
 
-![Treat your website like a book](/images/articles/zWt5h2DbLZoshSvn0E5spbngQ.jpg.webp)### 
-
-### **Design tip #20: Minimalism is boring**
+![Treat your website like a book](/images/articles/zWt5h2DbLZoshSvn0E5spbngQ.jpg.webp)**Design tip #20: Minimalism is boring**
 
 When selling a home, it’s not a secret that they sell better when someone can envision their own personality in the space. The interiors are dumbed down so you don’t offend a potential buyer.
 
@@ -221,4 +189,4 @@ But people are not minimalists. We’re complex with a love of story, places, an
 
 The best place to start is to listen to your gut, understand why you like what you like, and to go from there. 
 
-Or you can learn how to make long-lasting design decisions for yourself in just 2 days, during my [next workshop](https://approachabledesign.co/).
+Or you can learn how to make long-lasting design decisions for yourself in just 2 days, during my [next workshop](/).

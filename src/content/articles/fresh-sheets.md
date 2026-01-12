@@ -2,7 +2,7 @@
 title: "Fresh Sheets for your spreadsheets"
 date: 2026-01-08
 category: youtube-design
-description: "It’s a Friday night with a glass of boxed cabernet in hand—and like most people—I’m searching “How to make your Google sheets look better.”"
+description: "A non-designers guide to upgrading your Google Sheets spreadsheets"
 image: "/images/articles/kT92xoygxXorlwlhkho6AUcAOk.jpg.webp"
 
 ---

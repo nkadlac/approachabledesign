@@ -43,7 +43,7 @@ This Thursday I'll be redesigning [**Khe Hy's**](https://twitter.com/khemaridh) 
 
 **​**[**State of the Creator Economy**](https://convertkit.com/reports/creator-economy-2023): A well-designed page that presents a lot of visual information in a compelling way. Btw, I'm a fan of #3.
 ​
-​*Find this full page and many more hand-picked landing pages in the *[***Design Vault***](https://approachabledesign.co/products/design-vault)*.*
+​*Find this full page and many more hand-picked landing pages in the *[***Design Vault***](/products/design-vault)*.*
 
 ## 📸 Make It Yours Moment
 

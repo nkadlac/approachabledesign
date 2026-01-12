@@ -33,7 +33,7 @@ What's your favorite [**National Park color palette**](https://www.instagram.com
 
 ![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)## 📸 Make It Yours Moment
 
-Apple designers studied this resource of the water drop when designing the first aqua interface for Mac OSX. When using drop shadows or gradients, study how they interact with the real world first. *(Day 5 in the *[***80/20 Design challenge***](https://approachabledesign.co/courses/8020-design-challenge)*)*
+Apple designers studied this resource of the water drop when designing the first aqua interface for Mac OSX. When using drop shadows or gradients, study how they interact with the real world first. *(Day 5 in [**The Creator Design Kit**](/products/creator-design-kit))*
 
 ![](/images/articles/utFjctx9NiUY1MBO5hhTU5iaUCI.png.webp)If you're one of the 100+ new readers who joined this week, welcome!
 

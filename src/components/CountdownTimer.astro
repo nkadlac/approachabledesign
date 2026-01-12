@@ -1,0 +1,165 @@
+---
+interface Props {
+  headline?: string;
+}
+
+const { headline = "Next course starts Monday!" } = Astro.props;
+---
+
+<section class="fixed bottom-0 left-0 right-0 z-50 py-3 bg-[#ffccaf] shadow-[0_-4px_20px_rgba(0,0,0,0.15)]">
+  <div class="container">
+    <div class="flex flex-wrap items-center justify-center gap-4 md:gap-6">
+      <h3 class="text-brand-dark font-heading font-bold text-sm md:text-base">{headline}</h3>
+      <div class="countdown-timer flex items-center gap-1">
+        <span class="countdown-days text-xl md:text-2xl font-bold text-[#2D2A6E]">00</span>
+        <span class="text-xs text-brand-dark/60 mr-2">d</span>
+        <span class="countdown-hours text-xl md:text-2xl font-bold text-[#2D2A6E]">00</span>
+        <span class="text-xs text-brand-dark/60 mr-2">h</span>
+        <span class="countdown-minutes text-xl md:text-2xl font-bold text-[#2D2A6E]">00</span>
+        <span class="text-xs text-brand-dark/60 mr-2">m</span>
+        <span class="countdown-seconds text-xl md:text-2xl font-bold text-[#2D2A6E]">00</span>
+        <span class="text-xs text-brand-dark/60">s</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  function getNextMondayMidnightEST(): Date {
+    const now = new Date();
+
+    // Convert to EST/EDT
+    const estOptions: Intl.DateTimeFormatOptions = {
+      timeZone: 'America/New_York',
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit',
+      second: '2-digit',
+      hour12: false
+    };
+
+    // Get current time in EST
+    const estString = now.toLocaleString('en-US', estOptions);
+    const [datePart, timePart] = estString.split(', ');
+    const [month, day, year] = datePart.split('/').map(Number);
+    const [hours, minutes, seconds] = timePart.split(':').map(Number);
+
+    // Create a date object representing "now" in EST context
+    const estNow = new Date(year, month - 1, day, hours, minutes, seconds);
+
+    // Find next Monday at midnight EST
+    const dayOfWeek = estNow.getDay(); // 0 = Sunday, 1 = Monday, etc.
+    let daysUntilMonday: number;
+
+    if (dayOfWeek === 0) {
+      // It's Sunday - countdown to tonight at 11:59:59 PM, then Monday starts
+      daysUntilMonday = 1;
+    } else if (dayOfWeek === 1) {
+      // It's Monday - countdown to next Monday
+      daysUntilMonday = 7;
+    } else {
+      // Tuesday-Saturday - countdown to next Monday
+      daysUntilMonday = (8 - dayOfWeek) % 7;
+      if (daysUntilMonday === 0) daysUntilMonday = 7;
+    }
+
+    // Target: Next Monday at 00:00:00 EST
+    const targetEST = new Date(year, month - 1, day + daysUntilMonday, 0, 0, 0);
+
+    // Convert back to UTC for accurate countdown
+    // Get the offset between local time and EST
+    const targetDate = new Date(now.getTime());
+    targetDate.setDate(targetDate.getDate() + daysUntilMonday - (now.getDay() === 0 ? 0 : 0));
+
+    // More accurate approach: calculate milliseconds until target
+    const nowInMs = now.getTime();
+    const estOffset = getESTOffset(now);
+
+    // Create target date in UTC
+    const target = new Date();
+    target.setUTCFullYear(targetEST.getFullYear());
+    target.setUTCMonth(targetEST.getMonth());
+    target.setUTCDate(targetEST.getDate());
+    target.setUTCHours(0 + Math.abs(estOffset / 60)); // Adjust for EST offset
+    target.setUTCMinutes(0);
+    target.setUTCSeconds(0);
+    target.setUTCMilliseconds(0);
+
+    return target;
+  }
+
+  function getESTOffset(date: Date): number {
+    // EST is UTC-5, EDT is UTC-4
+    // This is a simplified check - in production you'd use a library
+    const jan = new Date(date.getFullYear(), 0, 1);
+    const jul = new Date(date.getFullYear(), 6, 1);
+    const stdOffset = Math.max(jan.getTimezoneOffset(), jul.getTimezoneOffset());
+    const isDST = date.getTimezoneOffset() < stdOffset;
+
+    // Return offset in minutes (EST = -300, EDT = -240)
+    return isDST ? -240 : -300;
+  }
+
+  function calculateTimeUntilMonday(): { days: number; hours: number; minutes: number; seconds: number } {
+    const now = new Date();
+
+    // Get current day in EST
+    const estNow = new Date(now.toLocaleString('en-US', { timeZone: 'America/New_York' }));
+    const dayOfWeek = estNow.getDay();
+
+    // Calculate days until Monday
+    let daysUntilMonday: number;
+    if (dayOfWeek === 0) {
+      daysUntilMonday = 1;
+    } else if (dayOfWeek === 1) {
+      daysUntilMonday = 7;
+    } else {
+      daysUntilMonday = 8 - dayOfWeek;
+    }
+
+    // Create target: next Monday at midnight EST
+    const target = new Date(estNow);
+    target.setDate(target.getDate() + daysUntilMonday);
+    target.setHours(0, 0, 0, 0);
+
+    // Get the difference
+    const diff = target.getTime() - estNow.getTime();
+
+    if (diff <= 0) {
+      return { days: 0, hours: 0, minutes: 0, seconds: 0 };
+    }
+
+    const seconds = Math.floor((diff / 1000) % 60);
+    const minutes = Math.floor((diff / 1000 / 60) % 60);
+    const hours = Math.floor((diff / 1000 / 60 / 60) % 24);
+    const days = Math.floor(diff / 1000 / 60 / 60 / 24);
+
+    return { days, hours, minutes, seconds };
+  }
+
+  function padZero(num: number): string {
+    return num.toString().padStart(2, '0');
+  }
+
+  function updateCountdown() {
+    const time = calculateTimeUntilMonday();
+
+    const daysEl = document.querySelector('.countdown-days');
+    const hoursEl = document.querySelector('.countdown-hours');
+    const minutesEl = document.querySelector('.countdown-minutes');
+    const secondsEl = document.querySelector('.countdown-seconds');
+
+    if (daysEl) daysEl.textContent = padZero(time.days);
+    if (hoursEl) hoursEl.textContent = padZero(time.hours);
+    if (minutesEl) minutesEl.textContent = padZero(time.minutes);
+    if (secondsEl) secondsEl.textContent = padZero(time.seconds);
+  }
+
+  // Initial update
+  updateCountdown();
+
+  // Update every second
+  setInterval(updateCountdown, 1000);
+</script>

@@ -1,9 +1,10 @@
 ---
 interface Props {
   variant?: 'dark' | 'light';
+  sticky?: boolean;
 }
 
-const { variant = 'dark' } = Astro.props;
+const { variant = 'dark', sticky = true } = Astro.props;
 
 const navLinks = [
   { href: '/about', label: 'Start Here' },
@@ -17,7 +18,8 @@ const isLight = variant === 'light';
 ---
 
 <header id="main-header" class:list={[
-  "sticky top-0 z-50 backdrop-blur-sm border-b",
+  "z-50 backdrop-blur-sm border-b",
+  sticky ? "sticky top-0" : "",
   isLight ? "bg-[#FFECE2]/95 border-brand-dark/10" : "bg-brand-dark/95 border-white/10"
 ]}>
   <div class="max-w-[1200px] mx-auto px-6 py-4">

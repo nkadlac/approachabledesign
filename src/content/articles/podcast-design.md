@@ -2,7 +2,7 @@
 title: "How to design, launch, and publish a podcast in 2024"
 date: 2026-01-08
 category: youtube-design
-description: "How I launched and designed a podcast"
+description: "A step-by-step guide to launch a podcast using AI, design kits, and hosting platforms to deliver a unique experience that stands out."
 image: "/images/articles/cmAs5X0qGDwTjTx5flP7tw2GAvI.jpg"
 
 ---
@@ -164,7 +164,7 @@ What’s important when working with creative people is to speak their language.
 
 Even if they don't feel complete, I think it's good to explore the overall tone you want to convey. Doing this ahead of time can save you hours when you later decide to take on this effort. 
 
-Just knowing how to throw around some colors and fonts in a design tool like Figma can help you create whatever you can imagine, even if you're not a designer. I [even have a course](https://approachabledesign.co/courses/8020-design-challenge) to show you how to do this. 
+Just knowing how to throw around some colors and fonts in a design tool like Figma can help you create whatever you can imagine, even if you're not a designer. Check out [The Creator Design Kit](/products/creator-design-kit) to learn how. 
 
 ![Podcast video graphics](/images/articles/IAfuSZMIZhAAGa4FhdAkR4Ej44.jpg.webp)
 

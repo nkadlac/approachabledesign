@@ -11,7 +11,7 @@ On Wednesday, I co-hosted a live YouTube thumbnail workshop with 43 people. And 
 
 Art direction is the ability to add humanity to your design. And it’s going to be more important as we move into the world of AI tools.*​*
 
-*But first, I built something for you if you couldn’t join live. *[***Join the waitlist here***](https://approachabledesign.co/products/youtube-masterclass)* if you want to score a deep discount on it later this week.​(And next week I’ll talk more about building a waitlist landing page like this one)*
+*But first, I built something for you if you couldn’t join live. *[***Join the waitlist here***](/products/youtube-masterclass)* if you want to score a deep discount on it later this week.​(And next week I’ll talk more about building a waitlist landing page like this one)*
 
 ![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)**Give me three minutes to show you:**
 

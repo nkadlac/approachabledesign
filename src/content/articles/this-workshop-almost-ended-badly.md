@@ -49,7 +49,7 @@ Here's Khe's podcast art before and after.
 
 ​Khe now has a design kit to serve as a starting point for his design projects.
 
-​And if you feel like you're missing your starting point for your business or brand, then you might want to check out [**this**](https://approachabledesign.co/courses/8020-design-challenge).
+​And if you feel like you're missing your starting point for your business or brand, then you might want to check out [**The Creator Design Kit**](/products/creator-design-kit).
 
 ![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)## 🎨 Better Design Decisions
 
@@ -57,7 +57,7 @@ Have you ever wondered what font size to use for your own website? [**This tool 
 
 Trick your brain into learning more with the [**Super Mario Effect**](https://www.youtube.com/watch?v=9vJRopau0g0).
 
-**​**[**20 unconventional design tips**](https://approachabledesign.co/articles/20-design-tips-for-non-designers) for non-designers.
+**​**[**20 unconventional design tips**](/articles/20-design-tips-for-non-designers) for non-designers.
 
 ![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)## 📸 Make It Yours Moment
 

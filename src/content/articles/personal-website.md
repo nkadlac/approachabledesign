@@ -2,7 +2,7 @@
 title: "The modern guide to creating a personal website that drives career and personal growth"
 date: 2026-01-08
 category: youtube-design
-description: "My personal website has single-handedly played a specific role in accelerating my career growth and income for the past 18 years."
+description: "How to create a personal website to improve serendipity in your professional and personal life"
 image: "/images/articles/Bfbcg25lKimwoPl62mMjt1zE.png.webp"
 
 ---
@@ -45,14 +45,15 @@ One-page websites are great for selling one product or service, but I believe mu
 
 ## 1. How to start your personal website and why it's a Google Doc and a custom domain
 
-*“Content precedes design. Design in the absence of content is not design, it's decoration.”
-- Jeffrey Zeldman*
+>“Content precedes design. Design in the absence of content is not design, it's decoration.”
+>
+> — Jeffrey Zeldman
 
-I suggest starting with a brand-new Google Doc. (preferably one that doesn't [burn your eyes](https://approachabledesign.co/articles/google-docs-design)).
+I suggest starting with a brand-new Google Doc. (preferably one that doesn't [burn your eyes](/articles/google-docs-design)).
 
 As you go through this guide, you'll want to write a small amount of copy for each page. Give each page a headline, a subheadline, and a main paragraph at the minimum.
 
-I've whipped up a handy [content template](https://approachabledesign.co/personal-website-template) for each page, just to take a little weight off your shoulders during this process.
+I've whipped up a handy [content template](/personal-website-template) for each page, just to take a little weight off your shoulders during this process.
 
 Keep in mind, that while this website is for you, it's actually for the people reading it. Write as if you're writing for one person who doesn't know you. How can you improve their experience by visiting your piece of online real estate? 
 
@@ -80,7 +81,7 @@ Get personal, and share your perspective of the world.
 - What projects are you currently working on?
 - What have you learned in your last job role?
 - What are your favorite articles and books to read?
-- Get more Story Spoke prompts in my free [Personal Website Content Template](https://approachabledesign.co/personal-website-template)
+- Get more Story Spoke prompts in my free [Personal Website Content Template](/personal-website-template)
 
 *Tip: If you're struggling to write and want to become a better online writer, check out David Perell's *[*Ultimate Guide to Writing Online*](https://perell.com/essay/the-ultimate-guide-to-writing-online/)*.*
 
@@ -99,7 +100,7 @@ Instead, use a more descriptive—and interesting—headline. Then add a subhead
 - Title (H1) of 3-6 words
 - Subheadline of 8-20 words
 - Body copy totaling 250-500 words (More is great!)
-- [Get my content template with a breakdown for each web page](https://approachabledesign.co/personal-website-template)
+- [Get my content template with a breakdown for each web page](/personal-website-template)
 
 **Here are a few example headlines for an About Me page:**
 
@@ -117,10 +118,10 @@ Hell, Tesla even had to settle for teslamotors.com at first.
 
 **Here are a few tips to consider:**
 
-- Try to find a dot com domain first *(This is becoming less important every year, but it's still the default when people start to type in a domain.) *
-- Use your last name or your full name. Make it as easy as possible.* (Mine is *[*kadlac.com*](https://kadlac.com/)*)*
+- Try to find a dot com domain first (This is becoming less important every year, but it's still the default when people start to type in a domain.)
+- Use your last name or your full name. Make it as easy as possible. _(Mine is [kadlac.com](https://kadlac.com/))_
 - Combine your first or last name with another word
-- Try searching for a nickname or something silly. *(Not too silly though)*
+- Try searching for a nickname or something silly. _(Not too silly though)_
 
 ## 2. The five essential pages a personal website should have
 
@@ -267,7 +268,7 @@ Optional: Lead MagnetsI've come around to having lead magnets on my sites becaus
 - [CopyThat *by Sam and Sara Parr*](https://copythat.com/)
 - [$100m Offers *by Alex Hormozi*](https://geni.us/UunoGM)
 - [The Adweek Copywriting Handbook *by Joseph Sugarman*](https://geni.us/jqOr5Q)
-- [How to design a landing page for a $1k product* by Nate Kadlac*](https://approachabledesign.co/articles/1000-landing-page-offer)
+- [How to design a landing page for a $1k product* by Nate Kadlac*](/articles/1000-landing-page-offer)
 - [How to write landing pages *by Julian Shapiro*](https://www.julian.com/guide/startup/landing-pages)
 - [Creator Flywheels – The Operating System for Your Business *by Nathan Barry*](https://nathanbarry.com/creator-flywheels/)
 - [ConvertBox](https://nkadlac--sslcheckout.thrivecart.com/cb-lifetime/) to create popups and modals for your lead magnets
@@ -354,7 +355,7 @@ Newsletters—or personal emails—allow you to continue to world-build using a 
 - Helps build relationships outside your immediate network
 - Opens up new revenue opportunities (products, sponsorships, etc)
 - You're regarded as a resourceful person
-- Increases your [surface area of luck](https://approachabledesign.co/newsletter/maximize-surface-serendipity)
+- Increases your [surface area of luck](/newsletter/maximize-surface-serendipity)
 - Generates feedback loops for new ideas to chase
 - Platform independence and algorithmic freedom
 
@@ -402,7 +403,7 @@ You do this with writing, but also with your font choices, color schemes, images
 
 I see too many people get bored with their websites, and looking to redesign 3-6 months out. It's common, but not surprising.
 
-Many of us sign up with a new website service like Squarespace, pick a template, and then fill it in. I actually had a client tell me they never even thought of designing a site from scratch.* "Don't you just fill in a template?"* they asked.
+Many of us sign up with a new website service like Squarespace, pick a template, and then fill it in. I actually had a client tell me they never even thought of designing a site from scratch. _"Don't you just fill in a template?"_ they asked.
 
 On the other side, you might pick a black-and-white template because you're exhausted of flipping through templates that don't appeal to you, only to land on a boring minimalist website.
 
@@ -422,7 +423,7 @@ You should choose colors that you love, from your own stories and experiences, s
 
 Once you have a color, create a light and dark variation of it. Then add a secondary and an accent color if you wish. It's not necessary though.
 
-Lastly, choose a neutral palette consisting of seven colors, from white to black. Want to learn more about picking colors? [Here's my 80/20 course](https://approachabledesign.co/courses/8020-design-challenge) on design which will help you create your own palette.
+Lastly, choose a neutral palette consisting of seven colors, from white to black. Want to learn more about picking colors? [The Creator Design Kit](/products/creator-design-kit) will help you create your own palette.
 
 ![A simple color palette](/images/articles/GVUIuXWnx723k43WoafzF35ybDw.png.webp)FontsThe next culprit that everyone seems to have difficulty with.
 
@@ -451,7 +452,7 @@ Images![Nate's images](/images/articles/HWdqztghxbx5C2u4gHjBsvgRw.jpeg.webp)If y
 
 If you're using a more recent iPhone, you can set it to Portrait mode and have someone take a few headshots or casual shots for your site.
 
-Try instructing them to use the [Rule of Thirds](https://approachabledesign.co/articles/rule-of-thirds) to create a composition that looks and feels interesting and unique.
+Try instructing them to use the [Rule of Thirds](/articles/rule-of-thirds) to create a composition that looks and feels interesting and unique.
 
 Or if you're looking for something a bit more "done-for-you", use a service like [Snappr](https://app.snappr.com/book/new/purpose) to find a local photographer. Or, [upload a photo using AI](https://www.headshotpro.com/) and have something usable almost instantly.
 
@@ -461,9 +462,9 @@ Custom logo![](/images/articles/XGQ4kJ5jHnf6ROsuAix09JBL7Zo.png.webp)Even as a d
 
 But after you're up and running, there are ways to show people that you have taste and care about the details.
 
-Thankfully, there are some incredibly easy ways to create a logo with a great font, and [I wrote an article](https://approachabledesign.co/articles/create-a-simple-logo) explaining how to do just that.
+Thankfully, there are some incredibly easy ways to create a logo with a great font, and [I wrote an article](/articles/create-a-simple-logo) explaining how to do just that.
 
-Personally, I use Figma to design my logos and if you want to go from 0 to 100 in just a few weeks, I created a [simple course to do just that.](https://approachabledesign.co/courses/8020-design-challenge)
+Personally, I use Figma to design my logos and if you want to go from 0 to 100 in just a few weeks, check out [The Creator Design Kit](/products/creator-design-kit).
 
 And honestly, I still don't have a proper logo, I use tint the color of my name. It works!
 
@@ -479,7 +480,9 @@ In this case, Charlie doesn't have an offer, but she does use her podcast to fil
 
 My site navigation is slightly different because I've been writing on my personal website for a long time. But I still keep the navigation straightforward, and clear. I also tuck in a number of items within Work With Me to keep it clean.
 
-![](/images/articles/GU4ooXXYH6qSmRzfaedx5BoKPoM.png.webp)### How to get testimonials and social proof
+![](/images/articles/GU4ooXXYH6qSmRzfaedx5BoKPoM.png.webp)
+
+### How to get testimonials and social proof
 
 ![Testimonials](/images/articles/htkXJwSEI9SK72vSujTs5bDfwXU.png.webp)One of the easiest ways to add a bit of credibility to your site is by getting reviews or testimonials from your network. Aim to get three testimonials.
 
@@ -508,7 +511,7 @@ Know your own goals before copying what other people do.
 
 ## 6. Asking for help
 
-Wow, that was a lot. Who knew you could write 5,000+ words on creating the best personal websites? The problem for many is actually going ahead and doing it. If you're looking for inspiration, you can find my [Design Vault](https://approachabledesign.co/products/design-vault) with a growing collection of personal website examples.
+Wow, that was a lot. Who knew you could write 5,000+ words on creating the best personal websites? The problem for many is actually going ahead and doing it. If you're looking for inspiration, you can find my [Design Vault](/products/design-vault) with a growing collection of personal website examples.
 
 If having a professional website is something you need for your own personal brand but you're never going to do it, please reach out for help.
 
@@ -520,15 +523,15 @@ My goal is to help you promote yourself in the best way possible. Having your ow
 
 ### Get inspired with real examples
 
-I've collected dozens of the best personal website examples and more. You can sort by landing pages, personal sites, agencies, e-commerce, and more. You can find it all in my [Design Vault](https://approachabledesign.co/products/design-vault).
+I've collected dozens of the best personal website examples and more. You can sort by landing pages, personal sites, agencies, e-commerce, and more. You can find it all in my [Design Vault](/products/design-vault).
 
 ### Learn to design (for creators and non-designers)
 
-If you want to learn how to design and use Figma (a free design tool used by professionals) I have an 80/20 Design Course that is taken by email. You'll go from zero to one within four weeks of daily tips and live video examples. [It starts on Monday!](https://approachabledesign.co/courses/8020-design-challenge)
+If you want to learn how to design and use Figma (a free design tool used by professionals), check out [The Creator Design Kit](/products/creator-design-kit).
 
 ### My content creation template
 
-Don't forget to snag my [free content template](https://approachabledesign.co/personal-website-template) in Google Docs.
+Don't forget to snag my [free content template](/personal-website-template) in Google Docs.
 
 ### Struggling with writing?
 

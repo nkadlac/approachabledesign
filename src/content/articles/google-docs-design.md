@@ -2,7 +2,7 @@
 title: "How to improve your Google Docs writing experience"
 date: 2026-01-08
 category: branding
-description: "A simple book is the perfect example of great design."
+description: "Take your Google Docs from 'OMG, I'm going blind!' to a Zen like experience"
 image: "/images/articles/hevqvX55wHHYZqr2VGu1Vwbfcy4.jpg.webp"
 
 ---
@@ -28,7 +28,7 @@ These next few minutes could change your life. (And mine if you ever share a doc
 - Choose different fonts *(optional if you hate nice things)*
 - Update your font colors
 - Set defaults so you never need to do this twice (unless you’re a masochist)
-- Skip the article and grab my [Google Docs template here](https://approachabledesign.co/google-docs-template)
+- Skip the article and grab my [Google Docs template here](/google-docs-template)
 
 ## 1. Remove page breaks
 
@@ -82,7 +82,7 @@ You might be thinking to yourself, changing the font is a waste of time. But I�
 
 It’s easier to tell you what not to do, instead of the many things you can do. So follow a few tips below for [picking fonts quickly](/articles/create-a-simple-logo).
 
-But first, just set up your Google Doc with a title, headers (1-4), subtitle, and normal text. You’ll want to see these side by side when making your text decisions. [Here’s a starting template](https://approachabledesign.co/google-docs-template) for you to use. (File > Make a Copy before editing please!)
+But first, just set up your Google Doc with a title, headers (1-4), subtitle, and normal text. You’ll want to see these side by side when making your text decisions. [Here’s a starting template](/google-docs-template) for you to use. (File > Make a Copy before editing please!)
 
 ![](/images/articles/li2gxA5GxquXR3YoxdgH6J02By0.jpg.webp)**Don’t make these mistakes:**
 
@@ -98,7 +98,7 @@ But first, just set up your Google Doc with a title, headers (1-4), subtitle, an
 
 ### Apply your new font selections
 
-First, I’ll add a few pieces of text to a document to cover my immediate bases. ([Use this document](https://approachabledesign.co/google-docs-template) as a starting point.)
+First, I’ll add a few pieces of text to a document to cover my immediate bases. ([Use this document](/google-docs-template) as a starting point.)
 
 - Select the modified text. In this example, I’ve highlighted the text for the title of the document.
 - Then select the Style dropdown and select “Update *Title* to match”
@@ -130,8 +130,8 @@ Google built in a feature that lets us save our page and text settings for next 
 
 ## Stand out with your own visual style
 
-I hope that was painless, but if you found yourself giving up in the end, you can [download the Google Docs template](https://approachabledesign.co/google-docs-template) for yourself. Just be sure to save the styles as your default from Step five.
+I hope that was painless, but if you found yourself giving up in the end, you can [download the Google Docs template](/google-docs-template) for yourself. Just be sure to save the styles as your default from Step five.
 
 Making a few design decisions in your everyday life goes a long way to improving how you show up in the world.
 
-If you’re curious about how to make better design decisions for you or your business, my 2-day Approachable Design workshop is coming up in a month, and you can [get on the waitlist here](https://www.approachabledesign.co/).
+If you’re curious about how to make better design decisions for you or your business, my 2-day Approachable Design workshop is coming up in a month, and you can [get on the waitlist here](/).

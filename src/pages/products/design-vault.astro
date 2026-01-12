@@ -21,12 +21,14 @@ const whatsIncluded = [
 ---
 
 <Layout title="The Design Vault - Approachable Design" description="Stop spending hours searching the web for design inspiration. Start with a highly-curated collection of designed sites and never feel stuck again.">
+  <div class="hero-glow"></div>
+
   <!-- Hero Section -->
   <section class="py-16 md:py-24">
     <div class="container">
       <div class="max-w-4xl mx-auto text-center mb-12">
         <span class="text-brand-coral text-sm font-semibold uppercase tracking-wider">Design Inspiration</span>
-        <h1 class="font-display-black-italic text-4xl md:text-5xl lg:text-6xl mt-4 mb-6">
+        <h1 class="text-center text-balance font-display-black-italic text-4xl md:text-5xl lg:text-6xl mt-4 mb-6">
           The Design Vault
         </h1>
         <p class="text-2xl md:text-3xl text-white/80 mb-6">
@@ -35,7 +37,7 @@ const whatsIncluded = [
         <p class="text-lg text-white/60 max-w-2xl mx-auto mb-8">
           Stop spending hours searching the web for design inspiration. Start with a highly-curated collection of designed sites and never feel stuck again.
         </p>
-        <a href="https://natekadlac.gumroad.com/l/design-vault" target="_blank" rel="noopener noreferrer" class="btn btn-primary text-lg px-8 py-4">
+        <a href="https://shop.approachabledesign.co/design-vault/" target="_blank" rel="noopener noreferrer" class="btn btn-primary text-lg px-8 py-4">
           Get The Design Vault - $149
         </a>
       </div>
@@ -262,7 +264,7 @@ const whatsIncluded = [
           </ul>
 
           <!-- CTA Button -->
-          <a href="https://natekadlac.gumroad.com/l/design-vault" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 w-full bg-brand-purple text-white font-heading font-semibold text-lg px-8 py-4 rounded-xl hover:bg-brand-purple-light transition-colors">
+          <a href="https://shop.approachabledesign.co/design-vault/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 w-full bg-brand-purple text-white font-heading font-semibold text-lg px-8 py-4 rounded-xl hover:bg-brand-purple-light transition-colors">
             Get Instant Access
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
@@ -277,6 +279,21 @@ const whatsIncluded = [
 <style>
   .font-display-black-italic {
     font-family: var(--font-display-black-italic);
+  }
+
+  .hero-glow {
+    position: fixed;
+    top: -10%;
+    right: -10%;
+    width: 80%;
+    height: 80%;
+    background-image: url('/images/site/hero-glow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top right;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.6;
   }
 
   .pricing-card {

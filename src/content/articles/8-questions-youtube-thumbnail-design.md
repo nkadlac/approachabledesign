@@ -51,7 +51,7 @@ A thumbnail’s job is the same as a great subject line, hook, or Facebook ad:
 
 ​[**How to find ideas that people are looking for**](https://x.com/stephsmithio/status/1708226328837968232?s=20?utm_source=approachabledesign&utm_medium=email) via Steph Smith
 
-​[**How to design your visual style in 5 steps**](https://approachabledesign.co/articles/visual-style?utm_source=approachabledesign&utm_medium=email)​
+​[**How to design your visual style in 5 steps**](/articles/visual-style?utm_source=approachabledesign&utm_medium=email)​
 
 ​[**Why Stripe's CEO says quality and design matters**](https://x.com/petergyang/status/1715033116656779448?s=20?utm_source=approachabledesign&utm_medium=email)
 

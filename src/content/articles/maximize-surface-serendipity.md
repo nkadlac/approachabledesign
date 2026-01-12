@@ -54,7 +54,7 @@ Keep pushing on those doors, then keep telling people about the doors you’re p
 
 ## 📸 Make It Yours Moment
 
-![Charles Schulz](/images/articles/6jGsWK7JK0JcBGxYuiOMDEH2tE.jpg.webp)I'm still working on the final piece to my [**landing page series**](https://approachabledesign.co/articles), so next week I'll show how to design a landing page for a $1,000 product or service offering.
+![Charles Schulz](/images/articles/6jGsWK7JK0JcBGxYuiOMDEH2tE.jpg.webp)I'm still working on the final piece to my [**landing page series**](/articles), so next week I'll show how to design a landing page for a $1,000 product or service offering.
 
 ​See you next Sunday!
 

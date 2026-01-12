@@ -2,7 +2,7 @@
 title: "YouTube Thumbnails: How to design click-worthy images"
 date: 2026-01-08
 category: youtube-design
-description: "A well-designed thumbnail can increase your video views, boost engagement, and improve your YouTube channel's overall performance. But how do you create thumbnails that are both appealing and effectiv"
+description: "Learn to design YouTube thumbnails that stand out with these eight questions"
 image: "/images/articles/Ax5G8NsZhPmcmenlbYKmUgHkxU.jpg.webp"
 
 ---
@@ -39,7 +39,7 @@ If you try to say or show too much, you’ll end up confusing the message and fo
 
 Start with a single image, a few words, a single color, and the rule of thirds. Play with the spacing and get an idea for where you want to go. Play with these ideas on an open canvas like Figma, which lets you iterate and compare designs side by side. 
 
-If you have ever wanted the superpower to design, check out my [80/20 design course](https://approachabledesign.co/courses/8020-design-challenge) which will get you up to speed even if you haven’t tried it before. 
+If you have ever wanted the superpower to design, check out [The Creator Design Kit](/products/creator-design-kit) which will get you up to speed even if you haven't tried it before. 
 
 ImagesIt's a pretty common practice to include images of yourself, a familiar object, and even a background. But I would recommend simplifying the amount of images you use to tell a single story. 
 
@@ -69,15 +69,15 @@ This simple trick adds contrast, pulls attention into one word, and lets you sca
 
 ![High quality self portraits](/images/articles/PMXYtzXdpHYhXgJTffG2Y15nRM.jpg.webp)A common approach is to shoot and edit your video and then screenshot your video for graphics. If you’re doing this, you’re working from behind, and it’s difficult to create something notable. 
 
-Fonts: I usually opt for sans-serif fonts for thumbnails. It’s easier to read at smaller sizes, and to work with. [Here's an article on my favorite YouTube fonts to use](https://approachabledesign.co/articles/best-youtube-fonts).
+Fonts: I usually opt for sans-serif fonts for thumbnails. It’s easier to read at smaller sizes, and to work with. [Here's an article on my favorite YouTube fonts to use](/articles/best-youtube-fonts).
 
 Images: Follow [Thomas Frank](https://twitter.com/TomFrankly/status/1674153447090954247) and [Paul Millerd’s](https://www.youtube.com/@PaulMillerd) approach by shooting a series of shots portraits for your channel. Photograph yourself in a dozen or more different expressions to give yourself enough to work with regularly. 
 
-Backgrounds: Use high-quality images, or try using [AI tools like Midjourney](https://approachabledesign.co/articles/midjourney-visual-style) for creating original assets. 
+Backgrounds: Use high-quality images, or try using [AI tools like Midjourney](/articles/midjourney-visual-style) for creating original assets. 
 
 Icons: I don’t always recommend icons, but [Josh Spector](https://www.youtube.com/@JoshSpectorVideos) uses them in his minimal approach. It works because he doesn't rely on other images or effects. 
 
-![Josh Spector YouTube thumbnails](/images/articles/haLH8xV0mkzZ6RKq8UdSyJ80os.png.webp)In my [YouTube Masterclass](https://approachabledesign.co/products/youtube-masterclass), I provide you several high-quality assets to work with in all of your thumbnails. 
+![Josh Spector YouTube thumbnails](/images/articles/haLH8xV0mkzZ6RKq8UdSyJ80os.png.webp)In my [YouTube Masterclass](/products/youtube-masterclass), I provide you several high-quality assets to work with in all of your thumbnails. 
 
 ### 4. Are you using less than five words?
 
@@ -105,7 +105,7 @@ More than once I've seen YouTube video thumbnails designed in the wrong image fo
 
 If you're using Canva to design your custom YouTube thumbnails, make sure you're using the right template. In Figma, you'll need to manually size your artboard to 1280x 720 pixels. Even a couple of pixels off will throw everything off. 
 
-There are plenty of free thumbnail templates on the web, but the best YouTube thumbnail maker I find is Figma. If you want to learn Figma and design anything from YouTube thumbnails to websites, check out my course [here](https://approachabledesign.co/courses/8020-design-challenge). 
+There are plenty of free thumbnail templates on the web, but the best YouTube thumbnail maker I find is Figma. If you want to learn Figma and design anything from YouTube thumbnails to websites, check out [The Creator Design Kit](/products/creator-design-kit). 
 
 File formatI tend to save my images as PNGs, but you can also use JPEGs for your videos. It has no effect on your images, and they both upload the same way. 
 
@@ -115,7 +115,7 @@ My favorite trick to create eye-catching YouTube thumbnail is to space things us
 
 When you have a lot of design elements to work with, it's difficult to know where to place everything. 
 
-The Rule of Thirds![](/images/articles/nsLaWoT893ojZcTDGm55H5WMhs.png.webp)While it's popular in photography, using the [rule of thirds](https://approachabledesign.co/articles/rule-of-thirds-in-design) in your YouTube thumbnails can help create a better visual hierarchy overall. 
+The Rule of Thirds![](/images/articles/nsLaWoT893ojZcTDGm55H5WMhs.png.webp)While it's popular in photography, using the [rule of thirds](/articles/rule-of-thirds-in-design) in your YouTube thumbnails can help create a better visual hierarchy overall. 
 
 Try finding the four sweet spots in your design, and aligning the main focal point along the intersection. Our eyes are naturally drawn to these areas, and it will help give you a grid to work with when placing your text and imagery.
 
@@ -125,7 +125,7 @@ I don't love using thumbnail templates, but I understand the convenience. Creati
 
 CanvaCanva has the most YouTube thumbnail templates for you to get started. I don't love this online YouTube thumbnail maker because of its limited canvas space to play around, but the video thumbnail templates are decent and easy to use. 
 
-Figma![](/images/articles/WUPjq5XTLdSFpvehUH0yGgnCJ1w.png.webp)Figma is powerful, even if you're a beginner. Using Figma for your YouTube thumbnail design allows you to create custom thumbnail image templates that will help you build a repeatable process to maintain brand consistency and flexibility. Learn how to design in Figma in [my email-based course](https://approachabledesign.co/courses/8020-design-challenge), especially if you have never used it before. 
+Figma![](/images/articles/WUPjq5XTLdSFpvehUH0yGgnCJ1w.png.webp)Figma is powerful, even if you're a beginner. Using Figma for your YouTube thumbnail design allows you to create custom thumbnail image templates that will help you build a repeatable process to maintain brand consistency and flexibility. Learn how to design in Figma with [The Creator Design Kit](/products/creator-design-kit), especially if you have never used it before. 
 
 Once you have a finalized look, you can build out your YouTube thumbnail templates to reuse in Figma quite easily. 
 
@@ -133,7 +133,7 @@ PhotoshopI don't recommend using Adobe Photoshop for your thumbnails unless you'
 
 ## **Conclusion**
 
-Creating an effective YouTube thumbnail template is both an art and a science. It requires a [combination of design skills](https://approachabledesign.co/products/youtube-masterclass), understanding of your audience, and restraint in doing too much.
+Creating an effective YouTube thumbnail template is both an art and a science. It requires a [combination of design skills](/products/youtube-masterclass), understanding of your audience, and restraint in doing too much.
 
 But with practice and experimentation, you can create YouTube thumbnails that boost your video views, increase engagement, and help your YouTube channel thrive.
 

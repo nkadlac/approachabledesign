@@ -1,6 +1,10 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import NewsletterForm from '../components/NewsletterForm.astro';
+import { getSubscriberCount, formatSubscriberCount } from '../lib/kit';
+
+const subscriberCount = await getSubscriberCount();
+const formattedCount = formatSubscriberCount(subscriberCount);
 
 const testimonials = [
   {
@@ -51,13 +55,13 @@ const testimonials = [
 ];
 ---
 
-<Layout title="Newsletter - Approachable Design" description="Join 3,800+ solopreneurs & professionals learning to build authentic brands and improve visual design skills." variant="light">
+<Layout title="Newsletter - Approachable Design" description={`Join ${formattedCount}+ solopreneurs & professionals learning to build authentic brands and improve visual design skills.`} variant="light">
   <!-- Hero Section -->
   <section class="pt-8 md:pt-12 pb-4 md:pb-6">
     <div class="container">
       <div class="max-w-3xl mx-auto">
         <img src="/images/site/makeityours.avif" alt="Make It Yours" class="h-32 md:h-40 lg:h-48 mb-8 mx-auto" />
-        <h1 class="font-display-black-italic text-5xl md:text-6xl lg:text-7xl mb-6 text-brand-dark text-center">
+        <h1 class="font-display-black-italic text-5xl md:text-6xl lg:text-7xl mb-6 text-brand-dark text-center text-balance">
           Design smarter,<br />not harder
         </h1>
         <p class="text-xl text-brand-dark/80 mb-4">
@@ -67,7 +71,7 @@ const testimonials = [
           Not someone else's template.
         </p>
         <p class="text-xl text-brand-dark/70 mb-6">
-          Join 3,800+ solopreneurs & professionals 3x a week and I'll help you <strong class="text-brand-dark">build trust with your customers</strong>, <strong class="text-brand-dark">sell more by creating an authentic brand</strong>, and <strong class="text-brand-dark">take your visuals from stink eye to slow clap</strong> <em class="text-brand-dark/60">(without hiring a designer)</em>.
+          Join {formattedCount}+ solopreneurs & professionals 3x a week and I'll help you <strong class="text-brand-dark">build trust with your customers</strong>, <strong class="text-brand-dark">sell more by creating an authentic brand</strong>, and <strong class="text-brand-dark">take your visuals from stink eye to slow clap</strong> <em class="text-brand-dark/60">(without hiring a designer)</em>.
         </p>
       </div>
     </div>

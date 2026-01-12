@@ -47,7 +47,7 @@ For the purpose of this guide, we're focusing on creating a **logotype**. A logo
 
 One of the easiest ways to come up with something unique is by using your own signature. Like a snowflake, everyone's natural style is different, so it's immediately going to stand out. This is incredibly easy to do on an iPad with an Apple Pencil, which you can import and size down correctly.
 
-There are many good examples, but popular YouTuber [Ali Abdaal](https://aliabdaal.com/) uses his own initials for his [personal website](https://approachabledesign.co/articles/personal-website), which is one of the first things I notice when I visit it. It adds some personality to an otherwise straightforward design.
+There are many good examples, but popular YouTuber [Ali Abdaal](https://aliabdaal.com/) uses his own initials for his [personal website](/articles/personal-website), which is one of the first things I notice when I visit it. It adds some personality to an otherwise straightforward design.
 
 ![Ali Abdaal’s logo](/images/articles/SsyTEB0GyPUWPkMRbFoAvhSPQ.webp.webp)Using your full name, a nickname, or your initials is all fair game here. Choose something that you can repeat, and make it recognizable and fun. Plus, you saved yourself some cash.
 

@@ -2,7 +2,7 @@
 title: "How to Design a “Coming Soon” Landing Page "
 date: 2026-01-08
 category: youtube-design
-description: "Over a decade ago, I had a bet with friend over who could eat more hot dogs. (Yes, we're starting there.)"
+description: "And why you don't need to overcomplicate it"
 image: "/images/articles/4Y87i4WcikQdf6zBtfWAFHRzI8.jpg"
 
 ---
@@ -13,10 +13,10 @@ I can't remember where this bet came from, but only where it ended up.
 
 **In case you missed it, here are the other three parts to this series:**
 
-- Part 1: [How to design a newsletter landing page](https://approachabledesign.co/articles/newsletter-landing-page)
+- Part 1: [How to design a newsletter landing page](/articles/newsletter-landing-page)
 - Part 2: You're Here!
 - Part 3: [How to flip a free workshop into an evergreen product landing page](/articles/digital-product-landing-page)
-- Part 4: [How to design a landing page for a $1,000 product or service offering](https://approachabledesign.co/articles/1000-landing-page-offer)
+- Part 4: [How to design a landing page for a $1,000 product or service offering](/articles/1000-landing-page-offer)
 
 ![How long should your landing page be?](/images/articles/aPasIZJdCFeMF4dUeOP8RJ3Djq0.jpg.webp)To set the stakes even higher (and to prove it publicly) I devised a plan to create an event to prove I could eat more hot dogs.  
 
@@ -38,7 +38,9 @@ In many ways, a coming-soon landing page is less complicated than most pages. Yo
 
 But your main goal is to drive curiosity and anticipation.
 
-![Mailbox App Landing Page](/images/articles/ELHQsOPn0Nqtu7Sma6sJOiCzOk.jpg.webp)### 1. A clear mission
+![Mailbox App Landing Page](/images/articles/ELHQsOPn0Nqtu7Sma6sJOiCzOk.jpg.webp)
+
+### 1. A clear mission
 
 Many effective landing pages are stories at the heart.
 
@@ -73,7 +75,7 @@ These types of pages don't necessarily need a lot of visuals, but if you have th
 
 Don't mistake this for using stock photography. You need to drive authenticity and awareness around your cause, but that message will fail to deliver if you cop out with generic stock photography.
 
-Use actual product photos, or [images of yourself](https://approachabledesign.co/articles/personal-website). But don't force it if you have nothing at this point.
+Use actual product photos, or [images of yourself](/articles/personal-website). But don't force it if you have nothing at this point.
 
 ### 5. A compelling call to action
 

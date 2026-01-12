@@ -2,7 +2,7 @@
 title: "What makes a good slide deck?"
 date: 2026-01-08
 category: ai
-description: "Slides are an essential part of any presentation; they help keep the audience engaged and give you a chance to visualize your ideas. But, like all good things in life, a slide deck is only as good as"
+description: "Great slide deck presentations are just great stories. Learn how to avoid over-designing your deck and stuffing it with useless information."
 image: "/images/articles/DWIqLdRRbesokZCYAdbLvIHX7A.jpg"
 
 ---
@@ -90,4 +90,4 @@ We hope you’ve enjoyed this look at some of the best tips for presenting data 
 
 If you can keep these three elements in mind when designing or creating your presentation—whether in PowerPoint, Google Slides, Figma, or another program—we guarantee that your slides will be easier on the eyes than ever before!
 
-If you're still not sure how to build an effective slide deck, I can help you build a [Slide Deck with Style](https://www.approachabledesign.co/products/slide-decks-with-style).
+If you're still not sure how to build an effective slide deck, I can help you build a [Slide Deck with Style](/products/slide-decks-with-style).

@@ -39,7 +39,9 @@ If you look closely, you'll see the rule of thirds applied in 90% of the cases. 
 
 ![Coda artwork using the rule of thirds](/images/articles/u03JBZ3THgiugkF7BJEMXadAiRs.png.webp)
 
-![AppleTV thumbnail art](/images/articles/1mW7Gna2qulRAlPVONOkCLpJZo.png.webp)### **A Golden Globe Award-winning series**
+![AppleTV thumbnail art](/images/articles/1mW7Gna2qulRAlPVONOkCLpJZo.png.webp)
+
+### **A Golden Globe Award-winning series**
 
 One of my favorite examples of the rule of thirds is the drama series, Mr. Robot, because they unconventionally use the guideline.
 
@@ -59,7 +61,9 @@ While not many people will know, the rule of thirds plays heavily into the harmo
 
 It's not immediately apparent, but this technique can be used in many other rooms, to help strengthen the visual interest of a room, while directing your attention more effortlessly.
 
-![Our kitchen layout using the rule of thirds—Photo by Nate Kadlac](/images/articles/vkOT48ayYM33t2AAaHiao0txJTQ.png.webp)### **Landscape photography**
+![Our kitchen layout using the rule of thirds—Photo by Nate Kadlac](/images/articles/vkOT48ayYM33t2AAaHiao0txJTQ.png.webp)
+
+### **Landscape photography**
 
 The rule of thirds for landscape photography is likely the easiest way to see an improvement in your images.
 
@@ -69,15 +73,19 @@ What the pros do are position the horizon line along one of the two horizontal r
 
 Notice the horizon line on the Lone Cypress tree image below, and we use the rule to simply rest it on the top third.
 
-![Lone Cypress tree and Santa Barbara Pier—Photo by Nate Kadlac](/images/articles/kFCjE2S4u6gKvhjpLtrCmuzrDaA.png.webp)### **Fine art**
+![Lone Cypress tree and Santa Barbara Pier—Photo by Nate Kadlac](/images/articles/kFCjE2S4u6gKvhjpLtrCmuzrDaA.png.webp)
+
+### **Fine art**
 
 Even though the rule of thirds wasn't coined until 1797, you can see how it was naturally used in some early artworks by legends like Leonardo Da Vinci and Van Gough.
 
 Composing a piece of artwork is like framing a photo through a lens. The same principles apply, as we unconsciously look for a sense of order. A visual hierarchy.
 
-![Leonardo Da Vinci and Van Gough](/images/articles/Ep0DbGuo1D5laK0B6cnDHkiJ8gM.png.webp)### **Book covers love the rule of thirds**
+![Leonardo Da Vinci and Van Gough](/images/articles/Ep0DbGuo1D5laK0B6cnDHkiJ8gM.png.webp)
 
-If you're a book on a shelf, you're competing against thousands of other books for our attention. This is why many designers [rely on the rule of thirds](https://www.approachabledesign.co/articles/rule-of-thirds-in-design) not only stand to out, but to draw us in with perfect harmony and visual intrigue. While the right colors, imagery and fonts have a lot to do with this, the layout is one of the most important aspects of book design.
+### **Book covers love the rule of thirds**
+
+If you're a book on a shelf, you're competing against thousands of other books for our attention. This is why many designers [rely on the rule of thirds](/articles/rule-of-thirds-in-design) not only stand to out, but to draw us in with perfect harmony and visual intrigue. While the right colors, imagery and fonts have a lot to do with this, the layout is one of the most important aspects of book design.
 
 Think about it, there's a lot to convey in a cover. The title of the book, the author, the subhead, and the visual art that needs to tell a story within seconds. Everything needs to work together to create visual balance, so we're not turned off by everything screaming for our attention.
 
@@ -103,7 +111,9 @@ The same goes for the Golden Gate Bridge shot from afar, anchored to the lower r
 
 ![Volcano erupting in Kauai, Hawaii—Photo by Nate Kadlac](/images/articles/aPsAua7WcLgh3yAX3ucF4xCsE.png.webp)
 
-![Golden Gate Bridge—Photo by Nate Kadlac](/images/articles/2HqiqoeNz3laaEKtW72CSR1jQ.png.webp)### **Applying the rule of thirds in design**
+![Golden Gate Bridge—Photo by Nate Kadlac](/images/articles/2HqiqoeNz3laaEKtW72CSR1jQ.png.webp)
+
+### **Applying the rule of thirds in design**
 
 To create a well balanced design, it doesn't mean that everything should be the same size, or even symmentrical. Emotion, tension, and visual intrigues stems from properly counterbalancing the objects at play. This is important to know why the rule of thirds works so well. It's because it helps force you to counterbalance objects on the screen.
 
@@ -119,7 +129,7 @@ For those of you who think rules are a cheap way to trick the audience, there ar
 
 ### **The Z pattern**
 
-Our eyes will naturally focus on the top left of a [personal website](https://approachabledesign.co/articles/personal-website), a magazine, an image, or a Mcdonald's menu (Ok honestly my eyes will always search for the McFlurry first). But this is useful when thinking about other ways to frame or compose a photo. Imagine the letter Z, and place the most important element in the top left first, the second most important element in the top right, then the bottom left, and finally the bottom right.
+Our eyes will naturally focus on the top left of a [personal website](/articles/personal-website), a magazine, an image, or a Mcdonald's menu (Ok honestly my eyes will always search for the McFlurry first). But this is useful when thinking about other ways to frame or compose a photo. Imagine the letter Z, and place the most important element in the top left first, the second most important element in the top right, then the bottom left, and finally the bottom right.
 
 This creates a visual hierarchy that is natural to how we scan information, so by following this guideline; you're giving us what we would naturally do.
 
@@ -142,4 +152,4 @@ The rule of thirds is all around you, and you'll start to recognize why certain 
 - Turn on your camera’s grid view or create horizontally and vertically equal grid lines in your software tool of choice.
 - Frame up your image in your camera, or design software of choice, placing your key element at one of the four intersection points, or along the vertical lines or the horizontal lines.
 - Don’t try to place key elements along every grid line, since this will dilute the overall effect, and reduce the amount of attention overall.
-- Challenge yourself to learn how to use the rule of thirds in the [80/20 design challenge](/courses/8020-design-challenge).
+- Challenge yourself to learn how to use the rule of thirds in [The Creator Design Kit](/products/creator-design-kit).

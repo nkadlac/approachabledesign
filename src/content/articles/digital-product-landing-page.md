@@ -2,7 +2,7 @@
 title: "How to flip a free workshop into an evergreen product landing page that sells itself"
 date: 2026-01-08
 category: youtube-design
-description: "I recently turned a free 90-minute workshop into a small but profitable digital product in under a week."
+description: "How I tested, built, marketed, and sold my free workshop and launched it within a week"
 image: "/images/articles/zKJtsweQJ1uQrs3Bcn6iIFmwz8.jpg"
 
 ---
@@ -19,10 +19,10 @@ And you don’t want that.
 
 **In case you missed it, here are the other three parts:**
 
-- Part 1: [How to design a newsletter landing page](https://approachabledesign.co/articles/newsletter-landing-page)
+- Part 1: [How to design a newsletter landing page](/articles/newsletter-landing-page)
 - Part 2: [How to design a 'Coming Soon' landing page](/articles/waitlist-landing-page)
 - Part 3: You're here!
-- Part 4: [How to design a landing page for a $1,000 product or service offering](https://approachabledesign.co/articles/1000-landing-page-offer)
+- Part 4: [How to design a landing page for a $1,000 product or service offering](/articles/1000-landing-page-offer)
 
 ![How long should your landing page be?](/images/articles/7KptAlBs5Unw4gbkRHMSvrDuuY.jpg.webp)## Here are four steps we’ll cover in this article:
 
@@ -56,7 +56,7 @@ In this case, I did two things:
 
 I used [Luma](https://lu.ma/) to set up my free workshop, which handles all of the registration, invites, and feedback for the event.
 
-Most of the signups came from my [newsletter](https://approachabledesign.co/newsletter) and Twitter.
+Most of the signups came from my [newsletter](/newsletter) and Twitter.
 
 ## 2. Build and design your idea
 
@@ -100,7 +100,7 @@ By implementing these copywriting best practices on your landing page, you'll in
 
 Because this lives on a site called Approachable Design, let's dive more into the design of a landing page. Two elements play an important role: design and writing.
 
-If you’re in a hurry, here are [20 unconventional tips to improve your designs](https://approachabledesign.co/articles/20-design-tips-for-non-designers). 
+If you’re in a hurry, here are [20 unconventional tips to improve your designs](/articles/20-design-tips-for-non-designers). 
 
 Designing a landing page is near and dear to my heart.
 
@@ -110,7 +110,7 @@ Use high-quality visualsIncorporate relevant images, illustrations, or videos th
 
 Leverage whitespaceEnsure there's enough whitespace between elements to avoid clutter and increase readability. Whitespace (or negative space) improves visual flow and helps users focus on critical information.
 
-A great way to help you with this is by using the [rule of thirds](https://approachabledesign.co/articles/rule-of-thirds-in-design). 
+A great way to help you with this is by using the [rule of thirds](/articles/rule-of-thirds-in-design). 
 
 Optimize for mobile devicesDesign your landing page with a responsive layout that adapts seamlessly to different screen sizes and devices. With an increasing number of users accessing websites via smartphones and tablets, optimizing for mobile is crucial for enhancing user experience and conversion rates.
 
@@ -138,7 +138,7 @@ One of the biggest problems I see with video products is the lack of insight int
 
 I get it, showing screenshots of the video itself isn’t all that compelling. 
 
-One thing I did was record my screen using [Screen Studio](https://www.screen.studio/) while panning around some of the boards I used in my [presentation](https://approachabledesign.co/products/youtube-masterclass) and compiled a simple but more elegant rendition of the video itself. Talking headshots are not that interesting!
+One thing I did was record my screen using [Screen Studio](https://www.screen.studio/) while panning around some of the boards I used in my [presentation](/products/youtube-masterclass) and compiled a simple but more elegant rendition of the video itself. Talking headshots are not that interesting!
 
 After editing the video itself, I also reshot the intro so it was a bit more precise and jumped right into the presentation. This helped with retention and delivered value almost immediately. 
 

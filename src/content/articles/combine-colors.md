@@ -2,7 +2,7 @@
 title: "How to combine colors with confidence"
 date: 2026-01-08
 category: branding
-description: "How to combine colors"
+description: "Making timeless color combination decisions and stop blindly picking colors"
 image: "/images/articles/gfVWs6R4jprNF5lQFZtT6RbPY.png"
 
 ---
@@ -31,7 +31,9 @@ So remember this: the color wheel represents the full-color spectrum where every
 
 Speaking of saturation, that’s one of the principles that make up color. But first let’s talk about Hue, which happens to be the same name as one of my favorite actors. Not, Hugh Grant. The other Hugh. Wolverine Hugh.
 
-![](/images/articles/1EzSvgDq9sNuEx5PwRvthFMGzFg.jpg.webp)### Hue, Saturation, and Value
+![](/images/articles/1EzSvgDq9sNuEx5PwRvthFMGzFg.jpg.webp)
+
+### Hue, Saturation, and Value
 
 ### **Hue**
 

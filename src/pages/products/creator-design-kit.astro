@@ -2,6 +2,38 @@
 import Layout from '../../layouts/Layout.astro';
 import AboutNate from '../../components/AboutNate.astro';
 import TestimonialScroll from '../../components/TestimonialScroll.astro';
+import CountdownTimer from '../../components/CountdownTimer.astro';
+import { getLastCommitDate, formatCommitDate } from '../../lib/git';
+
+const lastUpdated = formatCommitDate(getLastCommitDate());
+
+// Hero testimonials (single row)
+const heroTestimonials = [
+  [
+    {
+      quote: "I already \"designed\" my first thing! My son graduated from ABA therapy this past week and I wanted it to feel special - balloons, a graduation cap, cake, etc. I usually would have skipped designing anything visual because I felt it would take too long or not look good, but <strong>after a few lessons I just hopped in and made a digital screen that I mirrored onto the TV for a special touch!</strong>",
+      author: "Sola",
+      role: "Course Graduate"
+    },
+    {
+      quote: "The workshop let me come up with my own style and taste which is huge for me especially as the founder of a brand that wants to communicate our customer and student ethos.",
+      author: "Khe Hy",
+      role: "Founder, Rad Reads",
+      image: "/images/site/khe-hy.jpg"
+    },
+    {
+      quote: "This course definitely helped me become a much better designer, and as result – a better builder.",
+      author: "Louis Pereira",
+      role: "Founder, AudioPen.ai",
+      image: "/images/testimonials/louis-pereira.webp"
+    },
+    {
+      quote: "SERIOUSLY. I had tried using Figma before but didn't understand anything. Thanks to Nate I feel very good using Figma.",
+      author: "Irving",
+      role: "Course Graduate"
+    },
+  ]
+];
 
 const testimonialRows = [
   [
@@ -68,6 +100,10 @@ const curriculum = [
 
 const faqs = [
   {
+    q: "Can't I just learn this from YouTube?",
+    a: "You could spend months piecing together tutorials, figuring out what's actually important vs. what's filler, and still not know if you're learning the right things. This course gives you a structured 20-day path with daily accountability, practice files, and direct feedback. If you've tried YouTube and still feel stuck, that's exactly why this exists."
+  },
+  {
     q: "Do I need design experience?",
     a: "No. This course is created specifically for non-designers. If you can use a computer, you can take this course."
   },
@@ -81,16 +117,16 @@ const faqs = [
   },
   {
     q: "How do I get feedback?",
-    a: "Share your Figma file with nate@kadlac.com during the course for direct comments and feedback."
+    a: "Just reply to any email and get direct comments and feedback from me personally."
   },
   {
     q: "Is there a money-back guarantee?",
-    a: "Yes! Full refund if you're unsatisfied after completing the entire course."
+    a: "Yes! Complete the course and if you're not satisfied with what you've learned, get a full refund within 30 days. No questions asked."
   }
 ];
 ---
 
-<Layout title="The Creator Design Kit - Approachable Design" description="Learn design fundamentals and build a design kit that scales. A 20-day email course for non-designers.">
+<Layout title="The Creator Design Kit - Approachable Design" description="Learn design fundamentals and build a design kit that scales. A 20-day email course for non-designers." ogImage="/images/products/creator-design-kit-social.png" stickyHeader={false}>
   <!-- Hero -->
   <section class="py-16 md:py-24">
     <div class="container">
@@ -100,17 +136,17 @@ const faqs = [
           <span class="inline-block bg-white/10 text-white/80 text-xs font-semibold uppercase tracking-wider px-4 py-2 rounded-full mb-6">
             A Design Course for Creators
           </span>
-          <h1 class="font-display-black-italic text-4xl md:text-5xl lg:text-6xl mb-6">
-            The Creator Design Kit
+          <h1 class="text-balance font-display-black-italic text-4xl md:text-5xl lg:text-6xl mb-6">
+            Design Like a Pro in 20 Days
           </h1>
           <p class="text-xl md:text-2xl text-white/60 mb-6 max-w-xl">
-            Learn design fundamentals and build a design kit that scales, so you don't have to start your next project from scratch. Make every design decision feel like the right one without wasting time.
+            Stop second-guessing every font, color, and layout. Learn the 80/20 of design that lets you create professional visuals—without hiring a designer or spending years learning.
           </p>
           <p class="text-lg text-white mb-8">
-            Course starts on Monday.
+            Course starts Monday. You're 20 days away from design confidence.
           </p>
           <a href="#pricing" class="btn btn-primary text-lg px-8 py-4 gap-2">
-            Start Watching
+            Start Designing with Confidence
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
               <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
             </svg>
@@ -141,8 +177,137 @@ const faqs = [
     </div>
   </section>
 
+  <!-- Hero Testimonials -->
+  <div class="py-8">
+    <TestimonialScroll rows={heroTestimonials} />
+  </div>
+
+  <!-- Design Decisions Section -->
+  <section class="py-16 md:py-24">
+    <div class="container">
+      <div class="max-w-3xl mx-auto">
+        <p class="text-brand-coral text-sm font-semibold uppercase tracking-wider mb-4">Updated {lastUpdated}</p>
+        <h2 class="font-display-black-italic text-3xl md:text-4xl lg:text-5xl mb-6">
+          Even if you're not a designer, you're still making design decisions.
+        </h2>
+        <p class="text-xl text-white/70 mb-8">
+          Have you ever spent money on design, and realized you just made a huge mistake?
+        </p>
+
+        <!-- GIF -->
+        <div class="mb-8 rounded-xl overflow-hidden">
+          <img src="/images/products/huge-mistake.gif" alt="I've made a huge mistake" class="w-full" />
+        </div>
+
+        <p class="text-xl text-white/70 mb-6">
+          It didn't turn out, and you don't know how to fix it. So you hired a different designer and it was even worse!
+        </p>
+        <p class="text-xl text-white/70 mb-8">
+          It's a sick cycle, because you don't trust yourself to make these decisions yourself.
+        </p>
+
+        <!-- Pain Quantification -->
+        <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10 mb-8">
+          <p class="text-lg text-white/80 mb-4">The cost of not knowing design:</p>
+          <div class="space-y-2 text-white/70">
+            <p>$500-2,000 for a designer who doesn't get your vision</p>
+            <p>+ 10+ hours of back-and-forth revisions</p>
+            <p>+ Another $500-1,000 when you try a different designer</p>
+            <p>+ Endless hours second-guessing every visual decision</p>
+            <p class="pt-2 border-t border-white/10 text-white font-semibold">= $1,000-3,000+ and weeks of frustration</p>
+          </div>
+          <p class="text-brand-coral mt-4 font-medium">Or you could learn the fundamentals yourself in 20 days.</p>
+        </div>
+
+        <p class="text-xl text-white/70 mb-6">
+          In this course, I'll help you understand not only how to make better design decisions, but also how to avoid them.
+        </p>
+        <p class="text-xl text-white/70 mb-8">
+          Author Paul Millerd turned his podcast art from amateur to pro just by learning how to use color, typography, and eye-catching layouts without the help of a designer.
+        </p>
+
+        <!-- Before/After -->
+        <div class="mb-8">
+          <img src="/images/products/paul-millerd-before-after.avif" alt="Paul Millerd's podcast art - Before and After" class="w-full rounded-xl" />
+        </div>
+
+        <p class="text-xl text-white/70 mb-6">
+          Imagine having the ability to make your own design decisions, or to give design feedback to a designer.
+        </p>
+
+        <p class="text-xl text-white font-semibold mb-4">Decisions like:</p>
+        <ul class="space-y-2 mb-8 text-xl text-white/70">
+          <li class="flex items-start gap-3">
+            <span class="text-white/50">•</span>
+            <span>Learn to choose and combine colors that don't clash</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-white/50">•</span>
+            <span>Why you should never use pure black</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-white/50">•</span>
+            <span>How to choose an indestructible font family</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-white/50">•</span>
+            <span>How to use spacing and grids for beautiful layouts</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-white/50">•</span>
+            <span>How to design yourself in Figma!</span>
+          </li>
+        </ul>
+
+        <p class="text-xl text-white/70 mb-6">And so much more!</p>
+
+        <p class="text-xl text-white/70 mb-6">
+          If you have ever worked with a designer but you're never happy with the results, there's a design gap. Not all designers are created equal, and if you can't communicate your visual ideas, it's going to be difficult to hit the mark consistently.
+        </p>
+        <p class="text-xl text-white/70 mb-6">
+          This course will take you through the steps to building out a design kit at the end, giving you a shortcut to working with designers.
+        </p>
+        <p class="text-xl text-white/70 mb-6">
+          You don't need to be a designer to make some damn good design decisions. You just need the 80/20.
+        </p>
+        <p class="text-xl text-white font-semibold">
+          This email course will show you how.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Line Divider -->
+  <div class="flex justify-center py-16">
+    <img src="/images/site/line-divider.svg" alt="" class="h-48 md:h-64" />
+  </div>
+
+  <!-- Video Overview -->
+  <section class="py-16">
+    <div class="container">
+      <div class="max-w-4xl mx-auto">
+        <p class="text-brand-coral text-sm font-semibold uppercase tracking-wider mb-4">Overview</p>
+        <h2 class="font-display-black-italic text-3xl md:text-4xl lg:text-5xl mb-6">
+          What is the Creator Design Kit?
+        </h2>
+        <p class="text-xl text-white/70 mb-8">
+          The 80/20 Design Challenge is for non-designers who want to level up their design chops, learning just the most important and fundamental aspects of design.
+        </p>
+        <div class="aspect-video rounded-xl overflow-hidden">
+          <iframe
+            src="https://player.vimeo.com/video/730167942?h=0&title=0&byline=0&portrait=0"
+            class="w-full h-full"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Problem/Solution -->
-  <section class="py-16 border-t border-white/10">
+  <section class="py-16">
     <div class="container">
       <div class="max-w-3xl mx-auto">
         <h2 class="font-display text-3xl md:text-4xl font-bold mb-6">
@@ -158,34 +323,142 @@ const faqs = [
     </div>
   </section>
 
-  <!-- What's Included -->
-  <section class="py-16 border-t border-white/10">
+  <!-- Line Divider -->
+  <div class="flex justify-center py-16">
+    <img src="/images/site/line-divider.svg" alt="" class="h-48 md:h-64" />
+  </div>
+
+  <!-- Who Is This Course For -->
+  <section class="py-16">
     <div class="container">
       <div class="max-w-4xl mx-auto">
-        <h2 class="font-display text-3xl md:text-4xl font-bold mb-12 text-center">What's included</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div class="text-center">
-            <div class="text-5xl mb-4">📧</div>
-            <h3 class="font-heading font-bold text-xl mb-2">20 Email Lessons</h3>
-            <p class="text-white/60">One lesson per weekday for 4 weeks. Weekends are for catching up.</p>
+        <p class="text-brand-coral text-sm font-semibold uppercase tracking-wider mb-8">Who Is This Course For?</p>
+
+        <!-- Three Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-16">
+          <div class="bg-brand-purple rounded-xl p-6">
+            <h3 class="font-heading font-bold text-xl mb-3">For coaches & creators</h3>
+            <p class="text-white/80">Learn the tools and skills to create stand out graphics for your business, social channels, and websites.</p>
           </div>
-          <div class="text-center">
-            <div class="text-5xl mb-4">🎥</div>
-            <h3 class="font-heading font-bold text-xl mb-2">20 Video Tutorials</h3>
-            <p class="text-white/60">Each video is under 20 minutes. Learn at your own pace.</p>
+          <div class="bg-brand-purple rounded-xl p-6">
+            <h3 class="font-heading font-bold text-xl mb-3">For aspiring designers</h3>
+            <p class="text-white/80">Level up your career by learning the fundamentals of Figma, and making better design decisions in your design projects.</p>
           </div>
-          <div class="text-center">
-            <div class="text-5xl mb-4">📁</div>
-            <h3 class="font-heading font-bold text-xl mb-2">20 Figma Files</h3>
-            <p class="text-white/60">Hands-on practice files for every lesson.</p>
+          <div class="bg-brand-purple rounded-xl p-6">
+            <h3 class="font-heading font-bold text-xl mb-3">For PMs, marketers, and developers</h3>
+            <p class="text-white/80">Learn the fundamentals of design so you can better communicate and support the designers around you.</p>
           </div>
+        </div>
+
+        <!-- Video Section -->
+        <h2 class="font-display-black-italic text-3xl md:text-4xl lg:text-5xl mb-6">
+          Over-the-shoulder videos and walkthroughs for non-designers
+        </h2>
+        <p class="text-xl text-white/70 mb-6">
+          This course is built for non-designers who care about design, but feel intimidated, scared, or don't have confidence in making design decisions.
+        </p>
+        <p class="text-xl text-white/70 mb-6">
+          It's for the ultimate beginner who wants to feel comfortable using tools like Figma, which allows you to create anything you want.
+        </p>
+        <p class="text-xl text-white/70 mb-8">
+          You might also be an engineer, PM, or marketing director who wants to better communicate your design needs, but lack the visual communication skills to feel comfortable expressing ideas.
+        </p>
+
+        <!-- Figma Walkthrough Video -->
+        <div class="rounded-2xl overflow-hidden">
+          <video
+            src="/images/products/cdk-figma-walkthrough.mp4"
+            autoplay
+            loop
+            muted
+            playsinline
+            class="w-full"
+          ></video>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Line Divider -->
+  <div class="flex justify-center py-16">
+    <img src="/images/site/line-divider.svg" alt="" class="h-48 md:h-64" />
+  </div>
+
+  <!-- What You'll Get -->
+  <section class="py-16">
+    <div class="container">
+      <div class="max-w-4xl mx-auto">
+        <p class="text-brand-coral text-sm font-semibold uppercase tracking-wider mb-4">What You'll Get</p>
+        <h2 class="font-display-black-italic text-3xl md:text-4xl lg:text-5xl mb-8">
+          Emails nudging you to take action
+        </h2>
+
+        <!-- Stats -->
+        <div class="grid grid-cols-3 gap-4 mb-8">
+          <div class="bg-brand-purple rounded-xl p-6 text-center">
+            <div class="text-4xl md:text-5xl font-bold mb-2">1</div>
+            <div class="text-sm text-white/80">Lesson per day</div>
+          </div>
+          <div class="bg-brand-purple rounded-xl p-6 text-center">
+            <div class="text-4xl md:text-5xl font-bold mb-2">20</div>
+            <div class="text-sm text-white/80">Videos</div>
+          </div>
+          <div class="bg-brand-purple rounded-xl p-6 text-center">
+            <div class="text-4xl md:text-5xl font-bold mb-2">20</div>
+            <div class="text-sm text-white/80">Figma Lesson Files</div>
+          </div>
+        </div>
+
+        <!-- Lesson Preview Grid -->
+        <div class="grid grid-cols-2 gap-1 mb-8">
+          <img src="/images/products/cdk-lesson-1.webp" alt="Lesson preview" class="w-full" />
+          <img src="/images/products/cdk-lesson-2.webp" alt="Lesson preview" class="w-full" />
+          <img src="/images/products/cdk-lesson-3.webp" alt="Lesson preview" class="w-full" />
+          <img src="/images/products/cdk-lesson-4.webp" alt="Lesson preview" class="w-full" />
+        </div>
+
+        <p class="text-xl text-white/70 mb-6">
+          Our design challenge is setup to help you learn incrementally, each day. We start on Mondays, and end on Friday. This gives you the weekend to catch up.
+        </p>
+
+        <p class="text-xl text-white font-semibold mb-4">Here's what you'll get each day:</p>
+        <ul class="space-y-2 mb-8 text-xl text-white/70">
+          <li class="flex items-start gap-3">
+            <span class="text-white/50">•</span>
+            <span>An email with a specific design lesson</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-white/50">•</span>
+            <span>A link to a less than 20 minute video</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-white/50">•</span>
+            <span>A Figma design file to follow along with</span>
+          </li>
+        </ul>
+
+        <!-- Email Preview Video -->
+        <div class="rounded-2xl overflow-hidden">
+          <video
+            src="/images/products/cdk-email-preview.mp4"
+            autoplay
+            loop
+            muted
+            playsinline
+            class="w-full"
+          ></video>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Line Divider -->
+  <div class="flex justify-center py-16">
+    <img src="/images/site/line-divider.svg" alt="" class="h-48 md:h-64" />
+  </div>
+
   <!-- Curriculum -->
-  <section class="py-16 border-t border-white/10">
+  <section class="py-16">
     <div class="container">
       <div class="max-w-4xl mx-auto">
         <h2 class="font-display text-3xl md:text-4xl font-bold mb-12 text-center">The 20-day curriculum</h2>
@@ -211,61 +484,64 @@ const faqs = [
     </div>
   </section>
 
-  <!-- Who It's For -->
-  <section class="py-16 border-t border-white/10">
-    <div class="container">
-      <div class="max-w-3xl mx-auto">
-        <h2 class="font-display text-3xl md:text-4xl font-bold mb-8 text-center">Who this is for</h2>
-        <div class="space-y-4">
-          <div class="flex items-start gap-4 bg-brand-dark-light rounded-xl p-6 border border-white/10">
-            <span class="text-3xl">🎨</span>
-            <div>
-              <h3 class="font-heading font-bold text-lg">Coaches & Creators</h3>
-              <p class="text-white/60">Building branded graphics for your content, courses, and social media.</p>
-            </div>
-          </div>
-          <div class="flex items-start gap-4 bg-brand-dark-light rounded-xl p-6 border border-white/10">
-            <span class="text-3xl">📈</span>
-            <div>
-              <h3 class="font-heading font-bold text-lg">Aspiring Designers</h3>
-              <p class="text-white/60">Looking to level up your fundamentals and build a solid foundation.</p>
-            </div>
-          </div>
-          <div class="flex items-start gap-4 bg-brand-dark-light rounded-xl p-6 border border-white/10">
-            <span class="text-3xl">💼</span>
-            <div>
-              <h3 class="font-heading font-bold text-lg">PMs, Marketers & Developers</h3>
-              <p class="text-white/60">Improving your design communication and making better visual decisions.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- Line Divider -->
+  <div class="flex justify-center py-16">
+    <img src="/images/site/line-divider.svg" alt="" class="h-48 md:h-64" />
+  </div>
 
   <!-- Testimonials -->
-  <section class="py-16 border-t border-white/10">
+  <section class="py-16">
     <div class="container">
       <h2 class="font-display-black-italic text-3xl md:text-4xl mb-12 text-center">What students say</h2>
     </div>
     <TestimonialScroll rows={testimonialRows} />
   </section>
 
+  <!-- Line Divider -->
+  <div class="flex justify-center py-16">
+    <img src="/images/site/line-divider.svg" alt="" class="h-48 md:h-64" />
+  </div>
+
   <!-- Instructor -->
-  <section class="py-16 border-t border-white/10">
+  <section class="py-16">
     <div class="container">
       <AboutNate eyebrow="Your Instructor" headline="Hi, I'm Nate!" />
     </div>
   </section>
 
+  <!-- Line Divider -->
+  <div class="flex justify-center py-16">
+    <img src="/images/site/line-divider.svg" alt="" class="h-48 md:h-64" />
+  </div>
+
   <!-- Pricing -->
-  <section id="pricing" class="py-16 border-t border-white/10">
+  <section id="pricing" class="py-16">
     <div class="container">
       <div class="max-w-xl mx-auto text-center">
-        <h2 class="font-display text-3xl md:text-4xl font-bold mb-8">Get the course</h2>
+        <h2 class="font-display text-3xl md:text-4xl font-bold mb-4">Get the course</h2>
+        <p class="text-white/60 mb-8">Less than the cost of one design project that doesn't work out.</p>
+
+        <!-- Price Anchoring -->
+        <div class="bg-white/5 rounded-xl p-4 mb-6 text-left">
+          <p class="text-sm text-white/60 mb-2">What you'd spend without this course:</p>
+          <div class="flex justify-between text-sm mb-1">
+            <span class="text-white/50">Designer who misses the mark</span>
+            <span class="text-white/50 line-through">$500-2,000</span>
+          </div>
+          <div class="flex justify-between text-sm mb-1">
+            <span class="text-white/50">Design tools & templates</span>
+            <span class="text-white/50 line-through">$200-500</span>
+          </div>
+          <div class="flex justify-between text-sm">
+            <span class="text-white/50">Hours of frustration</span>
+            <span class="text-white/50">Priceless</span>
+          </div>
+        </div>
+
         <div class="bg-brand-dark-light rounded-2xl p-8 border border-brand-coral/30">
           <span class="text-brand-purple text-sm font-semibold uppercase tracking-wider">Full Access</span>
           <div class="text-5xl font-bold text-brand-coral my-4">$249</div>
+          <p class="text-white/60 text-sm mb-6">One-time payment. Lifetime access.</p>
           <ul class="text-left space-y-3 mb-8">
             <li class="flex items-center gap-2 text-white/70">
               <svg class="w-5 h-5 text-brand-coral" fill="currentColor" viewBox="0 0 20 20">
@@ -298,17 +574,46 @@ const faqs = [
               Lifetime access
             </li>
           </ul>
-          <a href="https://buy.stripe.com/placeholder" class="btn btn-primary w-full text-lg py-4">
-            Get The Creator Design Kit
+          <a href="https://shop.approachabledesign.co/creator-design-kit/" target="_blank" rel="noopener noreferrer" class="btn btn-primary w-full text-lg py-4">
+            Start Designing with Confidence
           </a>
-          <p class="text-white/50 text-sm mt-4">30-day money-back guarantee</p>
+
+          <!-- Risk Reversal - Prominent -->
+          <div class="mt-6 pt-6 border-t border-white/10">
+            <p class="text-white font-semibold mb-2">30-Day Money-Back Guarantee</p>
+            <p class="text-white/60 text-sm">Complete the course and if you're not satisfied, get a full refund. No questions asked.</p>
+          </div>
+        </div>
+
+        <!-- Secure Checkout -->
+        <div class="mt-8 flex items-center justify-center gap-4 text-white/60">
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd" />
+          </svg>
+          <span class="text-xs uppercase tracking-wider font-semibold">100% Secure Checkout</span>
+          <img src="/images/site/cc-icons.png" alt="Visa, Mastercard, American Express, Discover, PayPal, Apple Pay" class="h-6" />
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Money Back Guarantee Banner -->
+  <section class="py-12 bg-brand-dark-light">
+    <div class="container">
+      <div class="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8">
+        <img src="/images/site/money-back-badge.svg" alt="100% Money Back Guarantee" class="w-24 h-24" />
+        <h3 class="font-display-black-italic text-2xl md:text-3xl text-center md:text-left">30-Day Money Back Guarantee</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Line Divider -->
+  <div class="flex justify-center py-16">
+    <img src="/images/site/line-divider.svg" alt="" class="h-48 md:h-64" />
+  </div>
+
   <!-- FAQs -->
-  <section class="py-16 border-t border-white/10">
+  <section class="py-16">
     <div class="container">
       <div class="max-w-2xl mx-auto">
         <h2 class="font-display text-3xl md:text-4xl font-bold mb-12 text-center">Frequently asked questions</h2>
@@ -324,20 +629,78 @@ const faqs = [
     </div>
   </section>
 
-  <!-- Final CTA -->
-  <section class="py-16 border-t border-white/10">
-    <div class="container text-center">
-      <h2 class="font-display text-3xl md:text-4xl font-bold mb-6">
-        Ready to level up your design skills?
-      </h2>
-      <p class="text-lg text-white/60 mb-8 max-w-xl mx-auto">
-        Join 250+ creators who have transformed their visual design skills with The Creator Design Kit.
-      </p>
-      <a href="#pricing" class="btn btn-primary text-lg px-8 py-4">
-        Get the Course — $249
-      </a>
+
+  <!-- Disqualification Section -->
+  <section class="py-16">
+    <div class="container">
+      <div class="max-w-2xl mx-auto">
+        <h2 class="font-display text-2xl md:text-3xl font-bold mb-8 text-center">Is this course right for you?</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <!-- Good Fit -->
+          <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
+            <p class="text-brand-coral font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+              </svg>
+              This IS for you if:
+            </p>
+            <ul class="space-y-2 text-white/70 text-sm">
+              <li>You're willing to put in 20 minutes a day for 20 days</li>
+              <li>You want to stop relying on designers for every visual</li>
+              <li>You're open to learning a new tool (Figma)</li>
+              <li>You're a creator, founder, or professional who needs design skills</li>
+            </ul>
+          </div>
+
+          <!-- Not For You -->
+          <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
+            <p class="text-white/50 font-semibold mb-4 flex items-center gap-2">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+              This is NOT for you if:
+            </p>
+            <ul class="space-y-2 text-white/50 text-sm">
+              <li>You're already a professional designer</li>
+              <li>You expect results without doing the work</li>
+              <li>You just want to buy something and never use it</li>
+              <li>You're looking for advanced design techniques</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
+
+  <!-- Line Divider -->
+  <div class="flex justify-center py-16">
+    <img src="/images/site/line-divider.svg" alt="" class="h-48 md:h-64" />
+  </div>
+
+  <!-- Final CTA -->
+  <section class="py-16">
+    <div class="container">
+      <div class="max-w-2xl mx-auto bg-brand-dark-light rounded-2xl p-8 md:p-12 border border-white/10 text-center">
+        <p class="text-brand-coral text-sm font-semibold uppercase tracking-wider mb-4">Next cohort starts Monday</p>
+        <h2 class="font-display-black-italic text-3xl md:text-4xl font-bold mb-6">
+          20 days from now, you could be designing with confidence
+        </h2>
+        <p class="text-lg text-white/60 mb-4">
+          Or you could still be second-guessing every font choice and paying designers who don't get your vision.
+        </p>
+        <p class="text-white mb-8">
+          250+ creators have already made the choice.
+        </p>
+        <a href="#pricing" class="btn btn-primary text-lg px-8 py-4">
+          Start Your Design Journey — $249
+        </a>
+        <p class="text-white/50 text-sm mt-4">30-day money-back guarantee</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Countdown Timer -->
+  <CountdownTimer headline="Next course starts Monday!" />
 </Layout>
 
 <style>

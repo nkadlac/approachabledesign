@@ -2,7 +2,7 @@
 title: "How to design a landing page for a $1,000 product or service"
 date: 2026-01-08
 category: branding
-description: "Creating a landing page is like working on a piece of art. You're never really done improving it. Even after designing your landing page, you'll be testing copy, creating new layouts, and finding new"
+description: "Learn the components of a $1,000 landing page offer"
 image: "/images/articles/4bW19YgTtSf9hArsW7IkPIeR4.jpg.webp"
 
 ---
@@ -19,9 +19,9 @@ In this last part of my four-part series, I want to focus on $1,000 landing page
 
 **In case you missed it, here are the other three parts:**
 
-- Part 1: [How to design a newsletter landing page](https://approachabledesign.co/articles/newsletter-landing-page)
+- Part 1: [How to design a newsletter landing page](/articles/newsletter-landing-page)
 - Part 2: [How to design a 'Coming Soon' landing page](/articles/waitlist-landing-page)
-- Part 3: [How to flip a free workshop into an evergreen product landing page](https://approachabledesign.co/articles/digital-product-landing-page)
+- Part 3: [How to flip a free workshop into an evergreen product landing page](/articles/digital-product-landing-page)
 - Part 4: You're here!
 
 ![How long should your landing page be?](/images/articles/jhyxkQwSOHIHVqjPqYtmrSEBrA.jpg.webp)## Myths about the length of landing pages
@@ -145,7 +145,7 @@ Here are a few guidelines to remember when designing:
 - Use the same primary, secondary, and CTA colors
 - Mix up the layout with one, two or three-column variations
 - For body text, use 140-150% leading to increase legibility
-- [Follow these top 20 design tips](https://approachabledesign.co/articles/20-design-tips-for-non-designers)
+- [Follow these top 20 design tips](/articles/20-design-tips-for-non-designers)
 
 ### Responsive Design
 
@@ -246,7 +246,7 @@ Designing a great landing page in 2023 requires a deep understanding of your tar
 
 Landing pages should be designed with a clear and focused layout, highlighting important elements such as the headline, copy, and call-to-action. Structuring the page in an organized manner will help guide the users’ attention and create value and a sense of urgency.
 
-I also tend to design my landing pages in [Figma](https://approachabledesign.co/courses/8020-design-challenge) first, so I can get a feel for how the design of a page interacts with the copy. it's a quick way to get feedback before spending dozens of hours developing the page. 
+I also tend to design my landing pages in Figma first, so I can get a feel for how the design of a page interacts with the copy. It's a quick way to get feedback before spending dozens of hours developing the page. Check out [The Creator Design Kit](/products/creator-design-kit) to learn Figma. 
 
 ### How to create a landing page?
 

@@ -3,11 +3,11 @@ title: "How to design a pre-launch landing page"
 date: 2023-07-30
 type: newsletter
 category: personal
-description: "This week I launched a new product for ​designing thumbnails​(https://approachabledesign.co/products/youtube-masterclass) and learned a lot about how to walk the line between the act of building and t"
+description: "This week I launched a new product for ​designing thumbnails​(/products/youtube-masterclass) and learned a lot about how to walk the line between the act of building and t"
 image: "/images/articles/IRNtXsHr4ddEXTcMdPJFNNlsVRQ.jpg.webp"
 ---
 
-This week I launched a new product for [​**designing thumbnails**​](https://approachabledesign.co/products/youtube-masterclass) and learned a lot about how to walk the line between the act of building and the act of selling.
+This week I launched a new product for [​**designing thumbnails**​](/products/youtube-masterclass) and learned a lot about how to walk the line between the act of building and the act of selling.
 
 Transitioning from writing about anything with a focus on building something can catch people off guard.
 
@@ -51,7 +51,7 @@ We're potty training our 2-year-old daughter this weekend so it's been incredibl
 
 Special thanks to [​**Heidi (Sew Heidi)**​](https://successfulfashiondesigner.com/?utm_source=approachabledesign&utm_medium=email) for her encouragement and help in the past week.
 
-On tap for next week will be the third installment of my landing page series and the behind-the-scenes of building out my own [​**Design Vault**​](https://approachabledesign.co/products/design-vault) landing page.
+On tap for next week will be the third installment of my landing page series and the behind-the-scenes of building out my own [​**Design Vault**​](/products/design-vault) landing page.
 
 ​
 

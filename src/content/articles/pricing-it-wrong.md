@@ -41,7 +41,7 @@ More changes are coming, but if you’ve been contemplating diving deeper into d
 
 ![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)## 🎨 Better Design Decisions
 
-How to improve your slide decks in [​**seven steps**​](https://approachabledesign.co/articles/what-makes-a-good-slide-deck)
+How to improve your slide decks in [​**seven steps**​](/articles/what-makes-a-good-slide-deck)
 
 [​**Watch how these newsletter animations are created in Keynote**​](https://x.com/rickyshq/status/1708486626395951400?s=20)
 

@@ -2,7 +2,7 @@
 title: "The four page personal website that will never get updated"
 date: 2026-01-08
 category: ai
-description: "After four years, I've started to redesign my personal website."
+description: "Why you'll never stay motivated to update your website when you use these four generic pages"
 image: "/images/articles/ooBFjggSGmvKkYjdPlf2H6xTqI.png"
 
 ---

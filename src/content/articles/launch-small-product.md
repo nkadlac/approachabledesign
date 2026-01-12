@@ -39,7 +39,7 @@ Recognizing your deficiencies and risks early on can help guide you to make bett
 
 If you're a technician and want to avoid the roles of a manager and entrepreneur, ask for help and learn to develop those skills, or reconsider where you spend your time.
 
-Even if it's something small, like my [​**YouTube Masterclass**​](https://approachabledesign.co/products/youtube-masterclass), I knew I couldn't build it if I wasn't going to commit to testing, marketing, and selling it either.
+Even if it's something small, like my [​**YouTube Masterclass**​](/products/youtube-masterclass), I knew I couldn't build it if I wasn't going to commit to testing, marketing, and selling it either.
 
 At [​**Hey Good Game**​](https://www.hey.gg/), none of us could handle every aspect of the business. It required us to partner up and rely on the different skills we bring.
 
@@ -51,9 +51,9 @@ Don't be afraid to have fun and start your next project. But make sure to consid
 
 [​**Welcome to the Age of Average**​](https://www.alexmurrell.co.uk/articles/the-age-of-average?utm_source=approachabledesign&utm_medium=email): ”Our visual culture is flatlining and the only cure is creativity.“ *(via *[​*Jeremy Enns*​](https://podcastmarketingacademy.com/scrappy-podcasting-newsletter/)*)*
 
-[​**How to redesign your Google Docs experience**​](https://approachabledesign.co/articles/google-docs-design): Turn your stale and bland writing experience into something more Zen-like.
+[​**How to redesign your Google Docs experience**​](/articles/google-docs-design): Turn your stale and bland writing experience into something more Zen-like.
 
-[​**A website and an email list are still underrated**​](https://twitter.com/tom_hirst/status/1686689871396478976?utm_source=approachabledesign&utm_medium=email): I should write more about this, but this combination acts as a ticket to any concert you want to go to. *(I'm still fond of the *[*personal site*](https://approachabledesign.co/articles/personal-website)* I designed for the extraordinary writer, *[​***Charlie Bleecker***​](https://charliebleecker.com/)*. If you ever want to build something like this for yourself, let's chat.)*
+[​**A website and an email list are still underrated**​](https://twitter.com/tom_hirst/status/1686689871396478976?utm_source=approachabledesign&utm_medium=email): I should write more about this, but this combination acts as a ticket to any concert you want to go to. *(I'm still fond of the *[*personal site*](/articles/personal-website)* I designed for the extraordinary writer, *[​***Charlie Bleecker***​](https://charliebleecker.com/)*. If you ever want to build something like this for yourself, let's chat.)*
 
 ## 📸 Make It Yours Moment
 

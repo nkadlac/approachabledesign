@@ -45,8 +45,6 @@ This grid can be created easily in most design software, or by turning on grid v
 
 You’re welcome. You now have a rule of thirds grid to use. 
 
-### 
-
 ### **Find your main elements**
 
 The human eye is the fastest muscle in the human body, which is where the phrase, "In the blink of an eye" comes from. It can focus on 50 different objects every second. Our eyes are constantly scanning, and processing information, and are designed to keep us safe.
@@ -75,7 +73,7 @@ Start by choosing just one sweet spot, and anchor your design to that.
 
 ### **Use the divider lines of the grid to structure your design elements**
 
-The rule of thirds can be used in various ways in graphic design. It can be used in web design to place a button at a critical spot on your [landing page](https://approachabledesign.co/articles/1000-landing-page-offer), key information about an event on a poster, or by pairing text with an image in a thumbnail.
+The rule of thirds can be used in various ways in graphic design. It can be used in web design to place a button at a critical spot on your [landing page](/articles/1000-landing-page-offer), key information about an event on a poster, or by pairing text with an image in a thumbnail.
 
 While there are four sweet spots to use to your advantage, you can also use the divider lines to anchor content. Book covers are a great example of how divider lines are incorporated into graphic design and the rule of thirds.
 
@@ -87,7 +85,9 @@ Using the top horizontal line, we can create a visual balance that increases the
 
 The lower horizontal line can also act as a sturdy anchor point and creating an interesting composition.
 
-![Book cover design by Daniel Gray](/images/articles/bvzWLafL0AxE4ndi0FxA5WTLRQ.jpg.webp)### **Use the rule to create visual interest**
+![Book cover design by Daniel Gray](/images/articles/bvzWLafL0AxE4ndi0FxA5WTLRQ.jpg.webp)
+
+### **Use the rule to create visual interest**
 
 To create visual interest, you need to use visual contrast. Contrast draws our eyes in, creating tension between objects. Sometimes it can be between the foreground and the background, or between typography and shapes.
 
@@ -105,7 +105,9 @@ Normally when using the rule of thirds grid, you rely on the sweet spots or the 
 
 Note how the designer of the classic cover artwork of the movie Jaws used the central column to bring focus on the shark as well as the swimmer. The negative space in both the left and right columns is empty, creating tension between the two. There's nothing in either the bottom left or the bottom right thirds, bringing the viewer's eye straight to the center.
 
-![Jaws cover art](/images/articles/CVSRnfxvvzadEXL8RcyvZdM7zI8.jpg.webp)### **Using the row of thirds**
+![Jaws cover art](/images/articles/CVSRnfxvvzadEXL8RcyvZdM7zI8.jpg.webp)
+
+### **Using the row of thirds**
 
 Breaking away from the rule of thirds, let's apply the rule in a counterintuitive way. Just like we did using columns, another way to break the rule of thirds grid is to focus on using the rows.
 
@@ -113,7 +115,9 @@ By narrowing in on the rows of our design, we can use negative space to achieve 
 
 Note how the Black Swan title spans between the bottom left and bottom right quadrants to grab our attention, while the top two-thirds are used for just the art. This is a common way to divide up your design and create contrast between the sections.
 
-![Black swan cover art](/images/articles/BHyrkc6gMmnYelhzujKUtRf0liI.jpg.webp)### **Use negative space to your advantage**
+![Black swan cover art](/images/articles/BHyrkc6gMmnYelhzujKUtRf0liI.jpg.webp)
+
+### **Use negative space to your advantage**
 
 It's not easy wanting to fill the white space in our designs. As a designer, even I have to constantly have to remind myself that I don't actually need to put a chair in the empty corner of my room. White space is a useful tool to increase contrast in our designs.
 
@@ -125,7 +129,9 @@ By pushing past the grid lines, you'll add a distinct look to your piece that is
 
 ![Lower quadrant framing of Mr. Robot](/images/articles/tBCOYgRSNUnQKzwUDkodODytJw.jpg.webp)
 
-![Bottom third framing of Mr. Robot](/images/articles/DJnDCl5F6mY6V6vvoLCizPWcDo.jpg.webp)### **Use opposing quadrants to increase contrast**
+![Bottom third framing of Mr. Robot](/images/articles/DJnDCl5F6mY6V6vvoLCizPWcDo.jpg.webp)
+
+### **Use opposing quadrants to increase contrast**
 
 Another unique way to use the rule of thirds is to use opposing quadrants to draw your eye in intentionally. You don’t want to draw focus on two areas sitting side by side, since it reduces the amount of flow and eye travel. 
 
@@ -173,4 +179,4 @@ Look for other ways to apply the rule of thirds to your bedroom, bathroom, and l
 
 The rule of thirds is just a rule of thumb. But it's a great way to adhere to a simple guideline while giving your design some structure. Many designers use the rule of thirds in web design, print design, [YouTube thumbnails](/products/youtube-masterclass/workshop), [slide deck design](/articles/what-makes-a-good-slide-deck), and much more.
 
-Once you see it, you'll never unsee it. And if you want to get better at using the rule of thirds in your own designs, take the [80/20 design challenge](/courses/8020-design-challenge).
+Once you see it, you'll never unsee it. And if you want to get better at using the rule of thirds in your own designs, check out [The Creator Design Kit](/products/creator-design-kit).

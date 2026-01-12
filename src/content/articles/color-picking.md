@@ -2,7 +2,7 @@
 title: "How to pick colors with confidence"
 date: 2026-01-08
 category: youtube-design
-description: "“Does this color look good?”"
+description: "Making timeless color decisions starts with choosing your first primary brand color"
 image: "/images/articles/hTtps825riYr7khlPKWg8zQcVc.png"
 
 ---
@@ -25,7 +25,7 @@ Color is important because it is such as personal decision, and it’s something
 
 Then in 6 months when you’re bored with it, or when some new trend comes along, your choice quickly feels dated or detached.
 
-But, if you want to confidently pick colors that last, you need a [competitive differentiation](https://approachabledesign.co/articles/visual-style). Thankfully you have that. 
+But, if you want to confidently pick colors that last, you need a [competitive differentiation](/articles/visual-style). Thankfully you have that. 
 
 It comes from your own personality and experiences. 
 
@@ -59,7 +59,7 @@ What comes to mind is the sun, the sand, and palm trees. I would write these dow
 
 And if the same word comes up more than once, that’s a good sign as you’ll see. 
 
-**Spoiler alert: These keywords are the premise of my own *[*personal website*](https://approachabledesign.co/articles/personal-website)*.*
+**Spoiler alert: These keywords are the premise of my own *[*personal website*](/articles/personal-website)*.*
 
 ### Step 1: Spend one minute on each question and write 2-3 words for each:
 
@@ -137,6 +137,6 @@ You just did something most people have never thought about. You now have a colo
 
 Just like I use gold, green and a sandy off-white in my [own site](https://www.kadlac.com/), they all come back to the sun, sand and palm trees from my first trip to California. 
 
-Having this one color is the centerpiece of creating your own unique palette. It becomes the starting point for things like your [YouTube thumbnails](https://approachabledesign.co/articles/youtube-thumbnail-design), [slide decks](https://approachabledesign.co/articles/slide-deck-design), and anything else you create.
+Having this one color is the centerpiece of creating your own unique palette. It becomes the starting point for things like your [YouTube thumbnails](/articles/youtube-thumbnail-design), [slide decks](/articles/slide-deck-design), and anything else you create.
 
-This is how you start to build your entire [design system](https://approachabledesign.co/courses/8020-design-challenge) from the inside-out.
+This is how you start to build your entire design system from the inside-out. [The Creator Design Kit](/products/creator-design-kit) can help you get started.

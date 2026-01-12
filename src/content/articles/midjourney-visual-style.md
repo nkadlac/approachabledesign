@@ -2,7 +2,7 @@
 title: "Discover your visual style using one word in Midjourney"
 date: 2026-01-08
 category: youtube-design
-description: "Learning a new skill requires an appreciation for what's come before."
+description: "Develop your brand aesthetic starting with just one word in Midjourney"
 image: "/images/articles/IeeyFJWFOtUdoY1OEKFKRuhLM.jpg"
 
 ---
@@ -88,4 +88,4 @@ These might inform my style if I want to go back to Midjourney, but I’m normal
 
 Suddenly I have a few more words to describe my own interests and aesthetics, pulled directly from a sample wallpaper image I found in a store. 
 
-Now, if I ever want to develop a new brand aesthetic for a client, [choose colors](https://approachabledesign.co/articles/color-picking), design [YouTube thumbnails](https://approachabledesign.co/articles/youtube-thumbnail-design), or explore my own [visual style](https://approachabledesign.co/articles/visual-style), I can use a single photo to make more timeless design decisions from my own visual curiosity.
+Now, if I ever want to develop a new brand aesthetic for a client, [choose colors](/articles/color-picking), design [YouTube thumbnails](/articles/youtube-thumbnail-design), or explore my own [visual style](/articles/visual-style), I can use a single photo to make more timeless design decisions from my own visual curiosity.

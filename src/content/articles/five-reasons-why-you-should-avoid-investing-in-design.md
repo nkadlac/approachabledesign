@@ -39,7 +39,7 @@ Your brand does not equal [**your colors or your logo**](https://twitter.com/kar
 
 ​[**How to create beautiful product shots with AI**](https://twitter.com/alixqureshi/status/1708828298833166396?utm_source=approachabledesign&utm_medium=email)​​
 
-​[**29 best fonts for YouTube thumbnails**](https://approachabledesign.co/articles/best-youtube-fonts?utm_source=approachabledesign&utm_medium=email)
+​[**29 best fonts for YouTube thumbnails**](/articles/best-youtube-fonts?utm_source=approachabledesign&utm_medium=email)
 
 ## 📸 Make It Yours Moment
 

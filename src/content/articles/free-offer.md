@@ -2,7 +2,7 @@
 title: "How to create a free or paid offering on your personal website"
 date: 2026-01-08
 category: branding
-description: "Every once in a while I'll stumble across a list of designer websites someone attempted to cobble together as a list of resources. In my experience, 90% of them end up as broken links, badly outdated"
+description: "Build in an opportunity engine by creating this one page that's missing from your site"
 image: "/images/articles/PoWgdsGNkU41O5BYMO8gVVtncTU.jpg"
 
 ---
@@ -11,7 +11,7 @@ Every once in a while I'll stumble across a list of designer websites someone at
 
 I'm as guilty as the next person. For a long time, mine was always in a state of being redesigned. 
 
-These [personal websites](https://approachabledesign.co/articles/personal-website) contain a portfolio project or two, an about page, and a goofy navigation system that looks like it was styled in the 1950s during the brutalist era. 
+These [personal websites](/articles/personal-website) contain a portfolio project or two, an about page, and a goofy navigation system that looks like it was styled in the 1950s during the brutalist era. 
 
 For most designers who pride themselves on being empathetic, many of our websites are more user-friendly to a toddler who is attracted to pink blobs and words that don't mean anything. 
 

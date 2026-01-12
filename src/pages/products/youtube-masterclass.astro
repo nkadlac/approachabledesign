@@ -60,19 +60,13 @@ const learningPoints = [
 ];
 
 const whatsInside = [
-  "90 minute masterclass video",
-  "Breaking down YouTube thumbnails from Colin & Samir, Mr. Beast, and Paul Millerd",
+  "Included is a 90 minute masterclass video going over what works and what doesn't.",
+  "Breaking down YouTube thumbnails from Colin & Samir, Mr. Beast, and Paul Millerd (self published author with 30k books sold)",
   "Over-the-shoulder examples using Figma to redesign Paul Millerd's YouTube thumbnails",
-  "Why designing in Figma vs Photoshop helps you move faster as a non-designer",
-  "Q&A covering Midjourney, when to use faces vs regular images, and more"
+  "Why designing in Figma vs Photoshop helps you move faster as a non-designer.",
+  "Q&A covering Midjourney, when to use faces vs regular images, and more."
 ];
 
-const thumbnailExamples = [
-  "/images/products/thumbnails/thumbnail-1.jpg",
-  "/images/products/thumbnails/thumbnail-2.jpg",
-  "/images/products/thumbnails/thumbnail-3.jpg",
-  "/images/products/thumbnails/thumbnail-4.jpg"
-];
 ---
 
 <Layout title="YouTube Thumbnail Masterclass - Approachable Design" description="Create great YouTube thumbnails without a designer. A self-paced workshop teaching timeless design principles for click-worthy thumbnails.">
@@ -83,7 +77,7 @@ const thumbnailExamples = [
         <span class="inline-block px-6 py-2 rounded-full border border-white/30 text-white/70 text-sm font-medium uppercase tracking-wider mb-6">
           For Content Creators and Non-Designers
         </span>
-        <h1 class="font-display-black-italic text-4xl md:text-5xl lg:text-6xl mb-6">
+        <h1 class="text-center text-balance font-display-black-italic text-4xl md:text-5xl lg:text-6xl mb-6">
           Thumbnail Design Workshop: Create great YouTube thumbnails <em class="text-white/70">(without a designer)</em>
         </h1>
         <p class="text-xl text-white/70 mb-8 max-w-3xl mx-auto">
@@ -118,39 +112,28 @@ const thumbnailExamples = [
         </div>
       </div>
 
-      <!-- Thumbnail Examples Carousel -->
-      <div class="mb-16 max-w-5xl mx-auto">
-        <div class="relative overflow-hidden rounded-2xl" id="thumbnail-carousel">
-          <div class="carousel-track flex transition-transform duration-500 ease-out">
-            {thumbnailExamples.map((src, index) => (
-              <div class="carousel-slide flex-shrink-0 w-full md:w-1/2 px-2">
-                <img
-                  src={src}
-                  alt={`Thumbnail example ${index + 1}`}
-                  class="w-full rounded-xl shadow-lg"
-                />
-              </div>
-            ))}
-            {/* Duplicate for infinite loop */}
-            {thumbnailExamples.map((src, index) => (
-              <div class="carousel-slide flex-shrink-0 w-full md:w-1/2 px-2">
-                <img
-                  src={src}
-                  alt={`Thumbnail example ${index + 1}`}
-                  class="w-full rounded-xl shadow-lg"
-                />
-              </div>
-            ))}
+      <!-- What's Inside - Two Column Layout -->
+      <div class="mb-16 max-w-6xl mx-auto">
+        <div class="md:flex items-center gap-12">
+          <!-- Grid Image -->
+          <div class="md:w-1/2 mb-8 md:mb-0">
+            <img
+              src="/images/products/yt-grid.avif"
+              alt="YouTube Thumbnail Masterclass screenshots"
+              class="w-full rounded-2xl"
+            />
           </div>
-          <!-- Navigation dots -->
-          <div class="flex justify-center gap-2 mt-6">
-            {thumbnailExamples.map((_, index) => (
-              <button
-                class="carousel-dot w-2 h-2 rounded-full bg-white/30 transition-colors"
-                data-index={index}
-                aria-label={`Go to slide ${index + 1}`}
-              ></button>
-            ))}
+          <!-- Content -->
+          <div class="md:w-1/2">
+            <h2 class="font-display-black-italic text-3xl md:text-4xl mb-8">What's inside</h2>
+            <ul class="space-y-5">
+              {whatsInside.map((item) => (
+                <li class="flex items-start gap-3">
+                  <span class="text-white/50 mt-1">•</span>
+                  <span class="text-white/80 text-lg">{item}</span>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>
@@ -170,32 +153,107 @@ const thumbnailExamples = [
         </div>
       </div>
 
-      <!-- What's Inside -->
-      <div class="mb-16 max-w-4xl mx-auto">
-        <h2 class="font-display-black-italic text-2xl md:text-3xl mb-8 text-center">What's Inside</h2>
-        <div class="bg-brand-dark-light rounded-2xl p-8 border border-white/10">
-          <ul class="space-y-4">
-            {whatsInside.map((item) => (
-              <li class="flex items-start gap-3">
-                <svg class="w-5 h-5 text-brand-purple flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-                </svg>
-                <span class="text-white/80 text-lg">{item}</span>
+      <!-- Real Examples Carousel -->
+      <div class="mb-16 max-w-5xl mx-auto">
+        <h2 class="font-display-black-italic text-2xl md:text-3xl mb-8 text-center">Real Examples</h2>
+        <div class="relative overflow-hidden rounded-2xl" id="examples-carousel">
+          <div class="examples-track flex transition-transform duration-500 ease-out">
+            <div class="flex-shrink-0 w-full md:w-1/2 px-2">
+              <img src="/images/products/thumbnails/freelance-thumb.jpg" alt="Freelance thumbnail example" class="w-full rounded-xl shadow-lg" />
+            </div>
+            <div class="flex-shrink-0 w-full md:w-1/2 px-2">
+              <img src="/images/products/thumbnails/nyc-show.jpg" alt="NYC show thumbnail example" class="w-full rounded-xl shadow-lg" />
+            </div>
+            <div class="flex-shrink-0 w-full md:w-1/2 px-2">
+              <img src="/images/products/thumbnails/sell-garden.jpg" alt="Sell garden thumbnail example" class="w-full rounded-xl shadow-lg" />
+            </div>
+            <div class="flex-shrink-0 w-full md:w-1/2 px-2">
+              <img src="/images/products/thumbnails/thumb-extra.jpg" alt="Additional thumbnail example" class="w-full rounded-xl shadow-lg" />
+            </div>
+            <!-- Duplicates for infinite loop -->
+            <div class="flex-shrink-0 w-full md:w-1/2 px-2">
+              <img src="/images/products/thumbnails/freelance-thumb.jpg" alt="Freelance thumbnail example" class="w-full rounded-xl shadow-lg" />
+            </div>
+            <div class="flex-shrink-0 w-full md:w-1/2 px-2">
+              <img src="/images/products/thumbnails/nyc-show.jpg" alt="NYC show thumbnail example" class="w-full rounded-xl shadow-lg" />
+            </div>
+          </div>
+          <!-- Navigation dots -->
+          <div class="flex justify-center gap-2 mt-6">
+            <button class="carousel-dot w-2 h-2 rounded-full bg-white/30 transition-colors" data-index="0" aria-label="Go to slide 1"></button>
+            <button class="carousel-dot w-2 h-2 rounded-full bg-white/30 transition-colors" data-index="1" aria-label="Go to slide 2"></button>
+            <button class="carousel-dot w-2 h-2 rounded-full bg-white/30 transition-colors" data-index="2" aria-label="Go to slide 3"></button>
+            <button class="carousel-dot w-2 h-2 rounded-full bg-white/30 transition-colors" data-index="3" aria-label="Go to slide 4"></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Midjourney Hero -->
+      <div class="mb-16 max-w-4xl mx-auto text-center">
+        <img
+          src="/images/products/midjourney.avif"
+          alt="Midjourney AI generated image example"
+          class="w-full max-w-lg mx-auto rounded-2xl mb-8"
+        />
+        <h2 class="font-display-black-italic text-3xl md:text-4xl lg:text-5xl mb-6">
+          Learn how to use AI tools like Midjourney even if you don't have any images
+        </h2>
+        <p class="text-white/70 text-lg md:text-xl">
+          AI is another tool to have at your disposal to create background images when you don't have anything compelling to use from your video.
+        </p>
+      </div>
+
+      <!-- Using AI Tools Section -->
+      <div class="mb-16 max-w-6xl mx-auto">
+        <div class="md:flex items-start gap-12">
+          <!-- Content -->
+          <div class="md:w-1/2 mb-8 md:mb-0">
+            <h2 class="font-display-black-italic text-3xl md:text-4xl mb-6">
+              Using AI Tools for Thumbnail Design
+            </h2>
+            <p class="text-white/70 text-lg mb-6">
+              AI tools can be a game-changer for non-designers looking to create great YouTube thumbnails.
+            </p>
+            <p class="text-white/70 text-lg mb-8">
+              I don't cover this in the YouTube workshop, but here are some alternatives:
+            </p>
+            <ul class="space-y-6">
+              <li>
+                <span class="text-white font-semibold">Midjourney:</span>
+                <span class="text-white/70"> Midjourney is an AI tool that allows you to create images in minutes. You can use it to generate background images, graphics, and even entire thumbnails. This tool is perfect for those moments when you need a quick, high-quality visual without spending hours in design software.</span>
               </li>
-            ))}
-          </ul>
+              <li>
+                <span class="text-white font-semibold">Visual Electric:</span>
+                <span class="text-white/70"> Visual Electric is becoming a fast favorite for generating consistent art-directed images.</span>
+              </li>
+              <li>
+                <span class="text-white font-semibold">Figma:</span>
+                <span class="text-white/70"> Figma is a versatile design tool that allows you to create and edit thumbnails with ease. It also features AI capabilities that can help generate design ideas, making the creative process more efficient. Figma's collaborative features are also great for getting feedback and making real-time adjustments.</span>
+              </li>
+              <li>
+                <span class="text-white font-semibold">Canva:</span>
+                <span class="text-white/70"> Canva is a popular design tool that offers a range of AI-powered features, including a thumbnail generator. With its user-friendly interface and extensive library of templates, Canva makes it easy for anyone to create professional-looking thumbnails, even without prior design experience.</span>
+              </li>
+              <li>
+                <span class="text-white font-semibold">Tips for using AI tools:</span>
+                <span class="text-white/70"> When using AI tools, make sure to provide clear instructions and guidelines. This helps the AI generate results that align with your vision. Also, don't be afraid to experiment and try out different options. The beauty of AI tools is their ability to quickly iterate and offer a variety of creative solutions.</span>
+              </li>
+            </ul>
+          </div>
+          <!-- Grid Image -->
+          <div class="md:w-1/2">
+            <img
+              src="/images/products/yt-grid.avif"
+              alt="YouTube Thumbnail examples"
+              class="w-full rounded-2xl"
+            />
+          </div>
         </div>
       </div>
 
       <!-- Testimonials -->
-      <div class="mb-16">
-        <h2 class="font-display-black-italic text-2xl md:text-3xl mb-8 text-center">What Students Say</h2>
-      </div>
+      <h2 class="font-display-black-italic text-2xl md:text-3xl mb-4 text-center">What Students Say</h2>
     </div>
-  </section>
-
-  <!-- Scrolling Testimonials - Full Width -->
-  <section class="py-8">
     <TestimonialScroll rows={testimonialRows} />
   </section>
 
@@ -322,9 +380,10 @@ const thumbnailExamples = [
   <section class="py-16 md:py-24">
     <div class="container">
       <!-- Pricing -->
-      <div id="pricing" class="max-w-5xl mx-auto">
-        <h2 class="font-display-black-italic text-2xl md:text-3xl mb-8 text-center">Choose Your Package</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div id="pricing" class="max-w-4xl mx-auto">
+        <h2 class="font-display-black-italic text-3xl md:text-4xl lg:text-5xl mb-4 text-center">Enroll in the YouTube Thumbnail Masterclass</h2>
+        <p class="text-white/60 text-lg text-center mb-12">Or get 1:1 design help with you or on a monthly basis</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
           <!-- Masterclass Only -->
           <div class="bg-brand-dark-light rounded-2xl p-6 border border-white/10">
             <h3 class="font-heading font-bold text-xl mb-2">Get the Masterclass</h3>
@@ -357,7 +416,7 @@ const thumbnailExamples = [
                 Bonus #3: YouTube Thumbnail Mockup
               </li>
             </ul>
-            <a href="https://natekadlac.gumroad.com/l/youtube-thumbnail-masterclass" target="_blank" rel="noopener noreferrer" class="btn btn-primary w-full text-center">
+            <a href="https://shop.approachabledesign.co/youtube-thumbnail-masterclass" target="_blank" rel="noopener noreferrer" class="btn btn-primary w-full text-center">
               Get Instant Access
             </a>
           </div>
@@ -394,45 +453,8 @@ const thumbnailExamples = [
                 All three bonuses included
               </li>
             </ul>
-            <a href="https://natekadlac.gumroad.com/l/youtube-thumbnail-masterclass-consult" target="_blank" rel="noopener noreferrer" class="btn btn-primary w-full text-center">
+            <a href="https://shop.approachabledesign.co/youtube-thumbnail-masterclass-bundle" target="_blank" rel="noopener noreferrer" class="btn btn-primary w-full text-center">
               Get Instant Access
-            </a>
-          </div>
-
-          <!-- Done For You -->
-          <div class="bg-brand-dark-light rounded-2xl p-6 border border-white/10">
-            <span class="text-brand-coral text-xs font-semibold uppercase">Beta - Only 2 spots</span>
-            <h3 class="font-heading font-bold text-xl mb-2 mt-1">Done For You</h3>
-            <p class="text-4xl font-bold text-brand-coral mb-1">$1,299</p>
-            <p class="text-sm text-white/50 mb-4">/month</p>
-            <ul class="space-y-3 mb-6">
-              <li class="flex items-start gap-2 text-white/70 text-sm">
-                <svg class="w-4 h-4 text-brand-coral flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                </svg>
-                Unlimited thumbnails & revisions
-              </li>
-              <li class="flex items-start gap-2 text-white/70 text-sm">
-                <svg class="w-4 h-4 text-brand-coral flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                </svg>
-                2 day turnaround
-              </li>
-              <li class="flex items-start gap-2 text-white/70 text-sm">
-                <svg class="w-4 h-4 text-brand-coral flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                </svg>
-                Pause or cancel anytime
-              </li>
-              <li class="flex items-start gap-2 text-white/70 text-sm">
-                <svg class="w-4 h-4 text-brand-coral flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
-                </svg>
-                Includes Masterclass + Bonuses
-              </li>
-            </ul>
-            <a href="https://cal.com/natekadlac/youtube-thumbnails" target="_blank" rel="noopener noreferrer" class="btn btn-secondary w-full text-center">
-              Book a Call
             </a>
           </div>
         </div>
@@ -452,18 +474,17 @@ const thumbnailExamples = [
 </style>
 
 <script>
-  function initCarousel() {
-    const carousel = document.getElementById('thumbnail-carousel');
+  function initExamplesCarousel() {
+    const carousel = document.getElementById('examples-carousel');
     if (!carousel) return;
 
-    const track = carousel.querySelector('.carousel-track') as HTMLElement;
+    const track = carousel.querySelector('.examples-track') as HTMLElement;
     const dots = carousel.querySelectorAll('.carousel-dot');
-    const totalSlides = 4; // Number of original slides
+    const totalSlides = 4;
     let currentIndex = 0;
     let autoplayInterval: ReturnType<typeof setInterval>;
 
     function getSlideWidth() {
-      // On mobile: 100%, on desktop: 50%
       return window.innerWidth >= 768 ? 50 : 100;
     }
 
@@ -488,7 +509,6 @@ const thumbnailExamples = [
       currentIndex++;
       goToSlide(currentIndex);
 
-      // Reset to beginning seamlessly when reaching duplicated slides
       if (currentIndex >= totalSlides) {
         setTimeout(() => {
           currentIndex = 0;
@@ -505,7 +525,6 @@ const thumbnailExamples = [
       clearInterval(autoplayInterval);
     }
 
-    // Dot click handlers
     dots.forEach((dot) => {
       dot.addEventListener('click', () => {
         stopAutoplay();
@@ -515,20 +534,17 @@ const thumbnailExamples = [
       });
     });
 
-    // Pause on hover
     carousel.addEventListener('mouseenter', stopAutoplay);
     carousel.addEventListener('mouseleave', startAutoplay);
 
-    // Initial state
     updateDots();
     startAutoplay();
 
-    // Handle resize
     window.addEventListener('resize', () => {
       goToSlide(currentIndex, false);
     });
   }
 
-  initCarousel();
-  document.addEventListener('astro:after-swap', initCarousel);
+  initExamplesCarousel();
+  document.addEventListener('astro:after-swap', initExamplesCarousel);
 </script>

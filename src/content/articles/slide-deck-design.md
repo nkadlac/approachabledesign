@@ -2,7 +2,7 @@
 title: "How to Build a Presentation Deck That Doesn't Put People to Sleep"
 date: 2026-01-08
 category: youtube-design
-description: "Slide deck presentations are broken."
+description: "Great slide deck presentations are just great stories. Learn how to avoid over-designing your deck and stuffing it with useless information."
 image: "/images/articles/g3sAvvMCcDDnPiMR2FWuU8yA3js.jpg"
 
 ---
@@ -234,7 +234,7 @@ Illustrations can be usefulI won’t lie and say illustrations can’t be powerf
 
 Charts and graphsCharts or graphs can be extremely useful to tailor a story with data. Most of the time you’ll end up using screenshots or displaying other existing work, but if possible, try to create these yourself using your brand colors and aesthetic. 
 
-I use Figma to create all of my charts, but there are plenty of great creative tools like Canva, Keynote, and Figma. (If you want to learn more about using Figma, you can [learn more here](https://www.approachabledesign.co/products/slide-decks-with-style).)
+I use Figma to create all of my charts, but there are plenty of great creative tools like Canva, Keynote, and Figma. (If you want to learn more about using Figma, you can [learn more here](/products/slide-decks-with-style).)
 
 ### **Use simple grid layouts in your slide deck**
 

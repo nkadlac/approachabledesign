@@ -19,7 +19,7 @@ image: "/images/articles/tDJqcqKw5MKOBxDGKtUUE0f4xvQ.jpg.webp"
 
 “We’re having a baby today.”
 
-Minutes before, I had just wrapped up two calls with clients and had the rest of the afternoon free to start working on a new course idea. (If you’re a coach or creator missing opportunities because your website needs some love or is too embarrassing to share, [​**let me know**​](https://approachabledesign.co/confirmed))
+Minutes before, I had just wrapped up two calls with clients and had the rest of the afternoon free to start working on a new course idea. (If you’re a coach or creator missing opportunities because your website needs some love or is too embarrassing to share, [​**let me know**​](/confirmed))
 
 This week was crucial because she was supposed to arrive in 18 days later.
 
@@ -51,12 +51,12 @@ Now I may need to adjust that schedule again to free up even more time. But with
 
 [​**Why world building is the new web design**​](https://x.com/gregisenberg/status/1724543122934554728?s=20)
 
-What do [​**top creator websites have in common**​](https://x.com/jspector/status/1673044526221631488?s=20)? (I currently showcase 27 of my favorite personal websites in [​**The Design Vault**](https://approachabledesign.co/products/design-vault))
+What do [​**top creator websites have in common**​](https://x.com/jspector/status/1673044526221631488?s=20)? (I currently showcase 27 of my favorite personal websites in [​**The Design Vault**](/products/design-vault))
 
 ## 📸 Make It Yours Moment
 
 [​**The golden age of gadgets**​](https://cabel.com/2023/11/06/dak-and-the-golden-age-of-gadget-catalogs/) never looked so beautiful. (via Cabel Sasser)
 
-![](/images/articles/n2inAsQWu9txoacNnAzX5b5TM0.png.webp)![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)Remember, if you’re a coach or creator missing opportunities because your website feels incomplete or is too embarrassing to share, would you [​**help me by clicking here**​](https://approachabledesign.co/confirmed)?
+![](/images/articles/n2inAsQWu9txoacNnAzX5b5TM0.png.webp)![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)Remember, if you’re a coach or creator missing opportunities because your website feels incomplete or is too embarrassing to share, would you [​**help me by clicking here**​](/confirmed)?
 
 Thanks and I'll see you next Sunday!

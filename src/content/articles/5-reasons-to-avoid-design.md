@@ -2,7 +2,7 @@
 title: "Five reasons why you should avoid making design decisions"
 date: 2026-01-08
 category: branding
-description: "Remember the early sites like Google, Twitter, and Facebook when they launched? They were so simple and ugly, yet they are now worth billions."
+description: "Why should you invest in design if Facebook and Google looked like this?"
 image: "/images/articles/ftaH685PP2EfMcbhOpEVfgNHQr4.jpg"
 
 ---

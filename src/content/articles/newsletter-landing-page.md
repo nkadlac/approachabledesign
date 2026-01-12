@@ -2,7 +2,7 @@
 title: "How to design a newsletter landing page"
 date: 2026-01-08
 category: branding
-description: "Not long ago, I received an inbound email from a prospect."
+description: "And how design plays an important role in building trust"
 image: "/images/articles/vtxCUfAh8XEVSad0kSmaogxM00.jpg"
 
 ---
@@ -28,7 +28,7 @@ Over the next few weeks, I'll be talking about different flavors of landing page
 - Part 1: You're here!
 - Part 2: [How to design a 'Coming Soon' landing page  ](/articles/waitlist-landing-page)
 - Part 3: [How to flip a free workshop into an evergreen product landing page](/articles/digital-product-landing-page)
-- Part 4: [How to design a landing page for a $1,000 product or service offering](https://approachabledesign.co/articles/1000-landing-page-offer)
+- Part 4: [How to design a landing page for a $1,000 product or service offering](/articles/1000-landing-page-offer)
 
 ![How long should your landing page be?](/images/articles/Tfw2B1JIkEsjPBVE7Ujij849SA.jpg.webp)*Last week I asked for landing pages from you all, and I'm excited to redesign Reginald's opt-in landing page for his business. If you have one you know should be improved, send it my way and it may make it into a future issue.*
 
@@ -46,8 +46,6 @@ In fact, if you google how to create landing pages, most will solely talk about 
 
 Together, it’s an incredible superpower to be able to mitigate risk and hand hold someone down a page, ultimately proving what you’re able to provide will benefit them in some way. 
 
-### 
-
 ### The four main components of a well designed landing page are:
 
 - Build trust with strong visuals and design
@@ -58,7 +56,7 @@ Together, it’s an incredible superpower to be able to mitigate risk and hand h
 
 A simple rule of thumb: The more you’re asking from someone—time or money—the more you’ll need to do to convince them. (aka a longer page is required to persuade)
 
-(If you want an ever growing library of landing page inspiration, check out my[ Design Vault](https://approachabledesign.co/products/design-vault))
+(If you want an ever growing library of landing page inspiration, check out my[ Design Vault](/products/design-vault))
 
 Let’s explore each of these within the context of a simple newsletter sign up page.
 
@@ -116,6 +114,6 @@ Clearly label your buttons so the visitor knows what is going to happen without 
 
 ## In conclusion
 
-The important thing about newsletter landing pages are making it clear, trusted, and simple. These also come in extremely handy on your own [personal websites](https://approachabledesign.co/articles/personal-website). 
+The important thing about newsletter landing pages are making it clear, trusted, and simple. These also come in extremely handy on your own [personal websites](/articles/personal-website). 
 
 By understanding your audience, creating compelling headlines, using captivating visuals, crafting persuasive CTAs, and leveraging social proof, you can effectively capture the attention and interest of potential subscribers.

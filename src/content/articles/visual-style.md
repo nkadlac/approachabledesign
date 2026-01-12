@@ -2,7 +2,7 @@
 title: "Define your visual style in five steps"
 date: 2026-01-08
 category: branding
-description: "Most days you’ll find me wearing a black V-neck and black pants. Not because I think it’s cool, but because it’s one part convenience and one part easy to match."
+description: "How to set your visual foundation for timeless design decisions"
 image: "/images/articles/pZuBQ94ho4OwogUoPfNnt1XTKc.jpg"
 
 ---
@@ -107,7 +107,7 @@ Incorporating other visual cues, such as patterns and labels, can enhance the ac
 
 Notice how we haven’t actually designed anything yet! We’re just being curious, experimenting, and seeing how far we can get without designing.
 
-Once you have your taste palette, the next step is to design your site yourself or hire a designer to take this and run with it. Or, try this process [using Midjourney to reverse engineer an image](https://approachabledesign.co/articles/midjourney-visual-style).
+Once you have your taste palette, the next step is to design your site yourself or hire a designer to take this and run with it. Or, try this process [using Midjourney to reverse engineer an image](/articles/midjourney-visual-style).
 
 Most people skip this step and ask a designer to make these decisions, but having this ahead of time could save you thousands in revisions and redesigns later on.
 

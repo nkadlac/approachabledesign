@@ -1,4 +1,6 @@
 ---
+import { getSubscriberCount, formatSubscriberCount } from '../lib/kit';
+
 interface Props {
   variant?: 'default' | 'card' | 'light' | 'hero';
   centered?: boolean;
@@ -12,6 +14,10 @@ const formId = '3725037';
 const isCard = variant === 'card';
 const isLight = variant === 'light';
 const isHero = variant === 'hero';
+
+// Get subscriber count
+const subscriberCount = await getSubscriberCount();
+const formattedCount = formatSubscriberCount(subscriberCount);
 ---
 
 {isHero ? (
@@ -78,13 +84,13 @@ const isHero = variant === 'hero';
     <!-- Avatars and social proof -->
     <div class="flex items-center gap-3 mt-6">
       <div class="flex -space-x-3">
-        <img src="/images/site/avatar-1.png" alt="" class="w-10 h-10 rounded-full border-2 border-brand-dark object-cover" />
-        <img src="/images/site/avatar-2.png" alt="" class="w-10 h-10 rounded-full border-2 border-brand-dark object-cover" />
-        <img src="/images/site/avatar-3.png" alt="" class="w-10 h-10 rounded-full border-2 border-brand-dark object-cover" />
-        <img src="/images/site/avatar-4.png" alt="" class="w-10 h-10 rounded-full border-2 border-brand-dark object-cover" />
+        <img src="/images/site/avatar-1.png" alt="" class="w-10 h-10 rounded-full border-2 border-brand-dark object-cover transition-transform duration-200 hover:scale-110" />
+        <img src="/images/site/avatar-2.png" alt="" class="w-10 h-10 rounded-full border-2 border-brand-dark object-cover transition-transform duration-200 hover:scale-110" />
+        <img src="/images/site/avatar-3.png" alt="" class="w-10 h-10 rounded-full border-2 border-brand-dark object-cover transition-transform duration-200 hover:scale-110" />
+        <img src="/images/site/avatar-4.png" alt="" class="w-10 h-10 rounded-full border-2 border-brand-dark object-cover transition-transform duration-200 hover:scale-110" />
       </div>
-      <p class="text-sm font-heading font-bold text-white/80 uppercase tracking-wide">
-        JOIN 3,800+ DESIGN ADJACENT THINKERS
+      <p class="text-sm font-heading text-white/70">
+        Join {formattedCount}+ readers. Sent 3x every week. No spam.
       </p>
     </div>
   </div>
@@ -152,13 +158,13 @@ const isHero = variant === 'hero';
     <!-- Avatars and social proof -->
     <div class="flex items-center justify-center gap-3 mt-6">
       <div class="flex -space-x-3">
-        <img src="/images/site/avatar-1.png" alt="" class="w-10 h-10 rounded-full border-2 border-[#FFECE2] object-cover" />
-        <img src="/images/site/avatar-2.png" alt="" class="w-10 h-10 rounded-full border-2 border-[#FFECE2] object-cover" />
-        <img src="/images/site/avatar-3.png" alt="" class="w-10 h-10 rounded-full border-2 border-[#FFECE2] object-cover" />
-        <img src="/images/site/avatar-4.png" alt="" class="w-10 h-10 rounded-full border-2 border-[#FFECE2] object-cover" />
+        <img src="/images/site/avatar-1.png" alt="" class="w-10 h-10 rounded-full border-2 border-[#FFECE2] object-cover transition-transform duration-200 hover:scale-110 hover:z-10" />
+        <img src="/images/site/avatar-2.png" alt="" class="w-10 h-10 rounded-full border-2 border-[#FFECE2] object-cover transition-transform duration-200 hover:scale-110 hover:z-10" />
+        <img src="/images/site/avatar-3.png" alt="" class="w-10 h-10 rounded-full border-2 border-[#FFECE2] object-cover transition-transform duration-200 hover:scale-110 hover:z-10" />
+        <img src="/images/site/avatar-4.png" alt="" class="w-10 h-10 rounded-full border-2 border-[#FFECE2] object-cover transition-transform duration-200 hover:scale-110 hover:z-10" />
       </div>
-      <p class="text-sm font-heading font-bold text-brand-dark uppercase tracking-wide">
-        JOIN 3,800+ OTHERS MAKING BETTER DESIGN DECISIONS
+      <p class="text-sm font-heading text-brand-dark/70">
+        Join {formattedCount}+ readers. Sent 3x every week. No spam.
       </p>
     </div>
   </div>
@@ -222,7 +228,7 @@ const isHero = variant === 'hero';
       </form>
     </div>
     <p class="mt-4 text-xs text-white/50 uppercase tracking-wider font-medium">
-      Join 3,800+ readers. Sent 3x every week. No spam.
+      Join {formattedCount}+ readers. Sent 3x every week. No spam.
     </p>
   </div>
 ) : (
@@ -261,12 +267,12 @@ const isHero = variant === 'hero';
   </form>
 )}
 
-{showDescription && !isCard && !isLight && (
+{showDescription && !isCard && !isLight && !isHero && (
   <p class:list={[
     "mt-3 text-sm text-white/50",
     centered ? "text-center" : ""
   ]}>
-    Join 3,800+ readers. Sent 3x every week. No spam.
+    Join {formattedCount}+ readers. Sent 3x every week. No spam.
   </p>
 )}
 

@@ -51,13 +51,13 @@ The sandy color treatments, buttons, spot graphics, and serif font choices feel 
 
 While Sam hired an agency to do the work, giving them a north star pointed them in the right direction, saving him potentially tens of thousands of dollars and hundreds of hours along the way.
 
-![](/images/articles/UVgsYpoWFqaaLniwpJnk58BHX9Q.jpg.webp)**Remember, a designer's goal is to **[​**answer a question**​](https://approachabledesign.co/newsletter/landing-page-1k)**.**
+![](/images/articles/UVgsYpoWFqaaLniwpJnk58BHX9Q.jpg.webp)**Remember, a designer's goal is to **[​**answer a question**​](/newsletter/landing-page-1k)**.**
 
 As a designer, I want to convey and answer the question, “Who am I?” and do that in a visually distinctive way that's true to the founder. There are other questions I'm solving for, but if you're excited about how you're presenting your true self to the world, it's easy to stay focused and motivated on building your business or side project.
 
 This *Inside Out* strategy works for businesses large and small. Tesla is heavily influenced by Elon Musk's own taste.
 
-Even if you're developing a single product like a Chrome extension, you'll want to develop a style for the [​**landing page**​](https://approachabledesign.co/articles/1000-landing-page-offer) and stay consistent with those decisions throughout the process. And it's much easier to do this by listening to what you love.
+Even if you're developing a single product like a Chrome extension, you'll want to develop a style for the [​**landing page**​](/articles/1000-landing-page-offer) and stay consistent with those decisions throughout the process. And it's much easier to do this by listening to what you love.
 
 Soon, you'll have a starting point for all future design projects.
 
