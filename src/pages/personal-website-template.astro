@@ -1,71 +1,77 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import NewsletterForm from '../components/NewsletterForm.astro';
 ---
 
-<Layout title="Personal Website Content Template - Approachable Design" description="A template to help you build your personal website through quality content development with Story Spokes prompts.">
+<Layout title="Personal Website Content Template - Approachable Design" description="A template to help you build your personal website through quality content development with Story Spokes prompts." variant="light">
   <section class="py-16 md:py-24">
     <div class="container">
-      <div class="max-w-3xl mx-auto">
-        <!-- Hero -->
-        <h1 class="text-center text-balance text-balance font-display text-4xl md:text-5xl font-bold mb-6">
-          Your Personal Website Content Template
-        </h1>
-        <p class="text-xl text-white/70 mb-12">
-          A template designed to help you build your personal website through quality content development—because great websites start with great content.
-        </p>
-
-        <!-- What's Included -->
-        <div class="mb-12">
-          <h2 class="font-heading font-bold text-2xl mb-6">What's Included</h2>
-          <div class="space-y-4">
-            <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
-              <h3 class="font-heading font-bold text-lg mb-2">Story Spokes Prompts</h3>
-              <p class="text-white/60">Guided prompts to help you craft personalized content snippets that tell your unique story.</p>
-            </div>
-            <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
-              <h3 class="font-heading font-bold text-lg mb-2">Content Placeholders</h3>
-              <p class="text-white/60">Pre-formatted sections for each page of your personal website so you know exactly what to write.</p>
-            </div>
-            <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
-              <h3 class="font-heading font-bold text-lg mb-2">Resources & Tools</h3>
-              <p class="text-white/60">Guidance and recommendations to help you determine appropriate content selections.</p>
-            </div>
-          </div>
+      <div class="flex flex-col md:flex-row items-center gap-12 lg:gap-16">
+        <!-- Left: Laptop Image -->
+        <div class="md:w-1/2">
+          <img
+            src="/images/site/personal-website-laptop.png"
+            alt="Personal website content template preview on laptop"
+            class="w-full max-w-lg mx-auto"
+          />
         </div>
 
-        <!-- How It Works -->
-        <div class="bg-brand-purple/10 rounded-2xl p-8 border border-brand-purple/20 mb-12">
-          <h2 class="font-heading font-bold text-2xl mb-6">How It Works</h2>
-          <ol class="space-y-4">
-            <li class="flex gap-4">
-              <span class="w-8 h-8 bg-brand-purple rounded-full flex items-center justify-center flex-shrink-0 font-bold text-sm">1</span>
-              <div>
-                <p class="text-white/80">Use the Story Spokes prompts to brainstorm and gather your personal stories, experiences, and expertise.</p>
-              </div>
-            </li>
-            <li class="flex gap-4">
-              <span class="w-8 h-8 bg-brand-purple rounded-full flex items-center justify-center flex-shrink-0 font-bold text-sm">2</span>
-              <div>
-                <p class="text-white/80">Fill in the content placeholders with your unique content for each page section.</p>
-              </div>
-            </li>
-            <li class="flex gap-4">
-              <span class="w-8 h-8 bg-brand-purple rounded-full flex items-center justify-center flex-shrink-0 font-bold text-sm">3</span>
-              <div>
-                <p class="text-white/80">Transfer your polished content to your website builder of choice.</p>
-              </div>
-            </li>
-          </ol>
-        </div>
+        <!-- Right: Content -->
+        <div class="md:w-1/2">
+          <p class="text-brand-dark/70 font-serif italic text-lg mb-4">Hey I'm Nate and this is:</p>
 
-        <!-- CTA -->
-        <div class="bg-brand-dark-light rounded-2xl p-8 border border-white/10">
-          <h2 class="font-heading font-bold text-2xl mb-4">Get the Template</h2>
-          <p class="text-white/60 mb-6">
-            Sign up for the newsletter to receive the personal website content template along with weekly design tips.
+          <h1 class="font-display-black-italic text-3xl md:text-4xl lg:text-[42px] leading-tight mb-6">
+            Your personal website content template
+          </h1>
+
+          <p class="text-brand-dark/70 text-lg mb-6">
+            I built this template because a great personal website starts with great content.
           </p>
-          <NewsletterForm />
+
+          <!-- Form -->
+          <form
+            action="https://app.kit.com/forms/7628498/subscriptions"
+            method="post"
+            class="space-y-4 mb-8"
+          >
+            <input
+              type="text"
+              name="fields[first_name]"
+              placeholder="First Name"
+              class="w-full px-4 py-3 rounded-lg border border-brand-dark/20 bg-white text-brand-dark placeholder:text-brand-dark/50 focus:outline-none focus:border-brand-purple"
+            />
+            <input
+              type="email"
+              name="email_address"
+              placeholder="Email Address"
+              required
+              class="w-full px-4 py-3 rounded-lg border border-brand-dark/20 bg-white text-brand-dark placeholder:text-brand-dark/50 focus:outline-none focus:border-brand-purple"
+            />
+            <button
+              type="submit"
+              class="w-full bg-brand-purple hover:bg-brand-purple-light text-white font-heading font-semibold py-3 px-6 rounded-full transition-colors"
+            >
+              Get the Template
+            </button>
+          </form>
+
+          <ul class="space-y-3 text-brand-dark/80">
+            <li class="flex items-start gap-2">
+              <span class="text-brand-dark/50">•</span>
+              <span>Story Spokes prompts to help you create personalized snippets to include in your site</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-brand-dark/50">•</span>
+              <span>Content placeholders for each page of your personal site</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-brand-dark/50">•</span>
+              <span>Tools and resources to help you determine what to use for your personal site</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-brand-dark/50">•</span>
+              <span>And a free weekly newsletter with design tips for creators and non-designers</span>
+            </li>
+          </ul>
         </div>
       </div>
     </div>

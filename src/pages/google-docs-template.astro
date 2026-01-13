@@ -1,54 +1,77 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import NewsletterForm from '../components/NewsletterForm.astro';
 ---
 
-<Layout title="Google Doc Template - Approachable Design" description="The Google Doc template that will impress your colleagues and clients with enhanced typography and design.">
+<Layout title="Google Doc Template - Approachable Design" description="The Google Doc template that will impress your colleagues and clients with enhanced typography and design." variant="light">
   <section class="py-16 md:py-24">
     <div class="container">
-      <div class="max-w-3xl mx-auto">
-        <!-- Hero -->
-        <h1 class="text-center text-balance text-balance font-display text-4xl md:text-5xl font-bold mb-6">
-          The Google Doc template that will impress your colleagues and clients
-        </h1>
-        <p class="text-xl text-white/70 mb-12">
-          Transform Google Docs into a more pleasant writing and reading environment, moving beyond the default utilitarian experience.
-        </p>
-
-        <!-- Features -->
-        <div class="mb-12">
-          <h2 class="font-heading font-bold text-2xl mb-6">What's Included</h2>
-          <div class="space-y-4">
-            <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
-              <h3 class="font-heading font-bold text-lg mb-2">Pageless Viewing Mode</h3>
-              <p class="text-white/60">Seamless document flow without distracting page breaks.</p>
-            </div>
-            <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
-              <h3 class="font-heading font-bold text-lg mb-2">Tinted Background</h3>
-              <p class="text-white/60">Reduce eye strain and enhance your writing experience with a subtle warm tint.</p>
-            </div>
-            <div class="bg-brand-dark-light rounded-xl p-6 border border-white/10">
-              <h3 class="font-heading font-bold text-lg mb-2">Enhanced Typography</h3>
-              <p class="text-white/60">Thoughtful font selections for improved readability and visual appeal.</p>
-            </div>
-          </div>
+      <div class="flex flex-col md:flex-row items-center gap-12 lg:gap-16">
+        <!-- Left: Laptop Image -->
+        <div class="md:w-1/2">
+          <img
+            src="/images/site/google-docs-laptop.png"
+            alt="Google Docs template preview on laptop"
+            class="w-full max-w-lg mx-auto"
+          />
         </div>
 
-        <!-- Why It Matters -->
-        <div class="bg-brand-purple/10 rounded-2xl p-8 border border-brand-purple/20 mb-12">
-          <h2 class="font-heading font-bold text-2xl mb-4">Why This Matters</h2>
-          <p class="text-white/70">
-            Google Docs' default interface is purely functional. By layering thoughtful design choices—color, type, and layout—this template creates a workspace that feels intentional rather than generic. Your documents will look more professional and be more enjoyable to write.
-          </p>
-        </div>
+        <!-- Right: Content -->
+        <div class="md:w-1/2">
+          <p class="text-brand-dark/70 font-serif italic text-lg mb-4">Hey I'm Nate and this is:</p>
 
-        <!-- CTA -->
-        <div class="bg-brand-dark-light rounded-2xl p-8 border border-white/10">
-          <h2 class="font-heading font-bold text-2xl mb-4">Get the Template</h2>
-          <p class="text-white/60 mb-6">
-            Sign up for the newsletter to receive the Google Docs template along with weekly design tips for creators and non-designers.
+          <h1 class="font-display text-3xl md:text-4xl lg:text-[42px] leading-tight mb-6">
+            The Google Doc template that will <span class="font-display-black-italic">impress your colleagues and clients</span>
+          </h1>
+
+          <p class="text-brand-dark/70 text-lg mb-6">
+            I built this template because I spend a lot of time in Google Docs, and I was tired of it being a joyless writing environment.
           </p>
-          <NewsletterForm />
+
+          <ul class="space-y-2 mb-8 text-brand-dark/80">
+            <li class="flex items-start gap-2">
+              <span class="text-brand-dark/50">•</span>
+              <span>Pageless viewing experience</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-brand-dark/50">•</span>
+              <span>Tinted background to make it a more pleasant reading and writing environment</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-brand-dark/50">•</span>
+              <span>Improved typography choices</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="text-brand-dark/50">•</span>
+              <span>And a free weekly newsletter with design tips for creators and non-designers</span>
+            </li>
+          </ul>
+
+          <!-- Form -->
+          <form
+            action="https://app.kit.com/forms/7628498/subscriptions"
+            method="post"
+            class="space-y-4"
+          >
+            <input
+              type="text"
+              name="fields[first_name]"
+              placeholder="First Name"
+              class="w-full px-4 py-3 rounded-lg border border-brand-dark/20 bg-white text-brand-dark placeholder:text-brand-dark/50 focus:outline-none focus:border-brand-purple"
+            />
+            <input
+              type="email"
+              name="email_address"
+              placeholder="Email Address"
+              required
+              class="w-full px-4 py-3 rounded-lg border border-brand-dark/20 bg-white text-brand-dark placeholder:text-brand-dark/50 focus:outline-none focus:border-brand-purple"
+            />
+            <button
+              type="submit"
+              class="w-full bg-brand-purple hover:bg-brand-purple-light text-white font-heading font-semibold py-3 px-6 rounded-full transition-colors"
+            >
+              Get the Template
+            </button>
+          </form>
         </div>
       </div>
     </div>
