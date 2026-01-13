@@ -140,3 +140,5 @@ Just like I use gold, green and a sandy off-white in my [own site](https://www.k
 Having this one color is the centerpiece of creating your own unique palette. It becomes the starting point for things like your [YouTube thumbnails](/articles/youtube-thumbnail-design), [slide decks](/articles/slide-deck-design), and anything else you create.
 
 This is how you start to build your entire design system from the inside-out. [The Creator Design Kit](/products/creator-design-kit) can help you get started.
+
+Ready for the next step? Check out [Part 2: How to combine colors](/articles/combine-colors) to learn how to build on your primary color with complementary, split-complementary, and analogous color combinations.

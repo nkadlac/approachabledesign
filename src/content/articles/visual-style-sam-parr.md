@@ -37,7 +37,7 @@ When surfacing images this way in my own design workshop, I have my students squ
 
 It seems too simple, but these images were the first to pop up. Just searching for a few objects, words, or colors will set you out on a path of combinations no one has repeated for themselves.
 
-**I call this designing from the *****Inside Out*****.**
+**I call this designing from the *****Inside Out*****. **I wrote a complete guide on [how to define your visual style in five steps](/articles/visual-style) using this approach.
 
 Don't start searching Pinterest for what other people think is cool and what others have done. Start from your own interests and stories. Pull those concepts and visuals into your own Taste Palette, and start to spot patterns.
 

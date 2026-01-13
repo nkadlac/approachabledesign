@@ -15,7 +15,7 @@ For the rest of us, we rely on text to help convey the story.
 
 Even more, making the right font choice that is easy to read can make a huge difference in attracting viewers and growing your channel.
 
-The best YouTube font can grab attention, ensure readability, and maintain brand consistency. In this comprehensive guide, we’ll dive into the world of the best YouTube fonts and thumbnail fonts, explore the top fonts to use, provide tips on choosing the perfect font, and discuss customizing fonts for maximum impact.
+The best YouTube font can grab attention, ensure readability, and maintain brand consistency. If you want a complete guide on [how to design YouTube thumbnails](/articles/youtube-thumbnail-design), start there first. In this guide, we'll explore the top fonts to use, provide tips on choosing the perfect font, and discuss customizing fonts for maximum impact.
 
 ### Short Summary
 

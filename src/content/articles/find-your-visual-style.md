@@ -35,4 +35,6 @@ Style gives permission for us to connect, and a way to let you opt-in.
 
 More than likely, you'll catch me wearing my black Everlane pocket-tee with palm green pants, all based on the sun, sands, and palm trees that define my own aesthetic. Offline and on.
 
+Want to go deeper? Check out my complete guide on [how to define your visual style in five steps](/articles/visual-style).
+
 If you want to learn how to make confident design decisions that reflect your own visual style, check out [The Creator Design Kit](/products/creator-design-kit).

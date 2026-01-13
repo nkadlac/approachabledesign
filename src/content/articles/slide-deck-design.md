@@ -9,6 +9,8 @@ image: "/images/articles/g3sAvvMCcDDnPiMR2FWuU8yA3js.jpg"
 
 Slide deck presentations are broken.
 
+If you want the quick version, check out [what makes a good slide deck](/articles/what-makes-a-good-slide-deck). Otherwise, keep reading for the full guide.
+
 I once sat through a presentation by a CEO who had prepared two 50+ [page](/articles/four-pages) slide decks for an important all-hands meeting.
 
 Just the act of building two decks ensured the message would be messy. And using 50+ pages to tell a company story left everyone in the room exhausted (and confused).

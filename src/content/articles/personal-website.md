@@ -375,6 +375,7 @@ Below are a few popular services that are free to start, with paid premium featu
 - [ConvertKit](https://app.convertkit.com/users/signup?plan=free-limited&lmref=uwqJyg) *(I personally use this)*
 - [BeeHiiv](https://www.beehiiv.com/)
 - [How to Write a Newsletter *by Josh Spector*](https://joshspector.com/how-to-write-a-newsletter/)
+- [How to design a newsletter landing page](/articles/newsletter-landing-page)
 
 ### SEO and how to let the Internet work for you
 
