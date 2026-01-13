@@ -9,6 +9,7 @@ const articles = defineCollection({
     category: z.enum(['design', 'branding', 'youtube-design', 'ai', 'personal']).optional(),
     description: z.string(),
     image: z.string().optional(),
+    featured: z.boolean().optional(),
   }),
 });
 
