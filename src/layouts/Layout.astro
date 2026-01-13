@@ -133,6 +133,13 @@ const articleSchema = article ? {
     <!-- Fathom - beautiful, simple website analytics -->
     <script src="https://cdn.usefathom.com/script.js" data-site="NLFTGNOW" defer></script>
     <!-- / Fathom -->
+
+    <!-- Privacy-friendly analytics by Plausible -->
+    <script async src="https://plausible.io/js/pa-amDqMYqK3MxUjA4fPbLVR.js"></script>
+    <script>
+      window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+      plausible.init()
+    </script>
   </head>
   <body class:list={["flex flex-col min-h-screen", variant === 'light' ? 'bg-[#FFECE2] text-brand-dark' : '']}>
     {!hideHeader && <Header variant={variant} sticky={stickyHeader} />}
