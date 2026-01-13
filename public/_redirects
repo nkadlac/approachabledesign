@@ -8,6 +8,9 @@ https://approachabledesign.co/* https://www.approachabledesign.co/:splat 301
 /courses/8020-design-challenge /products/creator-design-kit 301
 /courses/8020-design-challenge-waitlist /products/creator-design-kit 301
 
+# Old product URL redirects
+/products/80-20-design-challenge /products/creator-design-kit 301
+
 # Courses index redirect
 /courses /products 301
 
