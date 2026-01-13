@@ -1,6 +1,9 @@
 # Cloudflare Pages Redirects
 # Format: /old-path /new-path [status-code]
 
+# Force www (note: this may need Cloudflare Page Rules for full coverage)
+https://approachabledesign.co/* https://www.approachabledesign.co/:splat 301
+
 # Course to Product redirects (specific first, then catch-all)
 /courses/8020-design-challenge /products/creator-design-kit 301
 /courses/8020-design-challenge-waitlist /products/creator-design-kit 301
