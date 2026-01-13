@@ -76,3 +76,5 @@ I get so excited to design for myself because it always stems from those three k
 Having a strong sense of what you love is like buying locally sourced ingredients. When you use organic, fresh ingredients, it's difficult to screw up a meal.
 
 And when you're working with your own personal ingredients, it's difficult to screw up your visual style.
+
+If you need inspiration for your own visual style, check out [The Design Vault](/products/design-vault) for a growing collection of beautifully designed websites and landing pages.

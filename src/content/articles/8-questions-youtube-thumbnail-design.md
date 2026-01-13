@@ -45,7 +45,7 @@ A thumbnail’s job is the same as a great subject line, hook, or Facebook ad:
 
 ​If you try to say or show too much, you’ll end up confusing the message and focal point. And with the limited space you have, your design will suffer in quality, because it will lack visual hierarchy and clarity.
 
-​Check out my article this week breaking down each of these, and the eight questions I ask when designing thumbnails.
+​Check out my article this week breaking down each of these, and the eight questions I ask when designing thumbnails. And if you want to go deeper, my [YouTube Thumbnail Masterclass](/products/youtube-masterclass) teaches you everything you need to design thumbnails that get clicked.
 
 ![Divider line](/images/articles/w9Pz4gQxbVagyYJi0eRCmpJ6Zw.png.webp)## 🎨 Better Design Decisions
 

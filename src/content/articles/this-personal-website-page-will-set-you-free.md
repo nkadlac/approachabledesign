@@ -17,7 +17,7 @@ image: "/images/articles/MqfRqTAW4mguA3DmyoLdjdyv6KI.jpg.webp"
 
 I had no idea it would take off like it did, and become one of my most popular pieces that quickly.
 
-You can [​**read it here**​](/articles/personal-website) if you missed it last week.
+You can [​**read it here**​](/articles/personal-website) if you missed it last week. And if you're looking for inspiration, check out [The Design Vault](/products/design-vault) for a growing collection of beautifully designed personal websites.
 
 But, many personal websites miss out on one key page that may change your life.
 

@@ -189,4 +189,4 @@ But people are not minimalists. We’re complex with a love of story, places, an
 
 The best place to start is to listen to your gut, understand why you like what you like, and to go from there. 
 
-Or you can learn how to make long-lasting design decisions for yourself in just 2 days, during my [next workshop](/).
+Or you can learn how to make long-lasting design decisions for yourself with [The Creator Design Kit](/products/creator-design-kit).

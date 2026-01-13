@@ -33,4 +33,6 @@ Craigslist has defined its style by maintaining its core values of simplicity an
 
 Style gives permission for us to connect, and a way to let you opt-in.
 
-More than likely, you’ll catch me wearing my black Everlane pocket-tee with palm green pants, all based on the sun, sands, and palm trees that define my own aesthetic. Offline and on.
+More than likely, you'll catch me wearing my black Everlane pocket-tee with palm green pants, all based on the sun, sands, and palm trees that define my own aesthetic. Offline and on.
+
+If you want to learn how to make confident design decisions that reflect your own visual style, check out [The Creator Design Kit](/products/creator-design-kit).

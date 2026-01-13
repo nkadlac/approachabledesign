@@ -136,4 +136,6 @@ We now created a logo using only the beautiful work of an existing design, and w
 
 We built a beautiful logo that leaned heavily on the work of the original typeface, without having to edit or spend too much time on it overall.
 
-Next time you’re in a hurry to create a logo, *please* start with something more inspiring than Arial.
+Next time you're in a hurry to create a logo, *please* start with something more inspiring than Arial.
+
+If you want to learn Figma and design logos, websites, and more, check out [The Creator Design Kit](/products/creator-design-kit).

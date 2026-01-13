@@ -90,4 +90,4 @@ We hope you’ve enjoyed this look at some of the best tips for presenting data 
 
 If you can keep these three elements in mind when designing or creating your presentation—whether in PowerPoint, Google Slides, Figma, or another program—we guarantee that your slides will be easier on the eyes than ever before!
 
-If you're still not sure how to build an effective slide deck, I can help you build a [Slide Deck with Style](/products/slide-decks-with-style).
+If you're still not sure how to build an effective slide deck, check out [The Creator Design Kit](/products/creator-design-kit) to learn how to design in Figma.

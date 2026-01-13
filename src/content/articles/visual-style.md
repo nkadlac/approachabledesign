@@ -112,3 +112,5 @@ Once you have your taste palette, the next step is to design your site yourself 
 Most people skip this step and ask a designer to make these decisions, but having this ahead of time could save you thousands in revisions and redesigns later on.
 
 *Feel free to view the final landing page *[*here*](https://www.hey.gg/)*.*
+
+If you want to learn how to design websites, landing pages, and more using tools like Figma, check out [The Creator Design Kit](/products/creator-design-kit).
