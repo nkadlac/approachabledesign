@@ -100,6 +100,12 @@ body {
   font-family: var(--font-serif);
 }
 
+.font-display-black-italic {
+  font-family: var(--font-display-black-italic);
+  font-weight: 900;
+  font-style: italic;
+}
+
 /* Prose styles for article content */
 .prose {
   font-size: 1.25rem;
