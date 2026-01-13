@@ -4,6 +4,7 @@ date: 2026-01-08
 category: youtube-design
 description: "How to create a personal website to improve serendipity in your professional and personal life"
 image: "/images/articles/Bfbcg25lKimwoPl62mMjt1zE.png.webp"
+featured: true
 
 ---
 

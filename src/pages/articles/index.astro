@@ -8,9 +8,9 @@ const sortedArticles = articles.sort((a, b) =>
   new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
 );
 
-// Get featured article (most recent)
-const featuredArticle = sortedArticles[0];
-const remainingArticles = sortedArticles.slice(1);
+// Get featured article (explicitly marked, or fall back to most recent)
+const featuredArticle = sortedArticles.find(a => a.data.featured) || sortedArticles[0];
+const remainingArticles = sortedArticles.filter(a => a.slug !== featuredArticle?.slug);
 ---
 
 <Layout title="Blog - Approachable Design" description="Design tips, tutorials, and insights for non-designers and solopreneurs." variant="light">
