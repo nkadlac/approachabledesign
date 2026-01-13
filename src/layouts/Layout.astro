@@ -10,6 +10,8 @@ interface Props {
   ogImage?: string;
   variant?: 'dark' | 'light';
   stickyHeader?: boolean;
+  hideHeader?: boolean;
+  hideFooter?: boolean;
   article?: {
     publishedDate: Date;
     modifiedDate?: Date;
@@ -22,6 +24,8 @@ const {
   ogImage = "/og-image.png",
   variant = 'dark',
   stickyHeader = true,
+  hideHeader = false,
+  hideFooter = false,
   article
 } = Astro.props;
 
@@ -127,10 +131,10 @@ const articleSchema = article ? {
     <ViewTransitions />
   </head>
   <body class:list={["flex flex-col min-h-screen", variant === 'light' ? 'bg-[#FFECE2] text-brand-dark' : '']}>
-    <Header variant={variant} sticky={stickyHeader} />
+    {!hideHeader && <Header variant={variant} sticky={stickyHeader} />}
     <main class="flex-1">
       <slot />
     </main>
-    <Footer variant={variant} />
+    {!hideFooter && <Footer variant={variant} />}
   </body>
 </html>
